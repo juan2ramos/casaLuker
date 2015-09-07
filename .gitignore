@@ -1,0 +1,10 @@
+/.idea
+wp-config.php
+.htaccess
+deploy.php
+wp-content/uploads/
+.DS_Store
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/*
+wp-content/cache/supercache/*
