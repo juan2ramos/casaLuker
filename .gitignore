@@ -1,6 +1,7 @@
 /.idea
 wp-config.php
 .htaccess
+node_modules
 deploy.php
 wp-content/uploads/
 .DS_Store

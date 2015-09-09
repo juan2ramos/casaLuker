@@ -1,24 +1,31 @@
+<?php
+/*
+Description: The Header
+Theme: Luker
+*/
+?>
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title><?php wp_title('', true); ?></title>
+    <title>Casa Luker<?php wp_title(' | '); ?></title>
 
     <link rel="profile" href="http://gmpg.org/xfn/11">
-    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="<?php echo esc_url($favicon); ?>">
-    <link rel="apple-touch-icon" href="<?php echo esc_url($appletouch_s); ?>">
-    <link rel="apple-touch-icon" sizes="72x72" href="<?php echo esc_url($appletouch_m); ?>">
-    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo esc_url($appletouch_l); ?>">
+    <link rel="shortcut icon" href="<?php  bloginfo('template_url')?>/assets/images/favicon.ico">
 
-    <?php
-    if( isset($uncommons['opt-adv-custom-head']) ){
-        echo un_sanitize( $uncommons['opt-adv-custom-head'], true );
-    } ?>
+    <!---- TYPEKIT -- -->
+    <script type="text/javascript" src="http://use.typekit.com/uuf1qmf.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <link rel="stylesheet" href="<?php  bloginfo('template_url')?>/assets/css/normalize.css">
+    <link rel="stylesheet" href="<?php  bloginfo('template_url')?>/assets/css/style.css">
+
+
 
     <?php wp_head(); ?>
 
@@ -33,56 +40,10 @@
 <!-- /PRELOADER -->
 
 <!-- WRAPPER -->
-<h1 class="mncrm">Luker</h1>
-<div class="wrapper">
+
+<h1 class="">Luker</h1>
 
 
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-custom navbar-transparent navbar-fixed-top">
 
-        <div class="container">
-
-            <div class="navbar-header">
-                <h1 class="entrevin resp-">
-                    <a href="<?php echo get_home_url(); ?>">
-                        Entre<span></span>viñetas
-                    </a>
-                </h1>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-
-            <div class="collapse navbar-collapse" id="custom-collapse">
-
-                <?php
-                if( is_page_template( 'page-vc.php' ) && redux_post_meta( UN, get_the_ID(), 'page_vc_onepage' ) == '1' ){
-                    // Onepage Menu
-                    echo '
-					<div id="un-onepage-menu" class="menu-main-container">
-						<ul id="main-menu" class="nav navbar-nav">				
-						</ul>
-					</div>';
-                }else{
-                    // Main Menu
-                  //  un_main_menu();
-                }
-                ?>
-
-            </div>
-
-        </div>
-        <div class="container">
-            <!-- LOGO -->
-            <h1 class="vin-logo">
-                <a href="<?php echo get_home_url(); ?>">
-                    Entreviñetas
-                </a>
-            </h1>
-        </div>
-
-    </nav>
     <!-- /NAVIGATION -->
