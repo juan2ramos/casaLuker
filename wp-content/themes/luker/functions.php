@@ -38,7 +38,7 @@ add_action('widgets_init', 'plugin_register_juan');
 
 
 
-add_filter( 'jetpack_development_mode', '__return_true' );
+//add_filter( 'jetpack_development_mode', '__return_true' );
 
 
 
