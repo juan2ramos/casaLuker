@@ -1,0 +1,17 @@
+@mixin respond-to($breakpoint)
+  @if $breakpoint == "small"
+    @media (min-width: 48em)
+      @content
+
+  @else if $breakpoint == "medium"
+    @media (min-width: 56.25em)
+      @content
+  @else if $breakpoint == "large"
+  @media (min-width: 68.75em)
+    @content
+
+@mixin transition($transition...)
+  -moz-transition:    $transition
+  -o-transition:      $transition
+  -webkit-transition: $transition
+  transition:         $transition

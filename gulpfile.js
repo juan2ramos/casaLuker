@@ -5,7 +5,7 @@ var gulp = require('gulp'),
 
 
 gulp.task('styles', function() {
-    gulp.src('wp-content/themes/luker/assets/css/**/*.sass')
+    gulp.src('wp-content/themes/luker/assets/css/style.sass')
         .pipe(sass())
         .pipe(minifyCss())
         .pipe(gulp.dest('wp-content/themes/luker/assets/css/'));
@@ -14,5 +14,5 @@ gulp.task('styles', function() {
 gulp.task('default', ['sass']);
 
 gulp.task('sass', function () {
-    gulp.watch('wp-content/themes/luker/assets/css/**/*.sass',['styles']);
+    gulp.watch('wp-content/themes/luker/assets/css/style.sass',['styles']);
 })

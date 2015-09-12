@@ -1,16 +1,106 @@
-$break-small: 800px
-
-body
-  color: red
-  font-family: "ff-meta-web-pro",Helvetica, Arial, sans-serif
-  @media (max-width: $break-small)
-    color: tomato
-footer
-  position: absolute
-
-.new
-  color: black
+@import "lib/settings"
+@import "lib/general"
 
 
+/* Home */
+.Logo
+  border-radius: 7rem
+  background: #000
+  height: 14rem
+  left: calc(50% - 7rem)
+  margin: auto
+  padding: 2.2rem 2rem
+  position: fixed
+  top: calc(50% - 7rem)
+  width: 14rem
+  z-index:2;
 
+.WrapperHome-videoSource
+  bottom: 0
+  height: auto
+  min-height: 100%
+  min-width: 100%
+  position: fixed
+  right: 0
+  width: auto
+  z-index: -100
 
+.NavHome
+  height: 100%
+  left: 0
+  position: fixed
+  top: 0
+  width: 100%
+  & li
+    display: inline-block
+    height: 50vh
+    margin: -2px
+    overflow: hidden
+    position: relative
+    width: 25vw
+    &:nth-child(1)
+      background-image: url(../images/home/line1.png)
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5)
+      border-right: 1px solid rgba(255, 255, 255, 0.5)
+    &:nth-child(2)
+      background: url(../images/home/line2.png) bottom right
+    &:nth-child(3)
+      background: url(../images/home/line3.png) bottom left
+    &:nth-child(4)
+      background: url(../images/home/line4.png) top right
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5)
+      border-left: 1px solid rgba(255, 255, 255, 0.5)
+    &:nth-child(5)
+      background-image: url(../images/home/line5.png)
+      border-right: 1px solid rgba(255, 255, 255, 0.5)
+    &:nth-child(6)
+      background: url(../images/home/line6.png) top right
+    &:nth-child(7)
+      background: url(../images/home/line7.png)  top left
+    &:nth-child(8)
+      background: url(../images/home/line8.png) bottom right
+      border-left: 1px solid rgba(255, 255, 255, 0.5)
+  & figure
+    margin: 0
+    position: absolute
+    & img
+      cursor: pointer
+      opacity: 0
+      @include transition(all .5s )
+      &:hover
+        opacity: 1
+  & figure img
+    max-width: inherit
+.NavHome-ul
+  & .end
+    bottom: 8rem
+    top: initial
+  & li:nth-child(1) h2, & li:nth-child(5) h2
+    left: 6rem
+  & li:nth-child(7) h2
+    left: calc(89% - 85px)
+
+  & h2
+    color: white
+    font-size: 1.15rem
+    left: 2em
+    position: absolute
+    text-shadow: 1px 1px 2px #000
+    text-transform: uppercase
+    top: 2rem
+
+.NavHome-figureTwo
+  bottom: -4px
+  right: 1px
+.NavHome-figureTree
+  bottom: -4px
+.NavHome-figureFour
+  right: 0
+.NavHome-figureSix
+  right: 0
+.NavHome-figureEight
+  bottom: 0
+  right: 0
+
+.PageLoader
+  display: none
