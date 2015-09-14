@@ -1,20 +1,46 @@
 @import "lib/settings"
 @import "lib/general"
+@import "lib/font"
 
 
 /* Home */
 .Logo
   border-radius: 7rem
-  background: #000
-  height: 14rem
-  left: calc(50% - 7rem)
+  background: url("../images/background-home-luker.jpg") center
+  height: 9rem
+  left: calc(50% - 4.5rem)
   margin: auto
-  padding: 2.2rem 2rem
+  padding: 1.1rem 1rem
   position: fixed
-  top: calc(50% - 7rem)
-  width: 14rem
-  z-index:2;
-
+  top: calc(50% - 4.5rem)
+  width: 9rem
+  z-index: 2
+  @include respond-to(small)
+    left: calc(50% - 5rem)
+    height: 10rem
+    top: calc(50% - 5rem)
+    width: 10rem
+  @include respond-to(middle)
+    background: #000
+    height: 14rem
+    left: calc(50% - 7rem)
+    padding: 2.2rem 2rem
+    top: calc(50% - 9rem)
+    width: 14rem
+.Logo-img
+  background: #000
+  border-radius: 50%
+  margin: 0
+  height: 7rem
+  padding: 1.125rem 1rem
+  width: 7rem
+  @include respond-to(small)
+    padding: 1.2rem 1rem
+    height: 8rem
+    width: 8rem
+  @include respond-to(middle)
+    padding: 0
+    width: 160px
 .WrapperHome-videoSource
   bottom: 0
   height: auto
@@ -32,12 +58,13 @@
   top: 0
   width: 100%
   & li
+    border: 1px solid #fff
     display: inline-block
-    height: 50vh
-    margin: -2px
+    height: calc(25vh + 2px)
+    margin: -3px -2px
     overflow: hidden
     position: relative
-    width: 25vw
+    width: calc(50vw + 1px)
     &:nth-child(1)
       background-image: url(../images/home/line1.png)
       border-bottom: 1px solid rgba(255, 255, 255, 0.5)
@@ -51,56 +78,139 @@
       border-bottom: 1px solid rgba(255, 255, 255, 0.5)
       border-left: 1px solid rgba(255, 255, 255, 0.5)
     &:nth-child(5)
-      background-image: url(../images/home/line5.png)
+      background: url(../images/home/line5.png) bottom left
       border-right: 1px solid rgba(255, 255, 255, 0.5)
     &:nth-child(6)
       background: url(../images/home/line6.png) top right
     &:nth-child(7)
-      background: url(../images/home/line7.png)  top left
+      background: url(../images/home/line7.png) top left
     &:nth-child(8)
       background: url(../images/home/line8.png) bottom right
       border-left: 1px solid rgba(255, 255, 255, 0.5)
+    @include respond-to(middle)
+      border: none
+      height: calc(50vh - 1.625rem)
+      width: calc(25vw + 1px)
   & figure
+    background-size: cover
+    height: 100%
     margin: 0
-    position: absolute
+    position: static
+    width: 100%
+    @include respond-to(middle)
+      background: transparent
+      height: inherit
+      position: absolute
+      width: inherit
+
     & img
       cursor: pointer
       opacity: 0
-      @include transition(all .5s )
-      &:hover
-        opacity: 1
-  & figure img
-    max-width: inherit
+      max-width: inherit
+      width: 100%
+      @include transition(all .5s)
+
+      @include respond-to(middle)
+        opacity: 0
+        width: inherit
+        &:hover
+          opacity: 1
+
 .NavHome-ul
   & .end
-    bottom: 8rem
+    bottom: 4rem
     top: initial
+    @include respond-to(middle)
+      bottom: 8rem
   & li:nth-child(1) h2, & li:nth-child(5) h2
-    left: 6rem
+    @include respond-to(middle)
+      left: 6rem
+  & li:nth-child(6) h2
+    left: 5rem
+    @include respond-to(middle)
+      left: 3rem
+    & span
+      @include respond-to(middle)
+        display: block
   & li:nth-child(7) h2
-    left: calc(89% - 85px)
-
+    left: 1rem
+    @include respond-to(middle)
+      left: calc(89% - 85px)
   & h2
     color: white
-    font-size: 1.15rem
-    left: 2em
+    font-size: 3.5vw
+    left: 1em
     position: absolute
     text-shadow: 1px 1px 2px #000
     text-transform: uppercase
-    top: 2rem
+    top: 1rem
+    @include respond-to(small)
+      font-size: 1.15rem
+    @include respond-to(middle)
+      left: 2em
+      top: 2rem
 
+.NavHome-figureOne
+  background: url("../images/home/cacao-fino-de-aroma.jpg") center
+  
 .NavHome-figureTwo
-  bottom: -4px
+  background: url("../images/home/productos.jpg") center
+  bottom: -6px
   right: 1px
-.NavHome-figureTree
-  bottom: -4px
-.NavHome-figureFour
-  right: 0
-.NavHome-figureSix
-  right: 0
-.NavHome-figureEight
-  bottom: 0
-  right: 0
 
+.NavHome-figureTree
+  background: url("../images/home/a-su-medida.jpg") center
+  bottom: -6px
+.NavHome-figureFour
+  background: url("../images/home/the-luker-way.jpg") center
+  right: 0
+.NavHome-figureFive
+  background: url("../images/home/casa-luker.jpg") center
+  bottom: -6px
+.NavHome-figureSix
+  background: url("../images/home/granja-luker.jpg") center
+  right: 0
+  top: 1px
+.NavHome-figureSeven
+  background: url("../images/home/recetas-small.jpg") center
+  top: 1px
+.NavHome-figureEight
+  background: url("../images/home/contactenos-small.jpg") center
+  bottom: -10px
+  right: 0
+  & img:last-child
+    position: relative
+    top: -5px
+
+.FooterHome
+  background: rgba(0, 0, 0, 0.7)
+  bottom: 0
+  display: none
+  height: 3.5rem
+  line-height: 3.3rem
+  position: fixed
+  width: 100%
+  @include respond-to(middle)
+    display: block
 .PageLoader
   display: none
+.FooterHome-copy
+  font-size: .8rem
+  padding: 0 1.5rem
+.FooterHome-navNetwork a
+  color: black
+
+.FooterHome-copy,.FooterHome-wrapper,.FooterHome-search,.FooterHome-navNetwork, .FooterHome-navNetwork li
+  display: inline-block
+  vertical-align: middle
+
+.FooterHome-copy
+  width: 20%
+.FooterHome-wrapper
+  padding: 0 1.5rem
+  text-align: right
+  width: 79%
+.FooterHome-navNetwork li
+  background: url(../images/coffee.png) 0 10px no-repeat
+  background-size: 1.375rem
+  width: 1.375rem

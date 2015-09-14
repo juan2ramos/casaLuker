@@ -17,12 +17,21 @@ function register_my_menus()
     );
 }
 
-function plugin_register_juan(){
+
+add_filter('get_search_form', 'searchCustom');
+
+function searchCustom($text) {
+    $text = str_replace('value="Search"', 'value="ddd"', $text);c
+    return $text;
+}
+
+
+function widgetFooter(){
     register_sidebar(
         array(
-            'id' => 'sidebar-footer', /* El ID siempre debe ser único */
-            'name' => 'Mi nuevo sidebar',
-            'description' => 'esto es un test de mi widget',
+            'id' => 'widgetFooter', /* El ID siempre debe ser único */
+            'name' => 'widgetFooter',
+            'description' => 'widget',
             'before_widget' => '<div class "sidebar-item">',
             'after_widget' => '</div>',
             'before_title' => '<strong>',
@@ -30,7 +39,7 @@ function plugin_register_juan(){
         )
     );
 }
-add_action('widgets_init', 'plugin_register_juan');
+add_action('widgets_init', 'widgetFooter');
 /* Add sidebar */
 /* Se puede colocar eb cuaquier lugar, no necesariamente en un sidebar */
 
