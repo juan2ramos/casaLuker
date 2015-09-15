@@ -21,7 +21,7 @@ function register_my_menus()
 add_filter('get_search_form', 'searchCustom');
 
 function searchCustom($text) {
-    $text = str_replace('value="Search"', 'value="ddd"', $text);c
+    $text = str_replace('value="Search"', 'value="ddd"', $text);
     return $text;
 }
 
