@@ -1,4 +1,5 @@
 <footer class="Footer">
+    <button class="Footer-back"><span></span><p>VOLVER AL MENÚ</p></button>
     <div class="Footer-wrapper">
         <figure class="Footer-logo">
             <img src="<?php bloginfo('template_url') ?>/assets/images/logo-casaluker-footer.png" alt="Logo casa luker "></figure>
