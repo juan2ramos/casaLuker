@@ -37,18 +37,7 @@
          }, 10));
          */
     }
-    function showImagesHome(){
-        if(win.width > 700){
 
-
-
-            for (var i = 0; i < imagesHome.length; ++i) {
-                console.log(imagesHome[i]);
-            }
-
-
-        }
-    }
     init();
 
 })(window);

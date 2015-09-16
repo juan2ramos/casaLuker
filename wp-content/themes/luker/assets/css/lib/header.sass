@@ -1,0 +1,104 @@
+.Header
+  background-position: center
+  background-size: cover
+  height: 100vh
+
+.Header-wrapper
+  margin: 0 auto
+  position: relative
+  width: 90%
+.Header-logo
+  display: inline-block
+  margin: 0
+.Header-bar
+  background: rgba(0,0,0,.7)
+  height: 2.7rem
+  line-height: 2.7rem
+  padding-left: 1rem
+  position: fixed
+  top: 0
+  width: 75%
+  right: 5%
+  z-index: 100
+  & .Search
+    top: -2px
+  & .icon-twitter
+    left: -4px
+  & .icon-instagram, & .icon-linkedin2
+    left: -5px
+.Header-navNetwork
+  & li
+    background: url('../images/coffee.png') 0 6px no-repeat
+    background-size: 1.2rem
+    display: inline-block
+    padding-left: 4px
+    vertical-align: middle
+    text-align: right
+    width: 1.3rem
+    & a
+      color: black
+
+.Header-navNetwork
+  display: inline-block
+  vertical-align: middle
+
+.Header-news
+  background-color: white
+  color: #97121F
+  display: inline-block
+  font-size: .9rem
+  font-weight: bold
+  float: right
+  margin-left: .7rem
+  padding: 0 1rem
+  position: relative
+  text-transform: uppercase
+  vertical-align: middle
+
+.Nav
+  background: rgba(0,0,0,.7)
+  padding: 8px 0
+  position: absolute
+  right: 0
+  text-align: center
+  top: 4.5rem
+  vertical-align: top
+  width: calc(83% + 4px)
+  & a
+    border-right: 1px dotted white
+    color: white
+    font-size: .8rem
+    padding: 0 .5rem
+    text-transform: uppercase
+    &:hover
+      color: #97121F
+  & li
+    display: inline-block
+    margin: 0 -3px
+    vertical-align: middle
+    &:last-child a
+      border-right: none
+.Header-title
+  font-size: 7vw
+  margin: auto
+  position: relative
+  line-height: 1em
+  text-align: center
+  text-shadow: -3px 1px 2px #000
+  text-transform: uppercase
+  top: 20vh
+  width: 60%
+
+.More
+  bottom: 0
+  margin: auto
+  left: calc(50vw - 6rem)
+  position: absolute
+  width: 12rem
+.More-view
+  color: black
+  display: block
+  font-weight: bold
+  position: relative
+  text-align: center
+  top: 2.5rem

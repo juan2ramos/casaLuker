@@ -21,25 +21,34 @@ function register_my_menus()
 add_filter('get_search_form', 'searchCustom');
 
 function searchCustom($text) {
-    $text = str_replace('value="Search"', 'value="ddd"', $text);
-    return $text;
+    $form = '<form role="search" method="get"  class="h" action="' . home_url( '/' ) . '" >
+    <div><label class="screen-reader-text" for="s">' . __( '' ) . '</label>
+    <input type="text" class="Search-input" value="' . get_search_query() . '" name="s" class="" id="s" placeholder="Buscar..." />
+    <button class="Search-submit"><span class="icon-search"></span></button>
+    </div>
+    </form>';
+
+
+
+
+    return $form;
 }
 
 
-function widgetFooter(){
+function widgetSearchFooter(){
     register_sidebar(
         array(
-            'id' => 'widgetFooter', /* El ID siempre debe ser único */
-            'name' => 'widgetFooter',
+            'id' => 'widgetSearchFooter', /* El ID siempre debe ser único */
+            'name' => 'widgetSearchFooter',
             'description' => 'widget',
-            'before_widget' => '<div class "sidebar-item">',
+            'before_widget' => '<div class "SearchFooter">',
             'after_widget' => '</div>',
             'before_title' => '<strong>',
             'after_title' => '</strong>',
         )
     );
 }
-add_action('widgets_init', 'widgetFooter');
+add_action('widgets_init', 'widgetSearchFooter');
 /* Add sidebar */
 /* Se puede colocar eb cuaquier lugar, no necesariamente en un sidebar */
 

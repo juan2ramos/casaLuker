@@ -33,21 +33,14 @@ Theme: Luker
 
 <body <?php body_class(); ?>>
 
-<!-- PRELOADER -->
-<div class="page-loader">
-    <div class="loader">Loading...</div>
-</div>
-<!-- /PRELOADER -->
 
 
-asdasd
-<?php wp_widget ?>
-<!-- WRAPPER -->
-<?php include TEMPLATEPATH . '/inc/NavHeader.php' ?>
-<?php include TEMPLATEPATH . '/inc/NavFooter.php' ?>
+
+<header class="Header">
+
+</header>
+
 <?php wp_footer(); ?>
-
-<?php dynamic_sidebar( 'sidebar-footer' ); ?>
 
 </body>
 </html>

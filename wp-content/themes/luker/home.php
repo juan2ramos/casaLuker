@@ -52,7 +52,7 @@ Theme: Luker
 <nav class="NavHome">
     <ul class="NavHome-ul">
         <li>
-            <a href="">
+            <a href="<?php echo bloginfo('url')?>/cacao-fino-de-aroma">
                 <figure class="NavHome-figureOne">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/cacao-fino-de-aroma-large.png"
                          alt="">
@@ -121,27 +121,7 @@ Theme: Luker
         </li>
     </ul>
 </nav>
-<div class="FooterHome">
-    <span class="FooterHome-copy">© 2012-CasaLuker ®</span>
-    <div class="FooterHome-wrapper">
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <div class="FooterHome-search"><?php dynamic_sidebar( 'widgetFooter' ); ?> </div>
-        <div class="FooterHome-navNetwork">
-            <ul>
-                <li><a href="https://www.facebook.com/LUKERFOODINGREDIENTS" target="_blank"><span class="icon-facebook"> </span></a></li>
-                <li><a href="https://twitter.com/LUKEROFFICIAL" target="_blank"><span class="icon-twitter"> </span></a></li>
-                <li><a href="https://www.youtube.com/channel/UCY_NfrnYxNHFP0KD0EKA8Gg" target="_blank"><span class="icon-play3"> </span></a></li>
-                <li><a href="https://instagram.com/lukerofficial/" target="_blank"><span class="icon-instagram"> </span></a></li>
-                <li><a href="https://www.linkedin.com/company/casaluker-food-ingredients?trk=company_name" target="_blank"><span class="icon-linkedin2"> </span></a></li>
-            </ul>
-        </div>
-    </div>
-</div>
+<?php include TEMPLATEPATH . '/inc/BarFooter.php' ?>
 <?php wp_footer(); ?>
 </body>
 </html>
