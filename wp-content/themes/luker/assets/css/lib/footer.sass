@@ -1,0 +1,84 @@
+
+.Footer
+  background: rgba(255, 255, 255, 0.81)
+  color: black
+  position: relative
+.Footer-wrapper
+  margin: auto
+  max-width: 90%
+.Footer-logo
+  border-right: 1px solid
+  display: inline-block
+  margin: 1rem
+  max-width: 200px
+  vertical-align: middle
+.Footer-nav
+  display: inline-block
+  vertical-align: middle
+  & li
+    display: inline-block
+    vertical-align: middle
+    &:last-child a
+      border-right: none
+  & a
+    color: black
+    border-right: 1px solid
+    font-size: .75rem
+    font-weight: 700
+    padding: 0 .5rem 0 .25rem
+    text-transform: uppercase
+.Footer-info
+  border-top: 1px solid
+  font-size: .8rem
+  & a
+    color: black
+    font-weight: bold
+  & ul
+    padding: 1.5rem 2.5rem
+.Footer-infoColombia
+  display: inline-block
+  vertical-align: middle
+
+.Footer-infoEurope
+  display: inline-block
+  vertical-align: middle
+
+.FooterHome.Static
+  line-height: 3.1rem
+  position: relative
+
+.Footer-back
+  background: white
+  border: none
+  font-size: .75rem
+  font-weight: bold
+  padding: .5rem
+  position: absolute
+  text-align: center
+  top: -3rem
+  width: 100%
+  &:after
+    background-color: #fff
+    border-radius: 50%
+    display: block
+    content: ''
+    height: 3rem
+    left: calc(50% - 1.5rem)
+    position: absolute
+    top: -1.2rem
+    width: 3rem
+    z-index: 0
+  & p
+    margin: 0
+    position: relative
+    z-index: 2
+  & span
+    border-left: 0.625rem solid transparent
+    border-right: 0.625rem solid transparent
+    border-bottom: 0.6rem solid #000
+    height: 0
+    left: calc(50% - 0.625rem)
+    top: -.9rem
+    width: 0
+    position: absolute
+    z-index: 2

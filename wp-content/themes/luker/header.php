@@ -94,5 +94,5 @@ Theme: Luker
             </svg>
         </a>
     </div>
-    <?php //the_content(); ?>
+
 </header>

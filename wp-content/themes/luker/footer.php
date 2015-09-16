@@ -12,8 +12,8 @@
                     <li>CasaLuker Colombia</li>
                     <li>Calle 13 No 68-98</li>
                     <li>Bogotá, COLOMBIA</li>
-                    <li>lukercacao@casaluker.com.co</li>
-                    <li>Teléfono: +57 (1) 4473700</li>
+                    <li><a href="mailto:lukercacao@casaluker.com.co">lukercacao@casaluker.com.co</a></li>
+                    <li><a href="+5714473700">Teléfono: +57 (1) 4473700</a></li>
                 </ul>
             </div>
             <div class="Footer-infoEurope">
@@ -22,8 +22,8 @@
                     <li>Kortrijksesteenweg 1132</li>
                     <li>9051 Sint-Denijs-Westrem,</li>
                     <li>BELGIUM</li>
-                    <li>casalukereu@casaluker.com.co</li>
-                    <li>Teléfono: + 32 (0) 9 2450460</li>
+                    <li><a href="mailto:casalukereu@casaluker.com.co">casalukereu@casaluker.com.co</a></li>
+                    <li><a href="tel:32092450460">Teléfono: + 32 (0) 9 2450460</a></li>
 
                 </ul>
             </div>
