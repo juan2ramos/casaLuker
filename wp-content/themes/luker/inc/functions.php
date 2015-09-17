@@ -45,3 +45,9 @@ add_theme_support('post-thumbnails');
 
 //size custom for image post
 add_image_size('mySize', 200, 180);
+
+//Register Widget Custom
+add_action('widgets_init', 'registra_mis_widgets');
+function registra_mis_widgets() {
+    register_widget('ofertas_widget');
+}

@@ -4,10 +4,13 @@ Description: WP Functions - Theme init
 Theme: Luker
 */
 
-
 define('themeDir', get_template_directory() . '/');
 
-require_once(themeDir . 'inc/functions.php');
+require(themeDir . 'inc/functions.php');
+require(themeDir . '/inc/ofertas_widget.php');
+
+
+
 
 add_action('init', 'create_post_type');
 function create_post_type()
@@ -15,7 +18,7 @@ function create_post_type()
     register_post_type('acme_product',
         array(
             'labels' => array(
-                'name' => _x('prodcut', 'post type general name'),
+                'name' => _x('producut', 'post type general name'),
                 'singular_name' => _x('Libro', 'post type singular name'),
                 'add_new' => _x('Añadir nuevo', 'book'),
                 'add_new_item' => __('Añadir nuevo Libro'),
@@ -35,7 +38,6 @@ function create_post_type()
 }
 
 add_action('init', 'create_book_taxonomies', 0);
-
 // Creamos dos taxonomías, género y autor para el custom post type "libro"
 function create_book_taxonomies()
 {
@@ -119,6 +121,7 @@ function my_custom_init()
 
     register_post_type('libro', $args); /* Registramos y a funcionar */
 }
+
 add_filter( 'manage_edit-libro_columns', 'my_columns' );
 function my_columns( $columns ) {
     $columns['movie_reviews_director'] = 'Director';
@@ -163,113 +166,6 @@ function wpt_libro_location() {
 
 }
 
-add_action( 'init', 'register_cpt_event' );
-
-function register_cpt_event() {
-
-    $labels = array(
-        'name' => _x( 'Events', 'event' ),
-        'singular_name' => _x( 'Event', 'event' ),
-        'add_new' => _x( 'Add New', 'event' ),
-        'add_new_item' => _x( 'Add New Event', 'event' ),
-        'edit_item' => _x( 'Edit Event', 'event' ),
-        'new_item' => _x( 'New Event', 'event' ),
-        'view_item' => _x( 'View Event', 'event' ),
-        'search_items' => _x( 'Search Events', 'event' ),
-        'not_found' => _x( 'No events found', 'event' ),
-        'not_found_in_trash' => _x( 'No events found in Trash', 'event' ),
-        'parent_item_colon' => _x( 'Parent Event:', 'event' ),
-        'menu_name' => _x( 'Eventos', 'event' ),
-    );
-
-    $args = array(
-        'labels' => $labels,
-        'hierarchical' => true,
-        'description' => 'Events for chapter members to attend',
-        'supports' => array( 'title', 'editor', 'custom-fields' ),
-
-        'public' => true,
-        'show_ui' => true,
-        'show_in_menu' => true,
-        'menu_position' => 5,
-
-        'show_in_nav_menus' => true,
-        'publicly_queryable' => true,
-        'exclude_from_search' => false,
-        'has_archive' => true,
-        'query_var' => true,
-        'can_export' => true,
-        # 'rewrite' => true,
-        'rewrite' => array('slug' => 'events', 'with_front' => false),
-        'capability_type' => 'post',
-
-        'register_meta_box_cb' => 'add_events_metaboxes'
-    );
-
-    register_post_type( 'event', $args );
-}
-
-
-function add_events_metaboxes() {
-    add_meta_box('aorn_events_meeting_id', 'Meeting info', 'aorn_events_meeting', 'event', 'side', 'high');
-}
-
-
-function aorn_events_meeting($object, $box) {
-
-    wp_nonce_field(basename( __FILE__ ), 'aorn_events_meeting_nonce');
-
-    $topic = esc_attr(get_post_meta($object->ID, 'aorn_events_meeting_topic', true));
-    $speaker = esc_attr(get_post_meta($object->ID, 'aorn_events_meeting_speaker', true));
-
-    echo '<p><label for="aorn_events_meeting_topic">' . _e('Topic') . '</label></p>';
-    echo '<p><input type="text" class="widefat" name="aorn_events_meeting_topic" id="aorn_events_meeting_topic" value="' . $topic . '"></p>';
-
-    echo '<p><label for="aorn_events_meeting_speaker">' . _e('Speaker') . '</label></p>';
-    echo '<p><input type="text" class="widefat" name="aorn_events_meeting_speaker" id="aorn_events_meeting_speaker" value="' . $speaker . '"></p>';
-
-}
-
-
-function aorn_events_meeting_save($post_id) {
-
-    // Negative checks
-    if(defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
-        return;
-    }
-    if (!isset($_POST['aorn_events_meeting_nonce']) || !wp_verify_nonce($_POST['aorn_events_meeting_nonce'], basename(__FILE__))) {
-        return;
-    }
-    if (!current_user_can('edit_post')) {
-        return;
-    }
-
-    $events_meta['aorn_events_meeting_topic'] = $_POST['aorn_events_meeting_topic'];
-    $events_meta['aorn_events_meeting_speaker'] = $_POST['aorn_events_meeting_speaker'];
-
-    $post = get_post($post_id);
-
-    foreach ($events_meta as $key => $value) {
-        if ($post->post_type == 'revision') {
-            return;
-        }
-        if (get_post_meta($post_id, $key, FALSE)) {
-            update_post_meta($post_id, $key, $value);
-        } else {
-            add_post_meta($post_id, $key, $value);
-        }
-        if (!$value) {
-            delete_post_meta($post_id, $key);
-        }
-    }
-
-}
-
-
-add_action('save_post', 'aorn_events_meeting_save', 10, 1);
-
-
-
 add_action( 'add_meta_boxes', 'cd_meta_box_add' );
 function cd_meta_box_add()
 {
@@ -279,8 +175,8 @@ function cd_meta_box_cb( $post )
 {
     $values = get_post_custom( $post->ID );
     $text = isset( $values['my_meta_box_text'] ) ? esc_attr( $values['my_meta_box_text'][0] ) : '';
-$selected = isset( $values['my_meta_box_select'] ) ? esc_attr( $values['my_meta_box_select'][0] ) : '';
-$check = isset( $values['my_meta_box_check'] ) ? esc_attr( $values['my_meta_box_check'][0] ) : '';
+    $selected = isset( $values['my_meta_box_select'] ) ? esc_attr( $values['my_meta_box_select'][0] ) : '';
+    $check = isset( $values['my_meta_box_check'] ) ? esc_attr( $values['my_meta_box_check'][0] ) : '';
     ?>
     <p>
         <label for="my_meta_box_text">Text Label</label>
@@ -333,8 +229,4 @@ function cd_meta_box_save( $post_id )
     update_post_meta( $post_id, 'my_meta_box_check', $chk );
 }
 
-require_once(get_template_directory().'/inc/ofertas_widget.php');
-add_action('widgets_init', 'registra_mis_widgets');
-function registra_mis_widgets() {
-    register_widget('ofertas_widget');
-}
+
