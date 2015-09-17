@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <main class="Main Product">
+    <main class="Main Products">
         <?php include TEMPLATEPATH . '/inc/Products.php' ?>
         <section>
             <article>
