@@ -13,7 +13,10 @@
   & li
     display: inline-block
     vertical-align: top
-    width: 19.5%
+    width: 33%
+    @include respond-to(middle)
+      width: 19.5%
+
   & span
     color: white
     display: block
@@ -48,6 +51,8 @@
     color: #debf99
     margin: 10px 0
     text-align: center
+  & .Product
+    margin-bottom: 0
 
 .Table
   margin: 2rem 0
