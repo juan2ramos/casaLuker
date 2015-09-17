@@ -22,9 +22,14 @@
 
 .Products
   & section article:first-child
+    @include respond-to(middle)
     width: 32%
   & section article:last-child
-    width: 32%
+    @include respond-to(middle)
+    width: 66%
+  & article
+    display: inline-block
+    vertical-align: top
   & figure
     text-align: center
   & h2
