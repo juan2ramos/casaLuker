@@ -29,10 +29,7 @@
             <table id="nativo-table" border="0" cellspacing="0" cellpadding="0" align="center">
                 <tbody>
                 <tr>
-                    <td rowspan="2" colspan="3">&nbsp;</td>
-                    <td colspan="8">
-                        <p style="color: #debf99; text-align: center; font-size: 20px;">NATIVO, ORIGEN PAÍS</p>
-                    </td>
+
                     <td rowspan="2" colspan="4">&nbsp;</td>
                     <td>
                     </td>

@@ -46,9 +46,14 @@
     text-align: justify
   & h3
     color: #debf99
+    margin: 10px 0
     text-align: center
+
 .Table
   margin: 2rem 0
   table
     overflow-x: hidden
     width: 100%
+    @include respond-to(middle)
+      margin: auto
+      width: 90%
