@@ -21,12 +21,14 @@
 
 
 .Products
-  & section article:first-child
-    @include respond-to(middle)
-    width: 32%
-  & section article:last-child
-    @include respond-to(middle)
-    width: 66%
+  & section
+    margin: 1rem 0
+    & article:first-child
+      @include respond-to(middle)
+        width: 32%
+    & article:last-child
+      @include respond-to(middle)
+        width: 66%
   & article
     display: inline-block
     vertical-align: top
@@ -42,6 +44,11 @@
     line-height: 1.3em
     padding: 0 5%
     text-align: justify
+  & h3
+    color: #debf99
+    text-align: center
 .Table
-  overflow-x: hidden
-  width: 100%
+  margin: 2rem 0
+  table
+    overflow-x: hidden
+    width: 100%
