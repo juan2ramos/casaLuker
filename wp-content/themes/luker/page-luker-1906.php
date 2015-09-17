@@ -418,7 +418,7 @@
             <table id="origen-table3" border="0" cellspacing="0" cellpadding="0">
                 <tbody>
                 <tr>
-                    <td style="background-image: url('/images/cinco-gotas.png'); background-repeat: no-repeat; background-position: center; border-top: 1px solid #fff; border-left: 1px solid #fff; border-right: 1px solid #fff; border-bottom: 1px dashed #fff;" bgcolor="#8d6650" width="65" height="24">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/images/cinco-gotas.png'); background-repeat: no-repeat; background-position: center; border-top: 1px solid #fff; border-left: 1px solid #fff; border-right: 1px solid #fff; border-bottom: 1px dashed #fff;" bgcolor="#8d6650" width="65" height="24">&nbsp;</td>
                     <td style="border-top: 1px solid #fff; border-right: 1px solid #fff; border-bottom: 1px dashed #fff;" bgcolor="#8d6650" width="84">
                         <p style="font-size: 12px; color: #fff; text-align: center;">Muy fluido</p>
                     </td>
@@ -427,13 +427,17 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="background-image: url('/images/una-gotas.png'); background-repeat: no-repeat; background-position: center; border-left: 1px solid #fff; border-right: 1px solid #fff; border-bottom: 1px solid #fff;" bgcolor="#8d6650" height="23">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/images/una-gotas.png'); background-repeat: no-repeat; background-position: center; border-left: 1px solid #fff; border-right: 1px solid #fff; border-bottom: 1px solid #fff;" bgcolor="#8d6650" height="23">&nbsp;</td>
                     <td style="border-right: 1px solid #fff; border-bottom: 1px solid #fff;" bgcolor="#8d6650">
                         <p style="font-size: 12px; color: #fff; text-align: center;">Poco fluido</p>
                     </td>
                 </tr>
                 </tbody>
             </table>
+            <div class="images">
+                <img src="<?php bloginfo('template_url')?>/assets/images/productos/images/manteca-cacao.png" alt="">
+                <img src="<?php bloginfo('template_url')?>/assets/images/productos/images/koshercertification.png" alt="">
+            </div>
         </div>
         <?php the_content() ?>
     </main>
