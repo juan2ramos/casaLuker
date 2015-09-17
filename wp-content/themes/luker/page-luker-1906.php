@@ -3,7 +3,7 @@
         <?php include TEMPLATEPATH . '/inc/Products.php' ?>
         <section>
             <article>
-                <figure><img src="<?php bloginfo('url')?>/assets/images/productos/luker-1906.png" alt=""></figure>
+                <figure><img src="<?php bloginfo('template_url')?>/assets/images/productos/luker-1906.png" alt=""></figure>
                 <h2>Nuestro Secreto</h2>
 
                 <p>
@@ -15,7 +15,7 @@
                 </p>
             </article>
             <article>
-                <figure><img src="<?php bloginfo('url')?>/assets/images/productos/empaque-1906.png" alt=""" alt=""></figure>
+                <figure><img src="<?php bloginfo('template_url')?>/assets/images/productos/empaque-1906.png" alt=""" alt=""></figure>
                 <h2>Nativo, Origen, País </h2>
 
                 <p>
@@ -34,17 +34,17 @@
                         <p style="color: #debf99; text-align: center; font-size: 20px;">NATIVO, ORIGEN PAÍS</p>
                     </td>
                     <td rowspan="2" colspan="4">&nbsp;</td>
-                    <td><img src="<?php bloginfo('url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="37">
+                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="37">
                     </td>
                 </tr>
                 <tr>
                     <td colspan="8">&nbsp;</td>
-                    <td><img src="<?php bloginfo('url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="32">
+                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="32">
                     </td>
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px solid #fff;" colspan="15" bgcolor="#764e3e">&nbsp;</td>
-                    <td><img src="<?php bloginfo('url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="24">
+                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="24">
                     </td>
                 </tr>
                 <tr>
@@ -72,7 +72,7 @@
                         <p style="font-size: 11px; text-align: center; color: #fff; padding: 0 10px 0 10px;">
                             APLICACIONES</p>
                     </td>
-                    <td><img src="<?php bloginfo('url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="20">
+                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="20">
                     </td>
                 </tr>
                 <tr>
@@ -98,7 +98,7 @@
                     <td style="border-bottom: 1px solid #fff;" bgcolor="#764e3e">
                         <p style="font-size: 10px; text-align: center; color: #fff; padding: 0 10px 0 10px;">POSTRES</p>
                     </td>
-                    <td><img src="<?php bloginfo('url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="28">
+                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="28">
                     </td>
                 </tr>
                 <tr>
@@ -113,21 +113,21 @@
                     <td style="border-right: 1px solid #fff; border-bottom: 1px dashed #fff;">
                         <p style="color: #fff; font-size: 14px; text-align: center;">70%</p>
                     </td>
-                    <td style="border-right: 1px solid #fff; border-bottom: 1px dashed #fff; background-image: url('<?php bloginfo('url')?>/assets/images/productos/tres-gotas.png'); background-position: center; background-repeat: no-repeat;">
+                    <td style="border-right: 1px solid #fff; border-bottom: 1px dashed #fff; background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/tres-gotas.png'); background-position: center; background-repeat: no-repeat;">
                         &nbsp;</td>
-                    <td style="border-right: 1px solid #fff; border-bottom: 1px dashed #fff; background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center;">
+                    <td style="border-right: 1px solid #fff; border-bottom: 1px dashed #fff; background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center;">
                         &nbsp;</td>
-                    <td style="border-right: 1px solid #fff; border-bottom: 1px dashed #fff; background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center;">
+                    <td style="border-right: 1px solid #fff; border-bottom: 1px dashed #fff; background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center;">
                         &nbsp;</td>
-                    <td style="border-right: 1px solid #fff; border-bottom: 1px dashed #fff; background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center;"
+                    <td style="border-right: 1px solid #fff; border-bottom: 1px dashed #fff; background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center;"
                         colspan="2">&nbsp;</td>
-                    <td style="border-right: 1px solid #fff; border-bottom: 1px dashed #fff; background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center;">
+                    <td style="border-right: 1px solid #fff; border-bottom: 1px dashed #fff; background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center;">
                         &nbsp;</td>
-                    <td style="border-right: 1px solid #fff; border-bottom: 1px dashed #fff; background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center;">
+                    <td style="border-right: 1px solid #fff; border-bottom: 1px dashed #fff; background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center;">
                         &nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); border-bottom: 1px dashed #fff; background-repeat: no-repeat; background-position: center;">
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); border-bottom: 1px dashed #fff; background-repeat: no-repeat; background-position: center;">
                         &nbsp;</td>
-                    <td><img src="<?php bloginfo('url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="29">
+                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="29">
                     </td>
                 </tr>
                 <tr>
@@ -140,20 +140,20 @@
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" rowspan="3">
                         <p style="font-size: 14px; color: #fff; text-align: center;">70%</p>
                     </td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/dos-gotas.png'); border-bottom: 1px dashed #fff; background-position: center; background-repeat: no-repeat; border-right: 1px solid #fff;"
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/dos-gotas.png'); border-bottom: 1px dashed #fff; background-position: center; background-repeat: no-repeat; border-right: 1px solid #fff;"
                         rowspan="3">&nbsp;</td>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" rowspan="3">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); border-bottom: 1px dashed #fff; background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;"
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); border-bottom: 1px dashed #fff; background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;"
                         rowspan="3">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); border-bottom: 1px dashed #fff; background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;"
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); border-bottom: 1px dashed #fff; background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;"
                         rowspan="3" colspan="2">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); border-bottom: 1px dashed #fff; background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;"
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); border-bottom: 1px dashed #fff; background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;"
                         rowspan="3">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); border-bottom: 1px dashed #fff; background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;"
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); border-bottom: 1px dashed #fff; background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;"
                         rowspan="3">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); border-bottom: 1px dashed #fff; background-repeat: no-repeat; background-position: center;"
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); border-bottom: 1px dashed #fff; background-repeat: no-repeat; background-position: center;"
                         rowspan="3">&nbsp;</td>
-                    <td><img src="<?php bloginfo('url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="5">
+                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="5">
                     </td>
                 </tr>
                 <tr>
@@ -162,7 +162,7 @@
                         <p style="font-size: 11px; color: #fff;">ORIGEN PAÍS</p>
                     </td>
                     <td style="border-right: 1px solid #fff;" colspan="2">&nbsp;</td>
-                    <td><img src="<?php bloginfo('url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="21">
+                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="21">
                     </td>
                 </tr>
                 <tr>
@@ -170,7 +170,7 @@
                     <td style="border-bottom: 1px solid #fff;" rowspan="2">&nbsp;</td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" rowspan="2" colspan="2">
                         &nbsp;</td>
-                    <td><img src="<?php bloginfo('url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="6">
+                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="6">
                     </td>
                 </tr>
                 <tr>
@@ -184,21 +184,21 @@
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
                         <p style="font-size: 14px; color: #fff; text-align: center;">45%</p>
                     </td>
-                    <td style="border-bottom: 1px solid #fff; background-image: url('<?php bloginfo('url')?>/assets/images/productos/cuatro-gotas.png'); background-position: center; background-repeat: no-repeat; border-right: 1px solid #fff;">
+                    <td style="border-bottom: 1px solid #fff; background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/cuatro-gotas.png'); background-position: center; background-repeat: no-repeat; border-right: 1px solid #fff;">
                         &nbsp;</td>
-                    <td style="border-bottom: 1px solid #fff; background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;">
+                    <td style="border-bottom: 1px solid #fff; background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;">
                         &nbsp;</td>
-                    <td style="border-bottom: 1px solid #fff; background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;">
+                    <td style="border-bottom: 1px solid #fff; background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;">
                         &nbsp;</td>
-                    <td style="border-bottom: 1px solid #fff; background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;"
+                    <td style="border-bottom: 1px solid #fff; background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;"
                         colspan="2">&nbsp;</td>
-                    <td style="border-bottom: 1px solid #fff; background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;">
+                    <td style="border-bottom: 1px solid #fff; background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;">
                         &nbsp;</td>
-                    <td style="border-bottom: 1px solid #fff; background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;">
+                    <td style="border-bottom: 1px solid #fff; background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;">
                         &nbsp;</td>
-                    <td style="border-bottom: 1px solid #fff; background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center;">
+                    <td style="border-bottom: 1px solid #fff; background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center;">
                         &nbsp;</td>
-                    <td><img src="<?php bloginfo('url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="33">
+                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="33">
                     </td>
                 </tr>
                 </tbody>
@@ -285,12 +285,12 @@
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px;">85%</p>
                     </td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/cuatro-gotas.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" width="61">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" width="61">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" width="52">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" width="72">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" width="69">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/cuatro-gotas.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" width="61">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" width="61">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" width="52">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" width="72">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" width="69">&nbsp;</td>
                     <td style="border-bottom: 1px dashed #fff;" width="58" height="41">&nbsp;</td>
                 </tr>
                 <tr>
@@ -303,13 +303,13 @@
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px;">65%</p>
                     </td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/tres-gotas.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff;" height="41">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/tres-gotas.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff;" height="41">&nbsp;</td>
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
@@ -324,13 +324,13 @@
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px;">65%</p>
                     </td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/tres-gotas.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff;" height="40">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/tres-gotas.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff;" height="40">&nbsp;</td>
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" rowspan="2">
@@ -345,13 +345,13 @@
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px;">85%</p>
                     </td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/cuatro-gotas.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/cuatro-gotas.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">&nbsp;</td>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">&nbsp;</td>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff;" height="42">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff;" height="42">&nbsp;</td>
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
@@ -363,13 +363,13 @@
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px;">65%</p>
                     </td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/tres-gotas.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff;" height="40">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/tres-gotas.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff;" height="40">&nbsp;</td>
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" width="199">
@@ -384,13 +384,13 @@
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" width="74">
                         <p style="color: #fff; font-size: 14px;">70%</p>
                     </td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/cinco-gotas.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;" width="66">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/cinco-gotas.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;" width="66">&nbsp;</td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
-                    <td style="background-image: url('<?php bloginfo('url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff;" height="43">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                    <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff;" height="43">&nbsp;</td>
                 </tr>
                 </tbody>
             </table>
