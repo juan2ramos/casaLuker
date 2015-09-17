@@ -34,17 +34,17 @@
                         <p style="color: #debf99; text-align: center; font-size: 20px;">NATIVO, ORIGEN PAÍS</p>
                     </td>
                     <td rowspan="2" colspan="4">&nbsp;</td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="37">
+                    <td>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="8">&nbsp;</td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="32">
+                    <td>
                     </td>
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px solid #fff;" colspan="15" bgcolor="#764e3e">&nbsp;</td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="24">
+                    <td
                     </td>
                 </tr>
                 <tr>
@@ -72,7 +72,7 @@
                         <p style="font-size: 11px; text-align: center; color: #fff; padding: 0 10px 0 10px;">
                             APLICACIONES</p>
                     </td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="20">
+                    <td>
                     </td>
                 </tr>
                 <tr>
@@ -98,7 +98,7 @@
                     <td style="border-bottom: 1px solid #fff;" bgcolor="#764e3e">
                         <p style="font-size: 10px; text-align: center; color: #fff; padding: 0 10px 0 10px;">POSTRES</p>
                     </td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="28">
+                    <td>
                     </td>
                 </tr>
                 <tr>
@@ -127,7 +127,7 @@
                         &nbsp;</td>
                     <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); border-bottom: 1px dashed #fff; background-repeat: no-repeat; background-position: center;">
                         &nbsp;</td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="29">
+                    <td>
                     </td>
                 </tr>
                 <tr>
@@ -153,7 +153,7 @@
                         rowspan="3">&nbsp;</td>
                     <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); border-bottom: 1px dashed #fff; background-repeat: no-repeat; background-position: center;"
                         rowspan="3">&nbsp;</td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="5">
+                    <td>
                     </td>
                 </tr>
                 <tr>
@@ -162,7 +162,7 @@
                         <p style="font-size: 11px; color: #fff;">ORIGEN PAÍS</p>
                     </td>
                     <td style="border-right: 1px solid #fff;" colspan="2">&nbsp;</td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="21">
+                    <td>
                     </td>
                 </tr>
                 <tr>
@@ -170,7 +170,7 @@
                     <td style="border-bottom: 1px solid #fff;" rowspan="2">&nbsp;</td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" rowspan="2" colspan="2">
                         &nbsp;</td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="6">
+                    <td>
                     </td>
                 </tr>
                 <tr>
@@ -198,7 +198,7 @@
                         &nbsp;</td>
                     <td style="border-bottom: 1px solid #fff; background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/positivo.png'); background-repeat: no-repeat; background-position: center;">
                         &nbsp;</td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="1" height="33">
+                    <td>
                     </td>
                 </tr>
                 </tbody>
@@ -226,11 +226,7 @@
             <h3>ORIGEN ÚNICO</h3>
             <table id="origen-table" border="0" cellspacing="0" cellpadding="0" align="center">
                 <tbody>
-                <tr>
-                    <td colspan="11" height="72">
-                        <p style="color: #fff; font-size: 25px; text-align: center;">ORIGEN ÚNICO</p>
-                    </td>
-                </tr>
+
                 <tr>
                     <td style="border-bottom: 1px solid #fff;" colspan="11" bgcolor="#764e3e">&nbsp;</td>
                 </tr>

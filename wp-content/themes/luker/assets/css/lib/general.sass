@@ -7,10 +7,11 @@ body, html
 
 body
   background: #000 url("../images/bg-contenido.jpg") no-repeat
-  background-size: cover
   color: #eef1eb
   font-family: "ff-meta-web-pro",Helvetica, Arial, sans-serif
   font-size: 16px
+  @include respond-to(middle)
+    background-size: cover
 
 *:focus
   outline: 0
