@@ -2,8 +2,8 @@
     <main class="Main Products">
         <?php include TEMPLATEPATH . '/inc/Products.php' ?>
 
-        <section class="Products">
-            <article class="LukerCacao-article">
+        <section class="Products Derivados">
+            <article class="Derivados-article">
                 <figure><img src="<?php bloginfo('template_url') ?>/assets/images/productos/luker-maracas.png" alt="">
                 </figure>
                 <h2>Derivados del Cacao</h2>
