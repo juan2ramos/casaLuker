@@ -1,8 +1,8 @@
 <?php get_header(); ?>
-    <main class="Main">
+    <main class="Main Products">
         <?php include TEMPLATEPATH . '/inc/Products.php' ?>
 
-        <section class="Products">
+        <section>
             <article class="LukerCacao-article">
                 <figure><img src="<?php bloginfo('template_url') ?>/assets/images/productos/luker-maracas.png" alt="">
                 </figure>
