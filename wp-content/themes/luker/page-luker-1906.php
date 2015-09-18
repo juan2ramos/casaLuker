@@ -28,12 +28,7 @@
         <div class="Table">
             <table id="nativo-table" border="0" cellspacing="0" cellpadding="0" align="center">
                 <tbody>
-                <tr>
-
-                    <td rowspan="2" colspan="4">&nbsp;</td>
-                    <td>
-                    </td>
-                </tr>
+               
                 <tr>
                     <td colspan="8">&nbsp;</td>
                     <td>
