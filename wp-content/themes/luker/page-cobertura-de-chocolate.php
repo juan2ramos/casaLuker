@@ -5,7 +5,7 @@
         <section>
             <article class="LukerCacao-article">
                 <figure><img
-                        src="<?php bloginfo('template_url') ?>/assets/images/productos/coberturas-sabor-a-chocolates.png"
+                        src="<?php bloginfo('template_url') ?>/assets/images/productos/coberturas-sabor-a-chocolate.png"
                         alt="">
                 </figure>
                 <h2>Cobertura Sabor a Chocolates</h2>
@@ -23,7 +23,11 @@
                         src="<?php bloginfo('template_url') ?>/assets/images/productos/empaque-sabor-a-chocolate.png"
                         alt="">
                 </figure>
+                <span>No requieren atemperado. <br>
 
+DARK, MILK AND WHITE COMPOUND.<br>
+
+*Este producto es vendido únicamente en Colombia. Si está interesado por favor contactarse con nuestro grupo de ventas.</span>
 
             </article>
         </section>
