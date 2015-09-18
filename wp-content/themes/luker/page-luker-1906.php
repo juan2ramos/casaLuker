@@ -206,8 +206,10 @@
                     da vida.
                 </p>
             </article>
-            <article>
-
+            <article class="city">
+                <img src="<?php bloginfo('template_url')?>/assets/images/productos/huila.jpg" alt="">
+                <img src="<?php bloginfo('template_url')?>/assets/images/productos/santander.jpg" alt="">
+                <img src="<?php bloginfo('template_url')?>/assets/images/productos/tumaco.jpg" alt="">
             </article>
         </section>
         <h3>ORIGEN ÚNICO</h3>
