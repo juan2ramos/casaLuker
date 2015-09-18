@@ -1,8 +1,8 @@
 <?php get_header(); ?>
-    <main class="Main Products lukerCacao">
+    <main class="Main Products LukerCacao">
         <?php include TEMPLATEPATH . '/inc/Products.php' ?>
         <section>
-            <article>
+            <article class="LukerCacao-article">
                 <figure><img src="<?php bloginfo('template_url') ?>/assets/images/productos/luker-cacao.png" alt="">
                 </figure>
                 <h2>SELECCIONAMOS LOS MEJORES INGREDIENTES</h2>
@@ -50,7 +50,7 @@
                 </table>
             </article>
         </section>
-        <h3>CHOCOLATE OSCURO</h3>
+        <h3 style="color: rgb(94, 7, 37)">CHOCOLATE OSCURO</h3>
 
         <div class="Table">
             <table id="table-chocolate-oscuro" border="0" cellspacing="0" cellpadding="0">
@@ -460,59 +460,7 @@
             </table>
 
         </div>
-        <table id="origen-table2" class="Table-inline" style="border: 1px solid #ffffff;" border="0" cellspacing="0"
-               cellpadding="0">
-            <tbody>
-            <tr>
-                <td style="border-bottom: 1px dashed #fff;" bgcolor="#8d6650" width="167">
-                    <p style="color: #fff; font-size: 12px;">Temperatura de trabajo</p>
-                </td>
-                <td style="border-bottom: 1px dashed #fff;" width="200" height="32">
-                    <p style="color: #fff; font-size: 12px;">30-32 ºC/ *28-30 ºC</p>
-                </td>
-            </tr>
-            <tr>
-                <td style="border-bottom: 1px dashed #fff;" bgcolor="#8d6650">
-                    <p style="color: #fff; font-size: 12px;">Embalaje + Formato</p>
-                </td>
-                <td style="border-bottom: 1px dashed #fff;" height="42">
-                    <p style="color: #fff; font-size: 12px;">Bolsa x 2,5 Kg, Minibarras Luker<br>Caja x 20 Kg,
-                        Minibarras Luker</p>
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#8d6650">
-                    <p style="color: #fff; font-size: 12px;">Vida útil</p>
-                </td>
-                <td height="31">
-                    <p style="color: #fff; font-size: 12px;">24 meses/ *14 meses</p>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-        <table id="origen-table3" border="0" class="Table-inline" cellspacing="0" cellpadding="0">
-            <tbody>
-            <tr>
-                <td style="background-image: url('<?php bloginfo('template_url') ?>/assets/images/productos/images/cinco-gotas.png'); background-repeat: no-repeat; background-position: center; border-top: 1px solid #fff; border-left: 1px solid #fff; border-right: 1px solid #fff; border-bottom: 1px dashed #fff;"
-                    bgcolor="#8d6650" width="65" height="24">&nbsp;</td>
-                <td style="border-top: 1px solid #fff; border-right: 1px solid #fff; border-bottom: 1px dashed #fff;"
-                    bgcolor="#8d6650" width="84">
-                    <p style="font-size: 12px; color: #fff; text-align: center;">Muy fluido</p>
-                </td>
-                <td rowspan="2" bgcolor="#8D6650">
-                    <p style="font-size: 10px; color: #fff; text-align: center;">&gt;&gt;TODAS NUESTRAS COBERTURAS
-                        REQUIEREN ATEMPERADO</p>
-                </td>
-            </tr>
-            <tr>
-                <td style="background-image: url('<?php bloginfo('template_url') ?>/assets/images/productos/images/una-gotas.png'); background-repeat: no-repeat; background-position: center; border-left: 1px solid #fff; border-right: 1px solid #fff; border-bottom: 1px solid #fff;"
-                    bgcolor="#8d6650" height="23">&nbsp;</td>
-                <td style="border-right: 1px solid #fff; border-bottom: 1px solid #fff;" bgcolor="#8d6650">
-                    <p style="font-size: 12px; color: #fff; text-align: center;">Poco fluido</p>
-                </td>
-            </tr>
-            </tbody>
-        </table>
+
         <div class="images">
             <img src="<?php bloginfo('template_url') ?>/assets/images/productos/manteca-cacao.png" alt="">
             <img src="<?php bloginfo('template_url') ?>/assets/images/productos/koshercertification.png" alt="">
