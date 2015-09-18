@@ -16,7 +16,7 @@
                     cacao, manteca de cacao, cacao en polvo y cacao en grano.
                 </p>
             </article>
-            <article>
+            <article class="Derivador-table">
                 <table id="table-derivados" border="0" cellspacing="0" cellpadding="0">
                     <tbody>
                     <tr>

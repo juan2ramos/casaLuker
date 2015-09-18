@@ -4,7 +4,7 @@
 
         <section>
             <article class="LukerCacao-article Cobertura">
-                <figure><img
+                <figure class="Cobertura-figure"><img
                         src="<?php bloginfo('template_url') ?>/assets/images/productos/coberturas-sabor-a-chocolate.png"
                         alt="">
                 </figure>
