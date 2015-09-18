@@ -71,9 +71,10 @@
   display: inline-block
   margin: 10px
   vertical-align: top
-  width: 100%
+  width: calc(100% - 20px)
+  max-width: 410px
   @include respond-to(middle)
-    width: inherit
+    width: auto
 
 .LukerCacao
   & .table-luker-cacao
@@ -111,8 +112,11 @@
   width: 100%
 .city
   padding: 4rem 2rem
+  text-align: center
+  width: 100%
   & img
     padding-right: .5rem
+    padding-top: 15px
 .Table-foot
   width: 100%
   text-align: center
