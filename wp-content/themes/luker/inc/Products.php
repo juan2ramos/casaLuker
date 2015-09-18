@@ -24,8 +24,8 @@
         </a>
     </li>
     <li>
-        <a href="<?php bloginfo('url') ?>/casa-luker-cobertura-de-chocolate">
-            <img src="<?php bloginfo('template_url') ?>/assets/images/productos/coberturas-de-chocolate.png" alt="">
+        <a href="<?php bloginfo('url') ?>/cobertura-de-chocolate">
+            <img src="<?php bloginfo('template_url') ?>/assets/images/productos/coberturas-sabor-a-chocolate.png" alt="">
             <span>Compound</span>
         </a>
     </li>
