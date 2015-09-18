@@ -27,7 +27,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td rowspan="2"><img src="/images/luker-cacao_02.png" alt="" width="1" height="50">
+                        <td rowspan="2">
                         </td>
                         <td style="border-bottom: 3px solid #fff; border-right: 1px solid #fff;" rowspan="2" bgcolor="#3b1018" width="137" height="50">
                             <p style="color: #fff; font-size: 12px; text-align: center;">EMPAQUE</p>

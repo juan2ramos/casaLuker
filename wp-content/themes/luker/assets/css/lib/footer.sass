@@ -7,11 +7,16 @@
   margin: auto
   max-width: 90%
 .Footer-logo
-  border-right: 1px solid
   display: inline-block
   margin: 1rem
-  max-width: 200px
+  max-width: 100%
   vertical-align: middle
+  text-align: center
+  width: 100%
+  @include respond-to(middle)
+    border-right: 1px solid
+    max-width: 200px
+
 .Footer-nav
   display: inline-block
   vertical-align: middle
