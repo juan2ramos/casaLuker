@@ -54,15 +54,19 @@
   & .Product
     margin-bottom: 0
   & .images
+    margin: 50px 0 20px
     text-align: center
     & img
       display: inline-block
+      margin: 0 10px
+      max-width: 120px
 
 .Table
   margin: 2rem 0
-  overflow-x: hidden
+  overflow-x: scroll
 .Table-inline
   border: 1px solid #ffffff
   display: inline-block
-  width: 49%
-  margin: 10px 0px
+  margin: 10px 0 
+  @include respond-to(middle)
+    width: 100%
