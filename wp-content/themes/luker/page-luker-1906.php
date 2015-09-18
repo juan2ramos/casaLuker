@@ -28,12 +28,8 @@
         <div class="Table">
             <table id="nativo-table" border="0" cellspacing="0" cellpadding="0" align="center">
                 <tbody>
-               
-                <tr>
-                    <td colspan="8">&nbsp;</td>
-                    <td>
-                    </td>
-                </tr>
+
+
                 <tr>
                     <td style="border-bottom: 1px solid #fff;" colspan="15" bgcolor="#764e3e">&nbsp;</td>
                     <td
@@ -391,7 +387,7 @@
                 <td style="border-bottom: 1px dashed #fff;" bgcolor="#8d6650" width="167">
                     <p style="color: #fff; font-size: 12px;">Temperatura de trabajo</p>
                 </td>
-                <td style="border-bottom: 1px dashed #fff;" width="180" height="32">
+                <td style="border-bottom: 1px dashed #fff;" width="200" height="32">
                     <p style="color: #fff; font-size: 12px;">30-32 ºC/ *28-30 ºC</p>
                 </td>
             </tr>
