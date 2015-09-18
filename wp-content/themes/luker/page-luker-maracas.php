@@ -34,11 +34,27 @@
                 <div class="cell coffee">EMBALAJE</div>
             </div>
             <div class="row">
-                <div class="cell"><img src="" alt=""><span></span></div>
                 <div class="cell">
-                    <p></p>
+                    <img
+                        src="http://www.lukeringredients.com/images/grajea1/thumbs/dark-chocolate-covered-nibs-cluster.jpg"
+                        alt="">
+                    <span>
+                        G501 <br>
+                        Dark Chocolate <br>
+                        Covered Nibs Cluster
+                    </span>
                 </div>
-                <div class="cell"><img src="" alt=""></div>
+                <div class="cell">
+                    <p>
+                        Pequeños trozos del mejor Cacao Fino de Aroma tostados y agrupados son cubiertos con chocolate
+                        oscuro formando un delicioso snack crocante con mucho sabor a cacao. Ideal como snack, topping e
+                        inclusión en sus recetas.
+                    </p>
+                </div>
+                <div class="cell">
+                    Bolsa 1 Kg <br>
+                    Caja 15 Kg
+                </div>
             </div>
         </div>
     </main>
