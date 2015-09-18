@@ -28,7 +28,7 @@
         </section>
         <div class="Table-Maracas">
             <div class="Table-MaracasTop"></div>
-            <div class="row">
+            <div class="row title">
                 <div class="cell coffee">PRODUCTO</div>
                 <div class="cell coffee">DESCRUIPCIÓN</div>
                 <div class="cell coffee">EMBALAJE</div>
