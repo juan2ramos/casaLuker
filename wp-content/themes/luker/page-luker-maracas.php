@@ -19,7 +19,7 @@
                     elaborar snacks saludables.
                 </p>
             </article>
-            <article>
+            <article class="Maracas-middle">
                 <figure><img src="<?php bloginfo('template_url') ?>/assets/images/productos/empaque-maracas.png"
                              alt="">
                 </figure>

@@ -50,7 +50,7 @@
                 </table>
             </article>
         </section>
-        <h3 style="color: rgb(94, 7, 37)">CHOCOLATE OSCURO</h3>
+        <h3>CHOCOLATE OSCURO</h3>
 
         <div class="Table">
             <table id="table-chocolate-oscuro" border="0" cellspacing="0" cellpadding="0">
