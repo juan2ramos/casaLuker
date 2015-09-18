@@ -387,7 +387,7 @@
                 </tr>
                 </tbody>
             </table>
-            <table id="origen-table2" style="border: 1px solid #ffffff;" border="0" cellspacing="0" cellpadding="0">
+            <table id="origen-table2" class="Table-inline" style="border: 1px solid #ffffff;" border="0" cellspacing="0" cellpadding="0">
                 <tbody>
                 <tr>
                     <td style="border-bottom: 1px dashed #fff;" bgcolor="#8d6650" width="167">
@@ -415,7 +415,7 @@
                 </tr>
                 </tbody>
             </table>
-            <table id="origen-table3" border="0" cellspacing="0" cellpadding="0">
+            <table id="origen-table3" border="0" class="Table-inline" cellspacing="0" cellpadding="0">
                 <tbody>
                 <tr>
                     <td style="background-image: url('<?php bloginfo('template_url')?>/assets/images/productos/images/cinco-gotas.png'); background-repeat: no-repeat; background-position: center; border-top: 1px solid #fff; border-left: 1px solid #fff; border-right: 1px solid #fff; border-bottom: 1px dashed #fff;" bgcolor="#8d6650" width="65" height="24">&nbsp;</td>
@@ -435,8 +435,8 @@
                 </tbody>
             </table>
             <div class="images">
-                <img src="<?php bloginfo('template_url')?>/assets/images/productos/images/manteca-cacao.png" alt="">
-                <img src="<?php bloginfo('template_url')?>/assets/images/productos/images/koshercertification.png" alt="">
+                <img src="<?php bloginfo('template_url')?>/assets/images/productos/manteca-cacao.png" alt="">
+                <img src="<?php bloginfo('template_url')?>/assets/images/productos/koshercertification.png" alt="">
             </div>
         </div>
         <?php the_content() ?>
