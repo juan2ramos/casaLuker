@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <main class="Main Products">
+    <main class="Main Products lukerCacao">
         <?php include TEMPLATEPATH . '/inc/Products.php' ?>
         <section>
             <article>
@@ -19,7 +19,7 @@
                 <figure><img src="<?php bloginfo('template_url') ?>/assets/images/productos/empaque-lukercacao.png" alt="">
                 </figure>
 
-                <table id="table-luker-cacao" border="0" cellspacing="0" cellpadding="0">
+                <table id="table-luker-cacao" class="table-luker-cacao" border="0" cellspacing="0" cellpadding="0">
                     <tbody>
                     <tr>
                         <td style="border-bottom: 3px solid #fff;" colspan="5" width="540" height="40">
@@ -482,34 +482,7 @@
                         <p style="color: #fff; font-size: 14px; text-align: center;">12*/14</p>
                     </td>
                 </tr>
-                <tr>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="122" height="1">
-                    </td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="65" height="1">
-                    </td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="88" height="1">
-                    </td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="85" height="1">
-                    </td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="87" height="1">
-                    </td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="11" height="1">
-                    </td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="55" height="1">
-                    </td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="83" height="1">
-                    </td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="70" height="1">
-                    </td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="65" height="1">
-                    </td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="21" height="1">
-                    </td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="81" height="1">
-                    </td>
-                    <td><img src="<?php bloginfo('template_url')?>/assets/images/productos/spacer.gif" alt="" width="65" height="1">
-                    </td>
-                </tr>
+
                 </tbody>
             </table>
 
@@ -571,6 +544,6 @@
             <img src="<?php bloginfo('template_url') ?>/assets/images/productos/manteca-cacao.png" alt="">
             <img src="<?php bloginfo('template_url') ?>/assets/images/productos/koshercertification.png" alt="">
         </div>
-        <?php the_content() ?>
+
     </main>
 <?php get_footer(); ?>
