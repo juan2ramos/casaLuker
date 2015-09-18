@@ -24,8 +24,8 @@
                 </p>
             </article>
         </section>
+        <h3>NATIVO, ORIGEN PAÍS</h3>
         <div class="Table">
-            <h3>NATIVO, ORIGEN PAÍS</h3>
             <table id="nativo-table" border="0" cellspacing="0" cellpadding="0" align="center">
                 <tbody>
                 <tr>
@@ -219,8 +219,9 @@
 
             </article>
         </section>
+        <h3>ORIGEN ÚNICO</h3>
         <div class="Table">
-            <h3>ORIGEN ÚNICO</h3>
+
             <table id="origen-table" border="0" cellspacing="0" cellpadding="0" align="center">
                 <tbody>
 
