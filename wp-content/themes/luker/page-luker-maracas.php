@@ -85,7 +85,7 @@
                 <div class="row">
                     <div class="cell">
                         <img
-                            src="http://www.lukeringredients.com/images/grajea1/thumbs/dark-chocolate-covered-nibs-cluster.jpg"
+                            src="http://www.lukeringredients.com/images/grajea2/thumbs/dark-chocolate-covered-nibs.jpg"
                             alt="">
                     <span>
                         G502 <br>
@@ -95,9 +95,28 @@
                     </div>
                     <div class="cell">
                         <p>
-                            Pequeños trozos del mejor Cacao Fino de Aroma, son tostados y luego son cubiertos con
-                            chocolate oscuro. Ideales para consumir como snack, para inclusiones en sus postres y
-                            decoraciones.
+                            El sabor explosivo del café logra el balance perfecto de esta gragea. Este toque único de sabor hará que sus productos se diferencien y sorprendan a quienes los prueban. Ideal en sus decoraciones y postres o como topping en heladería.
+                        </p>
+                    </div>
+                    <div class="cell">
+                        Bolsa 1 Kg <br>
+                        Caja 15 Kg
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell">
+                        <img
+                            src="http://www.lukeringredients.com/images/grajea4/thumbs/dark-chocolate-covered-instant-coffee_dark-chocolate-covered-extra-instant-coffee.jpg"
+                            alt="">
+                    <span>
+                        G502 <br>
+                        Dark Chocolate <br>
+                        Covered Nibs
+                    </span>
+                    </div>
+                    <div class="cell">
+                        <p>
+                            El sabor explosivo del café logra el balance perfecto de esta gragea. Este toque único de sabor hará que sus productos se diferencien y sorprendan a quienes los prueban. Ideal en sus decoraciones y postres o como topping en heladería.
                         </p>
                     </div>
                     <div class="cell">
@@ -108,7 +127,7 @@
                 <div class="row">
                     <div class="cell">
                         <img
-                            src="http://www.lukeringredients.com/images/grajea1/thumbs/dark-chocolate-covered-nibs-cluster.jpg"
+                            src="http://www.lukeringredients.com/images/grajea5/thumbs/dark-chocolate-covered-physalis.jpg"
                             alt="">
                     <span>
                         G502 <br>
@@ -118,37 +137,12 @@
                     </div>
                     <div class="cell">
                         <p>
-                            Pequeños trozos del mejor Cacao Fino de Aroma, son tostados y luego son cubiertos con
-                            chocolate oscuro. Ideales para consumir como snack, para inclusiones en sus postres y
-                            decoraciones.
+                            Esta fruta tropical, conocida como uchuva, es recubierta con chocolate oscuro buscando el equilibrio ideal entre el sabor ácido de la fruta y las notas frutales y florales del chocolate. Ideal como decoración y snack.
                         </p>
                     </div>
                     <div class="cell">
                         Bolsa 1 Kg <br>
-                        Caja 10 Kg
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="cell">
-                        <img
-                            src="http://www.lukeringredients.com/images/grajea1/thumbs/dark-chocolate-covered-nibs-cluster.jpg"
-                            alt="">
-                    <span>
-                        G502 <br>
-                        Dark Chocolate <br>
-                        Covered Nibs
-                    </span>
-                    </div>
-                    <div class="cell">
-                        <p>
-                            Pequeños trozos del mejor Cacao Fino de Aroma, son tostados y luego son cubiertos con
-                            chocolate oscuro. Ideales para consumir como snack, para inclusiones en sus postres y
-                            decoraciones.
-                        </p>
-                    </div>
-                    <div class="cell">
-                        Bolsa 1 Kg <br>
-                        Caja 10 Kg
+                        Caja 20 Kg
                     </div>
                 </div>
             </div>
