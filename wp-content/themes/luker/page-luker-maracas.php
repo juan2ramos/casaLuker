@@ -146,7 +146,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row last">
                     <div class="cell">
 
                     </div>
