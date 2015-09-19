@@ -155,3 +155,10 @@
   overflow-x: scroll
   @include respond-to(middle)
     overflow-x: hidden
+
+.row
+  & .cell:first-child,& .cell:nth-child(2)
+    width: 35%
+  & .cell:last-child
+    width: 29%
+
