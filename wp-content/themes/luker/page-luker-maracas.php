@@ -145,6 +145,19 @@
                         Caja 20 Kg
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="cell">
+
+                    </div>
+                    <div class="cell vida">
+                        <div>Vida útil (Meses)</div>
+                    </div>
+                    <div class="cell center">
+                       24
+                    </div>
+                </div>
+
             </div>
         </div>
     </main>

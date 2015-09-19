@@ -158,11 +158,15 @@
     overflow-x: hidden
 
 .row
-  & .cell:first-child,& .cell:nth-child(2)
+  & .cell:first-child
+    border-left: none
+    width: 38%
+  & .cell:nth-child(2)
     width: 38%
   & .cell:last-child
     width: calc(24% + 1px)
     padding: 45px 10px
+    border-right: none
 
 .title
   & .cell
@@ -171,4 +175,7 @@
     text-align: center
   & .cell:last-child
     padding: 0
-
+.cell.vida
+  background-color: #3b1018
+.cell.center
+  text-align: center
