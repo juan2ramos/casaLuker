@@ -133,7 +133,7 @@
     width: calc(33% + 4px)
     margin-right: -4px
     border-left: 1px solid
-    height: 138px
+    height: 136px
     font-size: .8rem
     & p
       font-size: .8rem
@@ -185,10 +185,14 @@
   height: 40px
   line-height: 40px
   padding: 0
-.row.title,.row.last
+.row.title
   border-top: 1px solid
   border-bottom: 1px solid
 .row.last
+  border-top: 1px solid
+  & .cell:nth-child(2), &.cell:nth-child(3)
+    border-bottom: 1px solid
+.row.last
   margin-top: -1px
-.row.last .cell:first-child
+.row.last .cell:first-child 
   border-bottom: none
