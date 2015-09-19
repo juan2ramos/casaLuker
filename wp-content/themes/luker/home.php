@@ -61,7 +61,7 @@ Theme: Luker
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="<?php echo bloginfo('url')?>/productos">
                 <figure class="NavHome-figureTwo">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/productos-large.png" alt="">
                 </figure>
