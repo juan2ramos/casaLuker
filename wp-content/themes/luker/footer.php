@@ -1,8 +1,11 @@
 <footer class="Footer">
-    <button class="Footer-back"><span></span><p>VOLVER AL MENÚ</p></button>
+    <button class="Footer-back"><span></span>
+
+        <p>VOLVER AL MENÚ</p></button>
     <div class="Footer-wrapper">
         <figure class="Footer-logo">
-            <img src="<?php bloginfo('template_url') ?>/assets/images/logo-casaluker-footer.png" alt="Logo casa luker "></figure>
+            <img src="<?php bloginfo('template_url') ?>/assets/images/logo-casaluker-footer.png" alt="Logo casa luker ">
+        </figure>
         <div class="Footer-nav">
             <?php wp_nav_menu(array('theme_location' => 'menuHeader', 'container' => 'nav')) ?>
         </div>
@@ -33,8 +36,9 @@
 </footer>
 <?php include TEMPLATEPATH . '/inc/BarFooter.php' ?>
 <?php wp_footer(); ?>
-
+<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=false&#038;ver=1.0'></script>
 <script src="<?php bloginfo('template_url') ?>/assets/js/main.js"></script>
+<script src="<?php bloginfo('template_url') ?>/assets/js/map.js"></script>
 
 </body>
 </html>

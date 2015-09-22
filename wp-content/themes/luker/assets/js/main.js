@@ -17,7 +17,6 @@
 
     // event binding
     function initEvents() {
-
         showImagesHome();
          /*
          zoomCtrl.addEventListener('click', function() {
@@ -37,7 +36,6 @@
          }, 10));
          */
     }
-
     init();
 
 })(window);
