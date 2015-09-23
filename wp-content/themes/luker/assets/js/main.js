@@ -42,9 +42,16 @@
             $('.'+ valueSelect).css('display','block');
             $('#colombia').css('display','block');
 
-
         });
-      //  showImagesHome();
+
+        $('.More, .Footer-back').on('click', function(e){
+            e.preventDefault();
+            var target= $(this).get(0).id == 'down' ? $('.Main') : $('body');
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top
+            }, 1000);
+        });
+        //  showImagesHome();
          /*
          zoomCtrl.addEventListener('click', function() {
          openItem(items[current]);

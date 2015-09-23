@@ -12,6 +12,7 @@ require(themeDir . '/inc/ofertas_widget.php');
 
 
 
+
 add_action('init', 'create_post_type');
 function create_post_type()
 {
