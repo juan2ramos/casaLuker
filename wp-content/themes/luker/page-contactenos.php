@@ -1334,5 +1334,7 @@
         </div>
     </main>
 
+    <?php the_content(); ?>
+
 
 <?php get_footer(); ?>
