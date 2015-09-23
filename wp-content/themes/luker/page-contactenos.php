@@ -3,42 +3,53 @@
         <select id="dropdown" class="dropdown" name="dropdown">
             <option value="0">Seleccionar</option>
             <optgroup label="Filiales">
-                <option value="1">Bélgica</option>
-                <option value="2">Colombia</option>
+                <option value="belgica">Bélgica</option>
+                <option value="colombia">Colombia</option>
                 <!--<option value="3">Ecuador</option>--><!--<option value="4">Estados Unidos</option>-->
-                <option value="5">Panamá</option>
-                <option value="6">Perú</option>
+                <option value="panama">Panamá</option>
+                <option value="peru">Perú</option>
             </optgroup>
             <optgroup label="Distribuidores">
-                <option value="7">Alemania</option>
-                <option value="8">Argentina</option>
-                <option value="9">Bélgica</option>
-                <option value="29">Brasil</option>
+                <option value="alemania">Alemania</option>
+                <option value="argentina">Argentina</option>
+                <option value="belgica">Bélgica</option>
+                <option value="brasil">Brasil</option>
                 <!--<option value="10">Chile</option>--> <!--<option value="11">Corea del Sur</option>-->
                 <!--<option value="12">Emiratos Arabes</option>--> <!--<option value="13">España</option>-->
-                <option value="33">Canada</option>
-                <option value="14">Estados Unidos</option>
+                <option value="canada">Canada</option>
+                <option value="estados-unidos">Estados Unidos</option>
                 <!--<option value="15">Francia</option>-->
-                <option value="36">Finlandia</option>
-                <option value="35">Grecia</option>
-                <option value="32">Guatemala</option>
-                <option value="16">Hungría</option>
+                <option value="finlandia">Finlandia</option>
+                <option value="grecia">Grecia</option>
+                <option value="guatemala">Guatemala</option>
+                <option value="hungria">Hungría</option>
                 <!--<option value="17">Irak</option><option value="18">Irán</option>-->
-                <option value="19">Italia</option>
-                <option value="20">Japón</option>
-                <option value="38">Luxemburgo</option>
-                <option value="27">Medio Oriente</option>
-                <option value="21">México</option>
-                <option value="39">Netherland</option>
-                <option value="22">Reino Unido</option>
-                <option value="23">República Checa</option>
-                <option value="30">República de Eslovaquia</option>
-                <option value="28">Rusia</option>
-                <option value="37">Suecia</option>
-                <option value="31">Ucrania</option>
+                <option value="italia">Italia</option>
+                <option value="japon">Japón</option>
+                <option value="luxemburgo">Luxemburgo</option>
+                <option value="medio-oriente">Medio Oriente</option>
+                <option value="mexico">México</option>
+                <option value="netherland">Netherland</option>
+                <option value="reino-unido">Reino Unido</option>
+                <option value="republica-checa">República Checa</option>
+                <option value="eslovaquia">República de Eslovaquia</option>
+                <option value="rusia">Rusia</option>
+                <option value="suecia">Suecia</option>
+                <option value="ucrania">Ucrania</option>
                 <!--<option value="24">Rumania</option>--> <!--<option value="25">Trinidad y Tobago</option>-->
             </optgroup>
             <option value="26">Otros</option>
+        </select>
+        <select id="dropdownCol" name="dropdownCol">
+            <option value="0">Seleccionar Ciudad</option>
+            <optgroup label="Distribuidores">
+                <option value="barranquilla">Barranquilla</option>
+                <option value="bogota">Bogotá</option>
+                <option value="ibague">Ibagué</option>
+                <option value="medellin">Medellín</option>
+                <option value="manizales">Manizales</option>
+                <option value="pasto">Pasto</option>
+            </optgroup>
         </select>
 
         <div class="Contact-locationMap">
@@ -1276,6 +1287,7 @@
                   name="adminForm_1" enctype="multipart/form-data">
 
                 <p>* Campos obligatorios.</p>
+
                 <div class="Label-content">
                     <label for="name">Nombre <span>*</span></label>
                     <input type="text" name="name">

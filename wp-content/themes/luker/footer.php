@@ -36,9 +36,8 @@
 </footer>
 <?php include TEMPLATEPATH . '/inc/BarFooter.php' ?>
 <?php wp_footer(); ?>
-<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=false&#038;ver=1.0'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="<?php bloginfo('template_url') ?>/assets/js/main.js"></script>
-<script src="<?php bloginfo('template_url') ?>/assets/js/map.js"></script>
 
 </body>
 </html>

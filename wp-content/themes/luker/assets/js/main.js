@@ -17,7 +17,34 @@
 
     // event binding
     function initEvents() {
-        showImagesHome();
+
+        $('#dropdown').on('change', function(){
+
+            var valueSelect = $(this).val();
+            $('.Contact-locationMap div').css('display','none');
+            $('.Contact-map div').css('display','none');
+
+            $('.'+ valueSelect).css('display','block');
+            $('#'+ valueSelect).css('display','block');
+            if (valueSelect == 'colombia' ){
+                $('#dropdownCol').css('display','block');
+            }else{
+                $('#dropdownCol').css('display','none');
+            }
+
+        });
+        $('#dropdownCol').on('change', function(){
+
+            var valueSelect = $(this).val();
+            $('.Contact-locationMap div').css('display','none');
+            $('.Contact-map div').css('display','none');
+
+            $('.'+ valueSelect).css('display','block');
+            $('#colombia').css('display','block');
+
+
+        });
+      //  showImagesHome();
          /*
          zoomCtrl.addEventListener('click', function() {
          openItem(items[current]);
