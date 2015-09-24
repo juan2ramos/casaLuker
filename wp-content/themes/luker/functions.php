@@ -9,11 +9,11 @@ define('themeDir', get_template_directory() . '/');
 require(themeDir . 'inc/functions.php');
 require(themeDir . '/inc/ofertas_widget.php');
 
-function amgenna_change_grunion_success_message( $msg ) {
+function change_grunion_success_message( $msg ) {
     global $contact_form_message;
-    return '<h3>' . 'My custom success message' . '</h3>' . wp_kses($contact_form_message, array('br' => array(), 'blockquote' => array()));;
+    return '<h3>' . 'Gracias por tu mensaje!' . '</h3>' . wp_kses($contact_form_message, array('br' => array(), 'blockquote' => array()));;
 }
-add_filter( 'grunion_contact_form_success_message', 'amgenna_change_grunion_success_message' );
+add_filter( 'grunion_contact_form_success_message', 'change_grunion_success_message' );
 
 
 add_action('init', 'create_post_type');
