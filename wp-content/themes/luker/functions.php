@@ -9,7 +9,12 @@ define('themeDir', get_template_directory() . '/');
 require(themeDir . 'inc/functions.php');
 require(themeDir . '/inc/ofertas_widget.php');
 
+add_filter( 'wpcf7_form_class_attr', 'your_custom_form_class_attr' );
 
+function your_custom_form_class_attr( $class ) {
+    $class .= ' foo bar';
+    return $class;
+}
 
 
 
