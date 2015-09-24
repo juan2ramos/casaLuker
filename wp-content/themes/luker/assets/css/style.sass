@@ -305,7 +305,8 @@
 .contact-form
   margin: 2px 0
   & label
-    display: inline-block
+    display: inline-block !important
+    font-weight: 100
     width: 190px
   & input
     width: 100%
@@ -316,16 +317,17 @@
     vertical-align: top
     padding: 0 3px
     @include respond-to(small)
-      width: 240px
+      width: 240px !important
   & textarea
     color: black
-    width: 100%
+    width: 100%   !important
     font-size: .8rem
     vertical-align: top
     padding: 0 3px
     margin-bottom: 3rem
+    height: 150px !important
     @include respond-to(small)
-      width: 240px
+      width: 240px  !important
   & select
     width: 100%
     @include respond-to(small)
