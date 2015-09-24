@@ -1282,8 +1282,8 @@
         <div class="Contact-form">
             <h3>Contáctenos</h3>
 
-
-            <form action="http://www.lukeringredients.com/index.php?option=com_aicontactsafe" method="post"
+            <?php the_content(); ?>
+           <!-- <form action="http://www.lukeringredients.com/index.php?option=com_aicontactsafe" method="post"
                   name="adminForm_1" enctype="multipart/form-data">
 
                 <p>* Campos obligatorios.</p>
@@ -1330,11 +1330,11 @@
                 <div class="Label-content">
                     <button>Enviar</button>
                 </div>
-            </form>
+            </form>-->
         </div>
     </main>
 
-    <?php the_content(); ?>
+
 
 
 <?php get_footer(); ?>
