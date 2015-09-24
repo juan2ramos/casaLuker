@@ -1282,6 +1282,8 @@
         <div class="Contact-form">
             <h3>Contáctenos</h3>
 
+            <p>* Campos obligatorios.</p>
+
             <?php the_content(); ?>
            <!-- <form action="http://www.lukeringredients.com/index.php?option=com_aicontactsafe" method="post"
                   name="adminForm_1" enctype="multipart/form-data">
