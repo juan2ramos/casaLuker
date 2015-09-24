@@ -9,13 +9,11 @@ define('themeDir', get_template_directory() . '/');
 require(themeDir . 'inc/functions.php');
 require(themeDir . '/inc/ofertas_widget.php');
 
-add_filter( 'wpcf7_form_class_attr', 'your_custom_form_class_attr' );
-
-function your_custom_form_class_attr( $class ) {
-    $class .= ' foo bar';
-    return $class;
+function amgenna_change_grunion_success_message( $msg ) {
+    global $contact_form_message;
+    return '<h3>' . 'My custom success message' . '</h3>' . wp_kses($contact_form_message, array('br' => array(), 'blockquote' => array()));;
 }
-
+add_filter( 'grunion_contact_form_success_message', 'amgenna_change_grunion_success_message' );
 
 
 add_action('init', 'create_post_type');
