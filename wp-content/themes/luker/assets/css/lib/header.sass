@@ -6,12 +6,20 @@
 .Header-wrapper
   top: -100vh
   margin: 0 auto
-  position: relative
-  width: 90%
+  background: black
+  position: fixed
+  display: block
+  left: 0
+  height: 100%
+  width: 100%
+  z-index: 100
   @include transition(top .5s)
   @include respond-to(middle)
     display: block
     top: 0
+    position: static
+    width: 90%
+    background: none
 .Header-logo
   display: block
   margin: 0
@@ -100,7 +108,7 @@
   background: rgba(0,0,0,.7)
   padding: .5rem 1rem
   position: absolute
-  right: 0
+  right: 5%
   text-align: center
   top: 4.5rem
   vertical-align: top
@@ -126,7 +134,7 @@
   text-align: center
   text-shadow: -1px 3px 7px #000
   text-transform: uppercase
-  top: 0
+  top: calc(50vh - 2rem )
   width: 60%
   @include respond-to(large)
     font-size: 5.3rem
@@ -206,14 +214,7 @@ body.open
     font-weight: 100
     overflow: hidden
   & .Header-wrapper
-    background: black
-    position: fixed
-    display: block
     top: 0
-    left: 0
-    height: 100%
-    width: 100%
-    z-index: 100
     overflow: auto
     & .Header-navNetwork
       margin: 0
