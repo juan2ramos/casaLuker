@@ -4,29 +4,70 @@
   height: 100vh
 
 .Header-wrapper
+  top: -100vh
   margin: 0 auto
   position: relative
   width: 90%
+  @include transition(top .5s)
+  @include respond-to(middle)
+    display: block
 .Header-logo
-  display: inline-block
+  display: block
   margin: 0
-.Header-bar
+  text-align: center
+  @include respond-to(middle)
+    width: 100%
+    display: inline-block
+    text-align: left
+  & a
+    width: inherit
+    margin: auto
+    border: none !important
+    padding: 0
+    @include respond-to(middle)
+      width: 120px
+
+
+.Header-bar, .Header-barMobile
   background: rgba(0,0,0,.7)
   height: 2.7rem
+  display: none
   line-height: 2.7rem
   padding-left: 1rem
   position: fixed
   top: 0
   right: 5%
   z-index: 100
+  @include respond-to(middle)
+    display: block
   & .Search
     top: -2px
   & .icon-twitter
     left: -4px
   & .icon-instagram, & .icon-linkedin2
     left: -5px
+
+.Header-barMobile
+  padding-left: 0
+  margin: 45px
+  & .Search, & .Header-navNetwork , .Header-news
+    display: block
+  & .Header-navNetwork li
+    display: inline-block !important
+    margin: 4px
+    & a
+      color: #000 !important
+      padding: 0  !important
+  & .Search-input
+    width: 100%
+    font-size: .8rem
+    background-color: #292929
+    height: 1.8rem
+    color: white
+
+
 .Header-navNetwork
-  & li
+  &  li
     background: url('../images/coffee.png') 0 6px no-repeat
     background-size: 1.2rem
     display: inline-block
@@ -84,10 +125,11 @@
   text-align: center
   text-shadow: -1px 3px 7px #000
   text-transform: uppercase
-  top: 20vh
+  top: calc(50vh - 45px)
   width: 60%
   @include respond-to(large)
     font-size: 5.3rem
+    top: 20vh
 .More
   bottom: 0
   margin: auto
@@ -101,3 +143,99 @@
   position: relative
   text-align: center
   top: 2.5rem
+
+.ButtonNav
+  background: rgba(0,0,0,.8)
+  padding: 4px 2px
+  position: fixed
+  top: 20px
+  right: 20px
+  cursor: pointer
+  @include respond-to(middle)
+    display: none
+  & span
+    width: 35px
+    height: 4px
+    background: #fff
+    display: block
+    margin: 6px
+
+.Close
+  position: absolute
+  font-size: 2rem
+  font-weight: normal
+  font-family: sans-serif
+  top: 1rem
+  left: 1rem
+  cursor: pointer
+  @include respond-to(middle)
+    display: none
+.Language
+  position: absolute
+  font-weight: normal
+  font-family: sans-serif
+  top: 1rem
+  right: 1rem
+  cursor: pointer
+  font-size: 1rem
+  padding: 12px
+  background-color: #272727
+  border-radius: 3px
+  @include respond-to(middle)
+    display: none
+
+.Header-wrapper .Header-barMobile
+  position: static
+  display: block
+  @include respond-to(middle)
+    display: none
+
+body.open
+  overflow-y: hidden
+  & .Header-logo a
+    padding: 0 !important
+  & .Nav
+    padding: 0 1rem
+  & .Header-news
+    margin-left: 0
+    font-size: .8rem
+    border-radius: 28px
+    line-height: 1.8rem
+    text-align: center
+    font-weight: 100
+    overflow: hidden
+  & .Header-wrapper
+    background: black
+    position: fixed
+    display: block
+    top: 0
+    left: 0
+    height: 100%
+    width: 100%
+    z-index: 100
+    overflow: auto
+    & .Header-navNetwork
+      margin: 0
+    & .Header-news
+      width: 100%
+    & .Nav
+      position: static
+    & a
+      border-bottom: 1px dashed #989898
+      color: #fff
+      font-size: .8rem
+      padding: 10px .5rem
+      text-transform: uppercase
+      display: block
+      margin: 0 2rem
+      border-right: none
+    & li
+      display: block
+.Header-navNetwork
+  order: 1
+  text-align: center
+  & li a
+    margin: 0 !important
+    border-bottom: none !important
+.Search
+  margin-right: 0

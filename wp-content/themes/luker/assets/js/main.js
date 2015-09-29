@@ -51,6 +51,21 @@
                 scrollTop: target.offset().top
             }, 1000);
         });
+
+        $('.ButtonNav').on('click', function(e){
+            $('body').toggleClass('open')
+        });
+        $('.Close').on('click', function(e){
+            $('body').removeClass('open')
+        });
+        $(window).on('resize', function(){
+            var win = $(this);
+            if (win.height() >= 820) {
+                $('body').removeClass('open')
+            }
+
+        });
+
         //  showImagesHome();
          /*
          zoomCtrl.addEventListener('click', function() {

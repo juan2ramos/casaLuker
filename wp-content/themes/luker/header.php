@@ -40,7 +40,14 @@ Theme: Luker
 <header class="Header" style="
     background-image: url(<?php echo wp_get_attachment_image_src(get_post_thumbnail_id(), 'large')['0'] ?>)
     ">
+    <div class="ButtonNav">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
     <div class="Header-wrapper">
+        <span class="Close">X</span>
+        <span class="Language">ES</span>
         <figure class="Header-logo">
             <a href="<?php bloginfo('url') ?>"><img
                     src="<?php bloginfo('template_url') ?>/assets/images/logo-casa-luker.png" alt="Logo Casa Luker"></a>
@@ -48,24 +55,44 @@ Theme: Luker
         <div class="Nav">
             <?php wp_nav_menu(array('theme_location' => 'menuHeader', 'container' => 'nav')) ?>
         </div>
-    </div>
-    <div class="Header-bar">
-        <div class="Search"><?php dynamic_sidebar('widgetSearchFooter'); ?> </div>
-        <ul class="Header-navNetwork">
-            <li><a href="https://www.facebook.com/LUKERFOODINGREDIENTS" target="_blank"><span
-                        class="icon-facebook"> </span></a></li>
-            <li><a href="https://twitter.com/LUKEROFFICIAL" target="_blank"><span class="icon-twitter"> </span></a></li>
-            <li><a href="https://www.youtube.com/channel/UCY_NfrnYxNHFP0KD0EKA8Gg" target="_blank"><span
-                        class="icon-play3"> </span></a></li>
-            <li><a href="https://instagram.com/lukerofficial/" target="_blank"><span class="icon-instagram"> </span></a>
-            </li>
-            <li><a href="https://www.linkedin.com/company/casaluker-food-ingredients?trk=company_name"
-                   target="_blank"><span class="icon-linkedin2"> </span></a></li>
-        </ul>
-        <div class="Header-news">
-            Recibe más Información
+
+
+        <div class="Header-bar">
+            <div class="Search"><?php dynamic_sidebar('widgetSearchFooter'); ?> </div>
+            <ul class="Header-navNetwork">
+                <li><a href="https://www.facebook.com/LUKERFOODINGREDIENTS" target="_blank"><span
+                            class="icon-facebook"> </span></a></li>
+                <li><a href="https://twitter.com/LUKEROFFICIAL" target="_blank"><span class="icon-twitter"> </span></a></li>
+                <li><a href="https://www.youtube.com/channel/UCY_NfrnYxNHFP0KD0EKA8Gg" target="_blank"><span
+                            class="icon-play3"> </span></a></li>
+                <li><a href="https://instagram.com/lukerofficial/" target="_blank"><span class="icon-instagram"> </span></a>
+                </li>
+                <li><a href="https://www.linkedin.com/company/casaluker-food-ingredients?trk=company_name"
+                       target="_blank"><span class="icon-linkedin2"> </span></a></li>
+            </ul>
+            <div class="Header-news">
+                Recibe más Información
+            </div>
+        </div>
+        <div class="Header-barMobile">
+            <div class="Search"><?php dynamic_sidebar('widgetSearchFooter'); ?> </div>
+            <div class="Header-news">
+                Recibe más Información
+            </div>
+            <ul class="Header-navNetwork">
+                <li><a href="https://www.facebook.com/LUKERFOODINGREDIENTS" target="_blank"><span
+                            class="icon-facebook"> </span></a></li>
+                <li><a href="https://twitter.com/LUKEROFFICIAL" target="_blank"><span class="icon-twitter"> </span></a></li>
+                <li><a href="https://www.youtube.com/channel/UCY_NfrnYxNHFP0KD0EKA8Gg" target="_blank"><span
+                            class="icon-play3"> </span></a></li>
+                <li><a href="https://instagram.com/lukerofficial/" target="_blank"><span class="icon-instagram"> </span></a>
+                </li>
+                <li><a href="https://www.linkedin.com/company/casaluker-food-ingredients?trk=company_name"
+                       target="_blank"><span class="icon-linkedin2"> </span></a></li>
+            </ul>
         </div>
     </div>
+
     <h1 class="Header-title"><?php the_title(); ?></h1>
 
     <div class="More" id="down">
