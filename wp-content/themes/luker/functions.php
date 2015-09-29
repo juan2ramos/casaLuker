@@ -42,6 +42,7 @@ function create_post_type()
 }
 
 add_action('init', 'create_book_taxonomies', 0);
+
 // Creamos dos taxonomías, género y autor para el custom post type "libro"
 function create_book_taxonomies()
 {
@@ -147,6 +148,7 @@ function populate_columns( $column ) {
     }
 }
 add_filter( 'manage_edit-libro_sortable_columns', 'sort_me' );
+
 function sort_me( $columns ) {
     $columns['movie_reviews_director'] = 'movie_reviews_director';
     $columns['movie_reviews_rating'] = 'movie_reviews_rating';
