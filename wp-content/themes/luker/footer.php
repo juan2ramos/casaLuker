@@ -36,8 +36,6 @@
 </footer>
 <?php include TEMPLATEPATH . '/inc/BarFooter.php' ?>
 <?php wp_footer(); ?>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="<?php bloginfo('template_url') ?>/assets/js/main.js"></script>
 
 </body>
 </html>

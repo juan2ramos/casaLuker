@@ -5,45 +5,21 @@ Theme: Luker
 */
 
 define('themeDir', get_template_directory() . '/');
-
-require(themeDir . 'inc/functions.php');
-require(themeDir . '/inc/ofertas_widget.php');
-
-function change_grunion_success_message( $msg ) {
-    global $contact_form_message;
-    return '<h3>' . 'Gracias por tu mensaje!' . '</h3>' . wp_kses($contact_form_message, array('br' => array(), 'blockquote' => array()));;
-}
-add_filter( 'grunion_contact_form_success_message', 'change_grunion_success_message' );
+define('themeDirUri', get_template_directory_uri() );
 
 
-add_action('init', 'create_post_type');
-function create_post_type()
-{
-    register_post_type('acme_product',
-        array(
-            'labels' => array(
-                'name' => _x('producut', 'post type general name'),
-                'singular_name' => _x('Libro', 'post type singular name'),
-                'add_new' => _x('Añadir nuevo', 'book'),
-                'add_new_item' => __('Añadir nuevo Libro'),
-                'edit_item' => __('Editar Libro'),
-                'new_item' => __('Nuevo Libro'),
-                'view_item' => __('Ver Libro'),
-                'search_items' => __('Buscar Libros'),
-                'not_found' => __('No se han encontrado Libros'),
-                'not_found_in_trash' => __('No se han encontrado Libros en la papelera'),
-                'parent_item_colon' => ''
-            ),
-            'public' => true,
-            'has_archive' => true,
-        )
-    );
+require(themeDir . 'functions/functions.php');
+require(themeDir . 'functions/recipes.php');
+require(themeDir . 'functions/ofertas_widget.php');
 
-}
 
-add_action('init', 'create_book_taxonomies', 0);
+
+
+
+
 
 // Creamos dos taxonomías, género y autor para el custom post type "libro"
+add_action('init', 'create_book_taxonomies', 0);
 function create_book_taxonomies()
 {
     // Añadimos nueva taxonomía y la hacemos jerárquica (como las categorías por defecto)
@@ -93,8 +69,8 @@ function create_book_taxonomies()
 } // Fin de la función create_book_taxonomies().
 
 // La función no será utilizada antes del 'init'.
-add_action('init', 'my_custom_init');
 /* Here's how to create your customized labels */
+add_action('init', 'my_custom_init');
 function my_custom_init()
 {
     $labels = array(
@@ -127,6 +103,10 @@ function my_custom_init()
     register_post_type('libro', $args); /* Registramos y a funcionar */
 }
 
+
+
+
+
 add_filter( 'manage_edit-libro_columns', 'my_columns' );
 function my_columns( $columns ) {
     $columns['movie_reviews_director'] = 'Director';
@@ -156,7 +136,6 @@ function sort_me( $columns ) {
     return $columns;
 }
 
-
 function wpt_libro_location() {
     global $post;
 
@@ -177,6 +156,8 @@ function cd_meta_box_add()
 {
     add_meta_box('my-meta-box-id', 'My First Meta Box', 'cd_meta_box_cb', 'libro', 'normal', 'high');
 }
+
+add_action( 'save_post', 'cd_meta_box_save' );
 function cd_meta_box_cb( $post )
 {
     $values = get_post_custom( $post->ID );
@@ -202,8 +183,6 @@ function cd_meta_box_cb( $post )
     </p>
     <?php
 }
-
-add_action( 'save_post', 'cd_meta_box_save' );
 
 function cd_meta_box_save( $post_id )
 {

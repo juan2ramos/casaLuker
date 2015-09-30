@@ -1285,58 +1285,12 @@
             <p>* Campos obligatorios.</p>
 
             <?php the_content(); ?>
-           <!-- <form action="http://www.lukeringredients.com/index.php?option=com_aicontactsafe" method="post"
-                  name="adminForm_1" enctype="multipart/form-data">
 
-                <p>* Campos obligatorios.</p>
-
-                <div class="Label-content">
-                    <label for="name">Nombre <span>*</span></label>
-                    <input type="text" name="name">
-                </div>
-                <div class="Label-content">
-                    <label for="address">Dirección </label>
-                    <input type="text" name="address">
-                </div>
-                <div class="Label-content">
-                    <label for="phone">Teléfono</label>
-                    <input type="text" name="phone">
-                </div>
-                <div class="Label-content">
-                    <label for="company">Empresa </label>
-                    <input type="text" name="company">
-                </div>
-                <div class="Label-content">
-                    <label for="city">Ciudad <span>*</span></label>
-                    <input type="text" name="city">
-                </div>
-                <div class="Label-content">
-                    <label for="country">País <span>*</span></label>
-                    <input type="text" name="country">
-                </div>
-                <div class="Label-content">
-                    <label for="mail">Email <span>*</span></label>
-                    <input type="text" name="mail">
-                </div>
-                <div class="Label-content">
-                    <label for="newsletter">Suscribirse a Newsletter <span>*</span></label>
-                    <select name="newsletter" id="">
-                        <option value="1">Si</option>
-                        <option value="0">No</option>
-                    </select>
-                </div>
-                <div class="Label-content">
-                    <label for="mail">Mensaje <span>*</span></label>
-                    <textarea name="" id="" cols="30" rows="5"></textarea>
-                </div>
-                <div class="Label-content">
-                    <button>Enviar</button>
-                </div>
-            </form>-->
         </div>
     </main>
 
 
 
+<?php //wp_enqueue_script( 'avia-compat', get_template_directory_uri().'/assets/js/name.js', array('jquery'), 1, false ); ?>
 
 <?php get_footer(); ?>
