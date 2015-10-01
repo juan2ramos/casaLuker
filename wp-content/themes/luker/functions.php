@@ -66,9 +66,12 @@ function create_book_taxonomies()
         'query_var' => true,
         'rewrite' => array('slug' => 'escritor'),
     ));
-} // Fin de la función create_book_taxonomies().
+}
 
-// La función no será utilizada antes del 'init'.
+
+
+
+
 /* Here's how to create your customized labels */
 add_action('init', 'my_custom_init');
 function my_custom_init()
@@ -104,10 +107,7 @@ function my_custom_init()
 }
 
 
-
-
-
-add_filter( 'manage_edit-libro_columns', 'my_columns' );
+/*add_filter( 'manage_edit-libro_columns', 'my_columns' );
 function my_columns( $columns ) {
     $columns['movie_reviews_director'] = 'Director';
     $columns['movie_reviews_rating'] = 'Rating';
@@ -134,7 +134,7 @@ function sort_me( $columns ) {
     $columns['movie_reviews_rating'] = 'movie_reviews_rating';
 
     return $columns;
-}
+}*/
 
 function wpt_libro_location() {
     global $post;
@@ -168,6 +168,10 @@ function cd_meta_box_cb( $post )
     <p>
         <label for="my_meta_box_text">Text Label</label>
         <input type="text" name="my_meta_box_text" id="my_meta_box_text" value="<?php echo $text; ?>" />
+    </p>
+    <p>
+        <label for="my_meta_box_texts">sss</label>
+        <textarea name="juan" id="" cols="30" rows="10"></textarea>
     </p>
 
     <p>
