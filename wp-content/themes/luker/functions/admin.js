@@ -15,9 +15,7 @@ jQuery(document).ready(function($){
         // Extendemos del objeto wp.media
         custom_uploader = wp.media.frames.file_frame = wp.media({
             title: 'Usar Imagen',
-            button: {
-                text: 'Usar Imagen'
-            },
+            button: {text: 'Usar Imagen'},
             multiple: false
         });
 

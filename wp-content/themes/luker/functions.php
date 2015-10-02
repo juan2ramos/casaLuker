@@ -14,10 +14,6 @@ require(themeDir . 'functions/ofertas_widget.php');
 
 
 
-
-
-
-
 /*
 add_action('init', 'create_book_taxonomies', 0);
 function create_book_taxonomies()
