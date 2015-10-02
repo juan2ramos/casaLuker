@@ -18,7 +18,7 @@ require(themeDir . 'functions/ofertas_widget.php');
 
 
 
-// Creamos dos taxonomías, género y autor para el custom post type "libro"
+/*
 add_action('init', 'create_book_taxonomies', 0);
 function create_book_taxonomies()
 {
@@ -37,7 +37,7 @@ function create_book_taxonomies()
     );
     register_taxonomy('genero', array('libro'), array(
         'hierarchical' => true,
-        'labels' => $labels, /* ADVERTENCIA: Aquí es donde se utiliza la variable $labels */
+        'labels' => $labels,
         'show_ui' => true,
         'query_var' => true,
         'rewrite' => array('slug' => 'genero')
@@ -61,7 +61,7 @@ function create_book_taxonomies()
 
     register_taxonomy('escritor', 'libro', array(
         'hierarchical' => false,
-        'labels' => $labels, /* ADVERTENCIA: Aquí es donde se utiliza la variable $labels */
+        'labels' => $labels,
         'show_ui' => true,
         'query_var' => true,
         'rewrite' => array('slug' => 'escritor'),
@@ -70,9 +70,6 @@ function create_book_taxonomies()
 
 
 
-
-
-/* Here's how to create your customized labels */
 add_action('init', 'my_custom_init');
 function my_custom_init()
 {
@@ -103,11 +100,11 @@ function my_custom_init()
         'supports' => array('title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments')
     );
 
-    register_post_type('libro', $args); /* Registramos y a funcionar */
+    register_post_type('libro', $args);
 }
 
 
-/*add_filter( 'manage_edit-libro_columns', 'my_columns' );
+add_filter( 'manage_edit-libro_columns', 'my_columns' );
 function my_columns( $columns ) {
     $columns['movie_reviews_director'] = 'Director';
     $columns['movie_reviews_rating'] = 'Rating';
@@ -135,7 +132,7 @@ function sort_me( $columns ) {
 
     return $columns;
 }*/
-
+/*
 function wpt_libro_location() {
     global $post;
 
@@ -216,6 +213,6 @@ function cd_meta_box_save( $post_id )
     // This is purely my personal preference for saving check-boxes
     $chk = isset( $_POST['my_meta_box_check'] ) && $_POST['my_meta_box_select'] ? 'on' : 'off';
     update_post_meta( $post_id, 'my_meta_box_check', $chk );
-}
+}*/
 
 
