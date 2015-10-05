@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <button class="filter" data-filter=".1">Category 1</button>
+    <button class="filter" data-filter=".one">Category 1</button>
     <button class="filter" data-filter=".luker-1906">luker-1906</button>
     <button class="filter" data-filter=".emmanuel-hamon ">emmanuel-hamon </button>
     <main class="Recipes" id="Recipes">
