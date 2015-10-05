@@ -30,6 +30,6 @@
         <?php endwhile; ?>
     </main>
 <?php wp_enqueue_script('mixitup', 'http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js?v=2.1.2', array('jquery'), 1, false); ?>
-<?php wp_enqueue_script('mixScript', get_template_directory_uri() . '/assets/js/mixitup.js', array(''), 1, false); ?>
+<?php wp_enqueue_script('mixScript', get_template_directory_uri() . '/assets/js/mixitup.js', array('jquery'), 1, false); ?>
 
 <?php get_footer(); ?>
