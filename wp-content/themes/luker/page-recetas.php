@@ -5,7 +5,7 @@
         <?php
 
 
-        $args = array('post_type' => 'recipe');
+        $args = array('post_type' => 'recipe','order'   => 'DESC',);
         $query = new WP_Query($args);
 
         while ($query->have_posts()) : $query->the_post(); // print_r(get_the_terms($post->ID, 'cacao'));?>
