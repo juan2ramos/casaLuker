@@ -5,52 +5,55 @@ $cacaos = get_terms("cacao", array("hide_empty" => false));
 $levels = get_terms("level", array("hide_empty" => false));
 ?>
 
-<h2>NUESTROS CHEFS</h2>
-<h3>CONOCE TODAS LAS RECETAS DE NUESTROS CHEFS.</h3>
-<?php foreach ($chefs as $cat) {
-    print_r(get_option("taxonomy_" . $cat->term_id)['imagen']);
-} ?>
+<h2 class="Recipes-h2">NUESTROS CHEFS</h2>
+<h3 class="Recipes-h3">CONOCE TODAS LAS RECETAS DE NUESTROS CHEFS.</h3>
+<div class="Recipes-chefs">
+    <?php foreach ($chefs as $cat) : $nameChef = explode(" ",$cat->name)?>
 
+        <figure>
+            <div class="Recipes-chefsContent">
+                <h3><?php print_r($nameChef[0]) ?></h3>
+                <h4><?php print_r($nameChef[1]) ?></h4>
+            </div>
 
-<?php foreach ($cacaos as $cat) {
-    print_r($cat->slug);
-} ?>
+            <img src="<?php print_r(get_option("taxonomy_" . $cat->term_id)['imagen']); ?>" alt="">
+        </figure>
+
+    <?php endforeach ?>
+</div>
+
 <form class="controls" id="Filters">
 
     <fieldset>
-        <h4>Chef</h4>
-
         <select>
-            <option value="">Todos</option>
-            <?php foreach ($chefs as $cat):  ?>
+            <option value="">Hecho por</option>
+            <?php foreach ($chefs as $cat): ?>
                 <option value=".<?php print_r($cat->slug); ?>"> <?php print_r($cat->name); ?> </option>
             <?php endforeach ?>
         </select>
     </fieldset>
 
     <fieldset>
-        <h4>Chocolates</h4>
 
         <select>
-            <option value="">Todos</option>
-            <?php foreach ($cacaos as $cat):  ?>
+            <option value="">Chocolate</option>
+            <?php foreach ($cacaos as $cat): ?>
                 <option value=".<?php print_r($cat->slug); ?>"> <?php print_r($cat->name); ?> </option>
             <?php endforeach ?>
         </select>
     </fieldset>
 
     <fieldset>
-        <h4>Nivel</h4>
         <select>
-            <option value="">Todos</option>
-            <?php foreach ($levels as $cat):  ?>
+            <option value="">Dificultad</option>
+            <?php foreach ($levels as $cat): ?>
                 <option value=".<?php print_r($cat->slug); ?>"> <?php print_r($cat->name); ?> </option>
             <?php endforeach ?>
         </select>
     </fieldset>
 
 
-    <button id="Reset">Clear Filters</button>
+    <!--<button id="Reset">Clear Filters</button>-->
 </form>
 
 <main class="Recipes" id="Recipes">
