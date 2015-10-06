@@ -23,7 +23,7 @@ $levels = get_terms("level", array("hide_empty" => false));
         <select>
             <option value="">Todos</option>
             <?php foreach ($chefs as $cat):  ?>
-                <option value=" <?php print_r($cat->slug); ?>"> <?php print_r($cat->name); ?> </option>
+                <option value="<?php print_r($cat->slug); ?>"> <?php print_r($cat->name); ?> </option>
             <?php endforeach ?>
         </select>
     </fieldset>
@@ -34,7 +34,7 @@ $levels = get_terms("level", array("hide_empty" => false));
         <select>
             <option value="">Todos</option>
             <?php foreach ($cacaos as $cat):  ?>
-                <option value=" <?php print_r($cat->slug); ?>"> <?php print_r($cat->name); ?> </option>
+                <option value="<?php print_r($cat->slug); ?>"> <?php print_r($cat->name); ?> </option>
             <?php endforeach ?>
         </select>
     </fieldset>
@@ -44,7 +44,7 @@ $levels = get_terms("level", array("hide_empty" => false));
         <select>
             <option value="">Todos</option>
             <?php foreach ($levels as $cat):  ?>
-                <option value=" <?php print_r($cat->slug); ?>"> <?php print_r($cat->name); ?> </option>
+                <option value="<?php print_r($cat->slug); ?>"> <?php print_r($cat->name); ?> </option>
             <?php endforeach ?>
         </select>
     </fieldset>
