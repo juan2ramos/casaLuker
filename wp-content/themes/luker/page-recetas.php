@@ -17,7 +17,7 @@
             $chef = get_the_terms($post->ID, 'chef')[0]->slug;
             $level = get_the_terms($post->ID, 'level')[0]->slug;
             ?>
-            <div class="Recipes-box mix <?php echo $cacao . " " . $chef . " " . $level ?>">
+            <div class="mix <?php echo $cacao . " " . $chef . " " . $level ?>">
                 <figure class="Recipes-figure">
                     <?php the_post_thumbnail(); ?>
                 </figure>
