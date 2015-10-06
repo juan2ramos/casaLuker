@@ -1,5 +1,41 @@
 <?php get_header(); ?>
+    <form class="controls" id="Filters">
+        <!-- We can add an unlimited number of "filter groups" using the following format: -->
 
+        <fieldset>
+            <h4>Nivel</h4>
+            <select>
+                <option value="">Todos</option>
+                <option value=".one">1</option>
+                <option value=".two">2</option>
+                <option value=".three">3</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <h4>Chocolates</h4>
+
+            <select>
+                <option value="">Todos</option>
+                <option value=".luker-1906">luker 1906</option>
+                <option value=".luker-cacao">luker cacao</option>
+                <option value=".luker-maracas">luker-maracas</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <h4>Coloursd</h4>
+
+            <select>
+                <option value="">Chef</option>
+                <option value=".alessandro-bertuzzi">Alessandro Bertuzzi</option>
+                <option value=".emmanuel-hamon">Emmanuel Hamon</option>
+                <option value=".stanto-ho">Stanto Ho</option>
+            </select>
+        </fieldset>
+
+        <button id="Reset">Clear Filters</button>
+    </form>
     <button class="filter" data-filter=".one">Category 1</button>
     <button class="filter" data-filter=".luker-1906">luker-1906</button>
     <button class="filter" data-filter=".emmanuel-hamon ">emmanuel-hamon </button>
