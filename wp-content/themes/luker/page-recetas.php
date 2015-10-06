@@ -24,10 +24,10 @@
         </fieldset>
 
         <fieldset>
-            <h4>Coloursd</h4>
+            <h4>Chef</h4>
 
             <select>
-                <option value="">Chef</option>
+                <option value="">Todos</option>
                 <option value=".alessandro-bertuzzi">Alessandro Bertuzzi</option>
                 <option value=".emmanuel-hamon">Emmanuel Hamon</option>
                 <option value=".stanto-ho">Stanto Ho</option>
@@ -36,9 +36,7 @@
 
         <button id="Reset">Clear Filters</button>
     </form>
-    <button class="filter" data-filter=".one">Category 1</button>
-    <button class="filter" data-filter=".luker-1906">luker-1906</button>
-    <button class="filter" data-filter=".emmanuel-hamon ">emmanuel-hamon </button>
+
     <main class="Recipes" id="Recipes">
 
 
