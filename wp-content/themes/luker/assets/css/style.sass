@@ -35,22 +35,24 @@
       width: 100%
 
 .mix
-  width: 24.7%
+  width: 25%
+  margin-left: -3px
   display: none
+
 .mix figcaption
   display: none
+  position: absolute
 .Recipes
   max-width: 100%
 .Recipes-figure img
   cursor: pointer
   @include filter(grayscale, 100%)
-//.Recipes-box
-//  position: relative
+.Recipes-box
+  position: relative
 //  display: inline-block
-//.Recipes-figure img:hover
-//  @include filter(grayscale, 0)
+.Recipes-figure img:hover
+  @include filter(grayscale, 0)
 .Recipes-figure
   margin: 0
 //  position: relative
-//.Recipes-box figcaption
-//  position: absolute
+
