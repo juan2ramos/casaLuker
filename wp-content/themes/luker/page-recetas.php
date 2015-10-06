@@ -10,7 +10,7 @@ $levels = get_terms("level", array("hide_empty" => false));
 <div class="Recipes-chefs">
     <?php foreach ($chefs as $cat) : $nameChef = explode(" ",$cat->name)?>
 
-        <figure>
+        <figure data-filter=".<?php echo $cat->slug ?>" >
             <div class="Recipes-chefsContent">
                 <h3><?php print_r($nameChef[0]) ?></h3>
                 <h4><?php print_r($nameChef[1]) ?></h4>
@@ -25,7 +25,7 @@ $levels = get_terms("level", array("hide_empty" => false));
 <form class="controls" id="Filters">
 
     <fieldset>
-        <select>
+        <select id="chef">
             <option value="">Hecho por</option>
             <?php foreach ($chefs as $cat): ?>
                 <option value=".<?php print_r($cat->slug); ?>"> <?php print_r($cat->name); ?> </option>

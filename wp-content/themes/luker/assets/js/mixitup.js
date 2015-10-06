@@ -14,6 +14,8 @@ $(function(){
         }
     });
 });
+
+
 var dropdownFilter = {
 
     $filters: null,
@@ -41,6 +43,12 @@ var dropdownFilter = {
 
     bindHandlers: function(){
         var self = this;
+
+        $('.Recipes-chefs figure').on('click',function(){
+            filter = $(this).data('filter');
+            $('#chef').val(filter);
+            self.parseFilters();
+        })
 
 
         self.$filters.on('change', 'select', function(e){
@@ -84,4 +92,5 @@ var dropdownFilter = {
             self.$container.mixItUp('filter', self.outputString);
         }
     }
+
 };
