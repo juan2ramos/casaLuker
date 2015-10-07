@@ -39,23 +39,29 @@
   margin-left: -3px
   display: none
   position: relative
+  cursor: pointer
 
 .mix figcaption
-  top: calc(50% - 17px)
+  @include transition(opacity .5s)
+  top: calc(50% - 2.5rem)
   position: absolute
   width: 100%
   background-color: rgba(0, 0, 0, 0.77)
   text-align: center
   opacity: 0
+  & hr
+    box-sizing: content-box
+    height: 0
+    border-top: 1px dashed
+    max-width: 85%
+    border-bottom: none
+    &:first-child, &:last-child
+      margin: 1rem auto
+
 .Recipes
   max-width: 100%
 
-.Recipes-figure img
-  cursor: pointer
-  margin-bottom: -6px
-  width: 100%
-  height: auto
-  @include filter(grayscale, 100%)
+
 
 .Recipes-box
   position: relative
@@ -68,6 +74,12 @@
 
 .Recipes-figure
   margin: 0
+  & img
+    margin-bottom: -6px
+    width: 100%
+    height: auto
+    @include transition(all .5s)
+    @include filter(grayscale, 100%)
 
 .Recipes-h2
   text-align: center
@@ -88,56 +100,70 @@
 .Recipes-chefs
   background: black
   border-top: 1px solid #E8891B
+  & figure
+    display: inline-block
+    vertical-align: middle
+    position: relative
+    overflow: hidden
+    margin: 0 -3px 0 0
+    width: calc(33% + 3px)
+    border-right: dashed 1px #b2b2b7
+    cursor: pointer
+    &:hover .Recipes-view
+        bottom: 0
+    &:last-child
+      border-right: none
+  & img
+    width: 100%
+    height: auto
+    margin-bottom: -6px
+  & h3
+    color: #E8891B
+    font-weight: 100
+    letter-spacing: 1px
+    margin: 0
 
+  & h4
+    font-weight: bold
+    font-size: 2.5rem
+    margin: 0
+    text-transform: uppercase
+    line-height: .8em
 
-.Recipes-chefs figure
-  display: inline-block
-  vertical-align: middle
-  margin: 0
-  width: 33%
-  border-right: dashed 1px #b2b2b7
-  cursor: pointer
-.Recipes-chefs figure:last-child
-  border-right: none
-.Recipes-chefs img
-  width: 100%
-  height: auto
-  margin-bottom: -6px
 
 #Filters
   text-align: right
   padding: 12px
   background-color: black
 
-#Filters fieldset
-  border: none
-  margin: 0
-  padding: 0
-  display: inline-block
+#Filters
+  & fieldset
+    border: none
+    margin: 0
+    padding: 0
+    display: inline-block
 
-#Filters h4
-  display: inline
+  & h4
+    display: inline
+  & select
+    background-color: black
+    color: #E8891B
+    border: none
+    width: 7rem
 
-#Filters select
-  background-color: black
-  color: #E8891B
-  border: none
-  width: 7rem
-
-.Recipes-chefs h3
-  color: #E8891B
-  font-weight: 100
-  letter-spacing: 1px
-  margin: 0
-.Recipes-chefs h4
-  font-weight: bold
-  font-size: 2.5rem
-  margin: 0
-  text-transform: uppercase
-  line-height: .8em
 .Recipes-chefsContent
   margin: 2rem 3rem
 
+.Recipes-view
+  position: absolute
+  bottom: -2.5rem
+  text-align: center
+  width: 100%
+  background-color: #E8891B
+  line-height: 2.5rem
+  font-weight: bold
+  font-size: .9rem
+  @include transition(bottom .5s)
 
 
 
