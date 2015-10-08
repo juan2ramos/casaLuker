@@ -8,14 +8,21 @@ $levels = get_terms("level", array("hide_empty" => false));
 <h2 class="Recipes-h2">NUESTROS CHEFS</h2>
 <h3 class="Recipes-h3">CONOCE TODAS LAS RECETAS DE NUESTROS CHEFS.</h3>
 <div class="Recipes-chefs">
+    <div class="Recipes-chefsBack">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32"
+             height="32" viewBox="0 0 32 32">
+            <path fill="#fff" d="M1 16l15 15v-9h16v-12h-16v-9z"></path>
+        </svg>
+    </div>
     <?php foreach ($chefs as $cat) : $nameChef = explode(" ", $cat->name) ?>
-        <figure data-filter=".<?php echo $cat->slug ?>" >
-        <div class="Recipes-chefsContent">
-            <h3><?php print_r($nameChef[0]) ?></h3>
-            <h4><?php print_r($nameChef[1]) ?></h4>
-        </div>
-        <img src="<?php print_r(get_option("taxonomy_" . $cat->term_id)['imagen']); ?>" alt="">
-        <span class="Recipes-view">VER SUS RECETAS</span>
+        <figure data-filter=".<?php echo $cat->slug ?>">
+            <div class="Recipes-chefsContent">
+                <h3><?php print_r($nameChef[0]) ?></h3>
+                <h4><?php print_r($nameChef[1]) ?></h4>
+            </div>
+            <p class="Recipes-chefsDescription"><?php print_r($cat->description) ?></p>
+            <img src="<?php print_r(get_option("taxonomy_" . $cat->term_id)['imagen']); ?>" alt="">
+            <span class="Recipes-view">VER SUS RECETAS</span>
         </figure> <?php endforeach ?>
 </div>
 

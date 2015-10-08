@@ -23,6 +23,7 @@ var dropdownFilter = {
     groups: [],
     outputArray: [],
     outputString: '',
+    $RecipesChefs: $('.Recipes-chefs'),
 
 
     init: function(){
@@ -45,11 +46,16 @@ var dropdownFilter = {
         var self = this;
 
         $('.Recipes-chefs figure').on('click',function(){
-            filter = $(this).data('filter');
+            var $figure = $(this),
+                filter = $figure.data('filter');
             $('#chef').val(filter);
             self.parseFilters();
+            self.oneChef($figure);
         })
 
+        $('.Recipes-chefsBack').on('click',function(){
+            self.close()
+        })
 
         self.$filters.on('change', 'select', function(e){
             e.preventDefault();
@@ -64,6 +70,27 @@ var dropdownFilter = {
 
             self.parseFilters();
         });
+    },
+
+    close : function(){
+        var self = this;
+
+        self.$RecipesChefs.find('figure').removeClass('open')
+        self.$RecipesChefs.find('figure').removeClass('close')
+        $('.Recipes-chefsBack').toggleClass('open');
+
+    },
+
+    oneChef : function($figure){
+
+        var self = this;
+
+        $('.Recipes-chefsBack').toggleClass('open');
+        self.$RecipesChefs.find('figure').removeClass('open')
+        self.$RecipesChefs.find('figure').removeClass('close')
+        $figure.addClass('open');
+        self.$RecipesChefs.find('figure').not( ".open" ).addClass( 'close' );
+
     },
 
     parseFilters: function(){

@@ -100,6 +100,7 @@
 .Recipes-chefs
   background: black
   border-top: 1px solid #E8891B
+  position: relative
   & figure
     display: inline-block
     vertical-align: middle
@@ -109,6 +110,7 @@
     width: calc(33% + 3px)
     border-right: dashed 1px #b2b2b7
     cursor: pointer
+    @include transition(all 1s)
     &:hover .Recipes-view
         bottom: 0
     &:last-child
@@ -151,6 +153,8 @@
     border: none
     width: 7rem
 
+.open .Recipes-chefsContent
+  @include animate(open 1s 1 forwards alternate)
 .Recipes-chefsContent
   margin: 2rem 3rem
 
@@ -162,8 +166,78 @@
   background-color: #E8891B
   line-height: 2.5rem
   font-weight: bold
+  left: 0
   font-size: .9rem
   @include transition(bottom .5s)
+
+.Recipes-chefs figure.open
+  width: 100%
+  & img
+    max-width: 400px
+    transform: translateX(calc(50vw - 25pc))
+    transition: all .5s
+    @include transition(all .5s)
+  & span
+    bottom: 0
+
+.Recipes-chefsDescription
+  position: absolute
+  left: calc(50vw + 2rem)
+  width: 41vw
+  font-size: .9rem
+  text-align: justify
+  top: 9rem
+  opacity: 0
+
+.open .Recipes-chefsDescription
+  opacity: 1
+
+.Recipes-chefsBack
+  top: 1rem
+  right: 1rem
+  position: absolute
+  opacity: 0
+  z-index: 1000
+
+.Recipes-chefsBack.open
+  @include animate(show 1s 1 forwards alternate)
+
+.Recipes-chefs figure.close
+  @include animate(close .5s 1 forwards alternate)
+  & img
+    max-width: 0
+    @include transition(all .5s)
+
+@include keyframes(close)
+
+  99%
+    width: 0
+    height: 0
+    position: static
+  100%
+    width: 0
+    height: 0
+    position: fixed
+
+@include keyframes(open)
+
+  50%
+    @include transform( translateX 0 )
+  100%
+    -webkit-transform: translateX(calc(50vw - 1rem))
+
+@include keyframes(show)
+
+  80%
+    opacity: 0
+  100%
+    opacity: 1
+
+
+
+
+
+
 
 
 
