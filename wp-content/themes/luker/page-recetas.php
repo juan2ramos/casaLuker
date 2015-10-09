@@ -26,7 +26,7 @@ $levels = get_terms("level", array("hide_empty" => false));
         </figure> <?php endforeach ?>
 </div>
 
-<form class="controls" id="Filters">
+<form class="controls" id="Filters" action="<?php  echo site_url(); ?>">
 
     <fieldset>
         <select id="chef">
@@ -74,7 +74,7 @@ $levels = get_terms("level", array("hide_empty" => false));
         $chef = get_the_terms($post->ID, 'chef')[0]->slug;
         $level = get_the_terms($post->ID, 'level')[0]->slug;
         ?>
-        <div class="mix <?php echo $cacao . " " . $chef . " " . $level ?>">
+        <div class="mix <?php echo $cacao . " " . $chef . " " . $level ?>" data-name="<?php echo $post->post_name;  ?>">
             <figure class="Recipes-figure">
                 <?php the_post_thumbnail(); ?>
             </figure>
