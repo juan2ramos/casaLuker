@@ -90,10 +90,15 @@ var dropdownFilter = {
     },
 
     recipesDetail: function(e){
-        r = JSON.parse(e);
+        var parseData = JSON.parse(e);
+        $('.RecipeDetail').css('display', 'block')
+        $('.RecipeDetail-header').css('background-image', 'url(' + parseData.image +')')
+        $('body').css('overflow-y','hidden');
+        $('#RecipeDetail-content').html(parseData.content)
 
-        console.log(r.post_content)
-        $('main').html(r.post_content);
+        console.log(parseData);
+
+
     },
 
     close: function () {

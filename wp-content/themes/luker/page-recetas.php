@@ -26,7 +26,7 @@ $levels = get_terms("level", array("hide_empty" => false));
         </figure> <?php endforeach ?>
 </div>
 
-<form class="controls" id="Filters" action="<?php  echo site_url(); ?>">
+<form class="controls" id="Filters" action="<?php echo site_url(); ?>">
 
     <fieldset>
         <select id="chef">
@@ -74,7 +74,7 @@ $levels = get_terms("level", array("hide_empty" => false));
         $chef = get_the_terms($post->ID, 'chef')[0]->slug;
         $level = get_the_terms($post->ID, 'level')[0]->slug;
         ?>
-        <div class="mix <?php echo $cacao . " " . $chef . " " . $level ?>" data-name="<?php echo $post->post_name;  ?>">
+        <div class="mix <?php echo $cacao . " " . $chef . " " . $level ?>" data-name="<?php echo $post->post_name; ?>">
             <figure class="Recipes-figure">
                 <?php the_post_thumbnail(); ?>
             </figure>
@@ -89,6 +89,40 @@ $levels = get_terms("level", array("hide_empty" => false));
     <?php endwhile; ?>
 
 </main>
+
+
+<section class="RecipeDetail">
+    <header class="RecipeDetail-header">
+        <div class="RecipeDetail-headerContent">
+            <div class="RecipeDetail-bar">
+                <h2>TYPE OF CHOCOLATE </h2>
+                <span class="RecipeDetail-barClose"></span>
+            </div>
+        </div>
+        <div class="RecipeDetailBarBottom">
+            <ul>
+                <li><p>CHEF <span id="chef"></span></p></li>
+                <li><p>SERVINGS </p></li>
+                <li>DIFFICULTY LEVEL <span></span></li>
+            </ul>
+        </div>
+    </header>
+    <article id="RecipeDetail-content"></article>
+    <footer class="RecipeDetail-footer">
+        <div class="RecipeDetail-chef">
+            <figure>
+                <img src="" alt="">
+            </figure>
+            <h3></h3>
+
+            <p></p>
+        </div>
+        <div class="suscribe">
+            <h5>GET MORE INFO ABOUT CACAO</h5>
+            <button>suscribe</button>
+        </div>
+    </footer>
+</section>
 
 
 <?php wp_enqueue_script('mixitup', 'http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js?v=2.1.2', array('jquery'), 1, false); ?>
