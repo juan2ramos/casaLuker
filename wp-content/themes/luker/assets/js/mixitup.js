@@ -59,6 +59,10 @@ var dropdownFilter = {
         $('.mix').on('click', function(){
             self.openDetail($(this));
         });
+        $('#closeX').on('click', function(){
+            self.closeDetail();
+        });
+
 
         self.$filters.on('change', 'select', function (e) {
             e.preventDefault();
@@ -84,19 +88,27 @@ var dropdownFilter = {
     },
     openDetail: function($mix){
 
-        var url = $("#Filters").attr("action") + "/recipe/" + $mix.data('name')
+        var url = $("#Filters").attr("action") + "/recipe/" + $mix.data('name'),
             self = this;
         $.post( url,self.recipesDetail );
     },
 
+
     recipesDetail: function(e){
-        var parseData = JSON.parse(e);
+        var parseData = JSON.parse(e), self = dropdownFilter;
         $('.RecipeDetail').css('display', 'block')
-        $('.RecipeDetail-header').css('background-image', 'url(' + parseData.image +')')
+        $('.RecipeDetail-header').css('background-image', 'url(' + parseData.banner +')')
         $('body').css('overflow-y','hidden');
-        $('#RecipeDetail-content').html(parseData.content)
+        self.templateDetail(parseData);
 
         console.log(parseData);
+
+
+    },
+    closeDetail: function(){
+
+        $('.RecipeDetail').css('display', 'none')
+        $('body').css('overflow-y','scroll');
 
 
     },
@@ -149,6 +161,29 @@ var dropdownFilter = {
         if (self.$container.mixItUp('isLoaded')) {
             self.$container.mixItUp('filter', self.outputString);
         }
+    },
+
+    templateDetail: function(data){
+
+        var $contentRecipe = $('#RecipeDetail-content'),
+            $chefName = $('#chefName'),
+            $servings = $('#servings'),
+            $level = $('#level'),
+            $figureChef = $('#RecipeDetail-figure'),
+            $titleChef = $('.RecipeDetail-chefContent h3'),
+            $descriptionChef = $('.RecipeDetail-chefContent p')
+            ;
+        $contentRecipe.html(data.content);
+        $chefName.html(data.chefName);
+        $servings.html(data.servings);
+        //$level.html(data.level);
+        $('#level svg:nth-child(-n + '+ data.level +' ) .st1').css('fill', '#fff');
+        $titleChef.html(data.chefName);
+        $descriptionChef.html(data.chefDescription);
+
+        $figureChef.html(' <img src="' + data.chefImage + '" alt="">');
+
+
     }
 
 };

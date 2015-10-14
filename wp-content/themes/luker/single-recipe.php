@@ -14,5 +14,6 @@ $content['cacao'] = $cacao->name;
 $content['content'] = $post->post_content;
 $content['tittle'] = $post->post_title;
 $content['servings'] = get_post_meta($post->ID, 'ingredient', true);
+$content['banner'] = get_post_meta($post->ID, 'directions', true);
 
 echo json_encode($content);

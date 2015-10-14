@@ -96,30 +96,68 @@ $levels = get_terms("level", array("hide_empty" => false));
         <div class="RecipeDetail-headerContent">
             <div class="RecipeDetail-bar">
                 <h2>TYPE OF CHOCOLATE </h2>
-                <span class="RecipeDetail-barClose"></span>
+                <span class="RecipeDetail-barClose">
+                    <svg version="1.1" id="closeX" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <line class="st0" x1="57.7" y1="0.8" x2="0" y2="56.9"/>
+                            <line class="st0" x1="0" y1="0" x2="57.7" y2="57.7"/>
+                        </g>
+                    </svg>
+                </span>
             </div>
         </div>
         <div class="RecipeDetailBarBottom">
             <ul>
-                <li><p>CHEF <span id="chef"></span></p></li>
-                <li><p>SERVINGS </p></li>
-                <li>DIFFICULTY LEVEL <span></span></li>
+                <li><p>CHEF <span id="chefName"></span></p></li>
+                <li><p>SERVINGS <span id="servings"></span></p></li>
+                <li>
+                    <p>DIFFICULTY LEVEL
+                        <span id="level">
+                            <svg version="1.1" class="cacaoSvg " xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="-749 388.4 486.1 641.9" style="enable-background:new -749 388.4 486.1 641.9;"
+                                 xml:space="preserve">
+                                <g>
+                                    <path class="st1" d="M-287.7,403.7c0,0-516,3-442.5,611.3C-730.3,1015-183.6,1007.7-287.7,403.7z"/>
+                                </g>
+                            </svg>
+                            <svg version="1.1" class="cacaoSvg " xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="-749 388.4 486.1 641.9" style="enable-background:new -749 388.4 486.1 641.9;"
+                                 xml:space="preserve">
+                                <g>
+                                    <path class="st1" d="M-287.7,403.7c0,0-516,3-442.5,611.3C-730.3,1015-183.6,1007.7-287.7,403.7z"/>
+                                </g>
+                            </svg>
+                            <svg version="1.1" class="cacaoSvg " xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="-749 388.4 486.1 641.9" style="enable-background:new -749 388.4 486.1 641.9;"
+                                 xml:space="preserve">
+                                <g>
+                                    <path class="st1" d="M-287.7,403.7c0,0-516,3-442.5,611.3C-730.3,1015-183.6,1007.7-287.7,403.7z"/>
+                                </g>
+                            </svg>
+                        </span>
+                    </p>
+                </li>
             </ul>
         </div>
     </header>
     <article id="RecipeDetail-content"></article>
     <footer class="RecipeDetail-footer">
+        <figure id="RecipeDetail-figure"></figure>
         <div class="RecipeDetail-chef">
-            <figure>
-                <img src="" alt="">
-            </figure>
-            <h3></h3>
+            <div class="RecipeDetail-chefContent">
+                <h3></h3>
 
-            <p></p>
+                <p></p>
+            </div>
         </div>
         <div class="suscribe">
-            <h5>GET MORE INFO ABOUT CACAO</h5>
-            <button>suscribe</button>
+            <div class="suscribe-content">
+                <h5>GET MORE INFO ABOUT CACAO</h5>
+                <button>suscribe</button>
+            </div>
         </div>
     </footer>
 </section>
