@@ -161,7 +161,7 @@ $levels = get_terms("level", array("hide_empty" => false));
         </div>
     </footer>
 </section>
-
+<div class="loading"></div>
 
 <?php wp_enqueue_script('mixitup', 'http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js?v=2.1.2', array('jquery'), 1, false); ?>
 <?php wp_enqueue_script('mixScript', get_template_directory_uri() . '/assets/js/mixitup.js', array('jquery'), 1, false); ?>

@@ -90,6 +90,7 @@ var dropdownFilter = {
 
         var url = $("#Filters").attr("action") + "/recipe/" + $mix.data('name'),
             self = this;
+        $('.loading').show();
         $.post( url,self.recipesDetail );
     },
 
@@ -99,6 +100,7 @@ var dropdownFilter = {
         $('.RecipeDetail').css('display', 'block')
         $('.RecipeDetail-header').css('background-image', 'url(' + parseData.banner +')')
         $('body').css('overflow-y','hidden');
+        $('.loading').hide();
         self.templateDetail(parseData);
 
         console.log(parseData);
