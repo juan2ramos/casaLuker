@@ -26,7 +26,7 @@ $levels = get_terms("level", array("hide_empty" => false));
         </figure> <?php endforeach ?>
 </div>
 
-<form class="controls" id="Filters" action="<?php echo site_url(); ?>">
+<form class="controls" id="Filters" action="<?php echo site_url(); ?>" data-url="<?php echo site_url(); ?>">
 
     <fieldset>
         <select id="chef">

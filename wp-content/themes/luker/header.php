@@ -13,6 +13,8 @@ Theme: Luker
 
     <title><?php the_title(); ?> - Casa Luker</title>
 
+    <meta name="description" content="" />
+
     <link rel="profile" href="http://gmpg.org/xfn/11">
 
     <!-- Favicons -->

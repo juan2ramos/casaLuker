@@ -183,12 +183,12 @@ var dropdownFilter = {
         $servings.html(data.servings);
         $imageCocoa.html('<img src="' + data.imageCocoa + '" />')
         //$level.html(data.level);
-
+        $('meta[name=description]').attr('content',  data.content.substring(0,165));
         $('#level svg:nth-child(-n + '+ data.level +' ) .st1').css('fill', '#fff');
         $titleChef.html(data.chefName);
         $descriptionChef.html(data.chefDescription);
         $figureChef.html(' <img src="' + data.chefImage + '" alt="">');
-        window.history.pushState("recipes", "Title", "/recetas/" + data.slug);
+        window.history.pushState("recipes", "Title", $('#Filters').data('url') + "/recetas/" + data.slug);
     }
 
 };
