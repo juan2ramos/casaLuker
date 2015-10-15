@@ -5,7 +5,7 @@ $cacaos = get_terms("cacao", array("hide_empty" => false));
 $levels = get_terms("level", array("hide_empty" => false));
 ?>
 
-<h2 class="Recipes-h2">NUESTROS CHEFS</h2>
+<h2 class="Recipes-h2 Main">NUESTROS CHEFS</h2>
 <h3 class="Recipes-h3">CONOCE TODAS LAS RECETAS DE NUESTROS CHEFS.</h3>
 <div class="Recipes-chefs">
     <div class="Recipes-chefsBack">
@@ -95,7 +95,7 @@ $levels = get_terms("level", array("hide_empty" => false));
     <header class="RecipeDetail-header">
         <div class="RecipeDetail-headerContent">
             <div class="RecipeDetail-bar">
-                <h2>TYPE OF CHOCOLATE </h2>
+                <h2>TYPE OF CHOCOLATE <span id="imageCocoa"></span> </h2>
                 <span class="RecipeDetail-barClose">
                     <svg version="1.1" id="closeX" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                         <g>

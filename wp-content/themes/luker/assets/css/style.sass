@@ -35,11 +35,13 @@
       width: 100%
 
 .mix
-  width: 25%
   margin-left: -3px
   display: none
   position: relative
   cursor: pointer
+  width: 50%
+  @include respond-to(middle)
+   width: 25%
 
 .mix figcaption
   @include transition(opacity .5s)
@@ -397,6 +399,15 @@
     line-height: 1.2rem
     font-size: 0.9rem
 
+#imageCocoa
+  vertical-align: middle
+  margin: 0 10px
+  & img
+    height: 35px
+.RecipeDetail-body
+  background: black
+
+
 .loading
   width: 100%
   height: 100%
@@ -407,7 +418,9 @@
   display: none
   z-index: 10000
 
-
-
+.RecipeDetail-body .RecipeDetail
+  display: block
+  position: relative
+  overflow-y: auto
 
 

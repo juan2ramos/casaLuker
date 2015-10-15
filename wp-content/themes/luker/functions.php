@@ -12,7 +12,14 @@ require(themeDir . 'functions/functions.php');
 require(themeDir . 'functions/recipes.php');
 require(themeDir . 'functions/ofertas_widget.php');
 
+/*function custom_rewrite_tag() {
 
+
+    add_rewrite_rule( 'portfolio', 'index.php?p=126', 'top' );
+
+
+}
+add_action('init', 'custom_rewrite_tag', 10, 0);*/
 
 /*
 add_action('init', 'create_book_taxonomies', 0);

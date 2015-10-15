@@ -18,6 +18,14 @@ Theme: Luker
     <!-- Favicons -->
     <link rel="shortcut icon" href="<?php bloginfo('template_url') ?>/assets/images/favicon.ico">
 
+    <!-- Meta Facebook -->
+    <meta property="og:url" content="<?php echo get_permalink( $post->ID ); ?>">
+    <meta property="og:title" content="<?php the_title(); ?>"/>
+    <meta property="og:description" content=" "/>
+    <meta property="og:image" content=""/>
+    <meta property="og:site_name" content=" "/>
+
+
     <!---- TYPEKIT -- -->
     <script type="text/javascript" src="http://use.typekit.com/uuf1qmf.js"></script>
     <script type="text/javascript">try {

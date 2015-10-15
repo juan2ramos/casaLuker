@@ -91,19 +91,21 @@ var dropdownFilter = {
         var url = $("#Filters").attr("action") + "/recipe/" + $mix.data('name'),
             self = this;
         $('.loading').show();
-        $.post( url,self.recipesDetail );
+        var postData={post:'true'};
+        $.post( url,postData,self.recipesDetail );
     },
 
 
     recipesDetail: function(e){
         var parseData = JSON.parse(e), self = dropdownFilter;
+        console.log(parseData);
         $('.RecipeDetail').css('display', 'block')
         $('.RecipeDetail-header').css('background-image', 'url(' + parseData.banner +')')
         $('body').css('overflow-y','hidden');
         $('.loading').hide();
         self.templateDetail(parseData);
 
-        console.log(parseData);
+
 
 
     },
@@ -112,12 +114,12 @@ var dropdownFilter = {
         $('.RecipeDetail').css('display', 'none')
         $('body').css('overflow-y','scroll');
 
+        window.history.pushState("recipes", "Title", "/recetas/");
 
     },
 
     close: function () {
         var self = this;
-
         $('#chef').val('');
         self.$RecipesChefs.find('figure').removeClass('open')
         self.$RecipesChefs.find('figure').removeClass('close')
@@ -173,19 +175,20 @@ var dropdownFilter = {
             $level = $('#level'),
             $figureChef = $('#RecipeDetail-figure'),
             $titleChef = $('.RecipeDetail-chefContent h3'),
-            $descriptionChef = $('.RecipeDetail-chefContent p')
+            $descriptionChef = $('.RecipeDetail-chefContent p'),
+            $imageCocoa = $('#imageCocoa')
             ;
         $contentRecipe.html(data.content);
         $chefName.html(data.chefName);
         $servings.html(data.servings);
+        $imageCocoa.html('<img src="' + data.imageCocoa + '" />')
         //$level.html(data.level);
+
         $('#level svg:nth-child(-n + '+ data.level +' ) .st1').css('fill', '#fff');
         $titleChef.html(data.chefName);
         $descriptionChef.html(data.chefDescription);
-
         $figureChef.html(' <img src="' + data.chefImage + '" alt="">');
-
-
+        window.history.pushState("recipes", "Title", "/recetas/" + data.slug);
     }
 
 };
