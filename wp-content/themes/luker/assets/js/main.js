@@ -66,6 +66,19 @@
 
         });
 
+        $('.moreNews').on('click', function(e){
+           $(this).find('span').first().toggleClass('rotate');
+            $('.content-news div').remove('heightDiv');
+           $(this).siblings('.content-news').find('div').toggleClass('heightDiv');
+           $(this).siblings('.content-news').find('.lessNews').toggleClass('show');
+        });
+        $('.lessNews').on('click', function(e){
+           $(this).find('span').first().toggleClass('rotate');
+            $('.content-news div').remove('heightDiv');
+           $(this).parents('.content-news').find('div').toggleClass('heightDiv');
+           $(this).parents('.content-news').find('.lessNews').toggleClass('show');
+        });
+
         //  showImagesHome();
          /*
          zoomCtrl.addEventListener('click', function() {

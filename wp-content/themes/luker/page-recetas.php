@@ -83,8 +83,6 @@ $levels = get_terms("level", array("hide_empty" => false));
                 <?php the_title(); ?>
                 <hr>
             </figcaption>
-
-
         </div>
     <?php endwhile; ?>
 
