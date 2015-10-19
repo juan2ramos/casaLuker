@@ -650,3 +650,120 @@ Main.newsAndEvent
       left: -15px
       vertical-align: middle
       color: #DA8331
+
+
+//**********************************
+.casa-luker , .a-su-medida
+  margin: 4rem auto
+  text-align: center
+  max-width: 80rem
+  & h2
+    border-bottom: 1px dotted white
+    margin-bottom: 2rem
+    &.top
+      @include respond-to(small)
+        margin-top: 10rem
+  & article
+    display: block
+    vertical-align: top
+    @include respond-to(small)
+     display: inline-block
+    &:first-child
+      width: 100%
+      padding: 0 1rem
+      @include respond-to(small)
+        width: 35%
+    &:last-child
+      width: 100%
+      padding: 0 1.5rem
+      @include respond-to(small)
+        width: 35%
+        padding : 0
+      & h2
+        text-align: left
+        margin: 1rem 0
+        padding-left: 1rem
+  & p
+    padding: .2rem 1.7rem
+    font-size: .8rem
+    text-align: justify
+    & a
+      color: #fff
+      text-decoration: underline
+  & iframe
+    max-width: 600px
+    width: 100%
+    height: 300px
+    padding: 1.5rem
+
+    background: rgb(38,38,38)
+    background: -moz-linear-gradient(-45deg,  rgba(38,38,38,1) 0%, rgba(0,0,0,1) 51%, rgba(0,0,0,1) 51%, rgba(38,38,38,1) 100%)
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(38,38,38,1)), color-stop(51%,rgba(0,0,0,1)), color-stop(51%,rgba(0,0,0,1)), color-stop(100%,rgba(38,38,38,1)))
+    background: -webkit-linear-gradient(-45deg,  rgba(38,38,38,1) 0%,rgba(0,0,0,1) 51%,rgba(0,0,0,1) 51%,rgba(38,38,38,1) 100%)
+    background: -o-linear-gradient(-45deg,  rgba(38,38,38,1) 0%,rgba(0,0,0,1) 51%,rgba(0,0,0,1) 51%,rgba(38,38,38,1) 100%)
+    background: -ms-linear-gradient(-45deg,  rgba(38,38,38,1) 0%,rgba(0,0,0,1) 51%,rgba(0,0,0,1) 51%,rgba(38,38,38,1) 100%)
+    background: linear-gradient(135deg,  rgba(38,38,38,1) 0%,rgba(0,0,0,1) 51%,rgba(0,0,0,1) 51%,rgba(38,38,38,1) 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262626', endColorstr='#262626',GradientType=1 )
+
+.cocoa-nose
+
+  background: -moz-linear-gradient(left,  rgba(24,120,171,0) 50%, rgba(24,120,171,.7) 51%)
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%,rgba(24,120,171,0)), color-stop(51%,rgba(24,120,171,.7)))
+  background: -webkit-linear-gradient(left,  rgba(24,120,171,0) 50%,rgba(24,120,171,.7) 51%)
+  background: -o-linear-gradient(left,  rgba(24,120,171,0) 50%,rgba(24,120,171,.7) 51%)
+  background: -ms-linear-gradient(left,  rgba(24,120,171,0) 50%,rgba(24,120,171,.7) 51%)
+  background: linear-gradient(to right,  rgba(24,120,171,0) 50%,rgba(24,120,171,.7) 51%)
+
+  border-radius: 50%
+  border: 8px solid black
+  height: 25rem
+  width: 25rem
+  margin: auto
+  position: relative
+  top: 2.5rem
+  & h3
+    font-size: 3rem
+    line-height: .9em
+    text-align: left
+    border-top: 1px dashed #fff
+    border-bottom: 1px dashed #fff
+    margin: 0 5px .5rem 1.5rem
+    padding: .7rem 0
+
+  & span
+    font-size: .9rem
+    margin-left: 1.4rem
+
+  &:before
+    top: -12px
+    left: -13px
+    content: ''
+    position: absolute
+    width: calc(100% + 14px)
+    height: calc(100% + 14px)
+    background: rgba(255, 255, 255, 0)
+    border-radius: 50%
+    z-index: -1
+    border: 5px solid
+  & ul
+    text-align: left
+    margin-left: 3rem
+    font-style: italic
+    & li
+      list-style: inherit
+  & div
+    display: inline-block
+    vertical-align: middle
+    width: 48.5%
+    &:last-child
+      width: 1%
+      height: 100%
+    &:nth-child(2)
+      & h3
+        font-weight: 100
+        background: white
+        color: #1E5E7D
+        border: 3px double
+        font-size: 1.4rem
+        padding: .5rem .2rem
+        margin: 0 33px 0.5rem .9rem
