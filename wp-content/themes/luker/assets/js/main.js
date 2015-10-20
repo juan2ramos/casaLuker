@@ -79,6 +79,18 @@
            $(this).parents('.content-news').find('.lessNews').toggleClass('show');
         });
 
+        $('.TabsMenu li').on('click', function(e){
+
+            var index = $( ".TabsMenu li" ).index( this );
+            $('.TabsMenu li').removeClass('active');
+            $(this).addClass('active');
+            $('.Tabs li').hide(500);
+            $('.Tabs li').eq(index).show('slow');
+
+        });
+
+
+
         //  showImagesHome();
          /*
          zoomCtrl.addEventListener('click', function() {

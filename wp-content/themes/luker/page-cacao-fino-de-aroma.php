@@ -51,11 +51,20 @@
             </article>
 
             <article class="city">
-                <img src="<?php bloginfo('template_url') ?>/assets/images/desgranado.jpg" alt="">
-                <img src="<?php bloginfo('template_url') ?>/assets/images/flor-a-escala.jpg"
-                     alt="">
-                <img src="<?php bloginfo('template_url') ?>/assets/images/grano-bien-fermentado.jpg" alt="">
-                <img src="<?php bloginfo('template_url') ?>/assets/images/mazorcas.jpg" alt="">
+                <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/desgranado-large.jpg">
+                    <img src="<?php bloginfo('template_url') ?>/assets/images/desgranado.jpg" alt="">
+                </a>
+                <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/flor-a-escala-large.jpg">
+                    <img src="<?php bloginfo('template_url') ?>/assets/images/flor-a-escala.jpg" alt="">
+                </a>
+                <a class="test-popup-link"
+                   href="<?php bloginfo('template_url') ?>/assets/images/grano-bien-fermentado-large.jpg">
+                    <img src="<?php bloginfo('template_url') ?>/assets/images/grano-bien-fermentado.jpg" alt="">
+                </a>
+                <a class="test-popup-link"
+                   href="<?php bloginfo('template_url') ?>/assets/images/mazorcas-large.jpg">
+                    <img src="<?php bloginfo('template_url') ?>/assets/images/mazorcas.jpg" alt="">
+                </a>
             </article>
 
         </section>
@@ -94,18 +103,59 @@
 
                 <div class="Tabs">
                     <ul>
+                        <li class="active">
+                            <p>
+                                La fermentación ocurre cuando el grano de cacao se saca de la mazorca junto con su
+                                pulpa, es puesto en cajones de madera y expuesto a los microorganismos naturalmente
+                                presentes en el ambiente. Los microorganismos degradarán la pulpa y durante este proceso
+                                el grano sufrirá procesos bioquímicos y físicos que formarán los precursores de los
+                                aromas y sabores a chocolate.
+                            </p>
+                            <figure>
+                                <img src="<?php bloginfo('template_url') ?>/assets/images/procesos-img-fermentacion.jpg"
+                                     alt="">
+                            </figure>
+                        </li>
                         <li>
                             <p>
                                 El secado es un proceso gradual realizado en el campo por el agricultor. Durante este
                                 proceso se exponen los granos al sol durante varios días para bajar el contenido de agua
                                 del grano del 55% al 7% y eliminar algunos ácidos naturalmente presentes en el cacao.
                             </p>
+
                             <p>
                                 Un buen secado es clave para evitar mohos y hongos en el grano y garantizar un buen
                                 sabor.
                             </p>
                             <figure>
-                                <img src="<?php bloginfo('template_url') ?>/assets/images/procesos-img-secado.jpg" alt="">
+                                <img src="<?php bloginfo('template_url') ?>/assets/images/procesos-img-secado.jpg"
+                                     alt="">
+                            </figure>
+                        </li>
+                        <li>
+                            <p>
+                                La tostión es realizada en la planta de producción de chocolates. Es el proceso por
+                                medio del cual se exponen los nibs de cacao a altas temperaturas para moldear su sabor.
+                                Durante este proceso se desarrollan los aromas y sabores del chocolate y se pueden
+                                definir, modificar o potencializar las cualidades sensoriales del cacao.
+                            </p>
+
+                            <figure>
+                                <img src="<?php bloginfo('template_url') ?>/assets/images/tostion-img.png"
+                                     alt="">
+                            </figure>
+                        </li>
+                        <li>
+                            <p>
+                                El concheo es un proceso fundamental realizado en la planta de producción donde se dan
+                                los últimos toques al sabor del chocolate. Durante este proceso se eliminan ácidos
+                                presentes en el cacao y se acaban de redondear los sabores de la receta y la textura del
+                                chocolate.
+                            </p>
+
+                            <figure>
+                                <img src="<?php bloginfo('template_url') ?>/assets/images/procesos-img-concheo.jpg"
+                                     alt="">
                             </figure>
                         </li>
                     </ul>
@@ -145,4 +195,9 @@
             </article>
         </section>
     </main>
+
+<?php wp_enqueue_style('style-name', 'http://dimsemenov-static.s3.amazonaws.com/dist/magnific-popup.css'); ?>
+<?php wp_enqueue_script('dimsemenov', 'http://dimsemenov-static.s3.amazonaws.com/dist/jquery.magnific-popup.min.js', array('jquery'), 1, false); ?>
+<?php wp_enqueue_script('mixScript', get_template_directory_uri() . '/assets/js/popUp.js', array('jquery'), 1, false); ?>
+
 <?php get_footer(); ?>

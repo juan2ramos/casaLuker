@@ -50,7 +50,7 @@
                     <span>PANEL DE CAPACITACIÓN</span>
                 </div>
                 <div>
-                    <h3>QUÌMICO MEDICINAL</h3>
+                    <h3>QUÍMICO MEDICINAL</h3>
                     <ul>
                         <li>Amargo</li>
                         <li>Cuero</li>
