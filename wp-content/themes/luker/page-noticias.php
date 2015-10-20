@@ -28,7 +28,9 @@
                     <span class="borderBottom"></span>
                     <button class="moreNews"><span></span><span></span></button>
                 </article>
-                <?php wp_reset_query(); endwhile; ?>
+                <?php  endwhile; ?>
+            <?php if (function_exists('wp_corenavi')) wp_corenavi(); wp_reset_query(); ?>
+
         </section>
 
         <section class="events">

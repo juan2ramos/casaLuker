@@ -5,7 +5,7 @@ Theme: Luker
 */
 
 define('themeDir', get_template_directory() . '/');
-define('themeDirUri', get_template_directory_uri() );
+define('themeDirUri', get_template_directory_uri());
 
 
 require(themeDir . 'functions/functions.php');
@@ -82,4 +82,27 @@ function registerNews()
     );
 
     register_post_type('registerNews', $args);
+}
+
+function wp_corenavi()
+{
+    global $query, $wp_rewrite;
+    $pages = '';
+    $max = $query->max_num_pages;
+    if (!$current = get_query_var('paged')) $current = 1;
+    $a['base'] = str_replace(999999999, '%#%', get_pagenum_link(999999999));
+    $a['total'] = $max;
+    $a['current'] = $current;
+    echo $max;
+    $total = 1; //1 – muestra el texto “Página N de N”, 0 – para no mostrar nada
+    $a['mid_size'] = 5; //cuantos enlaces a mostrar a izquierda y derecha del actual
+    $a['end_size'] = 1; //cuantos enlaces mostrar al comienzo y al fin
+    $a['prev_text'] = '&laquo; Anterior'; //texto para el enlace “Página siguiente”
+    $a['next_text'] = 'Siguiente &raquo;'; //texto para el enlace “Página anterior”
+
+    if ($max > 1) echo '<div class="navigation">';
+    if ($total == 1 && $max > 1)
+        $pages = '<span class="pages">Página ' . $current . ' de ' . $max . '</span>' . "\r\n";
+    echo $pages . paginate_links($a);
+    if ($max > 1) echo '</div>';
 }

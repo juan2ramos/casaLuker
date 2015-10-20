@@ -496,6 +496,10 @@
   padding-top: 0
   border-top: 4px double rgba(255, 255, 255, 0.5)
   border-bottom: 4px double rgba(255, 255, 255, 0.5)
+  & li, & ul
+    list-style: disc
+  & a
+    text-decoration: underline
   @include respond-to(small)
     padding-top: 40px
     width: 70%
@@ -553,7 +557,6 @@
 .newsAndEvent
   display: flex
   flex-direction: column
-
   @include respond-to(small)
     flex-direction: row
   & .events
