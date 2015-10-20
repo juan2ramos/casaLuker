@@ -3,12 +3,14 @@
         <section class="news">
             <?php
 
-            $args = array('post_type' => 'registerNews', 'order' => 'DESC', 'paged' => $paged, 'posts_per_page' => 1);
+            $args = array('post_type' => 'registerNews', 'order' => 'DESC', 'paged' => $paged, 'posts_per_page' => 11);
             $query = new WP_Query($args);
 
             while ($query->have_posts()) : $query->the_post();
                 $date = explode(' ', get_the_date('d F'));
-                ?>
+                $first = ( $query->current_post == 0  ) ? true : false ;
+                    ?>
+
                 <article>
                     <figure>
                         <?php the_post_thumbnail(); ?>
@@ -17,8 +19,8 @@
                     <div class="content-news">
                         <h2><?php echo $post->post_title; ?></h2>
 
-                        <div class="font-size: 0.7em;"><?php echo $post->post_content; ?></div>
-                        <button class="lessNews">
+                        <div class="font-size: 0.7em; <?php if($first) echo 'heightDiv' ?>"><?php echo $post->post_content; ?></div>
+                        <button class="lessNews <?php if($first) echo 'show' ?>">
                             <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                  xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
                                 <path fill="#000" d="M16 31l15-15h-9v-16h-12v16h-9z"></path>
@@ -26,7 +28,7 @@
                         </button>
                     </div>
                     <span class="borderBottom"></span>
-                    <button class="moreNews"><span></span><span></span></button>
+                    <button class="moreNews"><span class="<?php if($first) echo 'rotate' ?>"></span><span></span></button>
                 </article>
             <?php endwhile; ?>
             <div class="Pagination">
