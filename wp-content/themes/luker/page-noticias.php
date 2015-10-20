@@ -3,7 +3,7 @@
         <section class="news">
             <?php
 
-            $args = array('post_type' => 'registerNews', 'order' => 'DESC');
+            $args = array('post_type' => 'registerNews', 'order' => 'DESC', 'paged' => $paged, 'posts_per_page' => 1);
             $query = new WP_Query($args);
 
             while ($query->have_posts()) : $query->the_post();
@@ -28,9 +28,11 @@
                     <span class="borderBottom"></span>
                     <button class="moreNews"><span></span><span></span></button>
                 </article>
-                <?php  endwhile; ?>
-            <?php if (function_exists('wp_corenavi')) wp_corenavi(); wp_reset_query(); ?>
-
+            <?php endwhile; ?>
+            <div class="Pagination">
+            <?php if (function_exists('wp_corenavi')) wp_corenavi();
+            wp_reset_query(); ?>
+            </div>
         </section>
 
         <section class="events">
