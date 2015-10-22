@@ -804,3 +804,126 @@ Main.newsAndEvent
   & .prev, .next
     font-size: 1rem
 
+.LukerWay
+  max-width: 100vw
+  & section
+    background-size: cover
+    background-position: center
+    height: calc(100vh - 1rem)
+    position: relative
+    &:before
+      content: ''
+      height: calc(100vh - 1rem)
+      display: inline-block
+      margin-left: -4px
+      vertical-align: middle
+
+.LukerWay-header
+  background-image: url("../images/head-img.jpg")
+
+.LukerWay-cacao
+  background-image: url("../images/cacao.jpg")
+
+.LukerWay-term
+  background-image: url("../images/seed.jpg")
+
+.LukerWay-social
+  background-image: url("../images/cacao-2.jpg")
+
+.LukerWay-business
+  background-image: url("../images/cacao-3.jpg")
+
+.LukerWay-scientific
+  background-image: url("../images/cacao-2.jpg")
+
+
+section.socialNetwork
+  background: rgba(255, 255, 255, 0.7)
+  height: 30rem
+  & ul
+    display: inline-block
+    vertical-align: top
+    width: 100%
+    & li
+      display: inline-block
+      vertical-align: top
+      width: 33%
+      padding: 0 2rem
+    & h3
+      font-size: 2.3rem
+      padding: 2rem 0 .5rem
+      border-bottom: 1px solid
+      color: white
+
+.LukerWay-headerContent, .LukerWay-scientificContent
+  background: rgba(0, 0, 0, 0.7)
+  display: inline-block
+  width: 100%
+  vertical-align: middle
+  padding: 3rem
+  & p
+    border-top: 4px dotted white
+    padding-top: .9rem
+    max-width: 30rem
+    font-size: .9rem
+    line-height: 1.5em
+    margin: 1rem auto
+    & span
+      display: block
+      font-size: 1.4rem
+
+  & h2
+    font-size: 3.5rem
+    max-width: 30rem
+    line-height: 1em
+    margin: 0 auto 1rem
+    text-align: left
+
+
+  & ul
+    text-align: center
+    & li
+      margin: auto
+      max-width: 30rem
+      border-bottom: 2px dotted white
+      width: inherit
+      &:first-child
+        border-top: 2px dotted white
+      & a
+        display: block
+        padding: .6rem
+        color: #DA8331
+
+  & article, & ul
+    display: inline-block
+    vertical-align: middle
+    width: 100%
+    margin: auto
+    @include respond-to(small)
+      width: 49%
+
+article.LukerWay-scientificContent
+  width: 100%
+  margin-left: 0
+  height: 100%
+  vertical-align: top
+  @include respond-to(middle)
+    width: 50%
+    margin-left: 25%
+  & h2
+    font-size: 4rem
+  &:before
+    content: ''
+    height: calc(100vh - 10rem)
+    display: inline-block
+    margin-left: -4px
+    vertical-align: middle
+    @include respond-to(middle)
+  & div
+    display: inline-block
+    vertical-align: middle
+    width: 100%
+
+
+
+
