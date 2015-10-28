@@ -35,6 +35,28 @@
                 data-target="LukerWay-cacao" class="LukerWay-barLast"></span></div>
     </section>
     <section class="LukerWay-cacao">
+
+        <div class="LukerWay-cacaoContent">
+            <div>
+                <h2>CREEMOS EN <br> LA EDUCACIÓN</h2>
+
+                <p>
+                    A través de la Granja Luker, uno de los pocos centros de investigación de Cacao en el mundo, fundada
+                    en 1962, fomentamos la adopción de modelos de cultivos rentables con un gran impacto en la calidad
+                    de vida y los ingresos de los productores.
+                    Capacitamos a más de 700 personas anualmente. Más de 30.000 agricultores han pasado por la Granja
+                    Luker durante estos primeros 50 años.
+                </p>
+                <span class="LukerWay-cacaoArrow">
+                    <b>GO</b>
+                    <svg width="66" height="114" xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <path stroke="#000" transform="rotate(90.27140045166016 32.09419250488282,54.9846076965332) " id="svg_1" d="m-21.92279,85.7175l54.01695,-61.46578l54.01702,61.46578l-108.03398,0l0.00001,0z" stroke-width="0" fill="#fff"/>
+                        </g>
+                    </svg>
+                </span>
+            </div>
+        </div>
         <div class="LukerWay-bar"><span data-target="LukerWay-header" class="LukerWay-barFirst"></span><span
                 data-target="LukerWay-term" class="LukerWay-barLast"></span></div>
     </section>
@@ -68,6 +90,7 @@
                 <p>Hemos desarrollado un modelo de promoción de cacao para los inversionistas con el fin de promover la
                     cultura del cacao en el país; nuestro objetivo es tener 5.000 hectáreas plantadas en el año
                     2017.</p>
+
                 <p>Para más información contactar a:
                     <a href="jcarroyave@casaluker.com.co">jcarroyave@casaluker.com.co</a></p>
             </div>
@@ -126,6 +149,7 @@
 <?php wp_enqueue_style('luker-way1', get_template_directory_uri() . '/assets/css/jquery.cover.css'); ?>
 <?php wp_enqueue_script('luker-way', get_template_directory_uri() . '/assets/js/owl.carousel.js', array('jquery'), 1, false); ?>
 <?php wp_enqueue_script('luker-wayCover', get_template_directory_uri() . '/assets/js/jquery.cover.js', array('jquery'), 1, false); ?>
+<?php wp_enqueue_script('luker-velocity', 'http://julian.com/research/velocity/build/jquery.velocity.min.js', array('jquery'), 1, false); ?>
 <?php wp_enqueue_script('luker-way1', get_template_directory_uri() . '/assets/js/lukerWay.js', array('jquery'), 1, false); ?>
 
 <?php get_footer(); ?>
