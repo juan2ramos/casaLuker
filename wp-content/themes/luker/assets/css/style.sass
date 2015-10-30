@@ -989,6 +989,7 @@ article.LukerWay-scientificContent
   background: #FD9631
   text-align: center
   font-size: .8rem
+  z-index: 10000
   span:first-child
     position: absolute
     width: 0
@@ -1211,23 +1212,29 @@ article.LukerWay-scientificContent
 .LukerWay-cacaoContent
   display: inline-block
   height: 100%
-  width: calc(50% - 50px)
+  width: calc(50% - 2px)
+  position: relative
+  z-index: 2
   vertical-align: top
-  background: rgba(0, 0, 0, 0.71)
-  border-right: #fff solid thick
-  margin-left: 53px
-  &:before
-    display: inline-block
-    height: 100%
-    content: ''
-    vertical-align: middle
-  & div:first-child
-    width: calc(50% - 4px)
-    margin: auto
-    padding: 0 1rem
-    display: inline-block
-    vertical-align: middle
+  & ul
+    text-align: left
+    width: 420px
+    margin: 1rem auto 0
     position: absolute
+    display: none
+    opacity: 0
+    left: calc(50% - 184px)
+    & li
+      max-width: 15rem
+      border-bottom: 2px dotted white
+      width: inherit
+      &:first-child
+        border-top: 2px dotted white
+      & a
+        display: block
+        padding: .4rem
+        color: #DA8331
+
   & h2
     font-size: 4rem
     line-height: 1em
@@ -1240,14 +1247,70 @@ article.LukerWay-scientificContent
     padding-top: 1rem
     max-width: 420px
     margin: auto
+  &:before
+    display: inline-block
+    height: 100%
+    content: ''
+    vertical-align: middle
+
+
+.LukerWay-cacaoBack
+  position: absolute
+  height: 100%
+  width: calc(50% - 45px)
+  background: rgba(0, 0, 0, 0.71)
+  border-right: #fff solid thick
+  left: 3rem
+  top: 0
+
+.inline
+  vertical-align: middle
+  display: inline-block
+  width: calc(100% - 4px)
+  padding-left: 2.5rem
+  position: relative
+
+.LukerWay-cacaoArrowCollapse
+  position: absolute
+  right: -2px
+  top: calc(50% - 4rem)
+  cursor: pointer
+  opacity: 0
+  & img
+    max-width: 100%
+    position: absolute
+    z-index: 9
+    top: 3px
+    left: -2px
+  & svg
+    transform: rotateY(180deg)
+
+
 .LukerWay-cacaoArrow
   position: absolute
-  right: -70px
-  top: calc(50% - 64px)
+  right: calc(50% - 4rem)
+  top: calc(50% - 4rem)
   cursor: pointer
+  z-index: 1000
   & b
     color: black
     position: absolute
     top: 34px
     font-size: 1.7rem
     left: 4px
+
+.LukerWay-cacaoContentRight
+  display: inline-block
+  height: 100%
+  width: calc(50% - 2px)
+  position: relative
+  z-index: 2
+  vertical-align: top
+  & ul
+    border-top: 2px dotted #fff
+    border-bottom: 2px dotted #fff
+    top: calc(50% - 285px)
+    position: relative
+    width: 550px
+    margin: auto
+    height: 570px

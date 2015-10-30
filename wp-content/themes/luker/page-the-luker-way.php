@@ -36,8 +36,9 @@
     </section>
     <section class="LukerWay-cacao">
 
+
         <div class="LukerWay-cacaoContent">
-            <div>
+            <div class="inline">
                 <h2>CREEMOS EN <br> LA EDUCACIÓN</h2>
 
                 <p>
@@ -47,16 +48,60 @@
                     Capacitamos a más de 700 personas anualmente. Más de 30.000 agricultores han pasado por la Granja
                     Luker durante estos primeros 50 años.
                 </p>
-                <span class="LukerWay-cacaoArrow">
+                <ul>
+                    <li><a href="#" data-target="LukerWay-cacao">SOPORTE Y <br>CAPACITACIÓN</a></li>
+                    <li><a href="#" data-target="LukerWay-social">GRANJA <br>LUKER</a></li>
+                    <li><a href="#" data-target="LukerWay-business">SISTEMA <br>AGROFORESTAL</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="LukerWay-cacaoContentRight">
+
+            <ul class="LukerWay-cacaoContentRightUl">
+                <li>
+                    <p>CasaLuker proporciona a los agricultores, de forma gratuita, las herramientas que necesitan para
+                        producir un cacao de excelente calidad: formación técnica en nuestro centro de investigación de
+                        cacao, Granja Luker, y apoyo técnico en el campo. Por lo tanto, CasaLuker sólo comprará a los
+                        agricultores los granos de cacao que cumplen en un 100% con los estándares Fino de Aroma.</p>
+
+                    <p>
+                        Durante el tiempo de la cosecha, desarrollamos diferentes actividades con los agricultores como
+                        por ejemplo los Planes Cosecha en los que motivamos a los agricultores a vender su cacao a
+                        nuestra empresa a cambio de que puedan participar en el sorteo de diferentes premios, tales como
+                        herramientas para sus cultivos o regalos para sus familias.
+                    </p>
+                </li>
+            </ul>
+
+        </div>
+        <div class="LukerWay-cacaoBack"></div>
+
+
+
+            <span class="LukerWay-cacaoArrow">
                     <b>GO</b>
                     <svg width="66" height="114" xmlns="http://www.w3.org/2000/svg">
                         <g>
-                            <path stroke="#000" transform="rotate(90.27140045166016 32.09419250488282,54.9846076965332) " id="svg_1" d="m-21.92279,85.7175l54.01695,-61.46578l54.01702,61.46578l-108.03398,0l0.00001,0z" stroke-width="0" fill="#fff"/>
+                            <path stroke="#000"
+                                  transform="rotate(90.27140045166016 32.09419250488282,54.9846076965332) " id="svg_1"
+                                  d="m-21.92279,85.7175l54.01695,-61.46578l54.01702,61.46578l-108.03398,0l0.00001,0z"
+                                  stroke-width="0" fill="#fff"/>
                         </g>
                     </svg>
-                </span>
-            </div>
-        </div>
+            </span>
+
+            <span class="LukerWay-cacaoArrowCollapse">
+                    <img src="<?php bloginfo('template_url') ?>/assets/images/collapse.png" alt="">
+                    <svg width="66" height="114" xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <path stroke="#000"
+                                  transform="rotate(90.27140045166016 32.09419250488282,54.9846076965332) " id="svg_1"
+                                  d="m-21.92279,85.7175l54.01695,-61.46578l54.01702,61.46578l-108.03398,0l0.00001,0z"
+                                  stroke-width="0" fill="#fff"/>
+                        </g>
+                    </svg>
+            </span>
+
         <div class="LukerWay-bar"><span data-target="LukerWay-header" class="LukerWay-barFirst"></span><span
                 data-target="LukerWay-term" class="LukerWay-barLast"></span></div>
     </section>
