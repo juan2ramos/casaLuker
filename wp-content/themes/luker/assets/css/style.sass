@@ -1270,7 +1270,7 @@ article.LukerWay-scientificContent
   padding-left: 2.5rem
   position: relative
 
-.LukerWay-cacaoArrowCollapse
+.LukerWay-cacaoArrowCollapse, .LukerWay-cacaoArrowCollapseRight
   position: absolute
   right: -2px
   top: calc(50% - 4rem)
@@ -1426,3 +1426,42 @@ article.LukerWay-scientificContent
     @include transition(.5s all)
     opacity: 1
     top: 0
+.LukerWay-cacaoBackRight
+  position: absolute
+  height: 100%
+  width: calc(50% - 45px)
+  background: rgba(0, 0, 0, 0.71)
+  border-left: #fff solid thick
+  right: 3rem
+  top: 0
+
+.LukerWay-cacaoArrowRight
+  position: absolute
+  right: calc(50% - 1.2rem)
+  top: calc(50% - 4rem)
+  cursor: pointer
+  z-index: 1000
+  & svg
+    transform: rotate(180deg) translate(20px,4px)
+  & b
+    color: black
+    position: absolute
+    top: 34px
+    font-size: 1.7rem
+    left: 4px
+    z-index: 1
+
+.inline.right
+  padding-left: 0
+  left: calc(50vw - 4%)
+  & h2
+    font-size: 2.6rem
+
+.LukerWay-term
+  & .LukerWay-cacaoContentRight
+    position: absolute
+    top: 0
+    width: 100%
+    left: 100%
+  & .LukerWay-cacaoContentRightUl
+    left: 0

@@ -1,5 +1,6 @@
 (function (window) {
     var reverse = false;
+    var reverseRight = false;
     $('.LukerWay-bar span, .LukerWay-headerContent a, .LukerWay-nav ul a').on('click', function () {
         event.preventDefault();
         var target = $(this).data('target'),
@@ -32,16 +33,16 @@
 
     $('.LukerWay-cacaoArrowCollapse').on('click', function () {
 
-        $(".LukerWay-cacaoContent").velocity("reverse", {duration: 700});
-        $(".LukerWay-cacaoArrow").velocity("reverse", {duration: 700});
-        $(".LukerWay-cacaoContent .inline").velocity("reverse", {duration: 400});
+        $(".LukerWay-cacao .LukerWay-cacaoContent").velocity("reverse", {duration: 700});
+        $(".LukerWay-cacao .LukerWay-cacaoArrow").velocity("reverse", {duration: 700});
+        $(".LukerWay-cacao .LukerWay-cacaoContent .inline").velocity("reverse", {duration: 400});
 
-        $(".LukerWay-cacaoBack").velocity("reverse", {duration: 700});
+        $(".LukerWay-cacao .LukerWay-cacaoBack").velocity("reverse", {duration: 700});
         $(this).velocity({opacity: 0,}, {duration: 100, display: "none"});
-        $('.LukerWay-cacaoArrow').velocity({opacity: 1}, {duration: 100, display: "block"});
+        $('.LukerWay-cacao .LukerWay-cacaoArrow').velocity({opacity: 1}, {duration: 100, display: "block"});
 
-        $('.LukerWay-cacaoContent ul').velocity("reverse", {duration: 700});
-        $('.LukerWay-cacaoContentRightUl').velocity("reverse", {duration: 100});
+        $('.LukerWay-cacao .LukerWay-cacaoContent ul').velocity("reverse", {duration: 700});
+        $('.LukerWay-cacao .LukerWay-cacaoContentRightUl').velocity("reverse", {duration: 100});
         reverse = false
     });
 
@@ -52,16 +53,49 @@
             inlineH = $(".LukerWay-cacaoContent .inline").height(),
             topInline = cacaoContentH / 2 - inlineH / 2 - 50;
 
-        $(".LukerWay-cacaoContent .inline").velocity({top: -topInline}, 400);
+        $(".LukerWay-cacao .LukerWay-cacaoContent .inline").velocity({top: -topInline}, 400);
         $(this).velocity({opacity: 0,}, {duration: 100, display: "none"})
-        $(".LukerWay-cacaoBack").velocity({width: '100%', left: 0}, {duration: 800});
-        $('.LukerWay-cacaoArrowCollapse').velocity({opacity: [1, 0]}, {duration: 200, delay: 800, display: 'block'});
+        $(".LukerWay-cacao .LukerWay-cacaoBack").velocity({width: '100%', left: 0}, {duration: 800});
+        $('.LukerWay-cacao .LukerWay-cacaoArrowCollapse').velocity({opacity: [1, 0]}, {duration: 200, delay: 800, display: 'block'});
 
-        $('.LukerWay-cacaoContent ul').velocity({opacity: [1, 0]}, {duration: 200, delay: 200, display: 'block'});
-        $('.LukerWay-cacaoContentRightUl').velocity({opacity: [1, 0]}, {duration: 200, delay: 600, display: 'block'});
+        $('.LukerWay-cacao .LukerWay-cacaoContent ul').velocity({opacity: [1, 0]}, {duration: 200, delay: 200, display: 'block'});
+        $('.LukerWay-cacao .LukerWay-cacaoContentRightUl').velocity({opacity: [1, 0]}, {duration: 200, delay: 600, display: 'block'});
 
         reverse = true
     });
+
+
+
+    $('.LukerWay-cacaoArrowRight').on('click', function () {
+
+        var ww = $(window).width(),
+            cacaoContentH = $(".LukerWay-cacaoContent").height(),
+            inlineH = $(".LukerWay-cacaoContent .inline").height(),
+            topInline = cacaoContentH / 2 - inlineH / 2 - 50;
+        $(".LukerWay-term .inline").velocity({left:20}, 800).velocity({top: -topInline},300);
+        $(this).velocity({opacity: 0,}, {duration: 100, display: "none"})
+        $(".LukerWay-cacaoBackRight").velocity({width: '100%', left: 0}, {duration: 800});
+        $('.LukerWay-cacaoArrowCollapseRight').velocity({opacity: [1, 0]}, {duration: 200, delay: 800, display: 'block'});
+
+        $('.LukerWay-term .LukerWay-cacaoContent ul').velocity({opacity: [1, 0]}, {duration: 200, delay: 200, display: 'block'});
+        //$('.LukerWay-cacaoContentRightUl').velocity({opacity: [1, 0]}, {duration: 200, delay: 600, display: 'block'});
+
+        reverseRight = true
+    });
+    $('.LukerWay-cacaoArrowCollapseRight').on('click', function () {
+        var ww =  $(window).width(),
+            leftInline = ww/2 - (ww/2 * .04);
+
+        $(".LukerWay-term .LukerWay-cacaoBackRight").velocity("reverse", {duration: 700, delay:800});
+        $(".LukerWay-term .inline").velocity("reverse", {duration: 700}).velocity({left:leftInline}, 800);
+        $('.LukerWay-term .LukerWay-cacaoContent ul').velocity("reverse", {duration: 700});
+        $(".LukerWay-cacaoArrowRight").velocity({opacity: 1,}, {duration: 200, display: "block", delay:1500})
+
+        $(".LukerWay-cacao .LukerWay-cacaoBack").velocity("reverse", {duration: 700});
+        $(this).velocity({opacity: 0}, {duration: 100, display: "none"});
+        reverseRight = false
+    });
+
 
     $("#owl-demo").owlCarousel({
         autoPlay: 3000,

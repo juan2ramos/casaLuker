@@ -34,6 +34,8 @@
         <div class="LukerWay-bar"><span style="display: none" class="LukerWay-barFirst"></span><span
                 data-target="LukerWay-cacao" class="LukerWay-barLast"></span></div>
     </section>
+
+    <!--Cacao-->
     <section class="LukerWay-cacao">
         <div class="LukerWay-cacaoContent">
             <div class="inline">
@@ -87,7 +89,7 @@
                             herramientas para sus cultivos o regalos para sus familias.
                         </p>
                     </div>
-                    <div  class=" move">
+                    <div class=" move">
                         <h3>A nivel nacional, contamos con 12 ingenieros agrónomos y 3 técnicos en diferentes regiones
                             productoras de cacao, quienes son los encargados de capacitar y dar el apoyo técnico a
                             nuestros productores.</h3>
@@ -152,10 +154,92 @@
         <div class="LukerWay-bar"><span data-target="LukerWay-header" class="LukerWay-barFirst"></span><span
                 data-target="LukerWay-term" class="LukerWay-barLast"></span></div>
     </section>
+
+
+    <!--term-->
     <section class="LukerWay-term">
+        <div class="LukerWay-cacaoContent">
+            <div class="inline right">
+                <h2>
+                    CREEMOS EN
+                    CONDICIONES DE
+                    COMPRA JUSTAS
+                </h2>
+
+                <p>
+                    Nuestra estrategia de compra se basa en la relación directa con los pequeños productores y
+                    asociaciones, haciendo la cadena de suministro más corta. Queremos garantizar la calidad, la
+                    trazabilidad y los volúmenes de compra.
+                </p>
+
+                <ul class="LukerWay-menuEducation">
+
+
+                    <li><a href="#" class="active" data-target="LukerWay-agency">REGIONES CACOTERAS Y<br>AGENCIAS DE COMPRA</a></li>
+                    <li><a href="#" data-target="LukerWay-provider">NUESTROS PROVEEDORES DE <br> CACAO EN GRANO</a></li>
+                    <li><a href="#" data-target="LukerWay-association">LAS ASOCIACIONES DE <br>PRODUCTORES DE CACAO</a></li>
+                    <li><a href="#" data-target="LukerWay-commitment">NUESTRO COMPROMISO CON <br>LOS PRODUCTORES EN CIFRAS</a></li>
+                </ul>
+            </div>
+            <div class="LukerWay-cacaoContentRight">
+
+                <ul class="LukerWay-cacaoContentRightUl">
+                    <li class="show LukerWay-provider">
+
+                        <h2>
+                            Regiones cacaoteras
+                            y agencias de compra
+                        </h2>
+                        <img src="<?php bloginfo('template_url') ?>/assets/images/cultivo.png" alt="">
+                    </li>
+                    <li class="LukerWay-provider">
+
+                    </li>
+                    <li class="LukerWay-association">
+
+                    </li>
+                    <li class="LukerWay-commitment">
+
+                    </li>
+                    <li class="LukerWay-system">
+                        <h4>Sistema Agroforestal
+                            <span>CACAO-PLÁTANO-MELINA</h4>
+                        <img src="<?php bloginfo('template_url') ?>/assets/images/cultivo.png" alt="">
+                    </li>
+                    <div class="LukerWay-next">►</div>
+                </ul>
+
+            </div>
+        </div>
+        <div class="LukerWay-cacaoBackRight"></div>
+        <span class="LukerWay-cacaoArrowRight">
+                    <b>GO</b>
+                    <svg width="66" height="114" xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <path stroke="#000"
+                                  transform="rotate(90.27140045166016 32.09419250488282,54.9846076965332) " id="svg_1"
+                                  d="m-21.92279,85.7175l54.01695,-61.46578l54.01702,61.46578l-108.03398,0l0.00001,0z"
+                                  stroke-width="0" fill="#fff"/>
+                        </g>
+                    </svg>
+            </span>
+        <span class="LukerWay-cacaoArrowCollapseRight">
+                    <img src="<?php bloginfo('template_url') ?>/assets/images/collapse.png" alt="">
+                    <svg width="66" height="114" xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <path stroke="#000"
+                                  transform="rotate(90.27140045166016 32.09419250488282,54.9846076965332) " id="svg_1"
+                                  d="m-21.92279,85.7175l54.01695,-61.46578l54.01702,61.46578l-108.03398,0l0.00001,0z"
+                                  stroke-width="0" fill="#fff"/>
+                        </g>
+                    </svg>
+            </span>
+        <!-- ----- -->
         <div class="LukerWay-bar"><span data-target="LukerWay-cacao" class="LukerWay-barFirst"></span><span
                 data-target="LukerWay-social" class="LukerWay-barLast"></span></div>
     </section>
+
+
     <section class="LukerWay-social">
         <div class="LukerWay-bar"><span data-target="LukerWay-term" class="LukerWay-barFirst"></span><span
                 data-target="LukerWay-business" class="LukerWay-barLast"></span></div>
