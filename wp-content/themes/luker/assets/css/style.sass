@@ -1306,7 +1306,7 @@ article.LukerWay-scientificContent
   position: relative
   z-index: 2
   vertical-align: top
-  & ul
+  & > ul
     border-top: 2px dotted #fff
     border-bottom: 2px dotted #fff
     top: calc(50% - 285px)
@@ -1314,3 +1314,115 @@ article.LukerWay-scientificContent
     width: 550px
     margin: auto
     height: 570px
+    & ul
+      border: 3px dotted
+      border-radius: 50%
+      width: 260px
+      height: 260px
+      padding: 8px
+      margin: auto
+.LukerWay-cacaoContentRightUl
+  display: none
+  & > li
+    position: absolute
+    opacity: 0
+    @include transition(all .8s)
+    &.show
+      opacity: 1
+      z-index: 1000
+
+
+.slideFade
+  & .owl-pagination
+    display: none
+  & .owl-buttons
+    position: absolute
+    top: calc(50% - 20px)
+    left: -37px
+    width: 100%
+    font-size: 2rem
+  & .owl-next
+    position: absolute
+    right: -74px
+    top: 0
+.LukerWay-soport li
+    position: relative
+    &.show
+      display: block
+
+.LukerWay-next
+  position: absolute
+  bottom: -3rem
+  transform: rotate(90deg)
+  font-size: 2rem
+  left: calc(50% - 1rem)
+  cursor: pointer
+  @include animate(next-animation .5s infinite forwards alternate)
+
+@include keyframes(next-animation)
+
+  0%
+    bottom: -3rem
+  100%
+    bottom: -3.5rem
+
+.LukerWay-menuEducation .active
+  color: white
+.LukerWay-grajaLuker
+  text-align: center
+  & figure
+    margin: 0
+    width: 120px
+    display: inline-block
+    vertical-align: middle
+    margin-top: 1.4rem
+  & p
+    display: inline-block
+    vertical-align: middle
+    width: 391px
+    margin-top: 1.4rem
+    margin-left: 2rem
+    font-size: .9rem
+    line-height: 1.4em
+    text-align: left
+  & h4
+    color: #FD9631
+    font-size: 1.2em
+    line-height: 1.5em
+    margin: 0.7em 0
+    font-weight: normal
+    letter-spacing: 0.1em
+  & a
+    color: #fff
+    font-size: 1.2em
+    width: 150px
+    display: block
+    border-top: 1px solid #FD9631
+    border-bottom: 1px solid #FD9631
+    text-align: center
+    margin: auto
+    padding: 0.4em
+    font-weight: normal
+    letter-spacing: 0.1em
+
+.LukerWay-system h4
+  color: #fff
+  margin: 2rem
+  text-align: center
+  font-size: 1.9rem
+  line-height: 1em
+  text-align: center
+  & span
+    display: block
+    font-size: 1.4rem
+    line-height: 1em
+
+.LukerWay-support .move
+  position: absolute
+  top: 100%
+  opacity: 0
+  width: 580px
+  &.show
+    @include transition(.5s all)
+    opacity: 1
+    top: 0

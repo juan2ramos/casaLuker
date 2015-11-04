@@ -35,8 +35,6 @@
                 data-target="LukerWay-cacao" class="LukerWay-barLast"></span></div>
     </section>
     <section class="LukerWay-cacao">
-
-
         <div class="LukerWay-cacaoContent">
             <div class="inline">
                 <h2>CREEMOS EN <br> LA EDUCACIÓN</h2>
@@ -48,29 +46,78 @@
                     Capacitamos a más de 700 personas anualmente. Más de 30.000 agricultores han pasado por la Granja
                     Luker durante estos primeros 50 años.
                 </p>
-                <ul>
-                    <li><a href="#" data-target="LukerWay-cacao">SOPORTE Y <br>CAPACITACIÓN</a></li>
-                    <li><a href="#" data-target="LukerWay-social">GRANJA <br>LUKER</a></li>
-                    <li><a href="#" data-target="LukerWay-business">SISTEMA <br>AGROFORESTAL</a></li>
+                <ul class="LukerWay-menuEducation">
+                    <li><a href="#" class="active" data-target="LukerWay-support">SOPORTE Y <br>CAPACITACIÓN</a></li>
+                    <li><a href="#" data-target="LukerWay-grajaLuker">GRANJA <br>LUKER</a></li>
+                    <li><a href="#" data-target="LukerWay-system">SISTEMA <br>AGROFORESTAL</a></li>
                 </ul>
             </div>
         </div>
         <div class="LukerWay-cacaoContentRight">
 
             <ul class="LukerWay-cacaoContentRightUl">
-                <li>
-                    <p>CasaLuker proporciona a los agricultores, de forma gratuita, las herramientas que necesitan para
-                        producir un cacao de excelente calidad: formación técnica en nuestro centro de investigación de
-                        cacao, Granja Luker, y apoyo técnico en el campo. Por lo tanto, CasaLuker sólo comprará a los
-                        agricultores los granos de cacao que cumplen en un 100% con los estándares Fino de Aroma.</p>
+                <li class="show LukerWay-support">
+                    <div class="show move">
+                        <p>CasaLuker proporciona a los agricultores, de forma gratuita, las herramientas que necesitan
+                            para
+                            producir un cacao de excelente calidad: formación técnica en nuestro centro de investigación
+                            de
+                            cacao, Granja Luker, y apoyo técnico en el campo. Por lo tanto, CasaLuker sólo comprará a
+                            los
+                            agricultores los granos de cacao que cumplen en un 100% con los estándares Fino de
+                            Aroma.</p>
 
-                    <p>
-                        Durante el tiempo de la cosecha, desarrollamos diferentes actividades con los agricultores como
-                        por ejemplo los Planes Cosecha en los que motivamos a los agricultores a vender su cacao a
-                        nuestra empresa a cambio de que puedan participar en el sorteo de diferentes premios, tales como
-                        herramientas para sus cultivos o regalos para sus familias.
-                    </p>
+                        <ul class="slideFade">
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/support-01.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/support-02.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/support-03.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/support-04.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/support-05.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/training-01.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/training-02.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/training-03.png" alt=""></li>
+                        </ul>
+
+                        <p>
+                            Durante el tiempo de la cosecha, desarrollamos diferentes actividades con los agricultores
+                            como
+                            por ejemplo los Planes Cosecha en los que motivamos a los agricultores a vender su cacao a
+                            nuestra empresa a cambio de que puedan participar en el sorteo de diferentes premios, tales
+                            como
+                            herramientas para sus cultivos o regalos para sus familias.
+                        </p>
+                    </div>
+                    <div  class=" move">
+                        <h3>A nivel nacional, contamos con 12 ingenieros agrónomos y 3 técnicos en diferentes regiones
+                            productoras de cacao, quienes son los encargados de capacitar y dar el apoyo técnico a
+                            nuestros productores.</h3>
+                    </div>
                 </li>
+                <li class="LukerWay-grajaLuker">
+                    <div class="">
+                        <figure><img src="<?php bloginfo('template_url') ?>/assets/images/logo-granja.jpg" alt="">
+                        </figure>
+                        <p>
+                            En 1962, CasaLuker creó la Granja Luker, uno de los pocos centros de investigación de
+                            cacao
+                            en el mundo, donde se trabaja para modernizar la tecnología de producción y de
+                            conservación
+                            de la calidad del Cacao Fino de Aroma, beneficiando a los agricultores que viven de
+                            estos
+                            cultivos y garantizando la mejor calidad para nuestros clientes.
+                        </p>
+                    </div>
+                    <h4>Capacitamos más de 700 personas al año, MÁS DE 30.000 DURANTE LOS ÚLTIMOS 50 AÑOS.</h4>
+                    <img src="<?php bloginfo('template_url') ?>/assets/images/people.png" alt="">
+                    <h4>PARA CONOCER MÁS ACERCA GRANJA LUKER</h4>
+                    <a href="http://www.lukeringredients.com/es/granja-luker">CLIC AQUI</a>
+                </li>
+                <li class="LukerWay-system">
+                    <h4>Sistema Agroforestal
+                        <span>CACAO-PLÁTANO-MELINA</h4>
+                    <img src="<?php bloginfo('template_url') ?>/assets/images/cultivo.png" alt="">
+                </li>
+                <div class="LukerWay-next">►</div>
             </ul>
 
         </div>
@@ -192,6 +239,7 @@
 </main>
 <?php wp_enqueue_style('luker-way', get_template_directory_uri() . '/assets/css/owl.carousel.css'); ?>
 <?php wp_enqueue_style('luker-way1', get_template_directory_uri() . '/assets/css/jquery.cover.css'); ?>
+<?php wp_enqueue_style('luker-trans', get_template_directory_uri() . '/assets/css/owl.transitions.css'); ?>
 <?php wp_enqueue_script('luker-way', get_template_directory_uri() . '/assets/js/owl.carousel.js', array('jquery'), 1, false); ?>
 <?php wp_enqueue_script('luker-wayCover', get_template_directory_uri() . '/assets/js/jquery.cover.js', array('jquery'), 1, false); ?>
 <?php wp_enqueue_script('luker-velocity', 'http://julian.com/research/velocity/build/jquery.velocity.min.js', array('jquery'), 1, false); ?>
