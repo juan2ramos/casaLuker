@@ -1,6 +1,8 @@
 (function (window) {
-    var reverse = false;
-    var reverseRight = false;
+    var reverse = false,
+        reverseRight = false,
+        indexSystem = 0,
+        indexSopport = 0;
     $('.LukerWay-bar span, .LukerWay-headerContent a, .LukerWay-nav ul a').on('click', function () {
         event.preventDefault();
         var target = $(this).data('target'),
@@ -64,8 +66,6 @@
         reverse = true
     });
 
-
-
     $('.LukerWay-cacaoArrowRight').on('click', function () {
 
         var ww = $(window).width(),
@@ -77,7 +77,7 @@
         $(".LukerWay-cacaoBackRight").velocity({width: '100%', left: 0}, {duration: 800});
         $('.LukerWay-cacaoArrowCollapseRight').velocity({opacity: [1, 0]}, {duration: 200, delay: 800, display: 'block'});
 
-        $('.LukerWay-term .LukerWay-cacaoContent ul').velocity({opacity: [1, 0]}, {duration: 200, delay: 200, display: 'block'});
+        $('.LukerWay-term .LukerWay-cacaoContent ul').velocity({opacity: [1, 0]}, {duration: 400, delay: 500, display: 'block'});
         //$('.LukerWay-cacaoContentRightUl').velocity({opacity: [1, 0]}, {duration: 200, delay: 600, display: 'block'});
 
         reverseRight = true
@@ -90,8 +90,6 @@
         $(".LukerWay-term .inline").velocity("reverse", {duration: 700}).velocity({left:leftInline}, 800);
         $('.LukerWay-term .LukerWay-cacaoContent ul').velocity("reverse", {duration: 700});
         $(".LukerWay-cacaoArrowRight").velocity({opacity: 1,}, {duration: 200, display: "block", delay:1500})
-
-        $(".LukerWay-cacao .LukerWay-cacaoBack").velocity("reverse", {duration: 700});
         $(this).velocity({opacity: 0}, {duration: 100, display: "none"});
         reverseRight = false
     });
@@ -120,10 +118,46 @@
     });
     $('.LukerWay-next').on('click', function () {
 
-        var index = $( ".move" ).index( $( ".move .show" ) );
 
-        $('.move').removeClass('show')
-        $( ".move:eq( " + index + " )").addClass('show')
+        if($("a[data-target='LukerWay-support']").hasClass('active')){
+
+            indexSupport = $( ".move" ).index( $( ".move.show" ) );
+            if(indexSupport == 2) indexSupport = -1;
+            $('.move').removeClass('show')
+            indexSupport++;
+            $( ".move:eq( " + indexSupport + " )").addClass('show')
+
+        }else{
+            indexSystem = $( ".moveSystem" ).index( $( ".moveSystem.show" ) );
+            if(indexSystem == 1) indexSystem = -1;
+            $('.moveSystem').removeClass('show')
+            indexSystem++;
+            $( ".moveSystem:eq( " + indexSystem + " )").addClass('show')
+
+        }
+
+
+
+    });
+
+    $('.LukerWay-prev').on('click', function () {
+
+
+        if($("a[data-target='LukerWay-support']").hasClass('active')){
+            indexSupport = $( ".move" ).index( $( ".move.show" ) );
+            if(indexSupport == 0) indexSupport = 3;
+            $('.move').removeClass('show')
+            indexSupport--;
+            $( ".move:eq( " + indexSupport + " )").addClass('show')
+        }else{
+            indexSystem = $( ".moveSystem" ).index( $( ".moveSystem.show" ) );
+            if(indexSystem == 0) indexSystem = 2;
+            $('.moveSystem').removeClass('show')
+            indexSystem--;
+            $( ".moveSystem:eq( " + indexSystem + " )").addClass('show')
+
+        }
+
 
 
     });
@@ -131,10 +165,12 @@
     $('.LukerWay-menuEducation a').on('click', function () {
 
         var target = $(this).data('target');
-        if(target == 'LukerWay-grajaLuker'){
-            $('.LukerWay-next').hide();
-        }else{
+        if(target == 'LukerWay-support' || target == 'LukerWay-system'){
             $('.LukerWay-next').show();
+            $('.LukerWay-prev').show();
+        }else{
+            $('.LukerWay-next').hide();
+            $('.LukerWay-prev').hide();
         }
 
         $('.LukerWay-menuEducation a').removeClass('active');
@@ -143,7 +179,6 @@
         $('.LukerWay-cacaoContentRightUl li').removeClass('show')
 
         $('.' + target).addClass('show')
-
     });
 })(window);
 

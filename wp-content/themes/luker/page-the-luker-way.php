@@ -58,6 +58,7 @@
         <div class="LukerWay-cacaoContentRight">
 
             <ul class="LukerWay-cacaoContentRightUl">
+                <div class="LukerWay-prev">►</div>
                 <li class="show LukerWay-support">
                     <div class="show move">
                         <p>CasaLuker proporciona a los agricultores, de forma gratuita, las herramientas que necesitan
@@ -89,10 +90,29 @@
                             herramientas para sus cultivos o regalos para sus familias.
                         </p>
                     </div>
-                    <div class=" move">
+                    <div class=" move national">
                         <h3>A nivel nacional, contamos con 12 ingenieros agrónomos y 3 técnicos en diferentes regiones
                             productoras de cacao, quienes son los encargados de capacitar y dar el apoyo técnico a
                             nuestros productores.</h3>
+                        <img src="<?php bloginfo('template_url') ?>/assets/images/training.png">
+                    </div>
+                    <div class="move">
+
+                        <p>Como una extensión de nuestros programas educativos en la Granja Luker, también tenemos nueve
+                            parcelas demostrativas en Colombia y una en Perú. Una parcela demostrativa se establece a
+                            través de un acuerdo hecho entre CasaLuker y un agricultor, en el que el agricultor recibe
+                            un subsidio por CasaLuker (material vegetal y diferentes suministros agrícolas) para mejorar
+                            su cultivo, así como una capacitación gratuita. A cambio, el agricultor se compromete a
+                            convertir su granja en un modelo utilizado para entrenar y dar ejemplo a otros
+                            productores.</p>
+
+                        <ul class="slideFade">
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/farm-01.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/farm-02.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/farm-03.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/farm-04.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/farm-05.png" alt=""></li>
+                        </ul>
                     </div>
                 </li>
                 <li class="LukerWay-grajaLuker">
@@ -115,9 +135,12 @@
                     <a href="http://www.lukeringredients.com/es/granja-luker">CLIC AQUI</a>
                 </li>
                 <li class="LukerWay-system">
-                    <h4>Sistema Agroforestal
-                        <span>CACAO-PLÁTANO-MELINA</h4>
-                    <img src="<?php bloginfo('template_url') ?>/assets/images/cultivo.png" alt="">
+                    <div class="moveSystem show">
+                        <h4>Sistema Agroforestal
+                            <span>CACAO-PLÁTANO-MELINA</h4>
+                        <img src="<?php bloginfo('template_url') ?>/assets/images/cultivo.png" alt="">
+                    </div>
+                    <div class="moveSystem">lalalla</div>
                 </li>
                 <div class="LukerWay-next">►</div>
             </ul>
@@ -175,38 +198,72 @@
                 <ul class="LukerWay-menuEducation">
 
 
-                    <li><a href="#" class="active" data-target="LukerWay-agency">REGIONES CACOTERAS Y<br>AGENCIAS DE COMPRA</a></li>
+                    <li><a href="#" class="active" data-target="LukerWay-agency">REGIONES CACOTERAS Y<br>AGENCIAS DE
+                            COMPRA</a></li>
                     <li><a href="#" data-target="LukerWay-provider">NUESTROS PROVEEDORES DE <br> CACAO EN GRANO</a></li>
-                    <li><a href="#" data-target="LukerWay-association">LAS ASOCIACIONES DE <br>PRODUCTORES DE CACAO</a></li>
-                    <li><a href="#" data-target="LukerWay-commitment">NUESTRO COMPROMISO CON <br>LOS PRODUCTORES EN CIFRAS</a></li>
+                    <li><a href="#" data-target="LukerWay-association">LAS ASOCIACIONES DE <br>PRODUCTORES DE CACAO</a>
+                    </li>
+                    <li><a href="#" data-target="LukerWay-commitment">NUESTRO COMPROMISO CON <br>LOS PRODUCTORES EN
+                            CIFRAS</a></li>
                 </ul>
             </div>
             <div class="LukerWay-cacaoContentRight">
 
                 <ul class="LukerWay-cacaoContentRightUl">
-                    <li class="show LukerWay-provider">
+                    <li class="show LukerWay-agency">
+                        <h3>Regiones cacaoteras</h3>
+                        <h4>y agencias de compra</h4>
 
-                        <h2>
-                            Regiones cacaoteras
-                            y agencias de compra
-                        </h2>
-                        <img src="<?php bloginfo('template_url') ?>/assets/images/cultivo.png" alt="">
+                        <img src="<?php bloginfo('template_url') ?>/assets/images/map.png" alt="">
                     </li>
                     <li class="LukerWay-provider">
-
+                        <div class="LukerWay-providerDiv">
+                            <img src="<?php bloginfo('template_url') ?>/assets/images/campesinos.png" alt="">
+                            <img src="<?php bloginfo('template_url') ?>/assets/images/campesinos.png" alt="">
+                            <img src="<?php bloginfo('template_url') ?>/assets/images/campesinos.png" alt="">
+                        </div>
+                        <p>
+                            Nuestros principales proveedores de cacao en grano son las asociaciones de agricultores con
+                            los que mantenemos contratos de compra con el fin de garantizar la venta de su cosecha.
+                        </p>
+                        <ul class="slideFade">
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/suppliers-01.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/suppliers-02.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/suppliers-03.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/suppliers-04.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/suppliers-05.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/suppliers-06.png" alt=""></li>
+                        </ul>
                     </li>
                     <li class="LukerWay-association">
+                        <img src="<?php bloginfo('template_url') ?>/assets/images/mano-semillas.png" alt="">
 
+                        <p>
+                            Las asociaciones de productores de cacao son grupos de agricultores que trabajan en conjunto
+                            con el fin de generar beneficios mutuos, tales como: recaudo de fondos proporcionados por el
+                            gobierno de Colombia, las agencias de ayuda internacionales y empresas privadas.
+                            Entrenamiento agrícola y apoyo técnico en el campo, con el objetivo de aumentar el cultivo
+                            de cacao en Colombia, mejorar la calidad del cacao e incentivar las buenas prácticas en los
+                            cultivos. Estas asociaciones también representan una forma de limitar los cultivos ilícitos
+                            y el tráfico de drogas en las regiones.
+                        </p>
+                        <ul class="slideFade">
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/producers-01.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/producers-02.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/producers-03.png" alt=""></li>
+                            <li><img src="<?php bloginfo('template_url') ?>/assets/images/producers-04.png" alt=""></li>
+                        </ul>
                     </li>
                     <li class="LukerWay-commitment">
 
+                        <img src="<?php bloginfo('template_url') ?>/assets/images/img-luker-es.png" alt="">
                     </li>
                     <li class="LukerWay-system">
                         <h4>Sistema Agroforestal
                             <span>CACAO-PLÁTANO-MELINA</h4>
                         <img src="<?php bloginfo('template_url') ?>/assets/images/cultivo.png" alt="">
                     </li>
-                    <div class="LukerWay-next">►</div>
+
                 </ul>
 
             </div>

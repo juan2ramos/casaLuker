@@ -635,6 +635,7 @@ Main.newsAndEvent
 
 .show
   opacity: 1
+  z-index: 100
 .events-contents
   background: rgba(0, 0, 0, 0.71)
   padding: 1.5rem 0
@@ -1323,6 +1324,8 @@ article.LukerWay-scientificContent
       margin: auto
 .LukerWay-cacaoContentRightUl
   display: none
+  & .slideFade
+    margin-top: 1rem
   & > li
     position: absolute
     opacity: 0
@@ -1333,6 +1336,8 @@ article.LukerWay-scientificContent
 
 
 .slideFade
+  position: relative !important
+  left: auto !important
   & .owl-pagination
     display: none
   & .owl-buttons
@@ -1345,12 +1350,16 @@ article.LukerWay-scientificContent
     position: absolute
     right: -74px
     top: 0
+  & img
+    max-width: 100% !important
+  & li
+    border-top: none  !important
 .LukerWay-soport li
     position: relative
     &.show
       display: block
 
-.LukerWay-next
+.LukerWay-next, .LukerWay-prev
   position: absolute
   bottom: -3rem
   transform: rotate(90deg)
@@ -1358,7 +1367,8 @@ article.LukerWay-scientificContent
   left: calc(50% - 1rem)
   cursor: pointer
   @include animate(next-animation .5s infinite forwards alternate)
-
+.LukerWay-prev
+  transform: rotate(-90deg) translateX(620px)
 @include keyframes(next-animation)
 
   0%
@@ -1417,7 +1427,7 @@ article.LukerWay-scientificContent
     font-size: 1.4rem
     line-height: 1em
 
-.LukerWay-support .move
+.LukerWay-support .move, .LukerWay-system .moveSystem
   position: absolute
   top: 100%
   opacity: 0
@@ -1465,3 +1475,40 @@ article.LukerWay-scientificContent
     left: 100%
   & .LukerWay-cacaoContentRightUl
     left: 0
+    & h4
+      line-height: 0
+      margin: 8px 0 25px
+    & li
+      max-width: 100%
+      border: none
+      text-align: center
+    & img
+      max-width: 95%
+    & p
+      text-align: left
+      border: none
+
+.LukerWay-association
+  & img
+    max-width: 95%
+    padding: 20px 0 0
+    width: 70px
+  & p
+    text-align: left
+    border: none
+    max-width: 500px
+  & .slideFade img
+    width: 100%
+    padding: 0
+.LukerWay-agency
+  text-align: center
+
+.LukerWay-provider
+  & .LukerWay-providerDiv img
+    padding: .8rem
+.national
+  text-align: center
+  & h3
+    color: #FD9631
+    margin: 8rem 0 6rem
+    line-height: 1.3em
