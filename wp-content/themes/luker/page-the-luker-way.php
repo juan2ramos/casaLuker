@@ -298,6 +298,173 @@
 
 
     <section class="LukerWay-social">
+        <div class="lukerWay-socialContent">
+            <div>
+                <span data-target="LukerWay-header" class="citiesBack"></span>
+            </div>
+            <h2>COMPROMISO SOCIAL</h2>
+            <ul class="cities">
+
+                <li class="citiesFirst">
+                    <h4>HUILA</h4>
+                    <ul class="citiesUl">
+                        <li>
+                            <h5>HUILA</h5>
+
+                            <h6>HUILA</h6>
+                            <h6>UN CACAO CON HISTORIA</h6>
+
+                            <p>Un cacao con historia nació con la visita de CasaLuker a la parcela demostrativa de la familia Torres en el Huila, Colombia. La historia está ambientada en Gigante, un pueblo en el departamento colombiano del Huila, a 379 kilómetros al sur de la capital de Colombia, Bogotá. La región es esencialmente agrícola y el 70% de su economía depende del café y el cacao. Pasar tiempo con la familia, la comprensión de su modo de vida y escuchar sus historias en los campos, nos dio una perspectiva diferente de la ardua labor que se da en el negocio del cacao. Para leer el artículo completo haga clic
+                            aquí.
+                            </p>
+                        </li>
+                        <li>
+                            <article class="city1">
+                                <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/desgranado-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/huila-01.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/flor-a-escala-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/huila-02.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link"
+                                   href="<?php bloginfo('template_url') ?>/assets/images/grano-bien-fermentado-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/huila-03.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link"
+                                   href="<?php bloginfo('template_url') ?>/assets/images/mazorcas-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/huila-04.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link"
+                                   href="<?php bloginfo('template_url') ?>/assets/images/mazorcas-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/huila-05.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link"
+                                   href="<?php bloginfo('template_url') ?>/assets/images/mazorcas-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/huila-06.jpg" alt="">
+                                </a>
+                            </article>
+                        </li>
+                        <li><iframe width="90%" height="300" src="https://www.youtube.com/embed/rIiORBECmyU" frameborder="0" allowfullscreen></iframe></li>
+
+                    </ul>
+                </li>
+                <li class="citiesFirst">
+                    <h4>NECLOLÍ</h4>
+                    <ul class="citiesUl">
+                        <li>
+                            <h5>NECOCLÍ</h5>
+
+                            <h6>NECOCLÍ</h6>
+                            <h6>UNA APUESTA POR UN FUTURO MEJOR</h6>
+
+                            <p>
+                                Hace un par de años, CasaLuker creó un proyecto emprendedor - Inversiones Necoclí, un proyecto Cacao Fino de Aroma – en donde se implementó un esquema sostenible a través del cultivo de cacao, generando mayor interés en Necoclí y como resultado, mejores condiciones de vida para la comunidad. La finca El Rosario solía ser utilizada para actividades ganaderas, pero ahora el proyecto de 550 hectáreas tiene plantaciones de árbol de Melina, plátano y cacao. Con esta iniciativa, la comunidad de Necoclí está experimentando un cambio positivo. Para leer el artículo completo haga clic
+                                aquí
+                                .
+                            </p>
+                        </li>
+                        <li>
+                            <article class="city1">
+                                <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/desgranado-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/necocli-01.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/flor-a-escala-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/necocli-02.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link"
+                                   href="<?php bloginfo('template_url') ?>/assets/images/grano-bien-fermentado-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/necocli-03.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link"
+                                   href="<?php bloginfo('template_url') ?>/assets/images/mazorcas-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/necocli-04.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link"
+                                   href="<?php bloginfo('template_url') ?>/assets/images/mazorcas-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/necocli-05.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link"
+                                   href="<?php bloginfo('template_url') ?>/assets/images/mazorcas-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/necocli-06.jpg" alt="">
+                                </a>
+                            </article>
+                        </li>
+                        <li><iframe width="90%" height="300" src="https://www.youtube.com/embed/biYl7vEWMkw" frameborder="0" allowfullscreen></iframe></li>
+
+                    </ul>
+                </li>
+                <li class="citiesFirst">
+                    <h4>ARAUCA</h4>
+                    <ul class="citiesUl">
+                        <li>
+                            <h5>ARAUCA</h5>
+
+                            <h6>ARAUCA</h6>
+                            <p>
+                                Para nuestra tercera historia exploramos el cacao en Arauca, un departamento ubicado en el norte de la región de la Orinoquía colombiana, en la frontera con Venezuela. En este departamento la riqueza cultural se manifiesta en el canto, la música, las danzas, las costumbres, los mitos y las leyendas. Don Elio, el protagonista de esta historia cultiva y beneficia el cacao en su finca llamada “Laguna Vieja”. Ésta se encuentra ubicada en una porción de tierra formada por los dos brazos del río Arauca y allí es donde se lleva a cabo el proceso de beneficio del cacao en el cual participan todos los colaboradores y empleados de la finca, incluyendo a su esposa Irma. Para leer el artículo completo haga clic
+                                aquí
+                            </p>
+                        </li>
+                        <li>
+                            <article class="city1">
+                                <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/desgranado-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/arauca-01.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/flor-a-escala-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/arauca-02.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link"
+                                   href="<?php bloginfo('template_url') ?>/assets/images/grano-bien-fermentado-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/arauca-03.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link"
+                                   href="<?php bloginfo('template_url') ?>/assets/images/mazorcas-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/arauca-04.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link"
+                                   href="<?php bloginfo('template_url') ?>/assets/images/mazorcas-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/arauca-05.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link"
+                                   href="<?php bloginfo('template_url') ?>/assets/images/mazorcas-large.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/arauca-06.jpg" alt="">
+                                </a>
+                            </article>
+                        </li>
+                        <li><iframe width="90%" height="300" src="https://www.youtube.com/embed/lrdRoJX7Ibw" frameborder="0" allowfullscreen></iframe></li>
+
+                    </ul>
+                </li>
+            </ul>
+            <ul class="foundation">
+                <li>
+                    <h4>FUNDACIÓN LUKER</h4>
+
+                    <p>
+                        La Fundación Luker es una organización privada, sin ánimo de lucro y de origen empresarial
+                        (CasaLuker S.A.). Fue creada en 1994 con el fin de contribuir al mejoramiento de la calidad de
+                        vida
+                        de la gente de Manizales y así mismo fomentar el desarrollo social. En 2010, la Fundación Luker
+                        redefinió su estrategia y tiene como misión, proveer liderazgo para contribuir al desarrollo
+                        social
+                        y económico de Manizales como ciudad del conocimiento, a través de proyectos de educación,
+                        emprendimiento en alianza con líderes locales y mundiales.
+                    </p>
+                </li>
+                <li>
+                    <img src="<?php bloginfo('template_url') ?>/assets/images/logo-luker-fundation-es.png" alt="">
+
+                </li>
+                <li>
+                    <h4>ÁREA DE TRABAJO</h4>
+
+                    <p>Educación para el Desarrollo <br>
+                        Emprendimiento para el Desarrollo <br>
+                        Proyectos Especiales; Recreación y Cultura</p>
+                </li>
+            </ul>
+            <h3><a href="">IR A LA FUNDACIÓN LUKER</a></h3>
+        </div>
         <div class="LukerWay-bar"><span data-target="LukerWay-term" class="LukerWay-barFirst"></span><span
                 data-target="LukerWay-business" class="LukerWay-barLast"></span></div>
     </section>
@@ -378,12 +545,15 @@
         </ul>
     </section>
 </main>
+<?php wp_enqueue_style('style-name', 'http://dimsemenov-static.s3.amazonaws.com/dist/magnific-popup.css'); ?>
 <?php wp_enqueue_style('luker-way', get_template_directory_uri() . '/assets/css/owl.carousel.css'); ?>
 <?php wp_enqueue_style('luker-way1', get_template_directory_uri() . '/assets/css/jquery.cover.css'); ?>
 <?php wp_enqueue_style('luker-trans', get_template_directory_uri() . '/assets/css/owl.transitions.css'); ?>
 <?php wp_enqueue_script('luker-way', get_template_directory_uri() . '/assets/js/owl.carousel.js', array('jquery'), 1, false); ?>
 <?php wp_enqueue_script('luker-wayCover', get_template_directory_uri() . '/assets/js/jquery.cover.js', array('jquery'), 1, false); ?>
 <?php wp_enqueue_script('luker-velocity', 'http://julian.com/research/velocity/build/jquery.velocity.min.js', array('jquery'), 1, false); ?>
-<?php wp_enqueue_script('luker-way1', get_template_directory_uri() . '/assets/js/lukerWay.js', array('jquery'), 1, false); ?>
+<?php wp_enqueue_script('dimsemenov', 'http://dimsemenov-static.s3.amazonaws.com/dist/jquery.magnific-popup.min.js', array('jquery'), 1, false); ?>
+<?php wp_enqueue_script('mixScript', get_template_directory_uri() . '/assets/js/popUp.js', array('jquery'), 1, false); ?>
+<?php wp_enqueue_script('luker-way1s', get_template_directory_uri() . '/assets/js/lukerWay.js', array('jquery'), 1, false); ?>
 
 <?php get_footer(); ?>

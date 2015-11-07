@@ -990,7 +990,7 @@ article.LukerWay-scientificContent
   background: #FD9631
   text-align: center
   font-size: .8rem
-  z-index: 10000
+  z-index: 1000
   span:first-child
     position: absolute
     width: 0
@@ -1512,3 +1512,158 @@ article.LukerWay-scientificContent
     color: #FD9631
     margin: 8rem 0 6rem
     line-height: 1.3em
+.lukerWay-socialContent
+  display: inline-block
+  vertical-align: top
+  & .citiesBack
+    position: absolute
+    width: 0
+    height: 0
+    border-top: 1rem solid transparent
+    border-bottom: 1rem solid transparent
+    border-right: 1.5rem solid #FD9631
+    z-index: 20
+    left: 1rem
+    cursor: pointer
+    top: 8rem
+    @include transform(scale(.85))
+    &:after
+      content: ''
+      position: absolute
+      width: 0
+      height: 0
+      border-top: 6px solid transparent
+      border-bottom: 6px solid transparent
+      border-right: 12px solid #fff
+      top: -6px
+      left: 12px
+    &:before
+      content: 'VOLVER'
+      background: #FD9631
+      position: absolute
+      top: -1rem
+      left: 1.45rem
+      line-height: 32px
+      font-size: .9rem
+      padding: 0 .6rem
+      border-radius: 4px
+  & h2
+    margin: 1rem 3rem
+    font-size: 2.5rem
+  & h3
+    position: absolute
+    width: 100%
+    bottom: 5rem
+    text-align: center
+    font-size: 3em
+    & a
+      color: white
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8)
+
+
+  & .cities
+    height: 45vh
+    position: relative
+    & > li
+      cursor: pointer
+      position: absolute
+      display: inline-block
+      width: 33.4%
+      height: 45vh
+      border: 2px solid #FFF
+      background-size: 100vw
+      &:nth-child(1)
+        background-image: url("../images/huila-back.jpg")
+      &:nth-child(2)
+        background-image: url("../images/necocli-back.jpg")
+        background-position: center
+        left: 33.3%
+      &:nth-child(3)
+        left: 66.6%
+        background-image: url("../images/arauca-back.jpg")
+        background-position: left
+      & h4
+        height: 8.75rem
+        background: rgba(0, 0, 0, 0.5)
+        font-size: 3rem
+        position: relative
+        top: 8rem
+        text-align: center
+        color: white
+        padding-top: 2rem
+  & .foundation
+    background-image: url("../images/luker-foundation1.jpg")
+    height: calc(55vh - 8rem)
+    background-size: cover
+    position: relative
+    text-align: center
+    padding: 1rem 0 0
+    & img
+      max-width: 146px
+    //top: -20px
+    & h4
+      padding: 0 2.5rem
+      text-align: left
+    & p
+      font-size: .8rem
+      line-height: 1em
+      padding: 0 2.5rem
+      text-align: left
+    & li
+      height: 15rem
+      display: inline-block
+      width: 35%
+      vertical-align: middle
+      &:nth-child(2)
+        border-left: 1px solid rgba(255, 255, 255, 0.6)
+        border-right: 1px solid rgba(255, 255, 255, 0.6)
+        width: 29%
+        height: 150px
+      &:last-child
+        margin-left: -9px
+        & p
+          font-size: 1rem
+          line-height: 1.4rem
+
+.citiesUl
+  position: absolute
+  top: 0
+  height: 100%
+  background: rgba(0, 0, 0, 0.4)
+  width: 100%
+  opacity: 0
+  & li
+    text-align: center
+    display: inline-block
+    width: 33%
+    margin-right: 2px
+    vertical-align: middle
+    top: 0
+    position: relative
+    padding: 3rem
+    & h5
+      text-align: left
+      font-size: 2.5em
+      font-weight: bold
+      color: #FFF
+      border-bottom: 2px dotted #FFF
+      display: block
+      margin-bottom: 1rem
+    & h6
+      text-align: left
+      font-size: 1rem
+      color: #FFF
+      font-weight: bold
+      margin: 0
+    & p
+      text-align: left
+      font-size: .9rem
+      line-height: 1.2em
+
+.city1 a
+  width: 49%
+  display: inline-block
+  padding: .25rem
+  max-width: 150px
+  & img
+    border: 1px solid rgba(255, 255, 255, 0.5)
