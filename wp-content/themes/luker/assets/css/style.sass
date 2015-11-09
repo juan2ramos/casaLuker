@@ -464,8 +464,8 @@
   overflow-y: auto
 
 .news figure
-  max-width: 50vw
-  height: 50vw
+  margin: auto
+  max-width: 50%
   background-color: white
   border-radius: 50%
   padding: 1.5rem
@@ -506,19 +506,12 @@
     margin-top: 30px
     margin-right: 4%
   & figure
-    &:before
-      content: ''
-      display: inline-block
-      vertical-align: middle
-      width: 1px
     & img
       border-radius: 50%
       position: relative
       top: 5px
-      vertical-align: middle
-      display: inline-block
   & img
-    height: initial
+    height: inherit
   & article
     position: relative
     margin-top: 5rem
@@ -1139,7 +1132,7 @@ article.LukerWay-scientificContent
   bottom: 61px
   margin: 0 5%
   font-size: .8rem
-  padding: 0 
+  padding: 0
   z-index: 200000
 
 .projectBusiness
