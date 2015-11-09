@@ -35,13 +35,13 @@
                         <td style="border-bottom: 3px solid #fff; border-right: 1px solid #fff;" rowspan="2" width="217">
                             <p style="color: #fff; font-size: 12px; text-align: center;">Bolsa 1 Kg /2,5 Kg/<br>Caja 20 Kg, Discos</p>
                         </td>
-                        <td style="background-image: url('/images/cinco-gotas.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">&nbsp;</td>
+                        <td style="background-image: url('<?php bloginfo('template_url') ?>/assets/images/cinco-gotas.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">&nbsp;</td>
                         <td style="border-bottom: 1px dashed #fff;" width="108" height="27">
                             <p style="color: #fff; font-size: 12px; text-align: center;">MUY FLUIDO</p>
                         </td>
                     </tr>
                     <tr>
-                        <td style="border-bottom: 3px solid #fff; background-image: url('/images/una-gotas.png'); background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;" width="77" height="23">&nbsp;</td>
+                        <td style="border-bottom: 3px solid #fff; background-image: url('<?php bloginfo('template_url') ?>/assets/images/una-gotas.png'); background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;" width="77" height="23">&nbsp;</td>
                         <td style="border-bottom: 3px solid #fff;" height="23">
                             <p style="color: #fff; font-size: 12px; text-align: center;">POCO FLUIDO</p>
                         </td>

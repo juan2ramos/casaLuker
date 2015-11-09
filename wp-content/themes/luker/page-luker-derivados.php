@@ -4,9 +4,9 @@
 
         <section class="Products Derivados">
             <article class="Derivados-article">
-                <figure><img src="<?php bloginfo('template_url') ?>/assets/images/productos/luker-maracas.png" alt="">
+                <figure><img src="<?php bloginfo('template_url') ?>/assets/images/productos/luker.png" alt="">
                 </figure>
-                <h2>Derivados del Cacao</h2>
+                <h2>Luker</h2>
 
                 <p>
                     La presencia de CasaLuker en toda la cadena del cacao, nos permite seleccionar cuidadosamente los

@@ -69,7 +69,7 @@ Theme: Luker
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="<?php echo bloginfo('url')?>/a-su-medida">
                 <figure class="NavHome-figureTree">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/a-su-medida-large.png" alt="">
                 </figure>
@@ -77,7 +77,7 @@ Theme: Luker
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="<?php echo bloginfo('url')?>/the-luker-way">
                 <figure class="NavHome-figureFour">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/the-luker-way-large.png" alt="">
                 </figure>
@@ -85,7 +85,7 @@ Theme: Luker
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="<?php echo bloginfo('url')?>/casaluker">
                 <figure class="NavHome-figureFive">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/casa-luker-large.png" alt="">
                 </figure>
@@ -93,7 +93,7 @@ Theme: Luker
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="<?php echo bloginfo('url')?>/granja-luker">
                 <figure class="NavHome-figureSix">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/granja-luker-large.png" alt="">
                 </figure>
@@ -101,7 +101,7 @@ Theme: Luker
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="<?php echo bloginfo('url')?>/recetas">
                 <figure class="NavHome-figureSeven">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/recetas.png" alt="">
                 </figure>
@@ -109,14 +109,14 @@ Theme: Luker
             </a>
         </li>
         <li>
-            <a href="">
+            <a href="<?php echo bloginfo('url')?>/noticias">
                 <figure class="NavHome-figureEight">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/noticias.png" alt="">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/contactenos.png" alt="">
                 </figure>
                 <h2><?php _e('Noticias','luker'); ?> </h2>
 
-                <h2 class="end"><?php _e('Contactenos','luker'); ?></h2>
+                <a href="<?php echo bloginfo('url')?>/contactanos"><h2 class="end"><?php _e('Contactenos','luker'); ?></h2></a>
             </a>
         </li>
     </ul>

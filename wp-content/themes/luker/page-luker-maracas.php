@@ -36,9 +36,11 @@
                 </div>
                 <div class="row">
                     <div class="cell">
-                        <img
-                            src="http://www.lukeringredients.com/images/grajea1/thumbs/dark-chocolate-covered-nibs-cluster.jpg"
+                        <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/dark-chocolate-covered-nibs-cluster.jpg">
+                        <img style="max-width: 210px"
+                            src="<?php bloginfo('template_url') ?>/assets/images/dark-chocolate-covered-nibs-cluster.jpg"
                             alt="">
+                        </a>
                     <span>
                         G501 <br>
                         Dark Chocolate <br>
@@ -61,9 +63,11 @@
                 </div>
                 <div class="row">
                     <div class="cell">
-                        <img
-                            src="http://www.lukeringredients.com/images/grajea1/thumbs/dark-chocolate-covered-nibs-cluster.jpg"
-                            alt="">
+                        <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/dark-chocolate-covered-nibs.jpg">
+                            <img style="max-width: 210px"
+                                 src="<?php bloginfo('template_url') ?>/assets/images/dark-chocolate-covered-nibs.jpg"
+                                 alt="">
+                        </a>
                     <span>
                         G502 <br>
                         Dark Chocolate <br>
@@ -84,9 +88,11 @@
                 </div>
                 <div class="row">
                     <div class="cell">
-                        <img
-                            src="http://www.lukeringredients.com/images/grajea2/thumbs/dark-chocolate-covered-nibs.jpg"
-                            alt="">
+                        <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/dark-chocolate-covered-espresso-beans.jpg">
+                            <img style="max-width: 210px"
+                                 src="<?php bloginfo('template_url') ?>/assets/images/dark-chocolate-covered-espresso-beans.jpg"
+                                 alt="">
+                        </a>
                     <span>
                         G502 <br>
                         Dark Chocolate <br>
@@ -105,9 +111,11 @@
                 </div>
                 <div class="row">
                     <div class="cell">
-                        <img
-                            src="http://www.lukeringredients.com/images/grajea4/thumbs/dark-chocolate-covered-instant-coffee_dark-chocolate-covered-extra-instant-coffee.jpg"
-                            alt="">
+                        <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/dark-chocolate-covered-instant-coffee_dark-chocolate-covered-extra-instant-coffee.jpg">
+                            <img style="max-width: 210px"
+                                 src="<?php bloginfo('template_url') ?>/assets/images/dark-chocolate-covered-instant-coffee_dark-chocolate-covered-extra-instant-coffee.jpg"
+                                 alt="">
+                        </a>
                     <span>
                         G502 <br>
                         Dark Chocolate <br>
@@ -126,9 +134,11 @@
                 </div>
                 <div class="row">
                     <div class="cell">
-                        <img
-                            src="http://www.lukeringredients.com/images/grajea5/thumbs/dark-chocolate-covered-physalis.jpg"
-                            alt="">
+                        <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/dark-chocolate-covered-physalis.jpg">
+                            <img style="max-width: 210px"
+                                 src="<?php bloginfo('template_url') ?>/assets/images/dark-chocolate-covered-physalis.jpg"
+                                 alt="">
+                        </a>
                     <span>
                         G502 <br>
                         Dark Chocolate <br>
@@ -161,4 +171,7 @@
             </div>
         </div>
     </main>
+<?php wp_enqueue_style('style-name', 'http://dimsemenov-static.s3.amazonaws.com/dist/magnific-popup.css'); ?>
+<?php wp_enqueue_script('dimsemenov', 'http://dimsemenov-static.s3.amazonaws.com/dist/jquery.magnific-popup.min.js', array('jquery'), 1, false); ?>
+<?php wp_enqueue_script('mixScript', get_template_directory_uri() . '/assets/js/popUp.js', array('jquery'), 1, false); ?>
 <?php get_footer(); ?>

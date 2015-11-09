@@ -31,7 +31,7 @@
                 <li><a href="#" data-target="LukerWay-scientific">ENFOQUE CIENTÍFICO</a></li>
             </ul>
         </div>
-        <div class="LukerWay-bar"><span style="display: none" class="LukerWay-barFirst"></span><span
+        <div class="LukerWay-bar">CLIC O DESPLACE<span style="display: none" class="LukerWay-barFirst"></span><span
                 data-target="LukerWay-cacao" class="LukerWay-barLast"></span></div>
     </section>
 
@@ -465,7 +465,7 @@
             </ul>
             <h3><a href="">IR A LA FUNDACIÓN LUKER</a></h3>
         </div>
-        <div class="LukerWay-bar"><span data-target="LukerWay-term" class="LukerWay-barFirst"></span><span
+        <div class="LukerWay-bar"> | PROYECTOS EMPRESARIALES |<span data-target="LukerWay-term" class="LukerWay-barFirst"></span><span
                 data-target="LukerWay-business" class="LukerWay-barLast"></span></div>
     </section>
     <section class="LukerWay-business">
@@ -509,7 +509,7 @@
         <div class="gallery">
             GALERÍA DE FOTOS
         </div>
-        <div class="LukerWay-bar"><span data-target="LukerWay-social" class="LukerWay-barFirst"></span><span
+        <div class="LukerWay-bar">| PROYECTOS EMPRESARIALES |<span data-target="LukerWay-social" class="LukerWay-barFirst"></span><span
                 data-target="LukerWay-scientific" class="LukerWay-barLast"></span></div>
     </section>
     <section class="LukerWay-scientific">
