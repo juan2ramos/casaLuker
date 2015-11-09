@@ -57,7 +57,7 @@ Theme: Luker
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/cacao-fino-de-aroma-large.png"
                          alt="">
                 </figure>
-                <h2>cacao fino de aroma </h2>
+                <h2> <?php _e('cacao fino de aroma','luker'); ?>  </h2>
             </a>
         </li>
         <li>
@@ -65,7 +65,7 @@ Theme: Luker
                 <figure class="NavHome-figureTwo">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/productos-large.png" alt="">
                 </figure>
-                <h2>Productos</h2>
+                <h2> <?php _e('Productos','luker'); ?></h2>
             </a>
         </li>
         <li>
@@ -73,7 +73,7 @@ Theme: Luker
                 <figure class="NavHome-figureTree">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/a-su-medida-large.png" alt="">
                 </figure>
-                <h2>A su medida</h2>
+                <h2><?php _e('','luker'); ?>A su medida</h2>
             </a>
         </li>
         <li>
@@ -97,7 +97,7 @@ Theme: Luker
                 <figure class="NavHome-figureSix">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/granja-luker-large.png" alt="">
                 </figure>
-                <h2>Granja <span>Luker</span></h2>
+                <h2><?php _e('Granja','luker'); ?> <span>Luker</span></h2>
             </a>
         </li>
         <li>
@@ -105,7 +105,7 @@ Theme: Luker
                 <figure class="NavHome-figureSeven">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/recetas.png" alt="">
                 </figure>
-                <h2>Recetas</h2>
+                <h2><?php _e('Recetas','luker'); ?></h2>
             </a>
         </li>
         <li>
@@ -114,9 +114,9 @@ Theme: Luker
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/noticias.png" alt="">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/contactenos.png" alt="">
                 </figure>
-                <h2>Noticias</h2>
+                <h2><?php _e('Noticias','luker'); ?> </h2>
 
-                <h2 class="end">Contactenos</h2>
+                <h2 class="end"><?php _e('Contactenos','luker'); ?></h2>
             </a>
         </li>
     </ul>

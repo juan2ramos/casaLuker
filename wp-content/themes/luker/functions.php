@@ -12,6 +12,11 @@ require(themeDir . 'functions/functions.php');
 require(themeDir . 'functions/recipes.php');
 require(themeDir . 'functions/ofertas_widget.php');
 
+add_action('after_setup_theme', 'my_theme_setup');
+function my_theme_setup(){
+    load_theme_textdomain('luker', get_template_directory() . '/languages');
+}
+
 
 /* Add Events */
 add_action('init', 'registerEvents');
