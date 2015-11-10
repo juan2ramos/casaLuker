@@ -782,9 +782,17 @@ Main.newsAndEvent
   border: 8px solid black
   height: 25rem
   width: 25rem
-  margin: auto
   position: relative
-  top: 2.5rem
+  left: calc(50vw - 14rem)
+  @include transform(scale(.7))
+
+  @include respond-to(small)
+    @include transform(scale(1))
+    left: 0
+    margin: auto
+    top: 2.5rem
+
+
   & i.Nose
     transform: rotate(-90deg) translateY(5px)
     display: block
