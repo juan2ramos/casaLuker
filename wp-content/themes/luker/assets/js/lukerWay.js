@@ -191,13 +191,13 @@
         $('.citiesUl').velocity({opacity: [1, 0]}, {duration: 800, delay: 1400});
         $('.cities h4').velocity({opacity:'0'},{duration:700,delay:600});
         if( indexLi  == 0){
-            $(this).velocity({width:'100vw'},{duration:600,delay:100}).velocity({height:'60vh'},400);
+            $(this).velocity({width:'100vw'},{duration:600,delay:100}).velocity({height:'70vh'},400);
         }
         if( indexLi  == 1){
-            $(this).velocity({width:'100vw',left:0},{duration:600,delay:100}).velocity({height:'60vh'},400);
+            $(this).velocity({width:'100vw',left:0},{duration:600,delay:100}).velocity({height:'70vh'},400);
         }
         if( indexLi  == 2){
-            $(this).velocity({width:'100vw',left:0},{duration:600,delay:100}).velocity({height:'60vh'},400);
+            $(this).velocity({width:'100vw',left:0},{duration:600,delay:100}).velocity({height:'70vh'},400);
         }
 
     });

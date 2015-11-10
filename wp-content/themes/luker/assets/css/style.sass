@@ -339,7 +339,7 @@
   position: relative
   & .pdf
     position: absolute
-    left: -88px
+    left: -30px
     top: 3px
     background: url(../images/coffee.png) 0 6px no-repeat
     display: block
@@ -350,6 +350,8 @@
     padding: 12px 4px
     font-weight: bold
     cursor: pointer
+    @include respond-to(small)
+      left: -88px
     & a
       color: black
     & span
@@ -367,6 +369,9 @@
     width: 29px
     padding: 1px 7px 8px
     font-weight: bold
+    display: none
+    @include respond-to(small)
+      display: block
     & span
       position: absolute
       bottom: 1px
@@ -377,11 +382,13 @@
 .RecipeDetail-headerTitle
   position: absolute
   bottom: 10rem
-  left: calc(50vw - 35rem)
+  left: 1rem
   font-size: 3rem
   text-transform: uppercase
   font-weight: bold
   text-shadow: 2px 2px 2px black
+  @include respond-to(middle)
+    left: calc(50vw - 35rem)
 #RecipeDetail-content
   width: 100%
   max-width: 70rem
@@ -461,6 +468,9 @@
   stroke-dasharray: 2
 .RecipeDetail-bar h2
   display: inline-block
+  font-size: 1em
+  @include respond-to(small)
+    font-size: 1.5rem
 #closeX
   width: 70px
   float: right
@@ -1063,7 +1073,7 @@ article.LukerWay-scientificContent
   background: #FD9631
   text-align: center
   font-size: .8rem
-  z-index: 1000
+  z-index: 100
   span:first-child
     position: absolute
     width: 0
@@ -1598,7 +1608,7 @@ article.LukerWay-scientificContent
     z-index: 20
     left: 1rem
     cursor: pointer
-    top: 8rem
+    top: 5rem
     @include transform(scale(.85))
     &:after
       content: ''
@@ -1621,12 +1631,12 @@ article.LukerWay-scientificContent
       padding: 0 .6rem
       border-radius: 4px
   & h2
-    margin: 1rem 3rem
+    margin: 0 3rem
     font-size: 2.5rem
   & h3
     position: absolute
     width: 100%
-    bottom: 5rem
+    bottom: 4rem
     text-align: center
     font-size: 3em
     & a
@@ -1660,13 +1670,13 @@ article.LukerWay-scientificContent
         background: rgba(0, 0, 0, 0.5)
         font-size: 3rem
         position: relative
-        top: 8rem
+        top: 6.5rem
         text-align: center
         color: white
         padding-top: 2rem
   & .foundation
     background-image: url("../images/luker-foundation1.jpg")
-    height: calc(55vh - 8rem)
+    height: calc(55vh - 7rem)
     background-size: cover
     position: relative
     text-align: center
@@ -1683,10 +1693,11 @@ article.LukerWay-scientificContent
       padding: 0 2.5rem
       text-align: left
     & li
-      height: 15rem
       display: inline-block
       width: 35%
       vertical-align: middle
+      top: calc(20vh - 7rem)
+      position: relative
       &:nth-child(2)
         border-left: 1px solid rgba(255, 255, 255, 0.6)
         border-right: 1px solid rgba(255, 255, 255, 0.6)
@@ -1708,12 +1719,12 @@ article.LukerWay-scientificContent
   & li
     text-align: center
     display: inline-block
-    width: 33%
+    width: calc(33% - 2px)
     margin-right: 2px
     vertical-align: middle
     top: 0
     position: relative
-    padding: 3rem
+    padding: 1rem
     & h5
       text-align: left
       font-size: 2.5em
