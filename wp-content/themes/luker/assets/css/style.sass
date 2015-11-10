@@ -176,6 +176,8 @@
     @include respond-to(small)
       width: 7rem
 
+
+
 .open .Recipes-chefsContent
   @include animate(open 1s 1 forwards alternate)
 .Recipes-chefsContent
@@ -204,6 +206,7 @@
 
 .Recipes-chefs figure.open
   width: 100%
+  cursor: initial
   & img
     max-width: 400px
     transform: translateX(-43vw)
@@ -214,6 +217,8 @@
   & span
     bottom: 0
 
+.open .Recipes-view
+  bottom: -2.5rem !important
 .Recipes-chefsDescription
   position: absolute
   left: calc(50vw + 2rem)
@@ -235,6 +240,7 @@
   position: absolute
   opacity: 0
   z-index: 1000
+  cursor: pointer
 
 .Recipes-chefsBack.open
   @include animate(show 1s 1 forwards alternate)
@@ -328,6 +334,14 @@
         vertical-align: middle
 .RecipeDetail-headerContent
   background: black
+
+.RecipeDetail-headerTitle
+  position: absolute
+  bottom: 10rem
+  left: calc(50vw - 35rem)
+  font-size: 3rem
+  text-transform: uppercase
+  font-weight: boldte
 #RecipeDetail-content
   width: 100%
   max-width: 70rem

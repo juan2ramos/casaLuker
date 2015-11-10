@@ -116,7 +116,7 @@ Theme: Luker
                 </figure>
                 <h2><?php _e('Noticias','luker'); ?> </h2>
 
-                <a href="<?php echo bloginfo('url')?>/contactanos"><h2 class="end"><?php _e('Contactenos','luker'); ?></h2></a>
+                <a href="<?php echo bloginfo('url')?>/contactanos"><h2 class="end"><?php _e('Contáctenos','luker'); ?></h2></a>
             </a>
         </li>
     </ul>
