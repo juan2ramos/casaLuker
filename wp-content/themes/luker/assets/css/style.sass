@@ -334,6 +334,45 @@
         vertical-align: middle
 .RecipeDetail-headerContent
   background: black
+.RecipeDetail-barClose
+  float: right
+  position: relative
+  & .pdf
+    position: absolute
+    left: -88px
+    top: 3px
+    background: url(../images/coffee.png) 0 6px no-repeat
+    display: block
+    height: 47px
+    background-size: 20px
+    font-size: 8px
+    width: 34px
+    padding: 12px 4px
+    font-weight: bold
+    cursor: pointer
+    & a
+      color: black
+    & span
+      position: absolute
+      bottom: 13px
+      left: 5px
+      @include transform(rotate(90deg))
+        font-size: .5rem
+        color: #151515
+  & .gr
+    position: absolute
+    left: -52px
+    top: 6px
+    background: #E8891B
+    width: 29px
+    padding: 1px 7px 8px
+    font-weight: bold
+    & span
+      position: absolute
+      bottom: 1px
+      left: 12px
+      @include transform(rotate(90deg))
+      font-size: 0.3rem
 
 .RecipeDetail-headerTitle
   position: absolute
@@ -341,7 +380,8 @@
   left: calc(50vw - 35rem)
   font-size: 3rem
   text-transform: uppercase
-  font-weight: boldte
+  font-weight: bold
+  text-shadow: 2px 2px 2px black
 #RecipeDetail-content
   width: 100%
   max-width: 70rem
@@ -745,6 +785,13 @@ Main.newsAndEvent
   margin: auto
   position: relative
   top: 2.5rem
+  & i.Nose
+    transform: rotate(-90deg) translateY(5px)
+    display: block
+    font-size: 2rem
+    cursor: pointer
+    &:last-child
+      transform: rotate(90deg) translateY(-10px)
   & h3
     font-size: 3rem
     line-height: .9em
@@ -756,7 +803,7 @@ Main.newsAndEvent
 
   & span
     font-size: .9rem
-    margin-left: 1.4rem
+    margin-left: .5rem
 
   &:before
     top: -12px
@@ -790,7 +837,11 @@ Main.newsAndEvent
         border: 3px double
         font-size: 1.4rem
         padding: .5rem .2rem
-        margin: 0 33px 0.5rem .9rem
+        margin: 0 45px .5rem 0.4rem
+      & span
+        display: none
+        &.show
+          display: block
 
 .Pagination
   margin: 4rem 0 .4rem

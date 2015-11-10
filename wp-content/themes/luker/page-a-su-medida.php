@@ -28,6 +28,7 @@
             <p>
                 El proceso:
             </p>
+
             <p>
                 - Tome la muestra y olfatéela para percibir sus aromas mientras remueve el contenido con una cuchara ó
                 espátula.
@@ -36,6 +37,7 @@
                 - Los atributos son evidentes durante este tiempo, escriba sus percepciones con la ayuda de la nariz del
                 cacao CasaLuker.
             </p>
+
             <p>
                 Nota: Es recomendado realizar un enjuague con agua entre muestras.
             </p>
@@ -46,20 +48,107 @@
             </div>
             <div class="cocoa-nose">
                 <div>
+                    <i class="Nose" id="NosePrev">►</i>
                     <h3>NARIZ DEL CACAO</h3>
                     <span>PANEL DE CAPACITACIÓN</span>
+                    <i class="Nose" id="NoseNext">►</i>
                 </div>
-                <div>
-                    <h3>QUÍMICO MEDICINAL</h3>
-                    <ul>
-                        <li>Amargo</li>
-                        <li>Cuero</li>
-                        <li>Metálico</li>
-                        <li>Plástico</li>
-                        <li>Caucho</li>
-                        <li>Gasolina</li>
-                    </ul>
+
+                <div id="Nose">
+                    <span class="show" data-color="linear-gradient(to right,rgba(0,0,0,0) 50%,rgba( 24,120,171,.7) 51%)">
+                        <h3>QUÍMICO MEDICINAL</h3>
+                        <ul>
+                            <li>Amargo</li>
+                            <li>Cuero</li>
+                            <li>Metálico</li>
+                            <li>Plástico</li>
+                            <li>Caucho</li>
+                            <li>Gasolina</li>
+                        </ul>
+                    </span>
+
+                    <span data-color="linear-gradient(to right,rgba(0,0,0,0) 50%,rgba(73, 40, 8, 0.7) 51%)">
+                        <h3>TERROSO</h3>
+                        <ul>
+                            <li>Mohoso</li>
+                            <li>Cuero</li>
+                            <li>Maderoso</li>
+                            <li>Polvo</li>
+                            <li>Levadura</li>
+                            <li>Hongo</li>
+                            <li>Herbal</li>
+                            <li>Musgo</li>
+                            <li>Heno</li>
+                            <li>Pasto Fresco</li>
+
+                        </ul>
+                    </span>
+
+                    <span data-color="linear-gradient(to right,rgba(0,0,0,0) 50%,rgba(102, 28, 23, 0.7) 51%)">
+                        <h3>TOSTADO</h3>
+                        <ul>
+                            <li>Café</li>
+                            <li>Té</li>
+                            <li>Nuez</li>
+                            <li>Cacao</li>
+                            <li>Ahumado</li>
+                            <li>Jamonoso</li>
+                            <li>Caramelo</li>
+                        </ul>
+                    </span>
+
+                    <span  data-color="linear-gradient(to right,rgba(0,0,0,0) 50%,rgba(122, 89, 10, 0.7) 51%)">
+                        <h3>AROMÁTICO</h3>
+                        <ul>
+                            <li>Floral</li>
+                            <li>Picante</li>
+                            <li>Vainilla</li>
+                            <li>Vainillina</li>
+                        </ul>
+                    </span>
+
+                    <span data-color="linear-gradient(to right,rgba(0,0,0,0) 50%,rgba(24,120,171,.7) 51%)">
+                        <h3>CACAO</h3>
+                        <ul>
+                            <li>Fuerte</li>
+                            <li>Ácido</li>
+                            <li>Oscuro</li>
+                            <li>Suave</li>
+                            <li>Astringente</li>
+                        </ul>
+                    </span>
+                    <span data-color="linear-gradient(to right,rgba(0,0,0,0) 50%,rgba(69, 27, 23, 0.7) 51%)">
+                        <h3>DULZURA</h3>
+                        <ul>
+                            <li>Azúcar Morena</li>
+                            <li>Malta </li>
+                            <li>Miel</li>
+                            <li>Caramelo</li>
+                            <li>Melosa</li>
+                        </ul>
+                    </span>
+                    <span data-color="linear-gradient(to right,rgba(0,0,0,0) 50%,rgba(95, 60, 17, 0.7) 51%)">
+                        <h3>LACTOSA</h3>
+                        <ul>
+                            <li>Lechoso</li>
+                            <li>Mantequilloso </li>
+                            <li>Cremoso</li>
+                            <li>Carameloso</li>
+                            <li>Cocinado</li>
+                        </ul>
+                    </span>
+                    <span data-color="linear-gradient(to right,rgba(0,0,0,0) 50%,rgba(56, 46, 11, 0.7) 51%)">
+                        <h3>FRUTO VINOSO</h3>
+                        <ul>
+                            <li>Árbol Frutal</li>
+                            <li>Cítricos </li>
+                            <li>Frutos Tropicales</li>
+                            <li>Frutos Secos</li>
+                            <li>Alicorado</li>
+                        </ul>
+                    </span>
                 </div>
+
                 <div>
 
                 </div>
@@ -67,4 +156,5 @@
         </article>
     </section>
 </main>
+<?php wp_enqueue_script('mixScript', get_template_directory_uri() . '/assets/js/medida.js', array('jquery'), 1, false); ?>
 <?php get_footer(); ?>
