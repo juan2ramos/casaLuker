@@ -1609,6 +1609,7 @@ article.LukerWay-scientificContent
     left: 1rem
     cursor: pointer
     top: 5rem
+    display: none
     @include transform(scale(.85))
     &:after
       content: ''
@@ -1660,9 +1661,14 @@ article.LukerWay-scientificContent
       &:nth-child(2)
         background-image: url("../images/necocli-back.jpg")
         background-position: center
-        left: 33.3%
+        left: 25%
       &:nth-child(3)
-        left: 66.6%
+        left: 50%
+        background-image: url("../images/arauca-back.jpg")
+        background-position: center
+
+      &:nth-child(4)
+        left: 50%
         background-image: url("../images/arauca-back.jpg")
         background-position: left
       & h4
@@ -1682,12 +1688,11 @@ article.LukerWay-scientificContent
     text-align: center
     padding: 1rem 0 0
     & img
-      max-width: 100px
+      max-width: 140px
     //top: -20px
     & h4
       padding: 0 1.5rem
-      text-align: left
-      margin: 0
+      text-align: leftLukerWay-header
     & p
       font-size: .8rem
       line-height: 1em
@@ -1722,9 +1727,10 @@ article.LukerWay-scientificContent
     width: calc(33% - 2px)
     margin-right: 2px
     vertical-align: middle
-    top: 0
+    top: calc(35vh - 225px)
     position: relative
     padding: 1rem
+
     & h5
       text-align: left
       font-size: 2.5em

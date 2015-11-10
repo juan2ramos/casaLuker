@@ -3,7 +3,8 @@
         reverseRight = false,
         indexSystem = 0,
         indexSopport = 0,
-        indexLi;
+        indexLi,
+        open = 0;
     $('.LukerWay-bar span, .LukerWay-headerContent a, .LukerWay-nav ul a').on('click', function () {
 
         var target = $(this).data('target'),
@@ -183,39 +184,52 @@
         return false;
     });
 
-    $('.citiesFirst').on('click',function(){
-        $(this).css('z-index','4');
-        indexLi = $( '.citiesFirst' ).index( this );
-
-
-        $('.citiesUl').velocity({opacity: [1, 0]}, {duration: 800, delay: 1400});
-        $('.cities h4').velocity({opacity:'0'},{duration:700,delay:600});
-        if( indexLi  == 0){
-            $(this).velocity({width:'100vw'},{duration:600,delay:100}).velocity({height:'70vh'},400);
-        }
-        if( indexLi  == 1){
-            $(this).velocity({width:'100vw',left:0},{duration:600,delay:100}).velocity({height:'70vh'},400);
-        }
-        if( indexLi  == 2){
-            $(this).velocity({width:'100vw',left:0},{duration:600,delay:100}).velocity({height:'70vh'},400);
-        }
-
-    });
+    $('.citiesFirst').on('click',citi);
 
     $('.citiesBack').on('click', function(){
-        $('.citiesUl').velocity("reverse", {duration: 400});
-        $('.cities h4').velocity("reverse", {duration: 400});
+
+        open = 0;
+
+        $(this).css('cursor','pointer');
+        $(this).velocity({opacity:'0'},{duration:700,delay:600,display:'none' });
+
+        $('.cities h4').velocity({opacity:'1'},{duration:700,delay:600});
+        $('.citiesUl').velocity({opacity: [0, 1]}, {duration: 800});
+
         if( indexLi  == 0){
-            $('.citiesFirst').eq(0).velocity({width:'33.4%'},{duration:600,delay:100}).velocity({height:'45vh'},400);
+            $('.citiesFirst').eq(0).velocity({width:'33.4%'},{duration:600,delay:100, complete: completeZIndex }).velocity({height:'45vh'},400);
         }
         if( indexLi  == 1){
-            $('.citiesFirst').eq(indexLi).velocity({width:'33.4%',left:'33.3%'},{duration:600,delay:100}).velocity({height:'45vh'},400);
+            $('.citiesFirst').eq(indexLi).velocity({width:'33.4%',left:'33.3%'},{duration:600,delay:100, complete: completeZIndex}).velocity({height:'45vh'},400);
         }
         if( indexLi  == 2){
-            $('.citiesFirst').eq(indexLi).velocity({width:'33.4%',left:'66.6%'},{duration:600,delay:100}).velocity({height:'45vh'},400);
+            $('.citiesFirst').eq(indexLi).velocity({width:'33.4%',left:'66.6%'},{duration:600,delay:100, complete: completeZIndex}).velocity({height:'45vh'},400);
         }
     });
+    function citi(){
+        if(!open){
+            $(this).css('z-index','4');
+            $(this).css('cursor','default');
+            indexLi = $( '.citiesFirst' ).index( this );
 
+
+            $(this).find('.citiesUl').velocity({opacity: [1, 0]}, {duration: 800, delay: 1400});
+            $('.cities h4').velocity({opacity:'0'},{duration:700,delay:600});
+            if( indexLi  == 0){
+                $(this).velocity({width:'100vw'},{duration:600,delay:100}).velocity({height:'70vh'},400);
+            }
+            if( indexLi  == 1){
+                $(this).velocity({width:'100vw',left:0},{duration:600,delay:100}).velocity({height:'70vh'},400);
+            }
+            if( indexLi  == 2){
+                $(this).velocity({width:'100vw',left:0},{duration:600,delay:100}).velocity({height:'70vh'},400);
+            }
+            $('.citiesBack').velocity({opacity:'1'},{duration:700,delay:600, display:'block'});
+
+
+            open = 1;
+        }
+    }
 })(window);
 
 $(window).scroll(function () {
@@ -238,4 +252,9 @@ function updateSize() {
 
         $(this).find('img').cover();
     });
+
 }
+function completeZIndex(){
+    $('.citiesFirst').css('z-index',1)
+}
+
