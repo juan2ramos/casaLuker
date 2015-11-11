@@ -900,7 +900,9 @@ Main.newsAndEvent
     &:before
       content: ''
       height: calc(100vh - 1rem)
-      display: inline-block
+      @include respond-to(middle)
+        display: inline-block
+      display: none
       margin-left: -4px
       vertical-align: middle
 
@@ -1294,12 +1296,15 @@ article.LukerWay-scientificContent
         font-size: .8rem
         top: 5px
 .LukerWay-cacaoContent
-  display: inline-block
+  display: block
   height: 100%
-  width: calc(50% - 2px)
+  width: 100%
   position: relative
   z-index: 2
   vertical-align: top
+  @include respond-to(middle)
+    display: inline-block
+    width: calc(50% - 2px)
   & ul
     text-align: left
     width: 420px
@@ -1341,18 +1346,23 @@ article.LukerWay-scientificContent
 .LukerWay-cacaoBack
   position: absolute
   height: 100%
-  width: calc(50% - 45px)
+  width: 100%
   background: rgba(0, 0, 0, 0.71)
   border-right: #fff solid thick
-  left: 3rem
+  left: 0
   top: 0
+  @include respond-to(middle)
+    width: calc(50% - 45px)
+    left: 3rem
 
 .inline
   vertical-align: middle
   display: inline-block
   width: calc(100% - 4px)
-  padding-left: 2.5rem
+  padding-left: 0
   position: relative
+  @include respond-to(middle)
+    padding-left: 2.5rem
 
 .LukerWay-cacaoArrowCollapse, .LukerWay-cacaoArrowCollapseRight
   position: absolute
@@ -1376,6 +1386,9 @@ article.LukerWay-scientificContent
   top: calc(50% - 4rem)
   cursor: pointer
   z-index: 1000
+  display: none
+  @include respond-to(middle)
+    display: block
   & b
     color: black
     position: absolute
@@ -1405,7 +1418,7 @@ article.LukerWay-scientificContent
       height: 260px
       padding: 8px
       margin: auto
-.LukerWay-cacaoContentRightUl
+.LukerWay-cacaoContentRightUl, .LukerWay-cacaoContentRightUl2
   display: none
   & .slideFade
     margin-top: 1rem
@@ -1459,7 +1472,7 @@ article.LukerWay-scientificContent
   100%
     bottom: -3.5rem
 
-.LukerWay-menuEducation .active
+.LukerWay-menuEducation .active, .LukerWay-menuC .active
   color: white
 .LukerWay-grajaLuker
   text-align: center
@@ -1522,11 +1535,13 @@ article.LukerWay-scientificContent
 .LukerWay-cacaoBackRight
   position: absolute
   height: 100%
-  width: calc(50% - 45px)
+  width: 100%
   background: rgba(0, 0, 0, 0.71)
   border-left: #fff solid thick
-  right: 3rem
   top: 0
+  @include respond-to(middle)
+    right: 3rem
+    width: calc(50% - 45px)
 
 .LukerWay-cacaoArrowRight
   position: absolute
@@ -1534,6 +1549,9 @@ article.LukerWay-scientificContent
   top: calc(50% - 4rem)
   cursor: pointer
   z-index: 1000
+  display: none
+  @include respond-to(middle)
+    display: block
   & svg
     transform: rotate(180deg) translate(20px,4px)
   & b
@@ -1546,7 +1564,9 @@ article.LukerWay-scientificContent
 
 .inline.right
   padding-left: 0
-  left: calc(50vw - 4%)
+  left: 0
+  @include respond-to(middle)
+    left: calc(50vw - 4%)
   & h2
     font-size: 2.6rem
 
@@ -1556,7 +1576,7 @@ article.LukerWay-scientificContent
     top: 0
     width: 100%
     left: 100%
-  & .LukerWay-cacaoContentRightUl
+  & .LukerWay-cacaoContentRightUl, .LukerWay-cacaoContentRightUl2
     left: 0
     & h4
       line-height: 0
@@ -1648,11 +1668,14 @@ article.LukerWay-scientificContent
   & .cities
     height: 45vh
     position: relative
+    display: none
+    @include respond-to(middle)
+      display: block
     & > li
       cursor: pointer
       position: absolute
       display: inline-block
-      width: 33.4%
+      width: 25%
       height: 45vh
       border: 2px solid #FFF
       background-size: 100vw
@@ -1668,13 +1691,13 @@ article.LukerWay-scientificContent
         background-position: center
 
       &:nth-child(4)
-        left: 50%
-        background-image: url("../images/arauca-back.jpg")
+        left: 75%
+        background-image: url("../images/bolivar-3.jpg")
         background-position: left
       & h4
         height: 8.75rem
         background: rgba(0, 0, 0, 0.5)
-        font-size: 3rem
+        font-size: 2.3rem
         position: relative
         top: 6.5rem
         text-align: center
@@ -1692,7 +1715,7 @@ article.LukerWay-scientificContent
     //top: -20px
     & h4
       padding: 0 1.5rem
-      text-align: leftLukerWay-header
+      text-align: left
     & p
       font-size: .8rem
       line-height: 1em
@@ -1727,7 +1750,7 @@ article.LukerWay-scientificContent
     width: calc(33% - 2px)
     margin-right: 2px
     vertical-align: middle
-    top: calc(35vh - 225px)
+    top: calc(35vh - 175px)
     position: relative
     padding: 1rem
 
@@ -1739,6 +1762,7 @@ article.LukerWay-scientificContent
       border-bottom: 2px dotted #FFF
       display: block
       margin-bottom: 1rem
+      margin-top: 0
     & h6
       text-align: left
       font-size: 1rem

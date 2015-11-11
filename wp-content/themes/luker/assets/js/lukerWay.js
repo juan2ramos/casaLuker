@@ -184,6 +184,25 @@
         return false;
     });
 
+    $('.LukerWay-menuC a').on('click', function () {
+
+        var target = $(this).data('target');
+        if(target == 'LukerWay-support' || target == 'LukerWay-system'){
+            $('.LukerWay-next').show();
+            $('.LukerWay-prev').show();
+        }else{
+            $('.LukerWay-next').hide();
+            $('.LukerWay-prev').hide();
+        }
+
+        $('.LukerWay-menuC a').removeClass('active');
+        $(this).addClass('active');
+        $('.LukerWay-cacaoContentRightUl2 li').removeClass('show')
+
+        $('.' + target).addClass('show');
+        return false;
+    });
+
     $('.citiesFirst').on('click',citi);
 
     $('.citiesBack').on('click', function(){
@@ -197,13 +216,16 @@
         $('.citiesUl').velocity({opacity: [0, 1]}, {duration: 800});
 
         if( indexLi  == 0){
-            $('.citiesFirst').eq(0).velocity({width:'33.4%'},{duration:600,delay:100, complete: completeZIndex }).velocity({height:'45vh'},400);
+            $('.citiesFirst').eq(0).velocity({width:'25%'},{duration:600,delay:100, complete: completeZIndex }).velocity({height:'45vh'},400);
         }
         if( indexLi  == 1){
-            $('.citiesFirst').eq(indexLi).velocity({width:'33.4%',left:'33.3%'},{duration:600,delay:100, complete: completeZIndex}).velocity({height:'45vh'},400);
+            $('.citiesFirst').eq(indexLi).velocity({width:'25%',left:'25%'},{duration:600,delay:100, complete: completeZIndex}).velocity({height:'45vh'},400);
         }
         if( indexLi  == 2){
-            $('.citiesFirst').eq(indexLi).velocity({width:'33.4%',left:'66.6%'},{duration:600,delay:100, complete: completeZIndex}).velocity({height:'45vh'},400);
+            $('.citiesFirst').eq(indexLi).velocity({width:'25%',left:'50%'},{duration:600,delay:100, complete: completeZIndex}).velocity({height:'45vh'},400);
+        }
+        if( indexLi  == 3){
+            $('.citiesFirst').eq(indexLi).velocity({width:'25%',left:'75%'},{duration:600,delay:100, complete: completeZIndex}).velocity({height:'45vh'},400);
         }
     });
     function citi(){
@@ -224,6 +246,10 @@
             if( indexLi  == 2){
                 $(this).velocity({width:'100vw',left:0},{duration:600,delay:100}).velocity({height:'70vh'},400);
             }
+            if( indexLi  == 3){
+                $(this).velocity({width:'100vw',left:0},{duration:600,delay:100}).velocity({height:'70vh'},400);
+            }
+
             $('.citiesBack').velocity({opacity:'1'},{duration:700,delay:600, display:'block'});
 
 

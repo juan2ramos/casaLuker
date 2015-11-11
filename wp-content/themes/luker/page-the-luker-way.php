@@ -140,7 +140,7 @@
                             <span>CACAO-PLÁTANO-MELINA</h4>
                         <img src="<?php bloginfo('template_url') ?>/assets/images/cultivo.png" alt="">
                     </div>
-                    <div class="moveSystem">lalalla</div>
+
                 </li>
                 <div class="LukerWay-next">►</div>
             </ul>
@@ -195,7 +195,7 @@
                     trazabilidad y los volúmenes de compra.
                 </p>
 
-                <ul class="LukerWay-menuEducation">
+                <ul class="LukerWay-menuC">
 
 
                     <li><a href="#" class="active" data-target="LukerWay-agency">REGIONES CACOTERAS Y<br>AGENCIAS DE
@@ -209,7 +209,7 @@
             </div>
             <div class="LukerWay-cacaoContentRight">
 
-                <ul class="LukerWay-cacaoContentRightUl">
+                <ul class="LukerWay-cacaoContentRightUl2">
                     <li class="show LukerWay-agency">
                         <h3>Regiones cacaoteras</h3>
                         <h4>y agencias de compra</h4>
@@ -257,11 +257,6 @@
                     <li class="LukerWay-commitment">
 
                         <img src="<?php bloginfo('template_url') ?>/assets/images/img-luker-es.png" alt="">
-                    </li>
-                    <li class="LukerWay-system">
-                        <h4>Sistema Agroforestal
-                            <span>CACAO-PLÁTANO-MELINA</h4>
-                        <img src="<?php bloginfo('template_url') ?>/assets/images/cultivo.png" alt="">
                     </li>
 
                 </ul>
@@ -407,27 +402,69 @@
                         </li>
                         <li>
                             <article class="city1">
-                                <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/desgranado-large.jpg">
+                                <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/arauca-01.jpg">
                                     <img src="<?php bloginfo('template_url') ?>/assets/images/arauca-01.jpg" alt="">
                                 </a>
-                                <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/flor-a-escala-large.jpg">
+                                <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/arauca-02.jpg">
                                     <img src="<?php bloginfo('template_url') ?>/assets/images/arauca-02.jpg" alt="">
                                 </a>
                                 <a class="test-popup-link"
-                                   href="<?php bloginfo('template_url') ?>/assets/images/grano-bien-fermentado-large.jpg">
+                                   href="<?php bloginfo('template_url') ?>/assets/images/arauca-03.jpg">
                                     <img src="<?php bloginfo('template_url') ?>/assets/images/arauca-03.jpg" alt="">
                                 </a>
                                 <a class="test-popup-link"
-                                   href="<?php bloginfo('template_url') ?>/assets/images/mazorcas-large.jpg">
+                                   href="<?php bloginfo('template_url') ?>/assets/images/arauca-04.jpg">
                                     <img src="<?php bloginfo('template_url') ?>/assets/images/arauca-04.jpg" alt="">
                                 </a>
                                 <a class="test-popup-link"
-                                   href="<?php bloginfo('template_url') ?>/assets/images/mazorcas-large.jpg">
+                                   href="<?php bloginfo('template_url') ?>/assets/images/arauca-05.jpg">
                                     <img src="<?php bloginfo('template_url') ?>/assets/images/arauca-05.jpg" alt="">
                                 </a>
                                 <a class="test-popup-link"
-                                   href="<?php bloginfo('template_url') ?>/assets/images/mazorcas-large.jpg">
+                                   href="<?php bloginfo('template_url') ?>/assets/images/arauca-06.jpg">
                                     <img src="<?php bloginfo('template_url') ?>/assets/images/arauca-06.jpg" alt="">
+                                </a>
+                            </article>
+                        </li>
+                        <li><iframe width="90%" height="300" src="https://www.youtube.com/embed/lrdRoJX7Ibw" frameborder="0" allowfullscreen></iframe></li>
+
+                    </ul>
+                </li>
+                <li class="citiesFirst">
+                    <h4>SUR DE BOLIVAR</h4>
+                    <ul class="citiesUl">
+                        <li>
+                            <h5>SUR DE BOLIVAR</h5>
+
+                            <h6>SUR DE BOLIVAR</h6>
+                            <p>
+                                In the south of the Bolívar department, surrounded by mountains and located near the Magdalena River, is the small town of Santa Rosa. Nowadays, its inhabitants live mainly off their crops, farming and mining. However, it was there that, not so long ago, illegal armed groups brought with them the cursed coca plant and with it violence and social decomposition. Discover how farmers saw cocoa as a hopeful change bringing peace and progress to the town. Read the
+                                full article
+                            </p>
+                        </li>
+                        <li>
+                            <article class="city1">
+                                <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/bolivar-1.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/bolivar-1.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/bolivar-2.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/bolivar-2.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link"
+                                   href="<?php bloginfo('template_url') ?>/assets/images/bolivar-3.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/bolivar-3.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link"
+                                   href="<?php bloginfo('template_url') ?>/assets/images/bolivar-4.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/bolivar-4.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link"
+                                   href="<?php bloginfo('template_url') ?>/assets/images/bolivar-5.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/bolivar-5.jpg" alt="">
+                                </a>
+                                <a class="test-popup-link"
+                                   href="<?php bloginfo('template_url') ?>/assets/images/bolivar-6.jpg">
+                                    <img src="<?php bloginfo('template_url') ?>/assets/images/bolivar-6.jpg" alt="">
                                 </a>
                             </article>
                         </li>
