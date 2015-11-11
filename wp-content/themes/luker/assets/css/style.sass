@@ -920,6 +920,9 @@ Main.newsAndEvent
 
 .LukerWay-business
   background-image: url("../images/cacao-3.jpg")
+  display: block
+  @include respond-to(middle)
+    display: block
   &:before
     display: none !important
 
@@ -1220,6 +1223,8 @@ article.LukerWay-scientificContent
   padding: 0
   z-index: 200000
 
+
+
 .projectBusiness
   width: 100%
   height: 100%
@@ -1227,7 +1232,9 @@ article.LukerWay-scientificContent
   left: 0
   background: rgba(0, 0, 0, 0.4)
   position: absolute
-.projectBusiness
+  display: none
+  @include respond-to(middle)
+    display: block
   & div
     color: white
     display: inline-block
@@ -1325,10 +1332,12 @@ article.LukerWay-scientificContent
         color: #DA8331
 
   & h2
-    font-size: 4rem
+    font-size: 2rem
     line-height: 1em
     margin: 0 auto 1rem
     max-width: 420px
+    @include respond-to(middle)
+      font-size: 4rem
   & p
     font-size: .95rem
     line-height: 1.3em
@@ -1359,7 +1368,7 @@ article.LukerWay-scientificContent
   vertical-align: middle
   display: inline-block
   width: calc(100% - 4px)
-  padding-left: 0
+  padding: 1rem
   position: relative
   @include respond-to(middle)
     padding-left: 2.5rem
@@ -1563,12 +1572,15 @@ article.LukerWay-scientificContent
     z-index: 1
 
 .inline.right
-  padding-left: 0
+  padding-left: 1rem
   left: 0
   @include respond-to(middle)
     left: calc(50vw - 4%)
+    padding-left: 0
   & h2
-    font-size: 2.6rem
+    font-size: 2rem
+    @include respond-to(middle)
+      font-size: 2.6rem
 
 .LukerWay-term
   & .LukerWay-cacaoContentRight
@@ -1618,6 +1630,7 @@ article.LukerWay-scientificContent
 .lukerWay-socialContent
   display: inline-block
   vertical-align: top
+
   & .citiesBack
     position: absolute
     width: 0
@@ -1654,12 +1667,18 @@ article.LukerWay-scientificContent
   & h2
     margin: 0 3rem
     font-size: 2.5rem
+    display: none
+    @include respond-to(middle)
+      display: block
   & h3
     position: absolute
     width: 100%
     bottom: 4rem
     text-align: center
     font-size: 3em
+    display: none
+    @include respond-to(middle)
+      display: block
     & a
       color: white
       text-shadow: 0 0 10px rgba(255, 255, 255, 0.8)
@@ -1705,37 +1724,51 @@ article.LukerWay-scientificContent
         padding-top: 2rem
   & .foundation
     background-image: url("../images/luker-foundation1.jpg")
-    height: calc(55vh - 7rem)
     background-size: cover
     position: relative
     text-align: center
     padding: 1rem 0 0
+    background-position: center
+    height: 100vh
+    @include respond-to(middle)
+      height: calc(55vh - 7rem)
+
     & img
       max-width: 140px
     //top: -20px
     & h4
       padding: 0 1.5rem
-      text-align: left
+      text-align: center
+      @include respond-to(middle)
+        text-align: left
     & p
       font-size: .8rem
       line-height: 1em
       padding: 0 1.5rem
-      text-align: left
+      text-align: center
+      @include respond-to(middle)
+        text-align: left
     & li
       display: inline-block
-      width: 35%
+      width: 100%
       vertical-align: middle
       position: relative
       top: calc(18vh - 7rem)
+      @include respond-to(middle)
+        width: 35%
       &:nth-child(2)
         border-left: 1px solid rgba(255, 255, 255, 0.6)
         border-right: 1px solid rgba(255, 255, 255, 0.6)
-        width: 29%
+        @include respond-to(middle)
+          width: 29%
+        width: 150px
+
       &:last-child
         margin-left: -9px
         & p
           font-size: 1rem
           line-height: 1.4rem
+
 
 .citiesUl
   position: absolute
