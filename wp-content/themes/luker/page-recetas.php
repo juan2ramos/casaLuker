@@ -95,9 +95,7 @@ $levels = get_terms("level", array("hide_empty" => false));
             <div class="RecipeDetail-bar">
                 <h2>TYPE OF CHOCOLATE <span id="imageCocoa"></span> </h2>
                 <span class="RecipeDetail-barClose">
-                    <div class="pdf">
-                        <a href="<?php get_post_meta( get_the_ID(), 'pdf' ); ?>" target="_blank">pdf <span> ► </span></a>
-                    </div>
+                    <div class="pdf"></div>
                     <div class="gr">
                          gr <span>►</span>
                     </div>

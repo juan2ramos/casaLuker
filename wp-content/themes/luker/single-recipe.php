@@ -17,4 +17,6 @@ $content['servings'] = get_post_meta($post->ID, 'ingredient', true);
 $content['banner'] = get_post_meta($post->ID, 'directions', true);
 $content['imageCocoa'] = get_option("taxonomy_" . $cacao->term_id)['imagen'];
 
+$content['pdf'] = get_post_meta( get_the_ID(), 'pdf' );
+
 if ($_REQUEST) {echo json_encode($content);} else {include(locate_template('recipe-detail.php'));}
