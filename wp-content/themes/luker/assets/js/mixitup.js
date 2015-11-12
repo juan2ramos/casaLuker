@@ -176,11 +176,13 @@ var dropdownFilter = {
             $figureChef = $('#RecipeDetail-figure'),
             $titleChef = $('.RecipeDetail-chefContent h3'),
             $descriptionChef = $('.RecipeDetail-chefContent p'),
-            $imageCocoa = $('#imageCocoa')
+            $imageCocoa = $('#imageCocoa'),
+            $headerTitle = $('.RecipeDetail-headerTitle')
             ;
         $contentRecipe.html(data.content);
         $chefName.html(data.chefName);
         $servings.html(data.servings);
+        $headerTitle.html(data.tittle);
         $imageCocoa.html('<img src="' + data.imageCocoa + '" />')
         //$level.html(data.level);
         $('meta[name=description]').attr('content',  data.content.substring(0,165));

@@ -88,11 +88,10 @@ $levels = get_terms("level", array("hide_empty" => false));
 
 </main>
 
-
 <section class="RecipeDetail">
     <header class="RecipeDetail-header">
         <div class="RecipeDetail-headerContent">
-            <div class="RecipeDetail-headerTitle"><?php print_r($post->post_title)  ?></div>
+            <div class="RecipeDetail-headerTitle"></div>
             <div class="RecipeDetail-bar">
                 <h2>TYPE OF CHOCOLATE <span id="imageCocoa"></span> </h2>
                 <span class="RecipeDetail-barClose">
