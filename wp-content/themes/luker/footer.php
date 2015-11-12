@@ -34,6 +34,16 @@
     </div>
 
 </footer>
+
+<div class="popUpNewsLetter">
+    <div class="popUpNewsLetterContainer">
+        <p>
+            Tome un momento para suscribirse a nuestros Newsletter y obtenga más información sobre cacao, productos,
+            recetas, producción y compromiso social
+        </p>
+        <button>CERRAR</button>
+    </div>
+</div>
 <?php include TEMPLATEPATH . '/inc/BarFooter.php' ?>
 <?php wp_footer(); ?>
 

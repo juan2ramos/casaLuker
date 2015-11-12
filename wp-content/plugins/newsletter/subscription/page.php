@@ -28,53 +28,16 @@ if (is_file(WP_CONTENT_DIR . '/extensions/newsletter/subscription/page.php')) {
     include WP_CONTENT_DIR . '/extensions/newsletter/subscription/page.php';
     die();
 }
+include('../../../themes/luker/headerNewsletter.php')
 ?>
-<html>
-    <head>
-        <style type="text/css">
-            body {
-                font-family: verdana;
-                background-color: #ddd;
-                font-size: 12px;
-            }
-            #container {
-                border: 1px solid #aaa;
-                border-radius: 5px;
-                background-color: #fff;
-                margin: 40px auto;
-                width: 600px;
-                padding: 20px
-            }
-            h1 {
-                font-size: 24px;
-                font-weight: normal;
-                border-bottom: 1px solid #aaa;
-                margin-top: 0;
-            }
-            h2 {
-                font-size: 20px;
-            }
-            th, td {
-                font-size: 12px;
-            }
-            th {
-                padding-right: 10px;
-                text-align: right;
-                vertical-align: middle;
-                font-weight: normal;
-            }
-        </style>
-    </head>
-
-    <body>
+    <main class="Main ">
         <?php if (!empty($alert)) { ?>
-        <script>
-            alert("<?php echo addslashes(strip_tags($alert)); ?>");
-        </script>
+            <script>
+                alert("<?php echo addslashes(strip_tags($alert)); ?>");
+            </script>
         <?php } ?>
-        <div id="container">
-            <h1><?php echo get_option('blogname'); ?></h1>
+        <div id="container" style="text-align: center; font-size: 2rem">
             <?php echo $message; ?>
         </div>
-    </body>
-</html>
+    </main>
+<?php include('../../../themes/luker/footer.php') ?>

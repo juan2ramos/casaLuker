@@ -104,7 +104,8 @@
   position: relative
   text-transform: uppercase
   vertical-align: middle
-
+  z-index: 10
+  cursor: pointer
 .Nav
   background: rgba(0,0,0,.7)
   padding: .5rem 1rem
@@ -215,6 +216,7 @@ body.open
     text-align: center
     font-weight: 100
     overflow: hidden
+    cursor: pointer
   & .Header-wrapper
     top: 0
     overflow: auto
@@ -243,3 +245,53 @@ body.open
     border-bottom: none !important
 .Search
   margin-right: 0
+
+.formNewsletter
+  position: absolute
+  background: white
+  width: 202px
+  right: 0
+  top: 43px
+  padding-bottom: 1rem
+  z-index: 5
+  @include transition(all .8s)
+  &.show
+    @include transform(translateY(0))
+    z-index: 1
+  @include transform(translateY(-360px))
+  & input, & select
+    background: #000
+    color: #fff
+    border-radius: 20px
+    height: 22px
+    border: none
+    width: 84%
+    margin: 0 8%
+    padding: 0 0 0 10px
+    font-size: .75rem
+  & hr
+    width: 90%
+    border-bottom: none
+    border-top-style: dashed
+    border-color: #7a7c7c
+    margin: 0 auto
+  & h4
+    color: #98121F
+    font-size: 13px
+    font-style: normal
+    font-weight: 600
+    display: block
+    margin: 1rem 9% .5rem
+    line-height: 0
+  & .newsletter-submit
+    background: #98121f
+    border: none
+    color: #fff
+    padding: 0
+    border-radius: 20px
+    font-style: normal
+    font-weight: 400
+    width: 50%
+    margin: 0 25%
+    cursor: pointer
+    z

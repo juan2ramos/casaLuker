@@ -42,7 +42,7 @@ Theme: Luker
 
 <?php the_post(); ?>
 <header class="Header" style="
-    background-image: url(<?php echo wp_get_attachment_image_src(get_post_thumbnail_id(), 'large')['0'] ?>)
+    background-image: url('<?php echo  bloginfo('template_url') ?>/assets/images/bg-top4-1024x540.jpg')
     ">
     <div class="ButtonNav">
         <span></span>
@@ -115,7 +115,7 @@ Theme: Luker
         </div>
     </div>
 
-    <h1 class="Header-title"><?php the_title(); ?></h1>
+    <h1 class="Header-title">THANKS FOR SUBSCRIBING</h1>
 
     <div class="More" id="down">
         <a href="#">
