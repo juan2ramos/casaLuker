@@ -1693,7 +1693,7 @@ article.LukerWay-scientificContent
   & .cities
     height: auto
     position: relative
-    height: 69rem
+
     @include respond-to(middle)
       height: 45vh
     & > li
@@ -1779,17 +1779,6 @@ article.LukerWay-scientificContent
           font-size: 1rem
           line-height: 1.4rem
 
-.citiesFirst:nth-child(2)
-  & .citiesUl
-    top: 260px
-.citiesFirst:nth-child(3)
-  & .citiesUl
-    top: 390px
-.citiesFirst:nth-child(4)
-  & .citiesUl
-    top: 520px
-
-
 .citiesUl
   position: absolute
   top: 0
@@ -1797,6 +1786,7 @@ article.LukerWay-scientificContent
   background: rgba(0, 0, 0, 0.9)
   width: 100%
   opacity: 0
+  z-index: -1
   @include respond-to(middle)
     background: rgba(0, 0, 0, 0.4)
 

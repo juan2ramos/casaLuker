@@ -214,6 +214,7 @@
 
         $('.cities h4').velocity({opacity:'1'},{duration:700,delay:600});
         $('.citiesUl').velocity({opacity: [0, 1]}, {duration: 800});
+        $('.citiesUl').css('z-index','-1');
 
         if ($(window).width() > 960) {
             if( indexLi  == 0){
@@ -251,7 +252,7 @@
             $(this).css('z-index','4');
             $(this).css('cursor','default');
             indexLi = $( '.citiesFirst' ).index( this );
-
+            $('.citiesUl').css('z-index','1');
 
             $(this).find('.citiesUl').velocity({opacity: [1, 0]}, {duration: 800, delay: 1400});
             $('.cities h4').velocity({opacity:'0'},{duration:700,delay:600});
