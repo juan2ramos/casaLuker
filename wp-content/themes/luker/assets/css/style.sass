@@ -1645,9 +1645,11 @@ article.LukerWay-scientificContent
     z-index: 20
     left: 1rem
     cursor: pointer
-    top: 5rem
+    top: 1rem
     display: none
     @include transform(scale(.85))
+    @include respond-to(middle)
+      top: 5rem
     &:after
       content: ''
       position: absolute
@@ -1691,6 +1693,7 @@ article.LukerWay-scientificContent
   & .cities
     height: auto
     position: relative
+    height: 69rem
     @include respond-to(middle)
       height: 45vh
     & > li
@@ -1720,16 +1723,15 @@ article.LukerWay-scientificContent
         background-image: url("../images/bolivar-3.jpg")
         background-position: left
       & h4
-        height: 5rem
         background: rgba(0, 0, 0, 0.5)
         font-size: 2.3rem
         position: relative
-        top: 6.5rem
         text-align: center
         color: white
-        padding-top: 2rem
         @include respond-to(middle)
+          padding-top: 2rem
           height: 8.75rem
+          top: 6.5rem
   & .foundation
     background-image: url("../images/luker-foundation1.jpg")
     background-size: cover
@@ -1777,24 +1779,38 @@ article.LukerWay-scientificContent
           font-size: 1rem
           line-height: 1.4rem
 
+.citiesFirst:nth-child(2)
+  & .citiesUl
+    top: 260px
+.citiesFirst:nth-child(3)
+  & .citiesUl
+    top: 390px
+.citiesFirst:nth-child(4)
+  & .citiesUl
+    top: 520px
+
 
 .citiesUl
   position: absolute
   top: 0
   height: 100%
-  background: rgba(0, 0, 0, 0.4)
+  background: rgba(0, 0, 0, 0.9)
   width: 100%
   opacity: 0
+  @include respond-to(middle)
+    background: rgba(0, 0, 0, 0.4)
+
   & li
     text-align: center
     display: inline-block
-    width: calc(33% - 2px)
+    width: 100%
     margin-right: 2px
     vertical-align: middle
     top: calc(35vh - 175px)
     position: relative
     padding: 1rem
-
+    @include respond-to(middle)
+      width: calc(33% - 2px)
     & h5
       text-align: left
       font-size: 2.5em
