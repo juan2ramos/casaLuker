@@ -576,7 +576,9 @@
     </section>
     <section class="socialNetwork">
         <ul>
-            <li><h3>TWEETS</h3></li>
+            <li><h3>TWEETS</h3>
+                <div class="Search"><?php dynamic_sidebar('widgetTwitter'); ?> </div>
+            </li>
             <li><h3>FACEBOOK</h3></li>
             <li><h3>YOUTUBE</h3></li>
         </ul>

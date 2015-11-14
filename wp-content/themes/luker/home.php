@@ -81,7 +81,7 @@ Theme: Luker
                 <figure class="NavHome-figureFour">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/the-luker-way-large.png" alt="">
                 </figure>
-                <h2>The Luker</h2>
+                <h2>The Luker Way</h2>
             </a>
         </li>
         <li>
@@ -97,7 +97,7 @@ Theme: Luker
                 <figure class="NavHome-figureSix">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/granja-luker-large.png" alt="">
                 </figure>
-                <h2><?php _e('Granja','luker'); ?> <span>Luker</span></h2>
+                <h2><?php _e('Granja','luker'); ?> <span>Luker  </span></h2>
             </a>
         </li>
         <li>

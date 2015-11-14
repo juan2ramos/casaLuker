@@ -16,6 +16,21 @@ function widgetSearchFooter(){
     );
 }
 
+/* Add Space Search Widget */
+add_action('widgets_init', 'widgetTwitter');
+function widgetTwitter(){
+    register_sidebar(
+        array(
+            'id' => 'widgetTwitter', /* ID unique*/
+            'name' => 'widgetTwitter',
+            'description' => 'widget',
+            'before_widget' => '<div class "widgetTwitter">',
+            'after_widget' => '</div>',
+            'before_title' => '<strong>',
+            'after_title' => '</strong>',
+        )
+    );
+}
 /* Add Menu */
 add_action('init', 'register_my_menus');
 function register_my_menus()
