@@ -91,7 +91,7 @@ msgstr "CasaLuker en alianza con cenicafé* - uno de los institutos de investiga
 msgid "In this study we researched the sensorial characteristics of each type of cocoas, including the identification and quantification of the volatile aroma compounds as well as other physical, chemical, nutritional and functional characteristics that allowed us to define the individuality of each. "
 msgstr "En esta investigación se han estudiado las características sensoriales de cada tipo de cacao, se han identificado y cuantificado los principales compuestos volátiles del aroma y otras características físicas, químicas, nutricionales y funcionales que permiten definir una huella digital para tipo de cacao."
 
-msgid "Welcome to the CasaLuker Group "
+msgid "Welcome to the CasaLuker Group"
 msgstr "Bienvenido al Grupo CasaLuker"
 
 msgid " With the opening of CasaLuker Europe in Belgium, in 2009, we became a more consolidated group with strong international projection which stands out for its experience in the production of Fino de Aroma Cocoa derived products. Our international presence is strengthened through our offices in Colombia, Russia, Panama and Ecuador. "
