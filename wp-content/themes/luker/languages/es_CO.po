@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-17 13:43-0500\n"
+"PO-Revision-Date: 2015-11-17 13:55-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -115,8 +115,8 @@ msgstr "Acerca de nosotros"
 msgid "Las Coberturas Sabor a Chocolate CasaLuker son producidas con ingredientes de la mejor calidad. Este compound es ideal para cubrir o decorar hojaldres, tortas, galletas o panes; preparar rellenos, brillos y ganache, fabricar decoraciones, bombones y huevos de chocolate. Son fáciles de usar porque no requieren atemperado. Elabore sus recetas de forma rápida y fácil."
 msgstr "Las Coberturas Sabor a Chocolate CasaLuker son producidas con ingredientes de la mejor calidad. Este compound es ideal para cubrir o decorar hojaldres, tortas, galletas o panes; preparar rellenos, brillos y ganache, fabricar decoraciones, bombones y huevos de chocolate. Son fáciles de usar porque no requieren atemperado. Elabore sus recetas de forma rápida y fácil."
 
-msgid "Lpanr rellenciosáciles de uen atemperado. ."
-msgstr "Las Coberturas Sabor a Chocolate CasaLuker son producidas con ingredientes de la mejor calidad. Este compound es ideal para cubrir o decorar hojaldres, tortas, galletas o panes; preparar rellenos, brillos y ganache, fabricar decoraciones, bombones y huevos de chocolate. Son fáciles de usar porque no requieren atemperado. Elabore sus recetas de forma rápida y fácil."
+msgid "DARK, MILK AND WHITE COMPOUND.<br> *Este producto es vendido únicamente en Colombia. Si está interesado por favor contactarse con nuestro grupo de ventas."
+msgstr "DARK, MILK AND WHITE COMPOUND.<br> *Este producto es vendido únicamente en Colombia. Si está interesado por favor contactarse con nuestro grupo de ventas."
 
 msgid "Previous post:"
 msgstr "Entrada anterior:"
