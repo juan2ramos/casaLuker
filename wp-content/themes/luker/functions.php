@@ -14,8 +14,8 @@ require(themeDir . 'functions/ofertas_widget.php');
 
 add_action('after_setup_theme', 'my_theme_setup');
 function my_theme_setup(){
-    $r = load_theme_textdomain('luker', get_template_directory() . '/languages');
-    print_r($r);
+  load_theme_textdomain('luker', get_template_directory() . '/languages');
+
 }
 
 /* Add Events */
