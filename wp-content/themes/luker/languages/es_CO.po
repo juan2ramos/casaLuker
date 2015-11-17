@@ -28,6 +28,20 @@ msgstr "Recetas"
 msgid "contact"
 msgstr "Contáctenos"
 
+msgid "CRIOLLO AND TRINITARIO COCOAS"
+msgstr "CACAO FINO DE AROMA"
+
+msgid "Cacao Fino de Aroma comes from criollo and trinitarian varieties, which are different, in aroma and flavour, from common cocoas which derive from forastero varieties."
+msgstr "Aromas y sabores frutales, florales, de nueces y de malta. Este es el sabor característico del Cacao Fino de Aroma que lo diferencia de los demás cacaos en el mundo."
+
+msgid "Trinitarian cocoas -highly sought after around the world- are Fino de Aroma, aromatic and mild in flavour. The trinitario variety is the result of cross between the criollo and forastero varieties and is produced mainly in Colombia, Ecuador, Peru and Venezuela."
+msgstr "Fino de Aroma es una clasificación de la Organización Internacional del Cacao (ICCO) que describe un cacao de exquisito aroma y sabor. Este tipo de cacao representa alrededor del 8% de la producción de cacao en el mundo. En Colombia, Ecuador, Venezuela y Perú se produce el 76% del Cacao Fino de Aroma del mundo."
+
+
+
+
+
+
 msgid "Previous post:"
 msgstr "Entrada anterior:"
 

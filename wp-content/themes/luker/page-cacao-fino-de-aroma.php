@@ -4,18 +4,14 @@
             <article>
                 <figure><img src="<?php bloginfo('template_url') ?>/assets/images/luker-logo.png" alt="">
                 </figure>
-                <h2>CACAO FINO DE AROMA </h2>
+                <h2><?php _e('CRIOLLO AND TRINITARIO COCOAS','luker'); ?>  </h2>
 
-                <p>
-                    Aromas y sabores frutales, florales, de nueces y de malta. Este es el sabor característico del Cacao
-                    Fino de Aroma que lo diferencia de los demás cacaos en el mundo.
+                <p><?php _e('Cacao Fino de Aroma comes from criollo and trinitarian varieties, which are different, in aroma and flavour, from common cocoas which derive from forastero varieties.','luker'); ?>
+
                 </p>
 
-                <p>
-                    Fino de Aroma es una clasificación de la Organización Internacional del Cacao (ICCO) que describe un
-                    cacao de exquisito aroma y sabor. Este tipo de cacao representa alrededor del 8% de la producción de
-                    cacao en el mundo. En Colombia, Ecuador, Venezuela y Perú se produce el 76% del Cacao Fino de Aroma
-                    del mundo.
+                <p><?php _e('Trinitarian cocoas -highly sought after around the world- are Fino de Aroma, aromatic and mild in flavour. The trinitario variety is the result of cross between the criollo and forastero varieties and is produced mainly in Colombia, Ecuador, Peru and Venezuela.
+','luker'); ?>
                 </p>
             </article>
             <article>
