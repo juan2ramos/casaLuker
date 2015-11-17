@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-16 23:43-0500\n"
+"PO-Revision-Date: 2015-11-17 00:08-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,11 +36,6 @@ msgstr "Aromas y sabores frutales, florales, de nueces y de malta. Este es el sa
 
 msgid "Trinitarian cocoas -highly sought after around the world- are Fino de Aroma, aromatic and mild in flavour. The trinitario variety is the result of cross between the criollo and forastero varieties and is produced mainly in Colombia, Ecuador, Peru and Venezuela."
 msgstr "Fino de Aroma es una clasificación de la Organización Internacional del Cacao (ICCO) que describe un cacao de exquisito aroma y sabor. Este tipo de cacao representa alrededor del 8% de la producción de cacao en el mundo. En Colombia, Ecuador, Venezuela y Perú se produce el 76% del Cacao Fino de Aroma del mundo."
-
-
-
-
-
 
 msgid "Previous post:"
 msgstr "Entrada anterior:"
