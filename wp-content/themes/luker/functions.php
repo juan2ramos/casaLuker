@@ -119,10 +119,9 @@ function wp_corenavi($prev = '«', $next = '»')
 }
 function my_page_template_redirect() {
     global $post;
-    if(!get_page_template()){
-
+    if(!get_page_template() && !is_home()){
         $arrayUrl = array(
-            'fino'=> 'page-cacao-fino-de-aroma'
+            'cacao-fino-de-aroma-en'=> 'page-cacao-fino-de-aroma'
         );
         get_template_part( $arrayUrl[get_post( $post )->post_name]);exit;
     }
