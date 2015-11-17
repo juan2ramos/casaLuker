@@ -2,7 +2,7 @@
 <main class="Main casa-luker">
     <section>
         <article>
-            <h2> Bienvenidos al Grupo CasaLuker</h2>
+            <h2> <?php _e('','luker'); ?>Bienvenidos al Grupo CasaLuker</h2>
 
             <p>
                 Con la apertura de nuestra filial CasaLuker Europe en Bélgica en el 2009, nos hemos consolidado como un
