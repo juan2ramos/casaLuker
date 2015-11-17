@@ -117,6 +117,14 @@ function wp_corenavi($prev = '«', $next = '»')
     echo '<div class="Pagination-right">' . $startPage . paginate_links($pagination) . $endPage . '</div>';
 
 }
+function my_page_template_redirect() {
+    global $post;
+    if(!get_page_template()){
 
-;
-
+        $arrayUrl = array(
+            'fino'=> 'page-cacao-fino-de-aroma'
+        );
+        get_template_part( $arrayUrl[get_post( $post )->post_name]);exit;
+    }
+}
+add_action( 'template_redirect', 'my_page_template_redirect' );
