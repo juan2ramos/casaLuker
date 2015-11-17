@@ -3,29 +3,29 @@
         <select id="dropdown" class="dropdown" name="dropdown">
             <option value="0"><?php _e('Select','luker'); ?></option>
             <optgroup label="Filiales">
-                <option value="belgica">Bélgica</option>
-                <option value="colombia">Colombia</option>
+                <option value="belgica"><?php _e('Belgium','luker'); ?></option>
+                <option value="colombia"><?php _e('Select','luker'); ?>Colombia</option>
                 <!--<option value="3">Ecuador</option>--><!--<option value="4">Estados Unidos</option>-->
-                <option value="panama">Panamá</option>
-                <option value="peru">Perú</option>
+                <option value="panama"><?php _e('Select','luker'); ?>Panamá</option>
+                <option value="peru"><?php _e('Select','luker'); ?>Perú</option>
             </optgroup>
             <optgroup label="Distribuidores">
-                <option value="alemania">Alemania</option>
-                <option value="argentina">Argentina</option>
-                <option value="belgica">Bélgica</option>
-                <option value="brasil">Brasil</option>
+                <option value="alemania"><?php _e('Select','luker'); ?>Alemania</option>
+                <option value="argentina"><?php _e('Select','luker'); ?>Argentina</option>
+                <option value="belgica"><?php _e('Select','luker'); ?>Bélgica</option>
+                <option value="brasil"><?php _e('Select','luker'); ?>Brasil</option>
                 <!--<option value="10">Chile</option>--> <!--<option value="11">Corea del Sur</option>-->
                 <!--<option value="12">Emiratos Arabes</option>--> <!--<option value="13">España</option>-->
-                <option value="canada">Canada</option>
-                <option value="estados-unidos">Estados Unidos</option>
+                <option value="canada"><?php _e('Select','luker'); ?>Canada</option>
+                <option value="estados-unidos"><?php _e('Select','luker'); ?>Estados Unidos</option>
                 <!--<option value="15">Francia</option>-->
-                <option value="finlandia">Finlandia</option>
-                <option value="grecia">Grecia</option>
-                <option value="guatemala">Guatemala</option>
-                <option value="hungria">Hungría</option>
+                <option value="finlandia"><?php _e('Select','luker'); ?>Finlandia</option>
+                <option value="grecia"><?php _e('Select','luker'); ?>Grecia</option>
+                <option value="guatemala"><?php _e('Select','luker'); ?>Guatemala</option>
+                <option value="hungria"><?php _e('Select','luker'); ?>Hungría</option>
                 <!--<option value="17">Irak</option><option value="18">Irán</option>-->
-                <option value="italia">Italia</option>
-                <option value="japon">Japón</option>
+                <option value="italia"><?php _e('Select','luker'); ?>Italia</option>
+                <option value="japon"><?php _e('Select','luker'); ?>Japón</option>
                 <option value="luxemburgo">Luxemburgo</option>
                 <option value="medio-oriente">Medio Oriente</option>
                 <option value="mexico">México</option>

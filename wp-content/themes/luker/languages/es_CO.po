@@ -124,6 +124,30 @@ msgstr "Seleccionar"
 msgid "Others"
 msgstr "Otros"
 
+msgid "Belgium"
+msgstr "Bélgica"
+
+msgid "TAILOR MADE INNOVATION"
+msgstr "INNOVACIÓN A SU MEDIDA"
+
+msgid "In the CasaLuker Research and Development Centre we develop tailor made products under international standards."
+msgstr "En el centro de Investigación y Desarrollo CasaLuker desarrollamos productos a la medida en cooperación con nuestros clientes bajo estándares internacionales."
+
+msgid "Tailor made products and private brands: "
+msgstr "Productos a la medida y marcas privadas:"
+
+msgid "COCOA MASS TASTING"
+msgstr "CÓMO CATAR MASA DE CACAO"
+
+msgid "Cocoa tasting is undertaken by professionals to determine the properties of aroma and flavour in a particular cocoa sample.The process consists in smelling and tasting the sample in order to measure the levels of cocoa flavour, the acidity, astringency and the level of bitter, fruit, floral and nutty notes, among other properties"
+msgstr "La Cata de masa de Cacao es una práctica profesional que se hace para determinar los atributos del aroma y el sabor en una muestra de Cacao específica. El proceso consiste en olfatear y saborear la muestra para medir el nivel de sabor a cacao, la acidez, la astringencia y el nivel amargo, frutal, floral y de nuez, entre otras características."
+
+msgid "How it is done:"
+msgstr "El proceso:"
+
+msgid "- Take the sample and smell it while you stir the content with a tea-spoon or spatula, in order to perceive its variety of aromas.- Take a small sample of the mass to your mouth and disperse it uniformly over your tongue.- Hold the sample in your mouth for 15 - 20 seconds, taking in small amounts of air at the same time.- The attributes become evident while doing this. Record your perceptions using the CasaLuker nariz del cacao (Cocoas nose) as an aid."
+msgstr "- Tome la muestra y olfatéela para percibir sus aromas mientras remueve el contenido con una cuchara óespátula.- Tome una pequeña muestra de masa y llévelo a la boca buscando una dispersión uniforme sobre la lengua.- Mantenga la muestra en su boca durante 15 o 20 segundos, aireando un poco con bocanadas de aire.- Los atributos son evidentes durante este tiempo, escriba sus percepciones con la ayuda de la nariz delcacao CasaLuker."
+
 msgid "Previous post:"
 msgstr "Entrada anterior:"
 
