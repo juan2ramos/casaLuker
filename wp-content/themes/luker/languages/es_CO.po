@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-17 12:38-0500\n"
+"PO-Revision-Date: 2015-11-17 13:43-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -111,9 +111,6 @@ msgstr "COBERTURA SABOR A CHOCOLATE"
 
 msgid "About us"
 msgstr "Acerca de nosotros"
-
-msgid "No requieren atemperado."
-msgstr"No requieren atemperado."
 
 msgid "Las Coberturas Sabor a Chocolate CasaLuker son producidas con ingredientes de la mejor calidad. Este compound es ideal para cubrir o decorar hojaldres, tortas, galletas o panes; preparar rellenos, brillos y ganache, fabricar decoraciones, bombones y huevos de chocolate. Son fáciles de usar porque no requieren atemperado. Elabore sus recetas de forma rápida y fácil."
 msgstr "Las Coberturas Sabor a Chocolate CasaLuker son producidas con ingredientes de la mejor calidad. Este compound es ideal para cubrir o decorar hojaldres, tortas, galletas o panes; preparar rellenos, brillos y ganache, fabricar decoraciones, bombones y huevos de chocolate. Son fáciles de usar porque no requieren atemperado. Elabore sus recetas de forma rápida y fácil."
