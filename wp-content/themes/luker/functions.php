@@ -120,7 +120,6 @@ function wp_corenavi($prev = '«', $next = '»')
 function my_page_template_redirect() {
     global $post;
     if(!get_page_template() && !is_home()){
-        echo get_post( $post )->post_name;
         $arrayUrl = array(
             'cacao-fino-de-aroma-en'=> 'page-cacao-fino-de-aroma'
         );
