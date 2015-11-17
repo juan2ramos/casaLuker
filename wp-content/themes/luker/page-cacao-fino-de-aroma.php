@@ -4,7 +4,17 @@
             <article>
                 <figure><img src="<?php bloginfo('template_url') ?>/assets/images/luker-logo.png" alt="">
                 </figure>
-                <h2><?php _e('CRIOLLO AND TRINITARIO COCOAS','luker'); ?>  </h2>
+                <h2><?php _e('CACAO FINO DE AROMA','luker'); ?>  </h2>
+
+                <p><?php _e('Fruity and flowery aromas and flavour with nutty malt notes. This is the characteristic flavour of Cacao Fino de Aroma that distinguishes it from other cocoas in the world.','luker'); ?>
+
+                </p>
+
+                <p><?php _e('The Fino de Aroma denomination is an International Cocoa Organization (ICCO)* classification, which describes an exquisite aroma and flavour. Around 8% of the cocoa produced in the world is Cacao Fino de Aroma. 76% of Cacao Fino de Aroma produced in the world is grown in Colombia, Ecuador, Venezuela and Peru.','luker'); ?>
+                </p>
+            </article>
+            <article>
+                <h2><?php _e('CRIOLLO AND TRINITARIO COCOAS','luker'); ?> </h2>
 
                 <p><?php _e('Cacao Fino de Aroma comes from criollo and trinitarian varieties, which are different, in aroma and flavour, from common cocoas which derive from forastero varieties.','luker'); ?>
 
@@ -13,18 +23,9 @@
                 <p><?php _e('Trinitarian cocoas -highly sought after around the world- are Fino de Aroma, aromatic and mild in flavour. The trinitario variety is the result of cross between the criollo and forastero varieties and is produced mainly in Colombia, Ecuador, Peru and Venezuela.
 ','luker'); ?>
                 </p>
-            </article>
-            <article>
-                <h2>CRIOLLOS Y TRINITARIOS </h2>
 
-                <p>
-                    Los cacaos de este tipo provienen en su mayoría de cacaos criollos y trinitarios, que son diferentes
-                    en términos de aroma y sabor a los cacaos de tipo forastero.
-                    Los cacaos trinitarios, muy apetecidos en el mundo, son Cacaos Finos de Aroma, de sabor suave y
-                    aromático. La variedad trinitario es el resultado del cruzamiento de las variedades de tipo criollo
-                    y forastero y son producidos principalmente en Colombia, Ecuador, Perú y Venezuela.
-                    El cacao forastero es el más común en el mundo, es resistente al clima y su sabor es ácido y
-                    astringente. Este es el típico cacao de África.
+
+                <p> <?php _e('Forastero cocoa is the most common in the world; it is resitant to climate changes and has an acidic astringent flavour. It is the main variety grown in Africa.','luker'); ?>
                 </p>
 
                 <figure><img
@@ -40,9 +41,7 @@
                         frameborder="0"
                         allowfullscreen></iframe>
                 <p>
-                    En CasaLuker compramos el 38% de la producción total de cacao en Colombia – 1600 toneladas al mes en
-                    promedio –.
-
+                    <?php _e('We buy approximately 38% of the Colombian total cocoa production – 1600 tons per month on average –.','luker'); ?>
                 </p>
             </article>
 
@@ -67,25 +66,18 @@
         <section>
             <article>
 
-                <h2>INVESTIGACIÓN CASALUKER</h2>
+                <h2><?php _e('THE AROMA AND FLAVOUR OF CHOCOLATE','luker'); ?> </h2>
 
                 <p>
-                    CasaLuker en alianza con cenicafé* - uno de los institutos de investigación acerca del café más
-                    importantes en el mundo – inició en el año 2005 el proceso de caracterización de los cacaos en las
-                    principales zonas productoras de Colombia, Ecuador, Venezuela y de otras regiones cacaoteras
-                    alrededor del mundo.
+                    <?php _e('The special aroma and flavour of cocoa do not only stem from the type of cocoa -forastero, trinitarian or criollo- but also from soil composition, climatic conditions, and primarily, the work of the cocoa artisan – the cocoa grower.','luker'); ?>
                 </p>
 
                 <p>
-                    En esta investigación se han estudiado las características sensoriales de cada tipo de cacao, se han
-                    identificado y cuantificado los principales compuestos volátiles del aroma y otras características
-                    físicas, químicas, nutricionales y funcionales que permiten definir una huella digital para cada
-                    tipo de cacao.
+                    <?php _e('The four fundamental factors that ensure the special chocolate aroma and flavour are fermentation, drying, roasting and conching. Fermentation and drying are undertaken by farmers on the farms; and - the final touch that defines the organoleptic profile of each product - roasting and conching, take place in the production plant.','luker'); ?>
                 </p>
 
                 <p>
-                    CasaLuker por su estrecha relación con los agricultures y sus continuos programas de capacitación
-                    controla estos factores para ofrecer a sus clientes el mejor sabor.
+                    <?php _e('Thanks to its close relationship with the cocoa growers and its training programs, CasaLuker is able to control these factors, offering its customers the best flavour.','luker'); ?>
                 </p>
             </article>
             <article>
@@ -101,11 +93,7 @@
                     <ul>
                         <li class="active">
                             <p>
-                                La fermentación ocurre cuando el grano de cacao se saca de la mazorca junto con su
-                                pulpa, es puesto en cajones de madera y expuesto a los microorganismos naturalmente
-                                presentes en el ambiente. Los microorganismos degradarán la pulpa y durante este proceso
-                                el grano sufrirá procesos bioquímicos y físicos que formarán los precursores de los
-                                aromas y sabores a chocolate.
+                                <?php _e('The fermentation process involves removing the cocoa bean from its pod together with its pulp. This is then placed in wooden boxes and exposed to micro-organisms naturally present in the environment. These micro-organisms decompose the pulp which, in turn, sets off biochemical and physical processes which are responsible for the development of the precursors of aromas and flavours present in chocolate.','luker'); ?>
                             </p>
                             <figure>
                                 <img src="<?php bloginfo('template_url') ?>/assets/images/procesos-img-fermentacion.jpg"
@@ -114,14 +102,10 @@
                         </li>
                         <li>
                             <p>
-                                El secado es un proceso gradual realizado en el campo por el agricultor. Durante este
-                                proceso se exponen los granos al sol durante varios días para bajar el contenido de agua
-                                del grano del 55% al 7% y eliminar algunos ácidos naturalmente presentes en el cacao.
-                            </p>
+                                <?php _e('Drying is a gradual process undertaken in the field by the grower. The beans are exposed to sunlight for several days in order to reduce their water content from 55% to 7% and to eliminate some of the acids naturally present in cocoa. ','luker'); ?>
 
                             <p>
-                                Un buen secado es clave para evitar mohos y hongos en el grano y garantizar un buen
-                                sabor.
+                                <?php _e('A good drying process is essential if mould and fungus are to be avoided and to guarantee a good flavour.','luker'); ?>
                             </p>
                             <figure>
                                 <img src="<?php bloginfo('template_url') ?>/assets/images/procesos-img-secado.jpg"
@@ -130,10 +114,7 @@
                         </li>
                         <li>
                             <p>
-                                La tostión es realizada en la planta de producción de chocolates. Es el proceso por
-                                medio del cual se exponen los nibs de cacao a altas temperaturas para moldear su sabor.
-                                Durante este proceso se desarrollan los aromas y sabores del chocolate y se pueden
-                                definir, modificar o potencializar las cualidades sensoriales del cacao.
+                                <?php _e('The cocoa beans are roasted in the production plant, in a process where by the cocoa nibs are exposed to very high temperatures which will mould their flavour and develop the aroma and flavour of the final chocolate product. At this point, the sensorial properties can be modified, intensified and defined.','luker'); ?>
                             </p>
 
                             <figure>
@@ -143,10 +124,8 @@
                         </li>
                         <li>
                             <p>
-                                El concheo es un proceso fundamental realizado en la planta de producción donde se dan
-                                los últimos toques al sabor del chocolate. Durante este proceso se eliminan ácidos
-                                presentes en el cacao y se acaban de redondear los sabores de la receta y la textura del
-                                chocolate.
+                                <?php _e('This fundamental process is undertaken in the production plant and it is responsible for the final touches in terms of the flavour of the chocolate. Acids, present in the cocoa, are eliminated and the flavour of the recipe and chocolate texture are nicely rounded.','luker'); ?>
+
                             </p>
 
                             <figure>
@@ -162,27 +141,21 @@
         <section>
             <article>
 
-                <h2>INVESTIGACIÓN CASALUKER</h2>
+                <h2><?php _e('CASALUKER RESEARCH','luker'); ?> </h2>
 
                 <p>
-                    CasaLuker en alianza con cenicafé* - uno de los institutos de investigación acerca del café más
-                    importantes en el mundo – inició en el año 2005 el proceso de caracterización de los cacaos en las
-                    principales zonas productoras de Colombia, Ecuador, Venezuela y de otras regiones cacaoteras
-                    alrededor del mundo.
+                    <?php _e('CasaLuker together with Cenicafé* -one of the most important coffee research institutes in the world- began a classification process for cocoa originate from the principal cocoa producing areas of Colombia, Ecuador, Venezuela, and other cocoa producing regions in the world.','luker'); ?>
                 </p>
 
                 <p>
-                    En esta investigación se han estudiado las características sensoriales de cada tipo de cacao, se han
-                    identificado y cuantificado los principales compuestos volátiles del aroma y otras características
-                    físicas, químicas, nutricionales y funcionales que permiten definir una huella digital para cada
-                    tipo de cacao.
+                    <?php _e('In this study we researched the sensorial characteristics of each type of cocoas, including the identification and quantification of the volatile aroma compounds as well as other physical, chemical, nutritional and functional characteristics that allowed us to define the individuality of each.','luker'); ?>
                 </p>
                 <figure class="Cenicafe">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/cenicafe.jpeg" alt="">
 
                 </figure>
                     <span class="Cenicafe-span">
-                        *Centro Nacional de Investigaciones de Café
+                       <?php _e('*Centro Nacional de Investigaciones de Café ','luker'); ?>
                     </span>
             </article>
             <article>
