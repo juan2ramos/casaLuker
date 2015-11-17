@@ -122,7 +122,7 @@ function my_page_template_redirect() {
     if(!get_page_template()){
 
         $arrayUrl = array(
-            'fino'=> 'page-cacao-fino-de-aroma'
+            'cacao-fino-de-aroma-en'=> 'page-cacao-fino-de-aroma'
         );
         get_template_part( $arrayUrl[get_post( $post )->post_name]);exit;
     }
