@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-17 13:55-0500\n"
+"PO-Revision-Date: 2015-11-17 15:15-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -92,16 +92,16 @@ msgid "In this study we researched the sensorial characteristics of each type of
 msgstr "En esta investigación se han estudiado las características sensoriales de cada tipo de cacao, se han identificado y cuantificado los principales compuestos volátiles del aroma y otras características físicas, químicas, nutricionales y funcionales que permiten definir una huella digital para tipo de cacao."
 
 msgid "Welcome to the CasaLuker Group "
-msgstr "Bienvenidos al Grupo CasaLuker"
-
-msgid "The tradition of a family-owned company founded in 1906 and the prevailing hard work of cocoa growers, together with the high investments made in cutting edge technology and equipment for the manufacture of chocolate couvertures, allows us to offer a wide range a high international standard quality chocolate couvertures, cocoa mass, butter, powder and cocoa beans. "
-msgstr " La tradición de una empresa familiar fundada en 1906 y el constante trabajo de la mano del agricultor, sumada a la alta inversión en equipos de última generación en la producción de coberturas de chocolates, nos permite ofrecer coberturas de chocolate, licor de cacao, manteca, polvo y grano de cacao que cumplen con los más altos estándares internacionales de calidad."
+msgstr "Bienvenido al Grupo CasaLuker"
 
 msgid " With the opening of CasaLuker Europe in Belgium, in 2009, we became a more consolidated group with strong international projection which stands out for its experience in the production of Fino de Aroma Cocoa derived products. Our international presence is strengthened through our offices in Colombia, Russia, Panama and Ecuador. "
-msgstr "Con la apertura de nuestra filial CasaLuker Europe en Bélgica en el 2009, nos hemos consolidado como un grupo de fuerte proyección internacional que se destaca por su experiencia en la oferta de productos derivados del Cacao Fino de Aroma. Nuestra presencia internacional se ve reforzada por nuestra red deoficinas en Colombia, Rusia, Panamá, Ecuador y Perú."
+msgstr " Con la apertura de nuestra filial CasaLuker Europe en Bélgica en el 2009, nos hemos consolidado como un grupo de fuerte proyección internacional que se destaca por su experiencia en la oferta de productos derivados del Cacao Fino de Aroma. Nuestra presencia internacional se ve reforzada por nuestra red deoficinas en Colombia, Rusia, Panamá, Ecuador y Perú."
+
+msgid "The tradition of a family-owned company founded in 1906 and the prevailing hard work of cocoa growers, together with the high investments made in cutting edge technology and equipment for the manufacture of chocolate couvertures, allows us to offer a wide range a high international standard quality chocolate couvertures, cocoa mass, butter, powder and cocoa beans."
+msgstr "La tradición de una empresa familiar fundada en 1906 y el duro trabajo que prevalece de los productores de cacao, junto con las altas inversiones en tecnología y equipos de última generación para la fabricación de coberturas de chocolate, nos permite ofrecer una amplia gama de un estándar internacional de alto coberturas de chocolate de calidad, masa de cacao, manteca, polvo y granos de cacao."
 
 msgid " CasaLuker, as part of its mission for environmental sustainability and the social, economic and environmental development of the cocoa growing communities, is a member entity of the World Cocoa Foundation WCF. We are holders of international certifications such as HACCP, ISO 9001, Kosher and BASC. "
-msgstr "CasaLuker, dentro de su compromiso de sostenibilidad del desarrollo social, económico y ambiental de las comunidades cultivadoras de cacao, es miembro de la World Cocoa Foundation WCF. Contamos con las certificaciones internacionales de calidad como son HACCP, ISO 9001,Kosher y BASC."
+msgstr " CasaLuker, dentro de su compromiso de sostenibilidad del desarrollo social, económico y ambiental de las comunidades cultivadoras de cacao, es miembro de la World Cocoa Foundation WCF. Contamos con las certificaciones internacionales de calidad como son HACCP, ISO 9001,Kosher y BASC."
 
 msgid "Our main aim is to satisfy our clients by offering them a unique and special flavour. We believe in being close to our customers by increasing the success of their products through our permanent assessments and personalized services."
 msgstr " Tenemos por objetivo satisfacer las necesidades de nuestros consumidores ofreciéndoles un sabor único y especial. Nuestro compromiso es estar cada vez más cerca de nuestros clientes y aumentar el éxito de sus productos con el continuo asesoramiento y servicio personalizado."
@@ -117,6 +117,12 @@ msgstr "Las Coberturas Sabor a Chocolate CasaLuker son producidas con ingredient
 
 msgid "DARK, MILK AND WHITE COMPOUND.<br> *Este producto es vendido únicamente en Colombia. Si está interesado por favor contactarse con nuestro grupo de ventas."
 msgstr "DARK, MILK AND WHITE COMPOUND.<br> *Este producto es vendido únicamente en Colombia. Si está interesado por favor contactarse con nuestro grupo de ventas."
+
+msgid "Select"
+msgstr "Seleccionar"
+
+msgid "Others"
+msgstr "Otros"
 
 msgid "Previous post:"
 msgstr "Entrada anterior:"

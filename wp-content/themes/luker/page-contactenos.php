@@ -1,7 +1,7 @@
 <?php get_header(); ?>
     <main class="Main Contact">
         <select id="dropdown" class="dropdown" name="dropdown">
-            <option value="0">Seleccionar</option>
+            <option value="0"><?php _e('Select','luker'); ?></option>
             <optgroup label="Filiales">
                 <option value="belgica">Bélgica</option>
                 <option value="colombia">Colombia</option>
@@ -38,7 +38,7 @@
                 <option value="ucrania">Ucrania</option>
                 <!--<option value="24">Rumania</option>--> <!--<option value="25">Trinidad y Tobago</option>-->
             </optgroup>
-            <option value="26">Otros</option>
+            <option value="26"><?php _e('Others','luker'); ?>Otros</option>
         </select>
         <select id="dropdownCol" name="dropdownCol">
             <option value="0">Seleccionar Ciudad</option>

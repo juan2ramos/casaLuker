@@ -2,7 +2,7 @@
 <main class="Main casa-luker">
     <section>
         <article>
-            <h2> <?php _e('Welcome to the CasaLuker Group','luker'); ?></h2>
+            <h2> <?php _e('Welcome to the CasaLuker Group','luker'); ?> </h2>
 
             <p>
                 <?php _e('With the opening of CasaLuker Europe in Belgium, in 2009, we became a more consolidated group with strong international projection which stands out for its experience in the production of Fino de Aroma Cocoa derived products. Our international presence is strengthened through our offices in Colombia, Russia, Panama and Ecuador.','luker'); ?>
