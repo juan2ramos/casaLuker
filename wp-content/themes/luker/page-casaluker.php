@@ -2,34 +2,22 @@
 <main class="Main casa-luker">
     <section>
         <article>
-            <h2> <?php _e('','luker'); ?>Bienvenidos al Grupo CasaLuker</h2>
+            <h2> <?php _e('Welcome to the CasaLuker Group','luker'); ?></h2>
 
             <p>
-                Con la apertura de nuestra filial CasaLuker Europe en Bélgica en el 2009, nos hemos consolidado como un
-                grupo de fuerte proyección internacional que se destaca por su experiencia en la oferta de productos
-                derivados del Cacao Fino de Aroma. Nuestra presencia internacional se ve reforzada por nuestra red de
-                oficinas en Colombia, Rusia, Panamá, Ecuador y Perú.
+                <?php _e('With the opening of CasaLuker Europe in Belgium, in 2009, we became a more consolidated group with strong international projection which stands out for its experience in the production of Fino de Aroma Cocoa derived products. Our international presence is strengthened through our offices in Colombia, Russia, Panama and Ecuador.','luker'); ?>
             </p>
 
             <p>
-                La tradición de una empresa familiar fundada en 1906 y el constante trabajo de la mano del agricultor,
-                sumada a la alta inversión en equipos de última generación en la producción de coberturas de chocolates,
-                nos
-                permite ofrecer coberturas de chocolate, licor de cacao, manteca, polvo y grano de cacao que cumplen con
-                los
-                más altos estándares internacionales de calidad.
+                <?php _e('The tradition of a family-owned company founded in 1906 and the prevailing hard work of cocoa growers, together with the high investments made in cutting edge technology and equipment for the manufacture of chocolate couvertures, allows us to offer a wide range a high international standard quality chocolate couvertures, cocoa mass, butter, powder and cocoa beans.','luker'); ?>
             </p>
 
             <p>
-                CasaLuker, dentro de su compromiso de sostenibilidad del desarrollo social, económico y ambiental de las
-                comunidades cultivadoras de cacao, es miembro de la World Cocoa Foundation WCF. Contamos con las
-                certificaciones internacionales de calidad como son HACCP, ISO 9001,Kosher y BASC.
+                <?php _e('CasaLuker, as part of its mission for environmental sustainability and the social, economic and environmental development of the cocoa growing communities, is a member entity of the World Cocoa Foundation WCF. We are holders of international certifications such as HACCP, ISO 9001, Kosher and BASC.','luker'); ?>
             </p>
 
             <p>
-                Tenemos por objetivo satisfacer las necesidades de nuestros consumidores ofreciéndoles un sabor único y
-                especial. Nuestro compromiso es estar cada vez más cerca de nuestros clientes y aumentar el éxito de sus
-                productos con el continuo asesoramiento y servicio personalizado.
+             <?php _e('Our main aim is to satisfy our clients by offering them a unique and special flavour. We believe in being close to our customers by increasing the success of their products through our permanent assessments and personalized services.','luker'); ?>
             </p>
             <figure>
                 <img src="<?php bloginfo('template_url') ?>/assets/images/logos-de-calidad.png" alt="">
@@ -40,7 +28,7 @@
                 <iframe  src="https://www.youtube.com/embed/DDz_5oo-l7c" frameborder="0" allowfullscreen></iframe>
             </div>
             <div>
-                <h2> Acerca de nosotros</h2>
+                <h2> <?php _e('About us','luker'); ?> </h2>
                 <iframe  src="https://www.youtube.com/embed/T-njXU_3NFk" frameborder="0" allowfullscreen></iframe>
             </div>
         </article>

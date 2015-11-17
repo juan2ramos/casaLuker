@@ -91,6 +91,36 @@ msgstr "CasaLuker en alianza con cenicafé* - uno de los institutos de investiga
 msgid "In this study we researched the sensorial characteristics of each type of cocoas, including the identification and quantification of the volatile aroma compounds as well as other physical, chemical, nutritional and functional characteristics that allowed us to define the individuality of each. "
 msgstr "En esta investigación se han estudiado las características sensoriales de cada tipo de cacao, se han identificado y cuantificado los principales compuestos volátiles del aroma y otras características físicas, químicas, nutricionales y funcionales que permiten definir una huella digital para tipo de cacao."
 
+msgid "Welcome to the CasaLuker Group "
+msgstr "Bienvenidos al Grupo CasaLuker"
+
+msgid "The tradition of a family-owned company founded in 1906 and the prevailing hard work of cocoa growers, together with the high investments made in cutting edge technology and equipment for the manufacture of chocolate couvertures, allows us to offer a wide range a high international standard quality chocolate couvertures, cocoa mass, butter, powder and cocoa beans. "
+msgstr " La tradición de una empresa familiar fundada en 1906 y el constante trabajo de la mano del agricultor, sumada a la alta inversión en equipos de última generación en la producción de coberturas de chocolates, nos permite ofrecer coberturas de chocolate, licor de cacao, manteca, polvo y grano de cacao que cumplen con los más altos estándares internacionales de calidad."
+
+msgid " With the opening of CasaLuker Europe in Belgium, in 2009, we became a more consolidated group with strong international projection which stands out for its experience in the production of Fino de Aroma Cocoa derived products. Our international presence is strengthened through our offices in Colombia, Russia, Panama and Ecuador. "
+msgstr "Con la apertura de nuestra filial CasaLuker Europe en Bélgica en el 2009, nos hemos consolidado como un grupo de fuerte proyección internacional que se destaca por su experiencia en la oferta de productos derivados del Cacao Fino de Aroma. Nuestra presencia internacional se ve reforzada por nuestra red deoficinas en Colombia, Rusia, Panamá, Ecuador y Perú."
+
+msgid " CasaLuker, as part of its mission for environmental sustainability and the social, economic and environmental development of the cocoa growing communities, is a member entity of the World Cocoa Foundation WCF. We are holders of international certifications such as HACCP, ISO 9001, Kosher and BASC. "
+msgstr "CasaLuker, dentro de su compromiso de sostenibilidad del desarrollo social, económico y ambiental de las comunidades cultivadoras de cacao, es miembro de la World Cocoa Foundation WCF. Contamos con las certificaciones internacionales de calidad como son HACCP, ISO 9001,Kosher y BASC."
+
+msgid "Our main aim is to satisfy our clients by offering them a unique and special flavour. We believe in being close to our customers by increasing the success of their products through our permanent assessments and personalized services."
+msgstr " Tenemos por objetivo satisfacer las necesidades de nuestros consumidores ofreciéndoles un sabor único y especial. Nuestro compromiso es estar cada vez más cerca de nuestros clientes y aumentar el éxito de sus productos con el continuo asesoramiento y servicio personalizado."
+
+msgid "COBERTURA SABOR A CHOCOLATE"
+msgstr "COBERTURA SABOR A CHOCOLATE"
+
+msgid "About us"
+msgstr "Acerca de nosotros"
+
+msgid "No requieren atemperado."
+msgstr"No requieren atemperado."
+
+msgid "Las Coberturas Sabor a Chocolate CasaLuker son producidas con ingredientes de la mejor calidad. Este compound es ideal para cubrir o decorar hojaldres, tortas, galletas o panes; preparar rellenos, brillos y ganache, fabricar decoraciones, bombones y huevos de chocolate. Son fáciles de usar porque no requieren atemperado. Elabore sus recetas de forma rápida y fácil."
+msgstr "Las Coberturas Sabor a Chocolate CasaLuker son producidas con ingredientes de la mejor calidad. Este compound es ideal para cubrir o decorar hojaldres, tortas, galletas o panes; preparar rellenos, brillos y ganache, fabricar decoraciones, bombones y huevos de chocolate. Son fáciles de usar porque no requieren atemperado. Elabore sus recetas de forma rápida y fácil."
+
+msgid "Lpanr rellenciosáciles de uen atemperado. ."
+msgstr "Las Coberturas Sabor a Chocolate CasaLuker son producidas con ingredientes de la mejor calidad. Este compound es ideal para cubrir o decorar hojaldres, tortas, galletas o panes; preparar rellenos, brillos y ganache, fabricar decoraciones, bombones y huevos de chocolate. Son fáciles de usar porque no requieren atemperado. Elabore sus recetas de forma rápida y fácil."
+
 msgid "Previous post:"
 msgstr "Entrada anterior:"
 
