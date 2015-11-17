@@ -65,7 +65,7 @@ Theme: Luker
                 <figure class="NavHome-figureTwo">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/productos-large.png" alt="">
                 </figure>
-                <h2> <?php _e('Productos','luker'); ?></h2>
+                <h2> <?php _e('Products','luker'); ?></h2>
             </a>
         </li>
         <li>
@@ -73,7 +73,7 @@ Theme: Luker
                 <figure class="NavHome-figureTree">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/a-su-medida-large.png" alt="">
                 </figure>
-                <h2><?php _e('','luker'); ?>A su medida</h2>
+                <h2><?php _e('Tailor Made Innovation','luker'); ?></h2>
             </a>
         </li>
         <li>
@@ -105,7 +105,7 @@ Theme: Luker
                 <figure class="NavHome-figureSeven">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/recetas.png" alt="">
                 </figure>
-                <h2><?php _e('Recetas','luker'); ?></h2>
+                <h2><?php _e('Recipes','luker'); ?></h2>
             </a>
         </li>
         <li>
@@ -116,7 +116,7 @@ Theme: Luker
                 </figure>
                 <h2><?php _e('news','luker'); ?> </h2>
 
-                <a href="<?php echo bloginfo('url')?>/contactanos"><h2 class="end"><?php _e('Contáctenos','luker'); ?></h2></a>
+                <a href="<?php echo bloginfo('url')?>/contactanos"><h2 class="end"><?php _e('contact','luker'); ?></h2></a>
             </a>
         </li>
     </ul>
