@@ -15,6 +15,7 @@
  */
 
 get_header(); ?>
+<?php echo __( 'Next post:', 'twentyfifteen' ) ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">

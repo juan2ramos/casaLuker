@@ -114,7 +114,7 @@ Theme: Luker
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/noticias.png" alt="">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/contactenos.png" alt="">
                 </figure>
-                <h2><?php _e('Noticias','luker'); ?> </h2>
+                <h2><?php _e('news','luker'); ?> </h2>
 
                 <a href="<?php echo bloginfo('url')?>/contactanos"><h2 class="end"><?php _e('Contáctenos','luker'); ?></h2></a>
             </a>

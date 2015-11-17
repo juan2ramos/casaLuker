@@ -6,9 +6,9 @@ add_action('init', 'registerRecipes');
 function registerRecipes()
 {
     $labels = array(
-        'name' => _x('Recetas'),
-        'singular_name' => _x('Receta'),
-        'add_new' => _x('Añadir receta', 'receta'),
+        'name' => __('Recetas'),
+        'singular_name' => __('Receta'),
+        'add_new' => __('Añadir receta', 'receta'),
         'add_new_item' => __('Añadir nueva receta'),
         'edit_item' => __('Editar receta'),
         'new_item' => __('Nueva receta'),
@@ -54,8 +54,8 @@ function create_recipe_taxonomies()
 {
     /* Cacao */
     $labels = array(
-        'name' => _x('Chocolates'),
-        'singular_name' => _x('Chocolate'),
+        'name' => __('Chocolates'),
+        'singular_name' => __('Chocolate'),
         'search_items' => __('Buscar por Chocolate'),
         'popular_items' => __('Chocolates populares'),
         'all_items' => __('Todos los Chocolates'),
@@ -80,8 +80,8 @@ function create_recipe_taxonomies()
 
     /* Niveles */
     $labels = array(
-        'name' => _x('Nivel'),
-        'singular_name' => _x('Niveles'),
+        'name' => __('Nivel'),
+        'singular_name' => __('Niveles'),
         'search_items' => __('Buscar Nivel'),
         'popular_items' => __('Niveles populares'),
         'all_items' => __('Todos los Niveles'),
@@ -107,8 +107,8 @@ function create_recipe_taxonomies()
 
     /* Chef */
     $labels = array(
-        'name' => _x('Chef'),
-        'singular_name' => _x('Chefs'),
+        'name' => __('Chef'),
+        'singular_name' => __('Chefs'),
         'search_items' => __('Buscar Chefs'),
         'popular_items' => __('Chefs populares'),
         'all_items' => __('Todos los Chefs'),

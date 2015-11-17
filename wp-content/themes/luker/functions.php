@@ -14,18 +14,18 @@ require(themeDir . 'functions/ofertas_widget.php');
 
 add_action('after_setup_theme', 'my_theme_setup');
 function my_theme_setup(){
-    load_theme_textdomain('luker', get_template_directory() . '/languages');
+    $r = load_theme_textdomain('luker', get_template_directory() . '/languages');
+    print_r($r);
 }
-
 
 /* Add Events */
 add_action('init', 'registerEvents');
 function registerEvents()
 {
     $labels = array(
-        'name' => _x('Eventos'),
-        'singular_name' => _x('Evento'),
-        'add_new' => _x('Añadir Eventos', 'Eventos'),
+        'name' => __('Eventos'),
+        'singular_name' => __('Evento'),
+        'add_new' => __('Añadir Eventos', 'Eventos'),
         'add_new_item' => __('Añadir nuevo Evento'),
         'edit_item' => __('Editar Evento'),
         'new_item' => __('Nuevo Evento'),
@@ -59,9 +59,9 @@ add_action('init', 'registerNews');
 function registerNews()
 {
     $labels = array(
-        'name' => _x('Noticias'),
-        'singular_name' => _x('Noticia'),
-        'add_new' => _x('Añadir Noticias', 'Noticias'),
+        'name' => __('Noticias'),
+        'singular_name' => __('Noticia'),
+        'add_new' => __('Añadir Noticias', 'Noticias'),
         'add_new_item' => __('Añadir nueva Noticia'),
         'edit_item' => __('Editar Noticia'),
         'new_item' => __('Nueva Noticia'),
