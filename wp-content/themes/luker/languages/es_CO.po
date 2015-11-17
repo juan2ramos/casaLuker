@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-17 00:08-0500\n"
+"PO-Revision-Date: 2015-11-17 12:26-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,6 +36,60 @@ msgstr "Aromas y sabores frutales, florales, de nueces y de malta. Este es el sa
 
 msgid "Trinitarian cocoas -highly sought after around the world- are Fino de Aroma, aromatic and mild in flavour. The trinitario variety is the result of cross between the criollo and forastero varieties and is produced mainly in Colombia, Ecuador, Peru and Venezuela."
 msgstr "Fino de Aroma es una clasificación de la Organización Internacional del Cacao (ICCO) que describe un cacao de exquisito aroma y sabor. Este tipo de cacao representa alrededor del 8% de la producción de cacao en el mundo. En Colombia, Ecuador, Venezuela y Perú se produce el 76% del Cacao Fino de Aroma del mundo."
+
+msgid "Forastero cocoa is the most common in the world; it is resitant to climate changes and has an acidic astringent flavour. It is the main variety grown in Africa."
+msgstr "El cacao forastero es el más común en el mundo, es resistente al clima y su sabor es ácido y astringente. Este es el típico cacao de África."
+
+msgid "CACAO FINO DE AROMA"
+msgstr "CACAO FINO DE AROMA"
+
+msgid "Fruity and flowery aromas and flavour with nutty malt notes. This is the characteristic flavour of Cacao Fino de Aroma that distinguishes it from other cocoas in the world."
+msgstr "Aromas y sabores frutales, florales, de nueces y de malta. Este es el sabor característico del Cacao Fino de Aroma que lo diferencia de los demás cacaos en el mundo."
+
+msgid "The Fino de Aroma denomination is an International Cocoa Organization (ICCO)* classification, which describes an exquisite aroma and flavour. Around 8% of the cocoa produced in the world is Cacao Fino de Aroma. 76% of Cacao Fino de Aroma produced in the world is grown in Colombia, Ecuador, Venezuela and Peru."
+msgstr "Fino de Aroma es una clasificación de la Organización Internacional del Cacao (ICCO) que describe un cacao de exquisito aroma y sabor. Este tipo de cacao representa alrededor del 8% de la producción de cacao en el mundo. En Colombia, Ecuador, Venezuela y Perú se produce el 76% del Cacao Fino de Aroma del mundo."
+
+msgid "We buy approximately 38% of the Colombian total cocoa production – 1600 tons per month on average –."
+msgstr "En CasaLuker compramos el 38% de la producción total de cacao en Colombia – 1600 toneladas al mes en promedio –."
+
+msgid "THE AROMA AND FLAVOUR OF CHOCOLATE"
+msgstr "EL AROMA Y EL SABOR DEL CHOCOLATE"
+
+msgid "The special aroma and flavour of cocoa do not only stem from the type of cocoa -forastero, trinitarian or criollo- but also from soil composition, climatic conditions, and primarily, the work of the cocoa artisan – the cocoa grower."
+msgstr "Las características especiales del sabor y aroma del cacao no sólo provienen del tipo de cacao; forastero, trinitario o criollo; sino también de las condiciones del clima, la composición del suelo, la región donde se cultiva y principalmente del trabajo del artesano del cacao, el agricultor."
+
+msgid "The four fundamental factors that ensure the special chocolate aroma and flavour are fermentation, drying, roasting and conching. Fermentation and drying are undertaken by farmers on the farms; and - the final touch that defines the organoleptic profile of each product - roasting and conching, take place in the production plant."
+msgstr "Existen 4 factores fundamentales para que el aroma y el sabor del chocolate se desarrollen: la fermentación, el secado, la tostión y el concheo. La fermentación y el secado del grano se hacen en el campo y son elaborados por el agricultor, la tostión y el concheo, son el toque final donde se define el perfil organoléptico de cada producto y son procesos desarrollados en la planta de producción. "
+
+msgid "Thanks to its close relationship with the cocoa growers and its training programs, CasaLuker is able to control these factors, offering its customers the best flavour."
+msgstr "CasaLuker por su estrecha relación con los agricultures y sus continuos programas de capacitación controla estos factores para ofrecer a sus clientes el mejor sabor. "
+
+msgid "The fermentation process involves removing the cocoa bean from its pod together with its pulp. This is then placed in wooden boxes and exposed to micro-organisms naturally present in the environment. These micro-organisms decompose the pulp which, in turn, sets off biochemical and physical processes which are responsible for the development of the precursors of aromas and flavours present in chocolate."
+msgstr "La fermentación ocurre cuando el grano de cacao se saca de la mazorca junto con su pulpa, es puesto en cajones de madera y expuesto a los microorganismos naturalmente presentes en el ambiente. Los microorganismos degradarán la pulpa y durante este proceso el grano sufrirá procesos bioquímicos y físicos que formarán los precursores de los aromas y sabores a chocolate. "
+
+msgid "Drying is a gradual process undertaken in the field by the grower. The beans are exposed to sunlight for several days in order to reduce their water content from 55% to 7% and to eliminate some of the acids naturally present in cocoa. "
+msgstr " El secado es un proceso gradual realizado en el campo por el agricultor. Durante este proceso se exponen los granos al sol durante varios días para bajar el contenido de agua del grano del 55% al 7% y eliminar algunos ácidos naturalmente presentes en el cacao."
+
+msgid "A good drying process is essential if mould and fungus are to be avoided and to guarantee a good flavour. "
+msgstr " Un buen secado es clave para evitar mohos y hongos en el grano y garantizar un buen sabor."
+
+msgid "The cocoa beans are roasted in the production plant, in a process where by the cocoa nibs are exposed to very high temperatures which will mould their flavour and develop the aroma and flavour of the final chocolate product. At this point, the sensorial properties can be modified, intensified and defined. "
+msgstr "La tostión es realizada en la planta de producción de chocolates. Es el proceso por medio del cual se exponen los nibs de cacao a altas temperaturas para moldear su sabor. Durante este proceso se desarrollan los aromas y sabores del chocolate y se pueden definir, modificar o potencializar las cualidades sensoriales del cacao."
+
+msgid "This fundamental process is undertaken in the production plant and it is responsible for the final touches in terms of the flavour of the chocolate. Acids, present in the cocoa, are eliminated and the flavour of the recipe and chocolate texture are nicely rounded. "
+msgstr "El concheo es un proceso fundamental realizado en la planta de producción donde se dan los últimos toques al sabor del chocolate. Durante este proceso se eliminan ácidos presentes en el cacao y se acaban de redondear los sabores de la receta y la textura del chocolate."
+
+msgid "CASALUKER RESEARCH "
+msgstr "INVESTIGACIÓN CASALUKER"
+
+msgid "*Centro Nacional de Investigaciones de Café  "
+msgstr "*Centro Nacional de Investigaciones de Café"
+
+msgid "CasaLuker together with Cenicafé* -one of the most important coffee research institutes in the world- began a classification process for cocoa originate from the principal cocoa producing areas of Colombia, Ecuador, Venezuela, and other cocoa producing regions in the world. "
+msgstr "CasaLuker en alianza con cenicafé* - uno de los institutos de investigación acerca del café más importantes en el mundo – inició en el año 2005 el proceso de caracterización de los cacaos en las principales zonas productoras de Colombia, Ecuador, Venezuela y de otras regiones cacaoteras alrededor del mundo."
+
+msgid "In this study we researched the sensorial characteristics of each type of cocoas, including the identification and quantification of the volatile aroma compounds as well as other physical, chemical, nutritional and functional characteristics that allowed us to define the individuality of each. "
+msgstr "En esta investigación se han estudiado las características sensoriales de cada tipo de cacao, se han identificado y cuantificado los principales compuestos volátiles del aroma y otras características físicas, químicas, nutricionales y funcionales que permiten definir una huella digital para tipo de cacao."
 
 msgid "Previous post:"
 msgstr "Entrada anterior:"
