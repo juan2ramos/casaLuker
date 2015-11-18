@@ -420,7 +420,7 @@
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" height="42">
-                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;">Nevado*</p>
+                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;"><?php _e('snowy','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px; text-align: center;">W207</p>
@@ -441,13 +441,13 @@
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" colspan="3" bgcolor="#3b1018" height="48">
-                        <p style="color: #fff; font-size: 14px; text-align: center;">Temperatura de trabajo</p>
+                        <p style="color: #fff; font-size: 14px; text-align: center;"><?php _e('Working temperature','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" colspan="3">
                         <p style="color: #fff; font-size: 14px; text-align: center;">28-30 ºC</p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" colspan="4" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 14px; text-align: center;">Vida útil (meses)</p>
+                        <p style="color: #fff; font-size: 14px; text-align: center;"><?php _e('Shelf life (months)','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff;" colspan="3">
                         <p style="color: #fff; font-size: 14px; text-align: center;">12*/14</p>

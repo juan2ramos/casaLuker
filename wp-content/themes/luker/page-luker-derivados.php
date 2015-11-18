@@ -6,14 +6,11 @@
             <article class="Derivados-article">
                 <figure><img src="<?php bloginfo('template_url') ?>/assets/images/productos/luker.png" alt="">
                 </figure>
-                <h2>Luker</h2>
+                <h2><?php _e('Luker','luker'); ?>Luker</h2>
 
                 <p>
-                    La presencia de CasaLuker en toda la cadena del cacao, nos permite seleccionar cuidadosamente los
-                    mejores granos provenientes del Cacao Fino de Aroma, garantizando altos estándares de calidad, aroma
-                    y sabor. <br>
-                    Manufacturamos los mejores productos semi-elaborados con calidad Fino de Aroma tales como: masa de
-                    cacao, manteca de cacao, cacao en polvo y cacao en grano.
+                    <?php _e('The presence of CasaLuker in the whole cocoa chain, allows us to carefully select the best Fino de Aroma beans that guarantee high standards in quality, flavor and aroma.
+                     We manufacture the best semi-elaborated products derived from the Cacao Fino de Aroma, such as: cocoa mass, cocoa butter, cocoa powder and beans.','luker'); ?>
                 </p>
             </article>
             <article class="Derivador-table">

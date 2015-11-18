@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-18 01:16-0500\n"
+"PO-Revision-Date: 2015-11-18 01:35-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -417,6 +417,12 @@ msgstr "Atlántico"
 
 msgid "Páramo"
 msgstr "Páramo"
+
+msgid "snowy"
+msgstr "Nevado"
+
+msgid "The presence of CasaLuker in the whole cocoa chain, allows us to carefully select the best Fino de Aroma beans that guarantee high standards in quality, flavor and aroma.We manufacture the best semi-elaborated products derived from the Cacao Fino de Aroma, such as: cocoa mass, cocoa butter, cocoa powder and beans"
+msgstr "La presencia de CasaLuker en toda la cadena del cacao, nos permite seleccionar cuidadosamente losmejores granos provenientes del Cacao Fino de Aroma, garantizando altos estándares de calidad, aroma y sabor. <br> Manufacturamos los mejores productos semi-elaborados con calidad Fino de Aroma tales como: masa de cacao, manteca de cacao, cacao en polvo y cacao en grano."
 
 msgid "Previous post:"
 msgstr "Entrada anterior:"
