@@ -13,8 +13,9 @@ require(themeDir . 'functions/recipes.php');
 require(themeDir . 'functions/ofertas_widget.php');
 
 add_action('after_setup_theme', 'my_theme_setup');
-function my_theme_setup(){
-  load_theme_textdomain('luker', get_template_directory() . '/languages');
+function my_theme_setup()
+{
+    load_theme_textdomain('luker', get_template_directory() . '/languages');
 
 }
 
@@ -104,8 +105,8 @@ function wp_corenavi($prev = '«', $next = '»')
         'prev_text' => __('Anterior'),
         'next_text' => __('Siguiente')
     );
-    $startPage = ($pagination['current'] == 1)? '' : '<a href="' . get_site_url() .'/noticias/page/' . 1 . '"> Inicio </a>';
-    $endPage = ($pagination['current'] == $pagination['total'])? '' : '<a href="' . get_site_url() .'/noticias/page/' . $pagination['total'] . '"> Final </a>';
+    $startPage = ($pagination['current'] == 1) ? '' : '<a href="' . get_site_url() . '/noticias/page/' . 1 . '"> Inicio </a>';
+    $endPage = ($pagination['current'] == $pagination['total']) ? '' : '<a href="' . get_site_url() . '/noticias/page/' . $pagination['total'] . '"> Final </a>';
 
 
     if ($wp_rewrite->using_permalinks())
@@ -117,19 +118,23 @@ function wp_corenavi($prev = '«', $next = '»')
     echo '<div class="Pagination-right">' . $startPage . paginate_links($pagination) . $endPage . '</div>';
 
 }
-function my_page_template_redirect() {
+
+function my_page_template_redirect()
+{
     global $post;
-    if(!get_page_template() && !is_home() && is_single() ){
+    if (!get_page_template() && !is_home()) {
         $arrayUrl = array(
-            'cacao-fino-de-aroma-en'=> 'page-cacao-fino-de-aroma',
-            'casaluker-es'=> 'page-casaluker',
-            'news'=> 'page-noticias',
+            'cacao-fino-de-aroma-en' => 'page-cacao-fino-de-aroma',
+            'casaluker-es' => 'page-casaluker',
+            'news' => 'page-noticias',
             'tailor-made-innovation' => 'page-a-su-medida',
             'luker-1906-es' => 'page-luker-1906',
             'the-luker-way-es' => 'page-the-luker-way',
 
         );
-        get_template_part( $arrayUrl[get_post( $post )->post_name]);exit;
+        get_template_part($arrayUrl[get_post($post)->post_name]);
+        exit;
     }
 }
-add_action( 'template_redirect', 'my_page_template_redirect' );
+
+add_action('template_redirect', 'my_page_template_redirect');
