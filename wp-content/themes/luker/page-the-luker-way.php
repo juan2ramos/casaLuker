@@ -507,16 +507,16 @@ PROJECTS','luker'); ?>|  |<span data-target="LukerWay-term" class="LukerWay-barF
                 <p>
                     <?php _e('During the last 10 years, CasaLuker has been working with Cenicafe in the characterization and deeper knowledge about cocoa, comparing the different species of cocoa beans from around the world.','luker'); ?>
 
-                    <span>Más de</span>
-                    <span> <b>2370</b> muestras</span>
-                    <span>procesadas</span>
-                    <span>representando</span>
+                    <span><?php _e('MORE THAN','luker'); ?></span>
+                    <span><?php _e('SAMPLES','luker'); ?> <b>2370</b> </span>
+                    <span><?php _e('PROCESSED','luker'); ?></span>
+                    <span><?php _e('REPRESENTING','luker'); ?></span>
                     <span><b>327060</b></span>
-                    <span>horas de trabajo</span>
+                    <span><?php _e('WORKING HOURS','luker'); ?></span>
                 </p>
             </div>
         </article>
-        <div class="LukerWay-bar">NOTICIAS<span data-target="LukerWay-business" class="LukerWay-barFirst"></span><span
+        <div class="LukerWay-bar"><?php _e('NEWS','luker'); ?><span data-target="LukerWay-business" class="LukerWay-barFirst"></span><span
                 data-target="socialNetwork" class="LukerWay-barLast"></span></div>
     </section>
     <section class="socialNetwork">

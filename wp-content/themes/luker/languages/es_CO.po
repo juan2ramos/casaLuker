@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-18 17:25-0500\n"
+"PO-Revision-Date: 2015-11-18 18:11-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -600,6 +600,39 @@ msgstr "Suministro de semillas y material vegetal"
 
 msgid "Nursery team"
 msgstr "Montaje de viveros."
+
+msgid "Luker 1906, Single Origin Chocolates"
+msgstr "Luker 1906, Single Origin Chocolate"
+
+msgid "Luker Cacao, Fino de Aroma Blends"
+msgstr "Luker Cacao, mezclas de Cacao Fino de Aroma"
+
+msgid "Chocolate Dragees"
+msgstr "Grageas de Chocolate"
+
+msgid "Cocoa derivatives"
+msgstr "Derivados de cacao"
+
+msgid "MORE THAN"
+msgstr "Más de"
+
+msgid "SAMPLES"
+msgstr "muestras"
+
+msgid "PROCESSED"
+msgstr "procesadas"
+
+msgid "REPRESENTING"
+msgstr "representando"
+
+msgid "WORKING HOURS"
+msgstr "horas de trabajo"
+
+msgid "NEWS"
+msgstr "NOTICIAS"
+
+msgid "Compound"
+msgstr "Compound"
 
 msgid "Financial mode"
 msgstr "Modelo financiero."
