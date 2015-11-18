@@ -79,7 +79,7 @@ Theme: Luker
             </div>
 
             <div class="formNewsletter">
-                <form method="post" action="http://luker.app:8888/?na=s" onsubmit="return newsletter_check(this)">
+                <form method="post" action="<?php bloginfo('url') ?>/?na=s" onsubmit="return newsletter_check(this)">
                     <input class="newsletter-firstname" type="text" name="nn" size="30" placeholder="Nombre">
                     <input class="newsletter-lastname" type="text" name="ns" size="30" required placeholder="Apellido">
                     <input class="newsletter-email" type="email" name="ne" size="30" required
