@@ -5,29 +5,25 @@
         <article>
             <figure><img src="<?php bloginfo('template_url') ?>/assets/images/productos/luker-1906.png" alt="">
             </figure>
-            <h2>Nuestro Secreto</h2>
+            <h2><?php _e('Luker 1906, Our Secret','luker'); ?></h2>
 
             <p>
-                Luker 1906, Single Origin Chocolates, son chocolates de sabor único por la pureza de su origen.
-                Fabricados a partir de granos seleccionados de cada región y país cultivador de Cacao Fino de Aroma,
-                su sabor refleja no solo la variedad de cacao, sino la riqueza del suelo y la cultura cacaotera de
-                los agricultores de la región.
-                Luker 1906, Un premio para los sentidos.
+                <?php _e('Luker 1906, Single Origin Chocolates, have a unique flavour that is given by the pureness of their origins. Made from selected beans from the different Fino de Aroma Cocoa growing regions and countries, their flavour does not only reflect the cocoa variety, but also richness of the soil and the cocoa growing culture of its region.
+                 Luker 1906, A treat for the senses.','luker'); ?>
             </p>
         </article>
         <article>
             <figure><img src="<?php bloginfo('template_url') ?>/assets/images/productos/empaque-1906.png" alt="""
                 alt="">
             </figure>
-            <h2>Nativo, Origen, País </h2>
+            <h2><?php _e('Nativo, Country Origin','luker'); ?></h2>
 
             <p>
-                Los chocolates Luker 1906 origen país resumen la cultura cacaotera de cada país productor de Cacao
-                Fino de Aroma.
+                <?php _e('Luker 1906 country origin chocolates embody the cocoa-growing culture of each of the Fino de Aroma producing countries.','luker'); ?>
             </p>
         </article>
     </section>
-    <h3>NATIVO, ORIGEN PAÍS</h3>
+    <h3><?php _e('NATIVO, COUNTRY  ORIGIN','luker'); ?></h3>
 
     <div class="Table">
         <table id="nativo-table" border="0" cellspacing="0" cellpadding="0" align="center">
@@ -45,50 +41,48 @@
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" rowspan="2"
                     bgcolor="#8d6650">
                     <p style="font-size: 11px; text-align: center; color: #fff; padding: 0 10px 0 10px;">
-                        DESCRIPCIÓN</p>
+                        <?php _e('DESCRIPTION','luker'); ?> </p>
                 </td>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" rowspan="2"
                     bgcolor="#8D6650">
-                    <p style="font-size: 11px; text-align: center; color: #fff; padding: 0 10px 0 10px;">CÓD.</p>
+                    <p style="font-size: 11px; text-align: center; color: #fff; padding: 0 10px 0 10px;"><?php _e('CODE','luker'); ?> </p></p>
                 </td>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" rowspan="2"
                     bgcolor="#8d6650">
-                    <p style="font-size: 11px; text-align: center; color: #fff; padding: 0 10px 0 10px;">CONTENIDO
-                        DE CACAO</p>
+                    <p style="font-size: 11px; text-align: center; color: #fff; padding: 0 10px 0 10px;"><?php _e('COCOA CONTENT','luker'); ?>
+                        </p>
                 </td>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" rowspan="2"
                     bgcolor="#8d6650">
-                    <p style="font-size: 11px; text-align: center; color: #fff; padding: 0 10px 0 10px;">FLUIDEZ</p>
+                    <p style="font-size: 11px; text-align: center; color: #fff; padding: 0 10px 0 10px;"><?php _e('VISCOSITY','luker'); ?></p>
                 </td>
                 <td style="border-bottom: 1px solid #fff;" colspan="7" bgcolor="#8d6650">
                     <p style="font-size: 11px; text-align: center; color: #fff; padding: 0 10px 0 10px;">
-                        APLICACIONES</p>
+                        <?php _e('APPLICATIONS','luker'); ?></p> </p>
                 </td>
                 <td>
                 </td>
             </tr>
             <tr>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#764e3e">
-                    <p style="font-size: 10px; text-align: center; color: #fff; padding: 0 10px 0 10px;">CUBRIR</p>
+                    <p style="font-size: 10px; text-align: center; color: #fff; padding: 0 10px 0 10px;"><?php _e('ENROBING','luker'); ?></p>
                 </td>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#764e3e">
-                    <p style="font-size: 10px; text-align: center; color: #fff; padding: 0 10px 0 10px;">FIGURAS
-                        DECORATIVAS</p>
+                    <p style="font-size: 10px; text-align: center; color: #fff; padding: 0 10px 0 10px;"><?php _e('DECORATIVE FIGURES','luker'); ?></p>
                 </td>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" colspan="2"
                     bgcolor="#764e3e">
-                    <p style="font-size: 10px; text-align: center; color: #fff; padding: 0 10px 0 10px;">MOLDEO</p>
+                    <p style="font-size: 10px; text-align: center; color: #fff; padding: 0 10px 0 10px;"><?php _e('MOULDING','luker'); ?>MOLDEO</p>
                 </td>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#764e3e">
-                    <p style="font-size: 10px; text-align: center; color: #fff; padding: 0 10px 0 10px;">RELLENOS Y
-                        GANACHES</p>
+                    <p style="font-size: 10px; text-align: center; color: #fff; padding: 0 10px 0 10px;"><?php _e('FILLINGS AND GANACHES','luker'); ?></p>
                 </td>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#764e3e">
                     <p style="font-size: 10px; text-align: center; color: #fff; padding: 0 10px 0 10px;">
-                        DECORACIÓN</p>
+                        <?php _e('DECORATING','luker'); ?> </p>
                 </td>
                 <td style="border-bottom: 1px solid #fff;" bgcolor="#764e3e">
-                    <p style="font-size: 10px; text-align: center; color: #fff; padding: 0 10px 0 10px;">POSTRES</p>
+                    <p style="font-size: 10px; text-align: center; color: #fff; padding: 0 10px 0 10px;"><?php _e('DESSERTS','luker'); ?></p>
                 </td>
                 <td>
                 </td>
@@ -97,7 +91,7 @@
                 <td style="border-right: 1px solid #fff;" rowspan="2" colspan="4">&nbsp;</td>
                 <td style="border-right: 1px solid #fff; border-bottom: 1px dashed #fff;">
                     <p style="font-size: 14px; color: #fff; text-align: left; margin-left: 8px; margin: 15px 8px;">
-                        Colombia</p>
+                        <?php _e(' Colombia','luker'); ?> Colombia</p>
                 </td>
                 <td style="border-right: 1px solid #fff; border-bottom: 1px dashed #fff;">
                     <p style="font-size: 14px; color: #fff; text-align: center;">D116</p>
@@ -124,7 +118,7 @@
             </tr>
             <tr>
                 <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" rowspan="3">
-                    <p style="font-size: 14px; color: #fff; text-align: left; margin-left: 8px;">Ecuador</p>
+                    <p style="font-size: 14px; color: #fff; text-align: left; margin-left: 8px;"> <?php _e('Ecuador','luker'); ?></p>
                 </td>
                 <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" rowspan="3">
                     <p style="font-size: 14px; color: #fff; text-align: center;">D114</p>
@@ -151,7 +145,7 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>
-                    <p style="font-size: 11px; color: #fff;">ORIGEN PAÍS</p>
+                    <p style="font-size: 11px; color: #fff;"><?php _e('COUNTRY ORIGIN','luker'); ?></p>
                 </td>
                 <td style="border-right: 1px solid #fff;" colspan="2">&nbsp;</td>
                 <td>
@@ -168,7 +162,7 @@
             <tr>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
                     <p style="font-size: 14px; color: #fff; text-align: left; margin-left: 8px; margin: 15px 8px;">
-                        *Milk Colombia</p>
+                        <?php _e('*Milk Colombia','luker'); ?>  </p>
                 </td>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
                     <p style="font-size: 14px; color: #fff; text-align: center;">M121</p>
@@ -198,16 +192,11 @@
     </div>
     <section>
         <article>
-            <h2>Origen único</h2>
+            <h2><?php _e('Unique Origin','luker'); ?> </h2>
 
             <p>
-                Luker 1906, origen SANTANDER, HUILA, TUMACO y ARAUCA, cuatro regiones colombianas, sabores que
-                reflejan la diversidad geográfica y cultural del país. El cacao de Santander crece en la Cordillera
-                de los Andes; el cacao en Tumaco es cultivado dentro de la selva tropical en el litoral pacífico. En
-                el Huila, el cacao es característico de los valles entre cordilleras. En Arauca crece en un paisaje
-                salvaje entre nevados y sabanas de la región de la Orinoquía.
-                Montañas, selvas y llanuras, Luker 1906, el chocolate con el inimitable sabor de la tierra que les
-                da vida.
+                <?php _e('Luker 1906, SANTANDER, HUILA, TUMACO and ARAUCA. Four Colombian Origin Chocolates with flavours that reflect the country’s geographic and cultural diversity.
+Santander cocoa is cultivated in the Andes; Tumaco, in the tropical forests of the Pacific Coast and Huila cocoa is typical of the region’s deep valleys. In Arauca, cocoa grows in wild landscapes between the snow-capped mountains and valleys of the Orinoco. Mountains, forests and valleys: Luker 1906, the chocolate with an inimitable flavour of the land that it grows in.','luker'); ?>
             </p>
         </article>
         <article class="city">
@@ -222,7 +211,7 @@
             </a>
         </article>
     </section>
-    <h3>ORIGEN ÚNICO</h3>
+    <h3><?php _e('Unique Origin','luker'); ?></h3>
 
     <div class="Table">
 
@@ -237,50 +226,50 @@
                     bgcolor="#764e3e">&nbsp;</td>
                 <td style="background-color: #8d6650; border-bottom: 1px solid #fff; border-right: 1px solid #fff;"
                     rowspan="2">
-                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;">DESCRIPCIÓN</p>
+                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;"><?php _e('DESCRIPTION','luker'); ?></p>
                 </td>
                 <td style="background-color: #8d6650; border-bottom: 1px solid #fff; border-right: 1px solid #fff;"
                     rowspan="2">
-                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;">CÓD.</p>
+                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;"><?php _e('CODE','luker'); ?></p>
                 </td>
                 <td style="background-color: #8d6650; border-bottom: 1px solid #fff; border-right: 1px solid #fff;"
                     rowspan="2">
-                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;">CONTENIDO DE CACAO</p>
+                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;"><?php _e('COCOA CONTENT','luker'); ?></p>
                 </td>
                 <td style="background-color: #8d6650; border-bottom: 1px solid #fff; border-right: 1px solid #fff;"
                     rowspan="2">
-                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;">FLUIDEZ</p>
+                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;"><?php _e('VISCOSITY','luker'); ?></p>
                 </td>
                 <td style="background-color: #8d6650; border-bottom: 1px solid #fff;" colspan="6" height="20">
-                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;">APLICACIONES</p>
+                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;"><?php _e('APPLICATIONS','luker'); ?></p>
                 </td>
             </tr>
             <tr>
                 <td style="background-color: #764e3e; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
-                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;">CUBRIR</p>
+                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;"><?php _e('ENROBING','luker'); ?></p>
                 </td>
                 <td style="background-color: #764e3e; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
-                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;">FIGURAS DECORATIVAS</p>
+                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;"><?php _e('DECORATIVE FIGURES','luker'); ?></p>
                 </td>
                 <td style="background-color: #764e3e; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
-                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;">MOLDEO</p>
+                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;"><?php _e('MOULDING','luker'); ?></p>
                 </td>
                 <td style="background-color: #764e3e; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
-                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;">RELLENOS Y GANACHES</p>
+                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;"><?php _e('FILLINGS AND GANACHES','luker'); ?></p>
                 </td>
                 <td style="background-color: #764e3e; border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
-                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;">DECORACIÓN</p>
+                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;"><?php _e('DECORATING','luker'); ?></p>
                 </td>
                 <td style="background-color: #764e3e; border-bottom: 1px solid #fff;">
-                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;">POSTRES</p>
+                    <p style="color: #fff; font-size: 11px; padding: 0 10px 0 10px;"><?php _e('DESSERTS','luker'); ?></p>
                 </td>
             </tr>
             <tr>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" rowspan="2">
-                    <p style="color: #fff; font-size: 12px;">TUMACO (Región Colombiana)</p>
+                    <p style="color: #fff; font-size: 12px;"><?php _e('TUMACO (Región Colombiana)','luker'); ?></p>
                 </td>
                 <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
-                    <p style="color: #fff; font-size: 14px;">Extra Dark Tumaco</p>
+                    <p style="color: #fff; font-size: 14px;"><?php _e('Extra Dark Tumaco','luker'); ?></p>
                 </td>
                 <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
                     <p style="color: #fff; font-size: 14px;">D103</p>
@@ -304,7 +293,7 @@
             </tr>
             <tr>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
-                    <p style="color: #fff; font-size: 14px;">Dark Tumaco</p>
+                    <p style="color: #fff; font-size: 14px;"><?php _e(' Dark Tumaco','luker'); ?></p>
                 </td>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
                     <p style="color: #fff; font-size: 14px;">D102</p>
@@ -329,10 +318,10 @@
             </tr>
             <tr>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
-                    <p style="color: #fff; font-size: 12px;">HUILA (Región Colombiana)</p>
+                    <p style="color: #fff; font-size: 12px;"><?php _e('HUILA (Región Colombiana)','luker'); ?></p>
                 </td>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
-                    <p style="color: #fff; font-size: 14px;">Dark Huila</p>
+                    <p style="color: #fff; font-size: 14px;"><?php _e('Dark Huila','luker'); ?></p>
                 </td>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" width="59">
                     <p style="color: #fff; font-size: 14px;">D105</p>
@@ -357,10 +346,10 @@
             </tr>
             <tr>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" rowspan="2">
-                    <p style="color: #fff; font-size: 12px;">SANTANDER (Región Colombiana)</p>
+                    <p style="color: #fff; font-size: 12px;"><?php _e('SANTANDER (Región Colombiana)','luker'); ?></p>
                 </td>
                 <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
-                    <p style="color: #fff; font-size: 14px;">Extra Dark Santander</p>
+                    <p style="color: #fff; font-size: 14px;"><?php _e('Extra Dark Santander','luker'); ?></p>
                 </td>
                 <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
                     <p style="color: #fff; font-size: 14px;">D109</p>
@@ -408,7 +397,7 @@
             </tr>
             <tr>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" width="199">
-                    <p style="color: #fff; font-size: 12px;">ARAUCA (Región Colombiana)</p>
+                    <p style="color: #fff; font-size: 12px;"><?php _e('ARAUCA (Región Colombiana)','luker'); ?>ARAUCA (Región Colombiana)</p>
                 </td>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" width="128">
                     <p style="color: #fff; font-size: 14px;">Dark Arauca</p>

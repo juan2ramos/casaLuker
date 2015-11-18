@@ -29,32 +29,32 @@
                 <option value="luxemburgo"><?php _e('Luxembourg','luker'); ?></option>
                 <option value="medio-oriente"><?php _e('Middle East','luker'); ?></option>
                 <option value="mexico"><?php _e('México','luker'); ?></option>
-                <option value="netherland"><?php _e('Select','luker'); ?>Netherland</option>
-                <option value="reino-unido"><?php _e('Select','luker'); ?>Reino Unido</option>
-                <option value="republica-checa"><?php _e('Select','luker'); ?>República Checa</option>
-                <option value="eslovaquia"><?php _e('Select','luker'); ?>República de Eslovaquia</option>
-                <option value="rusia"><?php _e('Select','luker'); ?>Rusia</option>
-                <option value="suecia"><?php _e('Select','luker'); ?>Suecia</option>
-                <option value="ucrania"><?php _e('Select','luker'); ?>Ucrania</option>
+                <option value="netherland"><?php _e('Netherland','luker'); ?></option>
+                <option value="reino-unido"><?php _e('United Kingdom','luker'); ?></option>
+                <option value="republica-checa"><?php _e('Czech Republic','luker'); ?></option>
+                <option value="eslovaquia"><?php _e('Slovak Republic','luker'); ?></option>
+                <option value="rusia"><?php _e('Russia','luker'); ?></option>
+                <option value="suecia"><?php _e('Sweden','luker'); ?></option>
+                <option value="ucrania"><?php _e('Ukraine','luker'); ?></option>
                 <!--<option value="24">Rumania</option>--> <!--<option value="25">Trinidad y Tobago</option>-->
             </optgroup>
             <option value="26"><?php _e('Others','luker'); ?>Otros</option>
         </select>
         <select id="dropdownCol" name="dropdownCol">
-            <option value="0"><?php _e('Select','luker'); ?>Seleccionar Ciudad</option>
+            <option value="0"><?php _e('Select City','luker'); ?>Seleccionar Ciudad</option>
             <optgroup label="Distribuidores">
-                <option value="barranquilla"><?php _e('Select','luker'); ?>Barranquilla</option>
-                <option value="bogota"><?php _e('Select','luker'); ?>Bogotá</option>
-                <option value="ibague"><?php _e('Select','luker'); ?>Ibagué</option>
-                <option value="medellin"><?php _e('Select','luker'); ?>Medellín</option>
-                <option value="manizales"><?php _e('Select','luker'); ?>Manizales</option>
-                <option value="pasto"><?php _e('Select','luker'); ?>Pasto</option>
+                <option value="barranquilla"><?php _e('Barranquilla','luker'); ?></option>
+                <option value="bogota"><?php _e('Bogotá','luker'); ?></option>
+                <option value="ibague"><?php _e('Ibagué','luker'); ?></option>
+                <option value="medellin"><?php _e('Medellín','luker'); ?></option>
+                <option value="manizales"><?php _e('Manizales','luker'); ?></option>
+                <option value="pasto"><?php _e('Pasto','luker'); ?></option>
             </optgroup>
         </select>
 
         <div class="Contact-locationMap">
             <div class="belgica-d">
-                <p>Kortrijksesteenweg 1132</p>
+                <p><?php _e('Kortrijksesteenweg 1132','luker'); ?>Kortrijksesteenweg 1132</p>
 
                 <p>9051 Sint-Denijs-Westrem, Bélgica</p>
 
