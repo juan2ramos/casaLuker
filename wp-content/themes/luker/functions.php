@@ -121,7 +121,12 @@ function my_page_template_redirect() {
     global $post;
     if(!get_page_template() && !is_home()){
         $arrayUrl = array(
-            'cacao-fino-de-aroma-en'=> 'page-cacao-fino-de-aroma'
+            'cacao-fino-de-aroma-en'=> 'page-cacao-fino-de-aroma',
+            'casaluker-es'=> 'page-casaluker',
+            'news'=> 'page-noticias',
+            'tailor-made-innovation' => 'page-a-su-medida',
+            'luker-1906-es' => 'page-luker-1906',
+
         );
         get_template_part( $arrayUrl[get_post( $post )->post_name]);exit;
     }
