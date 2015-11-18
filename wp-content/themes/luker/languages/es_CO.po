@@ -340,6 +340,18 @@ msgstr "Bolsa x 2,5 Kg, Minibarras Luker<br>Caja x 20 Kg, Minibarras Luker"
 msgid "Shelf life"
 msgstr "Vida útil"
 
+msgid "24 months/ *14 months"
+msgstr "24 meses/ *14 meses"
+
+msgid "ALL OUR COUVERTURES REQUIRE TEMPERING"
+msgstr "TODAS NUESTRAS COBERTURAS REQUIEREN ATEMPERADO"
+
+msgid "Very fluid"
+msgstr "Muy fluido"
+
+msgid "Very viscous"
+msgstr "Poco fluido"
+
 msgid "Previous post:"
 msgstr "Entrada anterior:"
 

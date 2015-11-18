@@ -451,7 +451,7 @@ Santander cocoa is cultivated in the Andes; Tumaco, in the tropical forests of t
                     <p style="color: #fff; font-size: 12px;"><?php _e('Shelf life','luker'); ?></p>
                 </td>
                 <td height="31">
-                    <p style="color: #fff; font-size: 12px;">24 meses/ *14 meses</p>
+                    <p style="color: #fff; font-size: 12px;"><?php _e('24 months/ *14 months','luker'); ?></p>
                 </td>
             </tr>
             </tbody>
@@ -463,18 +463,17 @@ Santander cocoa is cultivated in the Andes; Tumaco, in the tropical forests of t
                     bgcolor="#8d6650" width="65" height="24">&nbsp;</td>
                 <td style="border-top: 1px solid #fff; border-right: 1px solid #fff; border-bottom: 1px dashed #fff;"
                     bgcolor="#8d6650" width="84">
-                    <p style="font-size: 12px; color: #fff; text-align: center;">Muy fluido</p>
+                    <p style="font-size: 12px; color: #fff; text-align: center;"><?php _e('Very fluid','luker'); ?></p>
                 </td>
                 <td rowspan="2" bgcolor="#8D6650">
-                    <p style="font-size: 10px; color: #fff; text-align: center;">&gt;&gt;TODAS NUESTRAS COBERTURAS
-                        REQUIEREN ATEMPERADO</p>
+                    <p style="font-size: 10px; color: #fff; text-align: center;"><?php _e('ALL OUR COUVERTURES REQUIRE TEMPERING','luker'); ?>&gt;&gt;</p>
                 </td>
             </tr>
             <tr>
                 <td style="background-image: url('<?php bloginfo('template_url') ?>/assets/images/productos/images/una-gotas.png'); background-repeat: no-repeat; background-position: center; border-left: 1px solid #fff; border-right: 1px solid #fff; border-bottom: 1px solid #fff;"
                     bgcolor="#8d6650" height="23">&nbsp;</td>
                 <td style="border-right: 1px solid #fff; border-bottom: 1px solid #fff;" bgcolor="#8d6650">
-                    <p style="font-size: 12px; color: #fff; text-align: center;">Poco fluido</p>
+                    <p style="font-size: 12px; color: #fff; text-align: center;"><?php _e('Very viscous','luker'); ?></p>
                 </td>
             </tr>
             </tbody>
