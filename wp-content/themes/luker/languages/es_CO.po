@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-17 17:27-0500\n"
+"PO-Revision-Date: 2015-11-17 20:00-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -127,6 +127,54 @@ msgstr "Otros"
 msgid "Belgium"
 msgstr "Bélgica"
 
+msgid "Colombia"
+msgstr "Colombia"
+
+msgid "Panamá"
+msgstr "Panamá"
+
+msgid "Perú"
+msgstr "Perú"
+
+msgid "Germany"
+msgstr "Alemania"
+
+msgid "Brazil"
+msgstr "Brasil"
+
+msgid "Canada"
+msgstr "Canada"
+
+msgid "United States"
+msgstr "Estados Unidos"
+
+msgid "Finland"
+msgstr "Finlandia"
+
+msgid "Greece"
+msgstr "Grecia"
+
+msgid "Guatemala"
+msgstr "Guatemala"
+
+msgid "Hungary"
+msgstr "Hungría"
+
+msgid "Italy"
+msgstr "Italia"
+
+msgid "Japan"
+msgstr "Japón"
+
+msgid "Luxembourg"
+msgstr "Luxemburgo"
+
+msgid "Middle East"
+msgstr "Medio Oriente"
+
+msgid "México"
+msgstr "México"
+
 msgid "TAILOR MADE INNOVATION"
 msgstr "INNOVACIÓN A SU MEDIDA"
 
@@ -147,6 +195,9 @@ msgstr "El proceso:"
 
 msgid "- Take the sample and smell it while you stir the content with a tea-spoon or spatula, in order to perceive its variety of aromas.- Take a small sample of the mass to your mouth and disperse it uniformly over your tongue.- Hold the sample in your mouth for 15 - 20 seconds, taking in small amounts of air at the same time.- The attributes become evident while doing this. Record your perceptions using the CasaLuker nariz del cacao (Cocoas nose) as an aid."
 msgstr "- Tome la muestra y olfatéela para percibir sus aromas mientras remueve el contenido con una cuchara óespátula.- Tome una pequeña muestra de masa y llévelo a la boca buscando una dispersión uniforme sobre la lengua.- Mantenga la muestra en su boca durante 15 o 20 segundos, aireando un poco con bocanadas de aire.- Los atributos son evidentes durante este tiempo, escriba sus percepciones con la ayuda de la nariz delcacao CasaLuker."
+
+msgid "Note: You must clean your palate with water between samples."
+msgstr "Nota: Es recomendado realizar un enjuague con agua entre muestras."
 
 msgid "Previous post:"
 msgstr "Entrada anterior:"

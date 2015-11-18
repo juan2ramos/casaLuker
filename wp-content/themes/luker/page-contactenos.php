@@ -4,51 +4,51 @@
             <option value="0"><?php _e('Select','luker'); ?></option>
             <optgroup label="Filiales">
                 <option value="belgica"><?php _e('Belgium','luker'); ?></option>
-                <option value="colombia"><?php _e('Select','luker'); ?>Colombia</option>
+                <option value="colombia"><?php _e('Colombia','luker'); ?></option>
                 <!--<option value="3">Ecuador</option>--><!--<option value="4">Estados Unidos</option>-->
-                <option value="panama"><?php _e('Select','luker'); ?>Panamá</option>
-                <option value="peru"><?php _e('Select','luker'); ?>Perú</option>
+                <option value="panama"><?php _e('Panamá','luker'); ?></option>
+                <option value="peru"><?php _e('Perú','luker'); ?></option>
             </optgroup>
             <optgroup label="Distribuidores">
-                <option value="alemania"><?php _e('Select','luker'); ?>Alemania</option>
-                <option value="argentina"><?php _e('Select','luker'); ?>Argentina</option>
-                <option value="belgica"><?php _e('Select','luker'); ?>Bélgica</option>
-                <option value="brasil"><?php _e('Select','luker'); ?>Brasil</option>
+                <option value="alemania"><?php _e('Germany','luker'); ?></option>
+                <option value="argentina"><?php _e('Argentina','luker'); ?></option>
+                <option value="belgica"><?php _e('Belgium','luker'); ?></option>
+                <option value="brasil"><?php _e('Brazil','luker'); ?></option>
                 <!--<option value="10">Chile</option>--> <!--<option value="11">Corea del Sur</option>-->
                 <!--<option value="12">Emiratos Arabes</option>--> <!--<option value="13">España</option>-->
-                <option value="canada"><?php _e('Select','luker'); ?>Canada</option>
-                <option value="estados-unidos"><?php _e('Select','luker'); ?>Estados Unidos</option>
+                <option value="canada"><?php _e('Canada','luker'); ?></option>
+                <option value="estados-unidos"><?php _e('United States','luker'); ?></option>
                 <!--<option value="15">Francia</option>-->
-                <option value="finlandia"><?php _e('Select','luker'); ?>Finlandia</option>
-                <option value="grecia"><?php _e('Select','luker'); ?>Grecia</option>
-                <option value="guatemala"><?php _e('Select','luker'); ?>Guatemala</option>
-                <option value="hungria"><?php _e('Select','luker'); ?>Hungría</option>
+                <option value="finlandia"><?php _e('Finland','luker'); ?></option>
+                <option value="grecia"><?php _e('Greece','luker'); ?></option>
+                <option value="guatemala"><?php _e('Guatemala','luker'); ?></option>
+                <option value="hungria"><?php _e('Hungary','luker'); ?></option>
                 <!--<option value="17">Irak</option><option value="18">Irán</option>-->
-                <option value="italia"><?php _e('Select','luker'); ?>Italia</option>
-                <option value="japon"><?php _e('Select','luker'); ?>Japón</option>
-                <option value="luxemburgo">Luxemburgo</option>
-                <option value="medio-oriente">Medio Oriente</option>
-                <option value="mexico">México</option>
-                <option value="netherland">Netherland</option>
-                <option value="reino-unido">Reino Unido</option>
-                <option value="republica-checa">República Checa</option>
-                <option value="eslovaquia">República de Eslovaquia</option>
-                <option value="rusia">Rusia</option>
-                <option value="suecia">Suecia</option>
-                <option value="ucrania">Ucrania</option>
+                <option value="italia"><?php _e('Italy','luker'); ?></option>
+                <option value="japon"><?php _e('Japan','luker'); ?></option>
+                <option value="luxemburgo"><?php _e('Luxembourg','luker'); ?></option>
+                <option value="medio-oriente"><?php _e('Middle East','luker'); ?></option>
+                <option value="mexico"><?php _e('México','luker'); ?></option>
+                <option value="netherland"><?php _e('Select','luker'); ?>Netherland</option>
+                <option value="reino-unido"><?php _e('Select','luker'); ?>Reino Unido</option>
+                <option value="republica-checa"><?php _e('Select','luker'); ?>República Checa</option>
+                <option value="eslovaquia"><?php _e('Select','luker'); ?>República de Eslovaquia</option>
+                <option value="rusia"><?php _e('Select','luker'); ?>Rusia</option>
+                <option value="suecia"><?php _e('Select','luker'); ?>Suecia</option>
+                <option value="ucrania"><?php _e('Select','luker'); ?>Ucrania</option>
                 <!--<option value="24">Rumania</option>--> <!--<option value="25">Trinidad y Tobago</option>-->
             </optgroup>
             <option value="26"><?php _e('Others','luker'); ?>Otros</option>
         </select>
         <select id="dropdownCol" name="dropdownCol">
-            <option value="0">Seleccionar Ciudad</option>
+            <option value="0"><?php _e('Select','luker'); ?>Seleccionar Ciudad</option>
             <optgroup label="Distribuidores">
-                <option value="barranquilla">Barranquilla</option>
-                <option value="bogota">Bogotá</option>
-                <option value="ibague">Ibagué</option>
-                <option value="medellin">Medellín</option>
-                <option value="manizales">Manizales</option>
-                <option value="pasto">Pasto</option>
+                <option value="barranquilla"><?php _e('Select','luker'); ?>Barranquilla</option>
+                <option value="bogota"><?php _e('Select','luker'); ?>Bogotá</option>
+                <option value="ibague"><?php _e('Select','luker'); ?>Ibagué</option>
+                <option value="medellin"><?php _e('Select','luker'); ?>Medellín</option>
+                <option value="manizales"><?php _e('Select','luker'); ?>Manizales</option>
+                <option value="pasto"><?php _e('Select','luker'); ?>Pasto</option>
             </optgroup>
         </select>
 

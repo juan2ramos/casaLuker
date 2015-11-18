@@ -31,7 +31,7 @@
             </p>
 
             <p>
-                Nota: Es recomendado realizar un enjuague con agua entre muestras.
+                <?php _e('Note: You must clean your palate with water between samples.','luker'); ?>
             </p>
         </article>
         <article>
