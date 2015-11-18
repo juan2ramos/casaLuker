@@ -78,13 +78,7 @@
                     </div>
                     <div class="move">
 
-                        <p>Como una extensión de nuestros programas educativos en la Granja Luker, también tenemos nueve
-                            parcelas demostrativas en Colombia y una en Perú. Una parcela demostrativa se establece a
-                            través de un acuerdo hecho entre CasaLuker y un agricultor, en el que el agricultor recibe
-                            un subsidio por CasaLuker (material vegetal y diferentes suministros agrícolas) para mejorar
-                            su cultivo, así como una capacitación gratuita. A cambio, el agricultor se compromete a
-                            convertir su granja en un modelo utilizado para entrenar y dar ejemplo a otros
-                            productores.</p>
+                        <p><?php _e('As an extension of our educational programs at Granja Luker, we also mantain nine model plots in Colombia and one in Peru. A model plot is established through an arrangement made between CasaLuker and a farmer, in which the farmer receives a subsidy from CasaLuker (plant material and different farm supplies) to improve his or her crop, as well as free training. In return, the farmer agrees to convert his or her farm into a model to be used to train other producers.','luker'); ?></p>
 
                         <ul class="slideFade">
                             <li><img src="<?php bloginfo('template_url') ?>/assets/images/farm-01.png" alt=""></li>
@@ -100,24 +94,18 @@
                         <figure><img src="<?php bloginfo('template_url') ?>/assets/images/logo-granja.jpg" alt="">
                         </figure>
                         <p>
-                            En 1962, CasaLuker creó la Granja Luker, uno de los pocos centros de investigación de
-                            cacao
-                            en el mundo, donde se trabaja para modernizar la tecnología de producción y de
-                            conservación
-                            de la calidad del Cacao Fino de Aroma, beneficiando a los agricultores que viven de
-                            estos
-                            cultivos y garantizando la mejor calidad para nuestros clientes.
+                            <?php _e('In 1962, CasaLuker created Granja Luker, one of the few research centres for cocoa in the world. The staff at the centre work to modernise production technology and conservation techniques for Cacao Fino de Aroma, to ensure benefits for the farmers who rely on the crop as their livelihood, and to guarantee the best quality for our clients.','luker'); ?>
                         </p>
                     </div>
-                    <h4>Capacitamos más de 700 personas al año, MÁS DE 30.000 DURANTE LOS ÚLTIMOS 50 AÑOS.</h4>
+                    <h4><?php _e('WE TRAIN MORE THAN 700 PEOPLE A YEAR, MORE THAN 30,000 DURING THE LAST 50 YEARS.','luker'); ?></h4>
                     <img src="<?php bloginfo('template_url') ?>/assets/images/people.png" alt="">
-                    <h4>PARA CONOCER MÁS ACERCA GRANJA LUKER</h4>
-                    <a href="http://www.lukeringredients.com/es/granja-luker">CLIC AQUI</a>
+                    <h4><?php _e('TO LEARN MORE ABOUT GRANJA LUKER','luker'); ?></h4>
+                    <a href="http://www.lukeringredients.com/es/granja-luker"><?php _e('CLICK HERE','luker'); ?></a>
                 </li>
                 <li class="LukerWay-system">
                     <div class="moveSystem show">
-                        <h4>Sistema Agroforestal
-                            <span>CACAO-PLÁTANO-MELINA</h4>
+                        <h4><?php _e('AGROFORESTRY SYSTEM','luker'); ?>
+                            <span><?php _e('COCOA-PLANTAIN-GMELINA','luker'); ?></h4>
                         <img src="<?php bloginfo('template_url') ?>/assets/images/cultivo.png" alt="">
                     </div>
 
@@ -164,35 +152,29 @@
         <div class="LukerWay-cacaoContent">
             <div class="inline right">
                 <h2>
-                    CREEMOS EN
-                    CONDICIONES DE
-                    COMPRA JUSTAS
+                    <?php _e('WE BELIEVE IN FAIR PURCHASING CONDITIONS','luker'); ?>
                 </h2>
 
                 <p>
-                    Nuestra estrategia de compra se basa en la relación directa con los pequeños productores y
-                    asociaciones, haciendo la cadena de suministro más corta. Queremos garantizar la calidad, la
-                    trazabilidad y los volúmenes de compra.
+                    <?php _e('Our purchasing strategy is based on the direct relationship with small growers, cooperatives, coffee grinders, making the supply chain shorter. We want to guarantee quality, traceability and volumes.','luker'); ?>
                 </p>
 
                 <ul class="LukerWay-menuC">
 
 
-                    <li><a href="#" class="active" data-target="LukerWay-agency">REGIONES CACOTERAS Y<br>AGENCIAS DE
-                            COMPRA</a></li>
-                    <li><a href="#" data-target="LukerWay-provider">NUESTROS PROVEEDORES DE <br> CACAO EN GRANO</a></li>
-                    <li><a href="#" data-target="LukerWay-association">LAS ASOCIACIONES DE <br>PRODUCTORES DE CACAO</a>
+                    <li><a href="#" class="active" data-target="LukerWay-agency"><?php _e('COCOA REGIONS AND BUYING AGENCIES','luker'); ?></a></li>
+                    <li><a href="#" data-target="LukerWay-provider"><?php _e('OUR COCOA BEAN SUPPLIERS','luker'); ?></a></li>
+                    <li><a href="#" data-target="LukerWay-association"><?php _e('THE COCOA PRODUCERS ASSOCIATIONS','luker'); ?></a>
                     </li>
-                    <li><a href="#" data-target="LukerWay-commitment">NUESTRO COMPROMISO CON <br>LOS PRODUCTORES EN
-                            CIFRAS</a></li>
+                    <li><a href="#" data-target="LukerWay-commitment"><?php _e('OUR COMMITMENT TO PRODUCERS IN FIGURES','luker'); ?></a></li>
                 </ul>
             </div>
             <div class="LukerWay-cacaoContentRight">
 
                 <ul class="LukerWay-cacaoContentRightUl2">
                     <li class="show LukerWay-agency">
-                        <h3>Regiones cacaoteras</h3>
-                        <h4>y agencias de compra</h4>
+                        <h3><?php _e('COCOA REGIONS ','luker'); ?></h3>
+                        <h4><?php _e('AND BUYING AGENCIES','luker'); ?></h4>
 
                         <img src="<?php bloginfo('template_url') ?>/assets/images/map.png" alt="">
                     </li>
@@ -203,8 +185,7 @@
                             <img src="<?php bloginfo('template_url') ?>/assets/images/campesinos.png" alt="">
                         </div>
                         <p>
-                            Nuestros principales proveedores de cacao en grano son las asociaciones de agricultores con
-                            los que mantenemos contratos de compra con el fin de garantizar la venta de su cosecha.
+                            <?php _e('Our main cocoa bean suppliers are the farmers associations with which we maintain purchasing contracts in order to guarantee the sale of their harvest.','luker'); ?>
                         </p>
                         <ul class="slideFade">
                             <li><img src="<?php bloginfo('template_url') ?>/assets/images/suppliers-01.png" alt=""></li>
@@ -219,13 +200,7 @@
                         <img src="<?php bloginfo('template_url') ?>/assets/images/mano-semillas.png" alt="">
 
                         <p>
-                            Las asociaciones de productores de cacao son grupos de agricultores que trabajan en conjunto
-                            con el fin de generar beneficios mutuos, tales como: recaudo de fondos proporcionados por el
-                            gobierno de Colombia, las agencias de ayuda internacionales y empresas privadas.
-                            Entrenamiento agrícola y apoyo técnico en el campo, con el objetivo de aumentar el cultivo
-                            de cacao en Colombia, mejorar la calidad del cacao e incentivar las buenas prácticas en los
-                            cultivos. Estas asociaciones también representan una forma de limitar los cultivos ilícitos
-                            y el tráfico de drogas en las regiones.
+                            <?php _e('The cocoa producers associations are agricultural trade groups that work to raise funds provided by the Colombian government, international aid agencies and private businesses in order to increase cocoa cultivation, improve quality and agricultural training. These associations also represent a way of limiting the cultivation of illicit crops and the drug trade in the regions.','luker'); ?>
                         </p>
                         <ul class="slideFade">
                             <li><img src="<?php bloginfo('template_url') ?>/assets/images/producers-01.png" alt=""></li>
@@ -277,20 +252,20 @@
             <div>
                 <span data-target="LukerWay-header" class="citiesBack"></span>
             </div>
-            <h2>COMPROMISO SOCIAL</h2>
+            <h2><?php _e('SOCIAL COMMITMENT','luker'); ?></h2>
             <ul class="cities">
 
                 <li class="citiesFirst">
-                    <h4>HUILA</h4>
+                    <h4><?php _e('HUILA','luker'); ?></h4>
                     <ul class="citiesUl">
                         <li>
-                            <h5>HUILA</h5>
+                            <h5><?php _e('HUILA','luker'); ?></h5>
 
-                            <h6>HUILA</h6>
-                            <h6>UN CACAO CON HISTORIA</h6>
+                            <h6><?php _e('HUILA','luker'); ?></h6>
+                            <h6><?php _e('A COCOA WITH HISTORY','luker'); ?></h6>
 
-                            <p>Un cacao con historia nació con la visita de CasaLuker a la parcela demostrativa de la familia Torres en el Huila, Colombia. La historia está ambientada en Gigante, un pueblo en el departamento colombiano del Huila, a 379 kilómetros al sur de la capital de Colombia, Bogotá. La región es esencialmente agrícola y el 70% de su economía depende del café y el cacao. Pasar tiempo con la familia, la comprensión de su modo de vida y escuchar sus historias en los campos, nos dio una perspectiva diferente de la ardua labor que se da en el negocio del cacao. Para leer el artículo completo haga clic
-                            aquí.
+                            <p><?php _e('A cocoa with history was born when CasaLuker went to visit the Torres family cocoa farm in Huila, Colombia. The story is set in Gigante, a village in the Colombian department of Huila, 379 km south of Colombias capital city, Bogotá. The region is essentially agricultural and 70% of its economy depends on coffee and cocoa. Spending time with the family, understanding their way of life and listening to their story out in the fields, gave us a different perspective of the hard work that goes into the cocoa business. Read thefull article.','luker'); ?>
+
                             </p>
                         </li>
                         <li>
@@ -324,17 +299,16 @@
                     </ul>
                 </li>
                 <li class="citiesFirst">
-                    <h4>NECLOLÍ</h4>
+                    <h4><?php _e('NECOCLÍ','luker'); ?></h4>
                     <ul class="citiesUl">
                         <li>
-                            <h5>NECOCLÍ</h5>
+                            <h5<?php _e('NECOCLÍ','luker'); ?>></h5>
 
-                            <h6>NECOCLÍ</h6>
-                            <h6>UNA APUESTA POR UN FUTURO MEJOR</h6>
+                            <h6><?php _e('NECOCLÍ','luker'); ?></h6>
+                            <h6><?php _e('A BET TO A BETTER FUTURE','luker'); ?></h6>
 
                             <p>
-                                Hace un par de años, CasaLuker creó un proyecto emprendedor - Inversiones Necoclí, un proyecto Cacao Fino de Aroma – en donde se implementó un esquema sostenible a través del cultivo de cacao, generando mayor interés en Necoclí y como resultado, mejores condiciones de vida para la comunidad. La finca El Rosario solía ser utilizada para actividades ganaderas, pero ahora el proyecto de 550 hectáreas tiene plantaciones de árbol de Melina, plátano y cacao. Con esta iniciativa, la comunidad de Necoclí está experimentando un cambio positivo. Para leer el artículo completo haga clic
-                                aquí
+                                <?php _e('A couple years ago, CasaLuker created an enterprising project called - Inversiones Necoclí, A Cacao Fino de Aroma Project- where a sustainable scheme was implemented through the cultivation of cacao generating greater interest in Necoclí and, as a result, better life conditions for the community. The El Rosario farm used to be used for livestock activities, but now the 500-hectares project has plantations of Melina tree, plantain and cacao. With this initiative, the Necoclí community is experiencing positive change. Read the full article.','luker'); ?>
                                 .
                             </p>
                         </li>
@@ -369,15 +343,14 @@
                     </ul>
                 </li>
                 <li class="citiesFirst">
-                    <h4>ARAUCA</h4>
+                    <h4><?php _e('ARAUCA','luker'); ?></h4>
                     <ul class="citiesUl">
                         <li>
-                            <h5>ARAUCA</h5>
+                            <h5><?php _e('ARAUCA','luker'); ?></h5>
 
-                            <h6>ARAUCA</h6>
+                            <h6><?php _e('ARAUCA','luker'); ?></h6>
                             <p>
-                                Para nuestra tercera historia exploramos el cacao en Arauca, un departamento ubicado en el norte de la región de la Orinoquía colombiana, en la frontera con Venezuela. En este departamento la riqueza cultural se manifiesta en el canto, la música, las danzas, las costumbres, los mitos y las leyendas. Don Elio, el protagonista de esta historia cultiva y beneficia el cacao en su finca llamada “Laguna Vieja”. Ésta se encuentra ubicada en una porción de tierra formada por los dos brazos del río Arauca y allí es donde se lleva a cabo el proceso de beneficio del cacao en el cual participan todos los colaboradores y empleados de la finca, incluyendo a su esposa Irma. Para leer el artículo completo haga clic
-                                aquí
+                                <?php _e('This third story explores the cocoa in Arauca, a department located in the northern part of the Colombian Orinoquía region, on the border with Venezuela. The cultural wealth of this department is manifested in its music, dance, customs, myths and legends. Don Elio, the protagonist, cultivates and mills cocoa on his farm called Laguna Vieja. The farm is on a piece of land formed by the two arms of the Arauca river and it is there where he mills the cocoa, together with all the other people that work on the farm including his wife Irma. Read thefull article.','luker'); ?>
                             </p>
                         </li>
                         <li>
@@ -411,15 +384,14 @@
                     </ul>
                 </li>
                 <li class="citiesFirst">
-                    <h4>SUR DE BOLIVAR</h4>
+                    <h4><?php _e('SUR DE BOLIVAR','luker'); ?></h4>
                     <ul class="citiesUl">
                         <li>
-                            <h5>SUR DE BOLIVAR</h5>
+                            <h5><?php _e('SUR DE BOLIVAR','luker'); ?></h5>
 
-                            <h6>SUR DE BOLIVAR</h6>
+                            <h6><?php _e('SUR DE BOLIVAR','luker'); ?></h6>
                             <p>
-                                In the south of the Bolívar department, surrounded by mountains and located near the Magdalena River, is the small town of Santa Rosa. Nowadays, its inhabitants live mainly off their crops, farming and mining. However, it was there that, not so long ago, illegal armed groups brought with them the cursed coca plant and with it violence and social decomposition. Discover how farmers saw cocoa as a hopeful change bringing peace and progress to the town. Read the
-                                full article
+                                <?php _e('In the south of the Bolívar department, surrounded by mountains and located near the Magdalena River, is the small town of Santa Rosa. Nowadays, its inhabitants live mainly off their crops, farming and mining. However, it was there that, not so long ago, illegal armed groups brought with them the cursed coca plant and with it violence and social decomposition. Discover how farmers saw cocoa as a hopeful change bringing peace and progress to the town. Read the full article','luker'); ?>
                             </p>
                         </li>
                         <li>
@@ -455,17 +427,11 @@
             </ul>
             <ul class="foundation">
                 <li>
-                    <h4>FUNDACIÓN LUKER</h4>
+                    <h4><?php _e('THE LUKER FOUNDATION','luker'); ?>FUNDACIÓN LUKER</h4>
 
                     <p>
-                        La Fundación Luker es una organización privada, sin ánimo de lucro y de origen empresarial
-                        (CasaLuker S.A.). Fue creada en 1994 con el fin de contribuir al mejoramiento de la calidad de
-                        vida
-                        de la gente de Manizales y así mismo fomentar el desarrollo social. En 2010, la Fundación Luker
-                        redefinió su estrategia y tiene como misión, proveer liderazgo para contribuir al desarrollo
-                        social
-                        y económico de Manizales como ciudad del conocimiento, a través de proyectos de educación,
-                        emprendimiento en alianza con líderes locales y mundiales.
+                        <?php _e('The Luker Foundation is a private non-profit organization, with a bussines origin (CasaLuker S.A.), created in 1994 with the aim of contributing to improving the quality of life of the people of Manizales (known as Manizaleños) and postering social development. Ever since its inception, the Luker Foundation has worked in different education and leisure projects, which have generated demostrative effects for other regions of Colombia and Latin América.
+READ MORE','luker'); ?>
                     </p>
                 </li>
                 <li>
@@ -473,16 +439,19 @@
 
                 </li>
                 <li>
-                    <h4>ÁREA DE TRABAJO</h4>
+                    <h4><?php _e('AREA OF WORK','luker'); ?></h4>
 
-                    <p>Educación para el Desarrollo <br>
+                    <p><?php _e('EDUCATION FOR DEVELOPMENT
+ENTREPRENEURSHIP FOR DEVELOPMENT
+SPECIAL PROJECTS CULTURE, LEISURE AND FREE TIME','luker'); ?>Educación para el Desarrollo <br>
                         Emprendimiento para el Desarrollo <br>
                         Proyectos Especiales; Recreación y Cultura</p>
                 </li>
             </ul>
-            <h3><a href="">IR A LA FUNDACIÓN LUKER</a></h3>
+            <h3><a href=""><?php _e('GO TO LUKER FOUNDATION','luker'); ?></a></h3>
         </div>
-        <div class="LukerWay-bar"> | PROYECTOS EMPRESARIALES |<span data-target="LukerWay-term" class="LukerWay-barFirst"></span><span
+        <div class="LukerWay-bar"> <?php _e('ENTREPRENEURIAL
+PROJECTS','luker'); ?>|  |<span data-target="LukerWay-term" class="LukerWay-barFirst"></span><span
                 data-target="LukerWay-business" class="LukerWay-barLast"></span></div>
     </section>
     <section class="LukerWay-business">
@@ -502,45 +471,41 @@
         </div>
         <div class="projectBusiness">
             <div>
-                <h2>PROYECTOS EMPRESARIALES</h2>
+                <h2><?php _e('ENTREPRENEURIAL PROJECTS','luker'); ?></h2>
 
-                <p>Hemos desarrollado un modelo de promoción de cacao para los inversionistas con el fin de promover la
+                <p><?php _e('We have developed a cocoa promotion model for investors in order to motivate the cocoa culture in the country; our goal is to have 5000 hectares planted by 2017.','luker'); ?>Hemos desarrollado un modelo de promoción de cacao para los inversionistas con el fin de promover la
                     cultura del cacao en el país; nuestro objetivo es tener 5.000 hectáreas plantadas en el año
                     2017.</p>
 
-                <p>Para más información contactar a:
+                <p><?php _e('For more information contact:','luker'); ?>:
                     <a href="jcarroyave@casaluker.com.co">jcarroyave@casaluker.com.co</a></p>
             </div>
             <div>
-                <h3>Qué ofrecemos:</h3>
+                <h3><?php _e('What do we offer','luker'); ?>:</h3>
                 <ul>
-                    <li>Auditoría técnica/ Capacitación del personal.</li>
-                    <li>Software para el control de los costos de producción.</li>
-                    <li>Suministro de semillas y material vegetal.</li>
-                    <li>Montaje de viveros.</li>
-                    <li>Modelo financiero.</li>
-                    <li>Información de recursos financieros, fondos o líneas de crédito para los inversionistas.</li>
+                    <li><?php _e('Technical audit / staff training','luker'); ?>.</li>
+                    <li><?php _e('Software for production cost control','luker'); ?></li>
+                    <li<?php _e('Seeds and vegetal material supplying','luker'); ?>>.</li>
+                    <li><?php _e('Nursery team','luker'); ?></li>
+                    <li><?php _e('Financial mode','luker'); ?>Modelo financiero.</li>
+                    <li><?php _e('Financial resources, funds and investors information','luker'); ?></li>
                 </ul>
             </div>
         </div>
         <div class="gallery">
-            GALERÍA DE FOTOS
+            <?php _e('PROJECTS PHOTO GALLERY','luker'); ?>
         </div>
-        <div class="LukerWay-bar">| PROYECTOS EMPRESARIALES |<span data-target="LukerWay-social" class="LukerWay-barFirst"></span><span
+        <div class="LukerWay-bar">|  <?php _e('ENTREPRENEURIAL PROJECTS','luker'); ?> |<span data-target="LukerWay-social" class="LukerWay-barFirst"></span><span
                 data-target="LukerWay-scientific" class="LukerWay-barLast"></span></div>
     </section>
     <section class="LukerWay-scientific">
         <article class="LukerWay-scientificContent">
             <div class="middle">
 
-                <h2>ENFOQUE CIENTÍFICO</h2>
+                <h2><?php _e('SCIENTIFIC APPROACH','luker'); ?></h2>
 
                 <p>
-                    Durante los últimos 10 años, CasaLuker ha estado trabajando con Cenicafé en la caracterización y
-                    profundización en el conocimiento del cacao, analizando y comparando diferentes especies de granos
-                    de
-                    cacao
-                    de todo el mundo.
+                    <?php _e('During the last 10 years, CasaLuker has been working with Cenicafe in the characterization and deeper knowledge about cocoa, comparing the different species of cocoa beans from around the world.','luker'); ?>
 
                     <span>Más de</span>
                     <span> <b>2370</b> muestras</span>
