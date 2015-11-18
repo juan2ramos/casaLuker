@@ -115,7 +115,7 @@ Theme: Luker
         </div>
     </div>
 
-    <h1 class="Header-title">THANKS FOR SUBSCRIBING</h1>
+    <h1 class="Header-title"></h1>
 
     <div class="More" id="down">
         <a href="#">
