@@ -119,7 +119,7 @@ function wp_corenavi($prev = '«', $next = '»')
 }
 function my_page_template_redirect() {
     global $post;
-    if(!get_page_template() && !is_home()){
+    if(!get_page_template() && !is_home() && is_single() ){
         $arrayUrl = array(
             'cacao-fino-de-aroma-en'=> 'page-cacao-fino-de-aroma',
             'casaluker-es'=> 'page-casaluker',
