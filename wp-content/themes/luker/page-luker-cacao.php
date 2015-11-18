@@ -5,14 +5,12 @@
             <article class="LukerCacao-article">
                 <figure><img src="<?php bloginfo('template_url') ?>/assets/images/productos/luker-cacao.png" alt="">
                 </figure>
-                <h2>SELECCIONAMOS LOS MEJORES INGREDIENTES</h2>
+                <h2><?php _e('WE SELECT THE BEST INGREDIENTS','luker'); ?></h2>
 
                 <p>
-                    La exigente selección de ingredientes es definitiva para lograr un perfil sensorial único como el de
-                    las coberturas de chocolate Luker Cacao. <br>
-                    Seleccionamos los mejores granos de Cacao Fino de Aroma de origen Colombiano, Ecuatoriano y Peruano
-                    y utilizamos 100% manteca de cacao y vainilla natural. <br>
-                    En chocolatería, nuestros chocolates son ideales por su exquisito y diferente sabor.
+                    <?php _e('Meticulous selection of ingredients is definitive in achieving the unique sensorial profile characteristic to the chocolate of Luker Cacao.
+                     We select the best Cacao Fino de Aroma beans from Colombia, Ecuador and Peru, and use 100% cocoa butter and natural vanilla in our couvertures.
+                    Our couvertures, with their exquisite and particular flavour, are ideal for chocolate products of all kinds.','luker'); ?>
                 </p>
             </article>
             <article>
@@ -23,34 +21,34 @@
                     <tbody>
                     <tr>
                         <td style="border-bottom: 3px solid #fff;" colspan="5" width="540" height="40">
-                            <p style="color: #fff; font-size: 12px; text-align: left;">&gt;&gt;TODAS NUESTRAS COBERTURAS REQUIEREN ATEMPERADO</p>
+                            <p style="color: #fff; font-size: 12px; text-align: left;"><?php _e('ALL OUR COUVERTURES REQUIRE TEMPERING','luker'); ?>&gt;&gt;</p>
                         </td>
                     </tr>
                     <tr>
                         <td rowspan="2">
                         </td>
                         <td style="border-bottom: 3px solid #fff; border-right: 1px solid #fff;" rowspan="2" bgcolor="#3b1018" width="137" height="50">
-                            <p style="color: #fff; font-size: 12px; text-align: center;">EMPAQUE</p>
+                            <p style="color: #fff; font-size: 12px; text-align: center;"><?php _e('PACKAGING','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 3px solid #fff; border-right: 1px solid #fff;" rowspan="2" width="217">
-                            <p style="color: #fff; font-size: 12px; text-align: center;">Bolsa 1 Kg /2,5 Kg/<br>Caja 20 Kg, Discos</p>
+                            <p style="color: #fff; font-size: 12px; text-align: center;"><?php _e('1 Kg/2,5 Kg Bag /20 Kg Box','luker'); ?></p>
                         </td>
                         <td style="background-image: url('<?php bloginfo('template_url') ?>/assets/images/cinco-gotas.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">&nbsp;</td>
                         <td style="border-bottom: 1px dashed #fff;" width="108" height="27">
-                            <p style="color: #fff; font-size: 12px; text-align: center;">MUY FLUIDO</p>
+                            <p style="color: #fff; font-size: 12px; text-align: center;"><?php _e('VERY FLUID','luker'); ?></p>
                         </td>
                     </tr>
                     <tr>
                         <td style="border-bottom: 3px solid #fff; background-image: url('<?php bloginfo('template_url') ?>/assets/images/una-gotas.png'); background-repeat: no-repeat; background-position: center; border-right: 1px solid #fff;" width="77" height="23">&nbsp;</td>
                         <td style="border-bottom: 3px solid #fff;" height="23">
-                            <p style="color: #fff; font-size: 12px; text-align: center;">POCO FLUIDO</p>
+                            <p style="color: #fff; font-size: 12px; text-align: center;"><?php _e('VERY VISCOUS','luker'); ?></p>
                         </td>
                     </tr>
                     </tbody>
                 </table>
             </article>
         </section>
-        <h3>CHOCOLATE OSCURO</h3>
+        <h3><?php _e('DARK CHOCOLATE','luker'); ?>CHOCOLATE OSCURO</h3>
 
         <div class="Table">
             <table id="table-chocolate-oscuro" border="0" cellspacing="0" cellpadding="0">
@@ -60,45 +58,45 @@
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#3b1018" height="43">
-                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;">DESCRIPCIÓN</p>
+                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;"><?php _e('DESCRIPTION','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;">CÓDIGO</p>
+                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;"><?php _e('CODE','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" colspan="2" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;">CONTENIDO DE CACAO</p>
+                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;"><?php _e('COCOA CONTENT','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;">FLUIDEZ</p>
+                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;"><?php _e('VISCOSITY','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff;" colspan="8" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;">APLICACIONES</p>
+                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;"><?php _e('APPLICATIONS','luker'); ?></p>
                     </td>
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" colspan="5" height="33">&nbsp;</td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" colspan="2" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;">CUBRIR</p>
+                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;"><?php _e('ENROBING','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;">FIGURAS DECORATIVAS</p>
+                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;"><?php _e('DECORATIVE FIGURES','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;">MOLDEO</p>
+                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;"><?php _e('MOULDING','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" colspan="2" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;">RELLENOS Y GANACHES</p>
+                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;"><?php _e('FILLINGS AND GANACHES','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;">DECORACIÓN</p>
+                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;"><?php _e('DECORATING','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff;" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;">POSTRES</p>
+                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;"><?php _e('DESSERTS','luker'); ?></p>
                     </td>
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="42">
-                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;">Enigma (Sin Azúcar)</p>
+                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;"><?php _e('Enigma (Sugar free)','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px; text-align: center;">D125</p>
@@ -116,7 +114,7 @@
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="43">
-                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;">Palenque</p>
+                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;"><?php _e('Palenque','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px; text-align: center;">D217</p>
@@ -134,7 +132,7 @@
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="41">
-                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;">Maranta</p>
+                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;"><?php _e('Maranta','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px; text-align: center;">D212</p>
@@ -152,7 +150,7 @@
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="39">
-                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;">Macondo</p>
+                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;"><?php _e('Macondo','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px; text-align: center;">D203</p>
@@ -170,7 +168,7 @@
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="42">
-                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;">Misterio</p>
+                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;"><?php _e('Misterio','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px; text-align: center;">D201</p>
@@ -189,7 +187,7 @@
                 <!--nuevo producto -->
                 <tr>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="42">
-                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;">Sombra</p>
+                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;"><?php _e('Sombra','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px; text-align: center;">D223</p>
@@ -208,7 +206,7 @@
                 <!--nuevo producto -->
                 <tr>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" height="48">
-                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;">Selva</p>
+                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;"><?php _e('Selva','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px; text-align: center;">D202</p>
@@ -226,13 +224,13 @@
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" colspan="3" bgcolor="#3b1018" height="47">
-                        <p style="color: #fff; font-size: 14px; text-align: center;">Temperatura de trabajo</p>
+                        <p style="color: #fff; font-size: 14px; text-align: center;"><?php _e('Working temperature','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" colspan="3">
-                        <p style="color: #fff; font-size: 14px; text-align: center;">30-32 ºC</p>
+                        <p style="color: #fff; font-size: 14px; text-align: center;"><?php _e('30-32 ºC','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" colspan="4" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 14px; text-align: center;">Vida útil (meses)</p>
+                        <p style="color: #fff; font-size: 14px; text-align: center;"><?php _e('Shelf life (months)','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff;" colspan="3">
                         <p style="color: #fff; font-size: 14px; text-align: center;">24</p>
@@ -243,8 +241,8 @@
             </table>
         </div>
 
-        <h3>CHOCOLATE CON LECHE
-            CHOCOLATE BLANCO</h3>
+        <h3><?php _e('MILK CHOCOLATE
+          WHITE CHOCOLATE','luker'); ?></h3>
 
         <div class="Table">
 
@@ -255,48 +253,48 @@
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#3b1018" height="44">
-                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;">DESCRIPCIÓN</p>
+                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;"><?php _e('DESCRIPTION','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;">CÓDIGO</p>
+                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;"><?php _e('CODE','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;">CONTENIDO DE CACAO</p>
+                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;"><?php _e('CACAO CONTENT','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;">CONTENIDO DE LECHE</p>
+                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;"><?php _e('MILK CONTENT','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;">FLUIDEZ</p>
+                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;"><?php _e('VISCOSIT','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff;" colspan="8" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;">APLICACIONES</p>
+                        <p style="color: #fff; font-size: 11px; text-align: center; padding: 0 10px 0 10px;"><?php _e('APPLICATIONS','luker'); ?></p>
                     </td>
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" colspan="5" height="31">&nbsp;</td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" colspan="2" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 10px; text-align: center; padding: 0 10px 0 10px;">CUBRIR</p>
+                        <p style="color: #fff; font-size: 10px; text-align: center; padding: 0 10px 0 10px;"><?php _e('ENROBING','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 10px; text-align: center; padding: 0 10px 0 10px;">FIGURAS DECORATIVAS</p>
+                        <p style="color: #fff; font-size: 10px; text-align: center; padding: 0 10px 0 10px;"><?php _e('DECORATIVE FIGURES','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 10px; text-align: center; padding: 0 10px 0 10px;">MOLDEO</p>
+                        <p style="color: #fff; font-size: 10px; text-align: center; padding: 0 10px 0 10px;"><?php _e('MOULDING','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" colspan="2" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 10px; text-align: center; padding: 0 10px 0 10px;">RELLENOS Y GANACHES</p>
+                        <p style="color: #fff; font-size: 10px; text-align: center; padding: 0 10px 0 10px;"><?php _e('FILLINGS AND GANACHES','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 10px; text-align: center; padding: 0 10px 0 10px;">DECORACIÓN</p>
+                        <p style="color: #fff; font-size: 10px; text-align: center; padding: 0 10px 0 10px;"><?php _e('DECORATING','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px solid #fff;" bgcolor="#3b1018">
-                        <p style="color: #fff; font-size: 10px; text-align: center; padding: 0 10px 0 10px;">POSTRES</p>
+                        <p style="color: #fff; font-size: 10px; text-align: center; padding: 0 10px 0 10px;"><?php _e('DESSERTS','luker'); ?></p>
                     </td>
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="43">
-                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;">Heliconia</p>
+                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;"><?php _e('Heliconia','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px; text-align: center;">M210</p>
@@ -317,7 +315,7 @@
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="39">
-                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;">Noche</p>
+                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;"><?php _e('NIGHT','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px; text-align: center;">M204</p>
@@ -338,7 +336,7 @@
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="44">
-                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;">Claro de luna</p>
+                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;"><?php _e('MOONLIGHT','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px; text-align: center;">M206</p>
@@ -359,7 +357,7 @@
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="44">
-                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;">Cumbia</p>
+                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;"><?php _e('Cumbia','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px; text-align: center;">M214</p>
@@ -380,7 +378,7 @@
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="48">
-                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;">Atlántico</p>
+                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;"><?php _e('Atlántico','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px; text-align: center;">M216</p>
@@ -401,7 +399,7 @@
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="43">
-                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;">Páramo*</p>
+                        <p style="color: #fff; font-size: 14px; text-align: left; margin-left: 15px;"><?php _e('Páramo','luker'); ?></p>
                     </td>
                     <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
                         <p style="color: #fff; font-size: 14px; text-align: center;">W220</p>

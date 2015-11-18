@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-17 22:50-0500\n"
+"PO-Revision-Date: 2015-11-18 01:16-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -343,14 +343,80 @@ msgstr "Vida útil"
 msgid "24 months/ *14 months"
 msgstr "24 meses/ *14 meses"
 
-msgid "ALL OUR COUVERTURES REQUIRE TEMPERING"
-msgstr "TODAS NUESTRAS COBERTURAS REQUIEREN ATEMPERADO"
-
 msgid "Very fluid"
 msgstr "Muy fluido"
 
+msgid "WE SELECT THE BEST INGREDIENTS"
+msgstr "SELECCIONAMOS LOS MEJORES INGREDIENTES"
+
 msgid "Very viscous"
 msgstr "Poco fluido"
+
+msgid "Meticulous selection of ingredients is definitive in achieving the unique sensorial profile characteristic to the chocolate of Luker Cacao. We select the best Cacao Fino de Aroma beans from Colombia, Ecuador and Peru, and use 100% cocoa butter and natural vanilla in our couvertures. Our couvertures, with their exquisite and particular flavour, are ideal for chocolate products of all kinds."
+msgstr "La exigente selección de ingredientes es definitiva para lograr un perfil sensorial único como el de las coberturas de chocolate Luker Cacao. <br>Seleccionamos los mejores granos de Cacao Fino de Aroma de origen Colombiano, Ecuatoriano y Peruano y utilizamos 100% manteca de cacao y vainilla natural. <br> En chocolatería, nuestros chocolates son ideales por su exquisito y diferente sabor."
+
+msgid "ALL OUR COUVERTURES REQUIRE TEMPERING"
+msgstr "TODAS NUESTRAS COBERTURAS REQUIEREN ATEMPERADO"
+
+msgid "PACKAGING"
+msgstr "EMPAQUE"
+
+msgid "1 Kg/2,5 Kg Bag /20 Kg Box"
+msgstr "Bolsa 1 Kg /2,5 Kg/<br>Caja 20 Kg, Discos"
+
+msgid "DARK CHOCOLATE"
+msgstr "CHOCOLATE OSCURO"
+
+msgid "Enigma (Sugar free)"
+msgstr "Enigma (Sin Azúcar)"
+
+msgid "Palenque"
+msgstr "Palenque"
+
+msgid "Maranta"
+msgstr "Maranta"
+
+msgid "Macondo"
+msgstr "Macondo"
+
+msgid "Misterio"
+msgstr "Misterio"
+
+msgid "Sombra"
+msgstr "Sombra"
+
+msgid "Selva"
+msgstr "Selva"
+
+msgid "Shelf life (months)"
+msgstr "Vida útil (meses)"
+
+msgid "30-32 ºC"
+msgstr "30-32 ºC"
+
+msgid "MILK CHOCOLATE WHITE CHOCOLATE"
+msgstr "CHOCOLATE CON LECHE CHOCOLATE BLANCO"
+
+msgid "MILK CONTENT"
+msgstr "CONTENIDO DE LECHE"
+
+msgid "Heliconia"
+msgstr "Heliconia"
+
+msgid "NIGHT"
+msgstr "Noche"
+
+msgid "MOONLIGHT"
+msgstr "Claro de luna"
+
+msgid "Cumbia"
+msgstr "Cumbia"
+
+msgid "Atlántico"
+msgstr "Atlántico"
+
+msgid "Páramo"
+msgstr "Páramo"
 
 msgid "Previous post:"
 msgstr "Entrada anterior:"
