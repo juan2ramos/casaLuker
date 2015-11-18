@@ -80,7 +80,7 @@ Theme: Luker
 
             <div class="formNewsletter">
                 <form method="post" action="<?php bloginfo('url') ?>/?na=s" onsubmit="return newsletter_check(this)">
-                    <input class="newsletter-firstname" type="text" name="nn" size="30" placeholder="Nombre">
+                    <input class="newsletter-firstname" required type="text" name="nn" size="30" placeholder="Nombre">
                     <input class="newsletter-lastname" type="text" name="ns" size="30" required placeholder="Apellido">
                     <input class="newsletter-email" type="email" name="ne" size="30" required
                            placeholder="Correo electrónico">
@@ -92,7 +92,7 @@ Theme: Luker
                     </select>
                     <hr>
                     <h4>Lenguaje</h4>
-                    <input class="newsletter-profile newsletter-profile-4" type="text" size="30" name="np4"
+                    <input class="newsletter-profile newsletter-profile-4" required type="text" size="30" name="np4"
                            placeholder="País"/>
                     <input class="newsletter-submit" type="submit" value="Subscribe"/>
                 </form>
