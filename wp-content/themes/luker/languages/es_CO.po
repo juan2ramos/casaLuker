@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-17 22:12-0500\n"
+"PO-Revision-Date: 2015-11-17 22:32-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -324,6 +324,21 @@ msgstr "Extra Dark Santander"
 
 msgid "ARAUCA (Región Colombiana)"
 msgstr "ARAUCA (Región Colombiana)"
+
+msgid "Dark Arauca"
+msgstr "Dark Arauca"
+
+msgid "Working temperature"
+msgstr "Temperatura de trabajo"
+
+msgid "Packaging"
+msgstr "Embalaje + Formato"
+
+msgid "2,5 Kg Bag, Minibars Luker 20 Kg Bag, Minibars Luker"
+msgstr "Bolsa x 2,5 Kg, Minibarras Luker<br>Caja x 20 Kg, Minibarras Luker"
+
+msgid "Shelf life"
+msgstr "Vida útil"
 
 msgid "Previous post:"
 msgstr "Entrada anterior:"

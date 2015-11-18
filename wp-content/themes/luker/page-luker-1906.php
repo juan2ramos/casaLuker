@@ -397,10 +397,10 @@ Santander cocoa is cultivated in the Andes; Tumaco, in the tropical forests of t
             </tr>
             <tr>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" width="199">
-                    <p style="color: #fff; font-size: 12px;"><?php _e('ARAUCA (Región Colombiana)','luker'); ?>ARAUCA (Región Colombiana)</p>
+                    <p style="color: #fff; font-size: 12px;"><?php _e('ARAUCA (Región Colombiana)','luker'); ?></p>
                 </td>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" width="128">
-                    <p style="color: #fff; font-size: 14px;">Dark Arauca</p>
+                    <p style="color: #fff; font-size: 14px;"><?php _e('Dark Arauca','luker'); ?></p>
                 </td>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
                     <p style="color: #fff; font-size: 14px;">D120</p>
@@ -431,7 +431,7 @@ Santander cocoa is cultivated in the Andes; Tumaco, in the tropical forests of t
             <tbody>
             <tr>
                 <td style="border-bottom: 1px dashed #fff;" bgcolor="#8d6650" width="167">
-                    <p style="color: #fff; font-size: 12px;">Temperatura de trabajo</p>
+                    <p style="color: #fff; font-size: 12px;"><?php _e('Working temperature','luker'); ?></p>
                 </td>
                 <td style="border-bottom: 1px dashed #fff;" width="200" height="32">
                     <p style="color: #fff; font-size: 12px;">30-32 ºC/ *28-30 ºC</p>
@@ -439,16 +439,16 @@ Santander cocoa is cultivated in the Andes; Tumaco, in the tropical forests of t
             </tr>
             <tr>
                 <td style="border-bottom: 1px dashed #fff;" bgcolor="#8d6650">
-                    <p style="color: #fff; font-size: 12px;">Embalaje + Formato</p>
+                    <p style="color: #fff; font-size: 12px;"><?php _e('Packaging','luker'); ?></p>
                 </td>
                 <td style="border-bottom: 1px dashed #fff;" height="42">
-                    <p style="color: #fff; font-size: 12px;">Bolsa x 2,5 Kg, Minibarras Luker<br>Caja x 20 Kg,
-                        Minibarras Luker</p>
+                    <p style="color: #fff; font-size: 12px;"><?php _e('2,5 Kg Bag, Minibars Luker
+                       20 Kg Bag, Minibars Luker','luker'); ?></p>
                 </td>
             </tr>
             <tr>
                 <td bgcolor="#8d6650">
-                    <p style="color: #fff; font-size: 12px;">Vida útil</p>
+                    <p style="color: #fff; font-size: 12px;"><?php _e('Shelf life','luker'); ?></p>
                 </td>
                 <td height="31">
                     <p style="color: #fff; font-size: 12px;">24 meses/ *14 meses</p>
