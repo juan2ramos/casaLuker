@@ -2,36 +2,33 @@
 <main class="Main LukerWay">
     <nav class="LukerWay-nav">
         <div class="menu">
-            <a href="#">MENU<span>◄</span></a>
+            <a href="#"><?php _e('MENU','luker'); ?>MENU<span>◄</span></a>
         </div>
         <ul>
-            <li><a href="#" data-target="LukerWay-cacao">NUESTRAS CREENCIAS</a></li>
-            <li><a href="#" data-target="LukerWay-social">COMPROMISO SOCIAL</a></li>
-            <li><a href="#" data-target="LukerWay-business">PROYECTOS EMPRESARIALES</a></li>
-            <li><a href="#" data-target="LukerWay-scientific">ENFOQUE CIENTÍFICO</a></li>
+            <li><a href="#" data-target="LukerWay-cacao"><?php _e('OUR BELIEVES','luker'); ?></a></li>
+            <li><a href="#" data-target="LukerWay-social"><?php _e('SOCIAL COMMITMENT','luker'); ?></a></li>
+            <li><a href="#" data-target="LukerWay-business"><?php _e('ENTREPRENEURIAL PROJECTS','luker'); ?></a></li>
+            <li><a href="#" data-target="LukerWay-scientific"><?php _e('SCIENTIFIC APPROACH','luker'); ?></a></li>
         </ul>
     </nav>
     <section class="LukerWay-header">
         <div class="LukerWay-headerContent">
             <article>
-                <h2>¿QUÉ ES <br/> THE LUKER WAY?</h2>
+                <h2><?php _e('WHAT IS THE LUKER WAY','luker'); ?></h2>
 
                 <p>
-                    Es la conexión que tenemos con nuestros socios; es nuestra relación con los agricultores (nuestros
-                    proveedores), el medio ambiente, nuestros empleados, los clientes y la sociedad. Creemos en
-                    compartir
-                    oportunidades, conocimiento, entrenamiento y tecnología, y trabajamos juntos para producir el mejor
-                    Cacao Fino de Aroma.
+                    <?php _e('It is the connection we have with our partners; is our relationship with the farmers (our suppliers), the environment, our employees, the clients and society at large. We believe in sharing opportunities, knowledge and technology.
+                     We work together to produce the finest chocolate from Fino de Aroma cocoa beans.','luker'); ?>
                 </p>
             </article>
             <ul>
-                <li><a href="#" data-target="LukerWay-cacao">NUESTRAS CREENCIAS</a></li>
-                <li><a href="#" data-target="LukerWay-social">COMPROMISO SOCIAL</a></li>
-                <li><a href="#" data-target="LukerWay-business">PROYECTOS EMPRESARIALES</a></li>
-                <li><a href="#" data-target="LukerWay-scientific">ENFOQUE CIENTÍFICO</a></li>
+                <li><a href="#" data-target="LukerWay-cacao"><?php _e('OUR BELIEVES','luker'); ?></a></li>
+                <li><a href="#" data-target="LukerWay-social"><?php _e('SOCIAL COMMITMENT','luker'); ?></a></li>
+                <li><a href="#" data-target="LukerWay-business"><?php _e('ENTREPRENEURIAL PROJECTS','luker'); ?></a></li>
+                <li><a href="#" data-target="LukerWay-scientific"><?php _e('SCIENTIFIC APPROACH','luker'); ?></a></li>
             </ul>
         </div>
-        <div class="LukerWay-bar">CLIC O DESPLACE<span style="display: none" class="LukerWay-barFirst"></span><span
+        <div class="LukerWay-bar"><?php _e('CLICK OR SCROLL DOWN','luker'); ?><span style="display: none" class="LukerWay-barFirst"></span><span
                 data-target="LukerWay-cacao" class="LukerWay-barLast"></span></div>
     </section>
 
@@ -39,19 +36,16 @@
     <section class="LukerWay-cacao">
         <div class="LukerWay-cacaoContent">
             <div class="inline">
-                <h2>CREEMOS EN <br> LA EDUCACIÓN</h2>
+                <h2><?php _e('WE BELIEVE IN EDUCATION','luker'); ?></h2>
 
                 <p>
-                    A través de la Granja Luker, uno de los pocos centros de investigación de Cacao en el mundo, fundada
-                    en 1962, fomentamos la adopción de modelos de cultivos rentables con un gran impacto en la calidad
-                    de vida y los ingresos de los productores.
-                    Capacitamos a más de 700 personas anualmente. Más de 30.000 agricultores han pasado por la Granja
-                    Luker durante estos primeros 50 años.
+                    <?php _e('Through the Granja Luker, one of the few cocoa research centres, founded in 1962, we foment the adoption of profitable cultivation models that have a great impact on the quality of life and income of producers.
+                    More than 700 people are educated annually. More than 30.000 farmers have passed through the Granja Luker during these first 50 years.','luker'); ?>
                 </p>
                 <ul class="LukerWay-menuEducation">
-                    <li><a href="#" class="active" data-target="LukerWay-support">SOPORTE Y <br>CAPACITACIÓN</a></li>
-                    <li><a href="#" data-target="LukerWay-grajaLuker">GRANJA <br>LUKER</a></li>
-                    <li><a href="#" data-target="LukerWay-system">SISTEMA <br>AGROFORESTAL</a></li>
+                    <li><a href="#" class="active" data-target="LukerWay-support"><?php _e('SUPPORT AND TRAINING','luker'); ?></a></li>
+                    <li><a href="#" data-target="LukerWay-grajaLuker"><?php _e('GRANJA LUKER','luker'); ?></a></li>
+                    <li><a href="#" data-target="LukerWay-system"><?php _e('AGROFORESTRY SYSTEM','luker'); ?></a></li>
                 </ul>
             </div>
         </div>
@@ -61,14 +55,7 @@
                 <div class="LukerWay-prev">►</div>
                 <li class="show LukerWay-support">
                     <div class="show move">
-                        <p>CasaLuker proporciona a los agricultores, de forma gratuita, las herramientas que necesitan
-                            para
-                            producir un cacao de excelente calidad: formación técnica en nuestro centro de investigación
-                            de
-                            cacao, Granja Luker, y apoyo técnico en el campo. Por lo tanto, CasaLuker sólo comprará a
-                            los
-                            agricultores los granos de cacao que cumplen en un 100% con los estándares Fino de
-                            Aroma.</p>
+                        <p><?php _e('CasaLuker provides farmers -free of charge- with the tools they need to produce excellent quality cocoa: technical training at the Luker Research and Educational Farm, Granja Luker, and technical support in the field. Therefore, CasaLuker will only purchase from the farmers, cocoa beans that comply 100% Fino de Aroma standards.','luker'); ?></p>
 
                         <ul class="slideFade">
                             <li><img src="<?php bloginfo('template_url') ?>/assets/images/support-01.png" alt=""></li>
@@ -82,18 +69,11 @@
                         </ul>
 
                         <p>
-                            Durante el tiempo de la cosecha, desarrollamos diferentes actividades con los agricultores
-                            como
-                            por ejemplo los Planes Cosecha en los que motivamos a los agricultores a vender su cacao a
-                            nuestra empresa a cambio de que puedan participar en el sorteo de diferentes premios, tales
-                            como
-                            herramientas para sus cultivos o regalos para sus familias.
+                            <?php _e('During crop time, we develop different activities with the farmers called Planes Cosecha in which we promote the farmers to sell their cocoa to our company; in exchange they can participate in the raffle of different prizes, such as tools for their farm or gifts for their families.','luker'); ?>
                         </p>
                     </div>
                     <div class=" move national">
-                        <h3>A nivel nacional, contamos con 12 ingenieros agrónomos y 3 técnicos en diferentes regiones
-                            productoras de cacao, quienes son los encargados de capacitar y dar el apoyo técnico a
-                            nuestros productores.</h3>
+                        <h3><?php _e('NATIONALLY, THERE ARE 12 AGRICULTURAL ENGINEERS AND 3 TECHNICIANS, IN DIFFERENT COCOA-PRODUCING REGIONS, WHO TRAIN AND PROVIDE TECHNICAL SUPPORT TO OUR PRODUCERS.','luker'); ?></h3>
                         <img src="<?php bloginfo('template_url') ?>/assets/images/training.png">
                     </div>
                     <div class="move">
