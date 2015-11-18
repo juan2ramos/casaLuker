@@ -126,6 +126,7 @@ function my_page_template_redirect() {
             'news'=> 'page-noticias',
             'tailor-made-innovation' => 'page-a-su-medida',
             'luker-1906-es' => 'page-luker-1906',
+            'the-luker-way-es' => 'page-the-luker-way',
 
         );
         get_template_part( $arrayUrl[get_post( $post )->post_name]);exit;
