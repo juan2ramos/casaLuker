@@ -13,13 +13,12 @@ Theme: Luker
 
     <title><?php the_title(); ?> - Casa Luker</title>
 
-    <meta name="description" content="" />
+    <meta name="description" content=""/>
 
     <link rel="profile" href="http://gmpg.org/xfn/11">
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="<?php bloginfo('template_url') ?>/assets/images/favicon.ico">
-
 
 
     <!---- TYPEKIT -- -->
@@ -66,7 +65,8 @@ Theme: Luker
             <ul class="Header-navNetwork">
                 <li><a href="https://www.facebook.com/LUKERFOODINGREDIENTS" target="_blank"><span
                             class="icon-facebook"> </span></a></li>
-                <li><a href="https://twitter.com/LUKEROFFICIAL" target="_blank"><span class="icon-twitter"> </span></a></li>
+                <li><a href="https://twitter.com/LUKEROFFICIAL" target="_blank"><span class="icon-twitter"> </span></a>
+                </li>
                 <li><a href="https://www.youtube.com/channel/UCY_NfrnYxNHFP0KD0EKA8Gg" target="_blank"><span
                             class="icon-play3"> </span></a></li>
                 <li><a href="https://instagram.com/lukerofficial/" target="_blank"><span class="icon-instagram"> </span></a>
@@ -81,8 +81,9 @@ Theme: Luker
             <div class="formNewsletter">
                 <form method="post" action="http://luker.app:8888/?na=s" onsubmit="return newsletter_check(this)">
                     <input class="newsletter-firstname" type="text" name="nn" size="30" placeholder="Nombre">
-                    <input class="newsletter-lastname" type="text" name="ns" size="30"  required placeholder="Apellido">
-                    <input class="newsletter-email" type="email" name="ne" size="30" required placeholder="Correo electrónico">
+                    <input class="newsletter-lastname" type="text" name="ns" size="30" required placeholder="Apellido">
+                    <input class="newsletter-email" type="email" name="ne" size="30" required
+                           placeholder="Correo electrónico">
                     <hr>
                     <h4>Lenguaje</h4>
                     <select class="newsletter-profile newsletter-profile-3" name="np3" required>
@@ -91,7 +92,8 @@ Theme: Luker
                     </select>
                     <hr>
                     <h4>Lenguaje</h4>
-                    <input class="newsletter-profile newsletter-profile-4" type="text" size="30" name="np4" placeholder="País"/>
+                    <input class="newsletter-profile newsletter-profile-4" type="text" size="30" name="np4"
+                           placeholder="País"/>
                     <input class="newsletter-submit" type="submit" value="Subscribe"/>
                 </form>
             </div>
@@ -104,7 +106,8 @@ Theme: Luker
             <ul class="Header-navNetwork">
                 <li><a href="https://www.facebook.com/LUKERFOODINGREDIENTS" target="_blank"><span
                             class="icon-facebook"> </span></a></li>
-                <li><a href="https://twitter.com/LUKEROFFICIAL" target="_blank"><span class="icon-twitter"> </span></a></li>
+                <li><a href="https://twitter.com/LUKEROFFICIAL" target="_blank"><span class="icon-twitter"> </span></a>
+                </li>
                 <li><a href="https://www.youtube.com/channel/UCY_NfrnYxNHFP0KD0EKA8Gg" target="_blank"><span
                             class="icon-play3"> </span></a></li>
                 <li><a href="https://instagram.com/lukerofficial/" target="_blank"><span class="icon-instagram"> </span></a>
@@ -115,7 +118,23 @@ Theme: Luker
         </div>
     </div>
 
-    <h1 class="Header-title"><?php the_title(); ?></h1>
+    <h1 class="Header-title">
+
+        <?php
+        if (the_title() == strtolower('productos') && get_bloginfo('language') != "es-ES"){
+            $arrayTitle = array(
+                'en-EU' => 'Product',
+            );
+            echo $arrayTitle[get_bloginfo('language')];
+        }
+        else{
+            the_title();
+        }
+
+        ?>
+
+
+    </h1>
 
     <div class="More" id="down">
         <a href="#">
@@ -156,7 +175,7 @@ Theme: Luker
                 alert("The email is not correct");
                 return false;
             }
-            for (var i=1; i<20; i++) {
+            for (var i = 1; i < 20; i++) {
                 if (f.elements["np" + i] && f.elements["np" + i].required && f.elements["np" + i].value == "") {
                     alert("");
                     return false;
