@@ -77,10 +77,10 @@
                     </tr>
                     <tr>
                         <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="33">
-                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;"><?php _e('Cocoa butter','luker'); ?>Manteca de Cacao</p>
+                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;"><?php _e('Cocoa butter','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
-                            <p style="color: #fff; font-size: 12px; text-align: center;">Saco x 25 Kg</p>
+                            <p style="color: #fff; font-size: 12px; text-align: center;"><?php _e('Sack x 25 Kg','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px dashed #fff;">
                             <p style="color: #fff; font-size: 12px; text-align: center;">24</p>
@@ -88,10 +88,10 @@
                     </tr>
                     <tr>
                         <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="34">
-                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;">Cacao en grano Origen Colombia</p>
+                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;"><?php _e('Cocoa beans Colombian Origin','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
-                            <p style="color: #fff; font-size: 12px; text-align: center;">Saco x 69 Kg</p>
+                            <p style="color: #fff; font-size: 12px; text-align: center;"><?php _e('Sack x 69 Kg','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px dashed #fff;">
                             <p style="color: #fff; font-size: 12px; text-align: center;">12</p>
@@ -99,10 +99,10 @@
                     </tr>
                     <tr>
                         <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="35">
-                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;">Cacao en grano Origen Ecuador</p>
+                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;"><?php _e('Cocoa beans Ecuadorian Origin','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
-                            <p style="color: #fff; font-size: 12px; text-align: center;">Saco x 69 Kg</p>
+                            <p style="color: #fff; font-size: 12px; text-align: center;"><?php _e('Sack x 69 Kg','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px dashed #fff;">
                             <p style="color: #fff; font-size: 12px; text-align: center;">12</p>
@@ -110,10 +110,10 @@
                     </tr>
                     <tr>
                         <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" height="38">
-                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;">Cacao en grano Origen Perú</p>
+                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;"><?php _e('Cocoa beans Peruvian Origin','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">
-                            <p style="color: #fff; font-size: 12px; text-align: center;">Saco x 69 Kg</p>
+                            <p style="color: #fff; font-size: 12px; text-align: center;"><?php _e('Sack x 69 Kg','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px solid #fff;">
                             <p style="color: #fff; font-size: 12px; text-align: center;">12</p>
