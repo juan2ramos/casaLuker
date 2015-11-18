@@ -21,21 +21,22 @@
                     </tr>
                     <tr>
                         <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#3b1018" width="247" height="40">
-                            <p style="color: #fff; font-size: 11px; text-align: center;">DESCRIPCIÓN</p>
+                            <p style="color: #fff; font-size: 11px; text-align: center;"><?php _e('DESCRIPTION','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" bgcolor="#3b1018" width="170">
-                            <p style="color: #fff; font-size: 11px; text-align: center;">EMBALAJE + FORMATO</p>
+                            <p style="color: #fff; font-size: 11px; text-align: center;"><?php _e('PACKAGING + FORMAT','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px solid #fff;" bgcolor="#3b1018" width="154">
-                            <p style="color: #fff; font-size: 11px; text-align: center;">VIDA ÚTIL<br>(MESES)</p>
+                            <p style="color: #fff; font-size: 11px; text-align: center;"><?php _e('SHELF LIFE
+                              (MONTHS)','luker'); ?></p>
                         </td>
                     </tr>
                     <tr>
                         <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="38">
-                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;">Masa de Cacao</p>
+                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;"><?php _e('Cocoa Mass','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
-                            <p style="color: #fff; font-size: 12px; text-align: center;">Caja x 22 Kg.Discos</p>
+                            <p style="color: #fff; font-size: 12px; text-align: center;"><?php _e('Box x 22 Kg.Discs','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px dashed #fff;">
                             <p style="color: #fff; font-size: 12px; text-align: center;">24</p>
@@ -43,10 +44,10 @@
                     </tr>
                     <tr>
                         <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="37">
-                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;">100% Cacao Natural en Polvo, 12%</p>
+                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;"><?php _e('100% natural Cocoa Powder 12%','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
-                            <p style="color: #fff; font-size: 12px; text-align: center;">Saco x 25 Kg</p>
+                            <p style="color: #fff; font-size: 12px; text-align: center;"><?php _e('Sack x 25 Kg','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px dashed #fff;">
                             <p style="color: #fff; font-size: 12px; text-align: center;">24</p>
@@ -54,10 +55,10 @@
                     </tr>
                     <tr>
                         <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="33">
-                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;">100% Cacao Natural en Polvo, 16%</p>
+                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;"><?php _e('100% natural Cocoa Powder 16%','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
-                            <p style="color: #fff; font-size: 12px; text-align: center;">Saco x 25 Kg</p>
+                            <p style="color: #fff; font-size: 12px; text-align: center;"><?php _e('Sack x 25 Kg','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px dashed #fff;">
                             <p style="color: #fff; font-size: 12px; text-align: center;">24</p>
@@ -65,10 +66,10 @@
                     </tr>
                     <tr>
                         <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="34">
-                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;">100% Cacao Natural en Polvo, 22%</p>
+                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;"><?php _e('100% natural Cocoa Powder 22%','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
-                            <p style="color: #fff; font-size: 12px; text-align: center;">Saco x 25 Kg</p>
+                            <p style="color: #fff; font-size: 12px; text-align: center;"><?php _e('Sack x 25 Kg','luker'); ?></p>
                         </td>
                         <td style="border-bottom: 1px dashed #fff;">
                             <p style="color: #fff; font-size: 12px; text-align: center;">24</p>
@@ -76,7 +77,7 @@
                     </tr>
                     <tr>
                         <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;" height="33">
-                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;">Manteca de Cacao</p>
+                            <p style="color: #fff; font-size: 12px; text-align: left; margin-left: 15px;"><?php _e('Cocoa butter','luker'); ?>Manteca de Cacao</p>
                         </td>
                         <td style="border-bottom: 1px dashed #fff; border-right: 1px solid #fff;">
                             <p style="color: #fff; font-size: 12px; text-align: center;">Saco x 25 Kg</p>
