@@ -6,17 +6,11 @@
             <article class="LukerCacao-article">
                 <figure><img src="<?php bloginfo('template_url') ?>/assets/images/productos/luker-maracas.png" alt="">
                 </figure>
-                <h2>Grageas con Centros Tropicales</h2>
+                <h2><?php _e('Chocolate Dragees made with 100% Cacao Fino de Aroma','luker'); ?></h2>
 
                 <p>
-                    Como aquel instrumento mágico y seductivo que caracteriza el ambiente alegre y festivo del trópico
-                    con su ritmo dulce y diverso, Luker Maracas trae una nueva gama de grageas de chocolate. Estos
-                    centros de café tostado, cacao tostado y dulces frutas tropicales están cubiertos con nuestro
-                    chocolate Fino de Aroma. <br>
-                    Luker Maracas, Tropical Dragees son grageas ideales para decorar postres y tortas, como inclusión en
-                    preparaciones, topping para helados o simplemente para darle un toque especial a sus recetas.
-                    También pueden acompañar cafés y bebidas calientes, mezclarse con cereales y frutos secos para
-                    elaborar snacks saludables.
+                    <?php _e('In the same way as that magical seductive instrument that characterises the happy upbeat feel of the tropics with its sweet and varied rhythm, Luker Maracas presents a new range of chocolate-covered dragees. Filled with roasted coffee, roasted cocoa and sweet tropical fruits, these delightful dragees are covered in our finest Fino de Aroma chocolate.
+                    Luker Maracas, Tropical Dragees are ideal for decorating desserts and cakes, to include in preparations, as toppings for ice-cream or simply to give that special touch to your recipes. They are also a good accompaniment for coffee and other hot drinks; they can be mixed in with cereals and dried fruit to prepare delicious, healthy snacks.','luker'); ?>
                 </p>
             </article>
             <article class="Maracas-middle">
@@ -30,9 +24,9 @@
             <div class="Table-Maracas">
                 <div class="Table-MaracasTop"></div>
                 <div class="row title">
-                    <div class="cell coffee">PRODUCTO</div>
-                    <div class="cell coffee">DESCRIPCIÓN</div>
-                    <div class="cell coffee">EMBALAJE</div>
+                    <div class="cell coffee"><?php _e('Product','luker'); ?></div>
+                    <div class="cell coffee"><?php _e('Description','luker'); ?></div>
+                    <div class="cell coffee"><?php _e('Packaging and Format','luker'); ?></div>
                 </div>
                 <div class="row">
                     <div class="cell">
@@ -43,22 +37,17 @@
                         </a>
                     <span>
                         G501 <br>
-                        Dark Chocolate <br>
-                        Covered Nibs Cluster
+                        <?php _e('Dark Chocolate
+                      Covered Nibs Cluster','luker'); ?>
                     </span>
                     </div>
                     <div class="cell">
                         <p>
-                            Pequeños trozos del mejor Cacao Fino de Aroma tostados y agrupados son cubiertos con
-                            chocolate
-                            oscuro formando un delicioso snack crocante con mucho sabor a cacao. Ideal como snack,
-                            topping e
-                            inclusión en sus recetas.
+                            <?php _e('Small chunks of roasted Fino de Aroma cocoa covered in dark chocolate making for a delicious crunchy chocoaltey snack. Ideal as a snack and for including in recipes.','luker'); ?>
                         </p>
                     </div>
                     <div class="cell">
-                        Bolsa 1 Kg <br>
-                        Caja 15 Kg
+                        <?php _e('1 Kg Bag 15 Kg Box','luker'); ?>
                     </div>
                 </div>
                 <div class="row">
@@ -70,20 +59,18 @@
                         </a>
                     <span>
                         G502 <br>
-                        Dark Chocolate <br>
+                        <?php _e('Dark Chocolate
+                        Covered Nibs','luker'); ?>  Dark Chocolate <br>
                         Covered Nibs
                     </span>
                     </div>
                     <div class="cell">
                         <p>
-                            Pequeños trozos del mejor Cacao Fino de Aroma, son tostados y luego son cubiertos con
-                            chocolate oscuro. Ideales para consumir como snack, para inclusiones en sus postres y
-                            decoraciones.
+                            <?php _e('Small chunks of the best Fino de Aroma cocoa, roasted and covered in dark chocolate. Ideal for decorating cakes and desserts or on its own as a snack.','luker'); ?>
                         </p>
                     </div>
                     <div class="cell">
-                        Bolsa 1 Kg <br>
-                        Caja 10 Kg
+                        <?php _e('1Kg Bag 10 Kg Box','luker'); ?>
                     </div>
                 </div>
                 <div class="row">
@@ -95,18 +82,16 @@
                         </a>
                     <span>
                         G502 <br>
-                        Dark Chocolate <br>
-                        Covered Nibs
+                        <?php _e('Dark Chocolate Covered Espresso Beans','luker'); ?>
                     </span>
                     </div>
                     <div class="cell">
                         <p>
-                            El sabor explosivo del café logra el balance perfecto de esta gragea. Este toque único de sabor hará que sus productos se diferencien y sorprendan a quienes los prueban. Ideal en sus decoraciones y postres o como topping en heladería.
+                            <?php _e('The perfect combination. The best Colombian coffee beans, covered in generous layers of Fino de Aroma chocolate. Their shine and oval shape makes them different to other brands of chocolate-covered coffee beans. Ideal to go with coffee, as a snack, to include in your recipes or for decoration.','luker'); ?>
                         </p>
                     </div>
                     <div class="cell">
-                        Bolsa 1 Kg <br>
-                        Caja 15 Kg
+                        <?php _e('1 Kg Bag 15 Kg Box','luker'); ?>
                     </div>
                 </div>
                 <div class="row">
@@ -118,18 +103,16 @@
                         </a>
                     <span>
                         G502 <br>
-                        Dark Chocolate <br>
-                        Covered Nibs
+                        <?php _e('Dark Chocolate Covered Nibs','luker'); ?>
                     </span>
                     </div>
                     <div class="cell">
                         <p>
-                            El sabor explosivo del café logra el balance perfecto de esta gragea. Este toque único de sabor hará que sus productos se diferencien y sorprendan a quienes los prueban. Ideal en sus decoraciones y postres o como topping en heladería.
+                            <?php _e('The explosive flavour of coffee produces the perfect balance in this dragee. This unique flavor will differentiate your products and surprise whoever tries them. Ideal for decorating cakes, desserts and ice-cream.','luker'); ?>  El sabor explosivo del café logra el balance perfecto de esta gragea. Este toque único de sabor hará que sus productos se diferencien y sorprendan a quienes los prueban. Ideal en sus decoraciones y postres o como topping en heladería.
                         </p>
                     </div>
                     <div class="cell">
-                        Bolsa 1 Kg <br>
-                        Caja 10 Kg
+                        <?php _e('1 Kg Bag 10 Kg Box','luker'); ?>
                     </div>
                 </div>
                 <div class="row">
@@ -141,18 +124,16 @@
                         </a>
                     <span>
                         G502 <br>
-                        Dark Chocolate <br>
-                        Covered Nibs
+                        <?php _e('Dark Chocolate Covered Physalis','luker'); ?>
                     </span>
                     </div>
                     <div class="cell">
                         <p>
-                            Esta fruta tropical, conocida como uchuva, es recubierta con chocolate oscuro buscando el equilibrio ideal entre el sabor ácido de la fruta y las notas frutales y florales del chocolate. Ideal como decoración y snack.
+                            <?php _e('This tropical fruit is covered in dark chocolate creating the ideal balance between the fruit´s acidic flavour and the chocolate´s fruit and floral notes. Ideal for decorating cakes and desserts or on its own as a snack.','luker'); ?>
                         </p>
                     </div>
                     <div class="cell">
-                        Bolsa 1 Kg <br>
-                        Caja 20 Kg
+                        <?php _e('1 Kg Bag 20 Kg Box','luker'); ?>
                     </div>
                 </div>
 
@@ -161,7 +142,7 @@
 
                     </div>
                     <div class="cell vida">
-                        <div>Vida útil (Meses)</div>
+                        <div><?php _e('Shelf Life (Months)','luker'); ?> </div>
                     </div>
                     <div class="cell center">
                        24

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-18 09:30-0500\n"
+"PO-Revision-Date: 2015-11-18 11:36-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -450,6 +450,60 @@ msgstr "100% Cacao Natural en Polvo, 16%"
 
 msgid "Cocoa butter"
 msgstr "Manteca de Cacao"
+
+msgid "Cocoa beans Colombian Origin"
+msgstr "Cacao en grano Origen Colombia"
+
+msgid "Sack x 69 Kg"
+msgstr "Saco x 69 Kg"
+
+msgid "Cocoa beans Ecuadorian Origin"
+msgstr "Cacao en grano Origen Ecuador"
+
+msgid "Cocoa beans Peruvian Origin"
+msgstr "Cacao en grano Origen Perú"
+
+msgid "Chocolate Dragees made with 100% Cacao Fino de Aroma"
+msgstr "Grageas con Centros Tropicales"
+
+msgid "In the same way as that magical seductive instrument that characterises the happy upbeat feel of the tropics with its sweet and varied rhythm, Luker Maracas presents a new range of chocolate-covered dragees. Filled with roasted coffee, roasted cocoa and sweet tropical fruits, these delightful dragees are covered in our finest Fino de Aroma chocolate. Luker Maracas, Tropical Dragees are ideal for decorating desserts and cakes, to include in preparations, as toppings for ice-cream or simply to give that special touch to your recipes. They are also a good accompaniment for coffee and other hot drinks; they can be mixed in with cereals and dried fruit to prepare delicious, healthy snacks."
+msgstr "Como aquel instrumento mágico y seductivo que caracteriza el ambiente alegre y festivo del trópico con su ritmo dulce y diverso, Luker Maracas trae una nueva gama de grageas de chocolate. Estos centros de café tostado, cacao tostado y dulces frutas tropicales están cubiertos con nuestro chocolate Fino de Aroma. Luker Maracas, Tropical Dragees son grageas ideales para decorar postres y tortas, como inclusión en preparaciones, topping para helados o simplemente para darle un toque especial a sus recetas. También pueden acompañar cafés y bebidas calientes, mezclarse con cereales y frutos secos para elaborar snacks saludables."
+
+msgid "Product"
+msgstr "PRODUCTO"
+
+msgid "Dark Chocolate Covered Nibs Cluster"
+msgstr "Dark Chocolate  Covered Nibs Cluster"
+
+msgid "Small chunks of roasted Fino de Aroma cocoa covered in dark chocolate making for a delicious crunchy chocoaltey snack. Ideal as a snack and for including in recipes."
+msgstr " Pequeños trozos del mejor Cacao Fino de Aroma tostados y agrupados son cubiertos con chocolate oscuro formando un delicioso snack crocante con mucho sabor a cacao. Ideal como snack, topping e inclusión en sus recetas."
+
+msgid "1 Kg Bag 15 Kg Box"
+msgstr "Bolsa 1 Kg Caja 15 Kg"
+
+msgid "Small chunks of the best Fino de Aroma cocoa, roasted and covered in dark chocolate. Ideal for decorating cakes and desserts or on its own as a snack."
+msgstr "Pequeños trozos del mejor Cacao Fino de Aroma, son tostados y luego son cubiertos con chocolate oscuro. Ideales para consumir como snack, para inclusiones en sus postres y decoraciones."
+
+msgid "1Kg Bag 10 Kg Box"
+msgstr "Bolsa 1 Kg  Caja 10 Kg"
+
+msgid "Dark Chocolate Covered Espresso Beans"
+msgstr "Dark Chocolate Covered Espresso Beans"
+
+msgid "The perfect combination. The best Colombian coffee beans, covered in generous layers of Fino de Aroma chocolate. Their shine and oval shape makes them different to other brands of chocolate-covered coffee beans. Ideal to go with coffee, as a snack, to include in your recipes or for decoration."
+msgstr "El sabor explosivo del café logra el balance perfecto de esta gragea. Este toque único de sabor hará que sus productos se diferencien y sorprendan a quienes los prueban. Ideal en sus decoraciones y postres o como topping en heladería."
+
+msgid "The explosive flavour of coffee produces the perfect balance in this dragee. This unique flavor will differentiate your products and surprise whoever tries them. Ideal for decorating cakes, desserts and ice-cream."
+msgstr "El sabor explosivo del café logra el balance perfecto de esta gragea. Este toque único de sabor hará que sus productos se diferencien y sorprendan a quienes los prueban. Ideal en sus decoraciones y postres o como topping en heladería."
+
+msgid "Dark Chocolate Covered Physalis"
+msgstr "Dark Chocolate Covered Physalis"
+
+msgid "This tropical fruit is covered in dark chocolate creating the ideal balance between the fruit´s acidic flavour and the chocolate´s fruit and floral notes. Ideal for decorating cakes and desserts or on its own as a snack."
+msgstr "Esta fruta tropical, conocida como uchuva, es recubierta con chocolate oscuro buscando el equilibrio ideal entre el sabor ácido de la fruta y las notas frutales y florales del chocolate. Ideal como decoración y snack."
+
+msgid "1 Kg Bag 20 Kg Box"
+msgstr "Bolsa 1 Kg Caja 20 Kg"
 
 msgid "Previous post:"
 msgstr "Entrada anterior:"
