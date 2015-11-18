@@ -120,18 +120,22 @@ Theme: Luker
 
     <h1 class="Header-title">
 
-        <?php
-        if (the_title() == strtolower('productos') && get_bloginfo('language') != "es-ES"){
-            $arrayTitle = array(
-                'en-EU' => 'Product',
-            );
-            echo $arrayTitle[get_bloginfo('language')];
-        }
-        else{
-            the_title();
-        }
+        <h1 class="Header-title">
 
-        ?>
+            <?php
+            $title = strtolower(get_the_title());
+            if ($title == 'productos' && get_bloginfo('language') != "es-CO") {
+                $arrayTitle = array(
+                    'en-US' => 'Product',
+                );
+                echo $arrayTitle[get_bloginfo('language')];
+            } else {
+                the_title();
+            }
+            ?>
+
+
+        </h1>
 
 
     </h1>
