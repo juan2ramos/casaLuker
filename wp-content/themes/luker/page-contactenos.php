@@ -54,9 +54,9 @@
 
         <div class="Contact-locationMap">
             <div class="belgica-d">
-                <p><?php _e('Kortrijksesteenweg 1132','luker'); ?>Kortrijksesteenweg 1132</p>
+                <p><?php _e('Kortrijksesteenweg 1132','luker'); ?></p>
 
-                <p>9051 Sint-Denijs-Westrem, Bélgica</p>
+                <p><?php _e('9051 Sint-Denijs-Westrem, Bélgica','luker'); ?>9051 Sint-Denijs-Westrem, Bélgica</p>
 
                 <p>Tel: +32 (0) 9 245 04 60</p>
 
@@ -114,7 +114,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -125,11 +125,11 @@
                 </p>
             </div>
             <div class="colombia">
-                <p>CasaLuker Colombia</p>
+                <p><?php _e('CasaLuker Colombia','luker'); ?></p>
 
                 <p>Calle 13 No 68-98</p>
 
-                <p class="contact-tit">Bogotá, Colombia</p>
+                <p class="contact-tit"><?php _e('Bogotá, Colombia','luker'); ?></p>
 
                 <p class="contact-tit">Tel: +57 (1) 4473700</p>
 
@@ -142,80 +142,80 @@
             </div>
             <!--CIUDADES COLOMBIA-->
             <div class="barranquilla">
-                <p>Pastrylandia</p>
+                <p><?php _e('Pastrylandia','luker'); ?></p>
 
                 <p>Cra. 47 No. 84-27 Local 16</p>
 
-                <p class="contact-tit">Barranquilla, Colombia</p>
+                <p class="contact-tit"><?php _e('Barranquilla, Colombia','luker'); ?></p>
 
                 <p>Tel: +57 (5) 3567014 / 57 (5) 3567015</p>
             </div>
             <div class="medellin">
-                <p>La Pupette</p>
+                <p><?php _e('La Pupette','luker'); ?></p>
 
-                <p class="contact-tit">Medellín, Colombia</p>
+                <p class="contact-tit"><?php _e('Medellín, Colombia','luker'); ?></p>
 
                 <p>Tel: +57 (4) 315 4127486</p>
             </div>
             <div class="manizales">
-                <p>Punto de Venta El Cable</p>
+                <p><?php _e('Punto de Venta El Cable','luker'); ?></p>
 
                 <p>Cra. 23 No. 64b-33 Torre Luker</p>
 
-                <p class="contact-tit">Manizales, Colombia</p>
+                <p class="contact-tit"><?php _e('Manizales, Colombia','luker'); ?></p>
 
                 <p>Tel: +57 (6) 8879510 Ext: 30162</p>
             </div>
             <div class="bogota">
-                <p>Punto de Venta La Joya</p>
+                <p><?php _e('Punto de Venta La Joya','luker'); ?></p>
 
                 <p>Calle 19 No. 66-62</p>
 
-                <p class="contact-tit">Bogotá, Colombia</p>
+                <p class="contact-tit"><?php _e('Bogotá, Colombia','luker'); ?></p>
 
                 <p>Tel: +57 (1) 4473700 Ext: 50412</p><br>
 
-                <p>Aromas y Sabores</p>
+                <p><?php _e('Aromas y Sabores','luker'); ?></p>
 
                 <p>Cra. 17 No. 52-71 Local 3</p>
 
-                <p class="contact-tit">Bogotá, Colombia</p>
+                <p class="contact-tit"><?php _e('Bogotá, Colombia','luker'); ?></p>
 
                 <p>Tel: +57 (1) 7021330</p><br>
 
-                <p>Distribuidora Viena</p>
+                <p><?php _e('Distribuidora Viena','luker'); ?></p>
 
                 <p>Cra. 18 No. 10-68</p>
 
-                <p>Bogotá, Colombia</p>
+                <p><?php _e('Bogotá, Colombia','luker'); ?></p>
 
                 <p>Tel: +57 (1) 2819211</p><br>
 
-                <p>Tu Dulce Compañía</p>
+                <p><?php _e('Tu Dulce Compañía','luker'); ?></p>
 
                 <p>Cra. 60 N 66B-54</p>
 
-                <p class="contact-tit">Bogotá, Colombia</p>
+                <p class="contact-tit"><?php _e('Bogotá, Colombia','luker'); ?></p>
 
                 <p>Tel: +57 (1) 2403613</p><br>
 
-                <p>Comercializadora Duarte</p>
+                <p><?php _e('Comercializadora Duarte','luker'); ?>Comercializadora Duarte</p>
 
                 <p>Cra. 15 No. 90-20 local S-114</p>
 
-                <p class="contact-tit">Bogotá, Colombia</p>
+                <p class="contact-tit"><?php _e('Bogotá, Colombia','luker'); ?></p>
 
                 <p>Tel: +57 (1) 2365123 / +57 (1) 2565873</p><br>
 
-                <p>Chocolamu</p>
+                <p><?php _e('Chocolamu','luker'); ?></p>
 
                 <p>Cra. 7ª No. 180-75 Local 13 Módulo 7</p>
 
-                <p class="contact-tit">Bogotá, Colombia</p>
+                <p class="contact-tit"><?php _e('Bogotá, Colombia','luker'); ?></p>
 
                 <p>Tel: +57 (1) 6749998 / +57 (1) 6747853</p><br>
 
-                <p>Orquídea Inc.</p>
+                <p><?php _e('Orquídea Inc.','luker'); ?></p>
 
                 <p>Calle 45 No. 17-70</p>
 
@@ -225,11 +225,11 @@
 
                 <p>Tel: +57 (1) 2142895</p>
 
-                <p class="contact-tit">Bogotá, Colombia</p><br>
+                <p class="contact-tit"><?php _e('Bogotá, Colombia','luker'); ?></p><br>
 
                 <p>CasaLuker S.A.</p>
 
-                <p>- Venta bajo pedido</p>
+                <p>-<?php _e('Venta bajo pedido','luker'); ?> </p>
 
                 <p>
                     <script type="text/javascript">
@@ -249,7 +249,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -260,14 +260,14 @@
                     <!--Ext: 40413-->
                 </p>
 
-                <p class="contact-tit">Bogotá, Colombia</p>
+                <p class="contact-tit"><?php _e('Bogotá, Colombia','luker'); ?></p>
             </div>
             <div class="ibague">
-                <p>Ciocco Chocolatería</p>
+                <p><?php _e('Ciocco Chocolatería','luker'); ?></p>
 
                 <p>Cra. 5 No. 38-56 Local 3 Edificio 5ta Avenida</p>
 
-                <p class="contact-tit">Ibagué, Colombia</p>
+                <p class="contact-tit"><?php _e('Ibagué, Colombia','luker'); ?></p>
 
                 <p class="contact-tit">Tel: +57 (8) 2700111</p>
             </div>
@@ -276,21 +276,21 @@
 
                 <p>Cra. 34 No. 17-60</p>
 
-                <p class="contact-tit">Pasto, Colombia</p>
+                <p class="contact-tit"><?php _e('Ibagué, Colombia','luker'); ?></p>
 
                 <p class="contact-tit">Tel: +57 (2) 301 6075695</p>
             </div>
             <!--CIUDADES COLOMBIA-->
             <div class="ecuador">
-                <p>CasaLuker del Ecuador</p>
+                <p><?php _e('CasaLuker del Ecuador','luker'); ?></p>
 
-                <p>Kilómetro 10,5 vía Daule</p>
+                <p><?php _e('Kilómetro 10,5 vía Daule','luker'); ?></p>
 
-                <p>Lotización Expogranos, Solar 1 Mz 33</p>
+                <p><?php _e('Lotización Expogranos, Solar 1 Mz 33','luker'); ?></p>
 
-                <p class="ecuador">Instalaciones de Armajaro</p>
+                <p class="ecuador"><?php _e('Instalaciones de Armajaro','luker'); ?></p>
 
-                <p class="ecuador">Guayaquil, Ecuador</p>
+                <p class="ecuador"><?php _e('Guayaquil, Ecuador','luker'); ?></p>
 
                 <p class="ecuador">Tel: +593 (4) 2113526</p>
 
@@ -310,7 +310,7 @@
                             <!--
                             document.write('<span style=\'display: none;\'>');
                             //-->
-                        </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                        </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -352,7 +352,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -385,7 +385,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -420,7 +420,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -489,7 +489,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -522,7 +522,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -562,7 +562,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -601,7 +601,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -644,7 +644,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -685,7 +685,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -739,7 +739,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -800,7 +800,7 @@
                             <!--
                             document.write('<span style=\'display: none;\'>');
                             //-->
-                        </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                        </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -838,7 +838,7 @@
                             <!--
                             document.write('<span style=\'display: none;\'>');
                             //-->
-                        </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                        </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -887,7 +887,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -987,7 +987,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -1036,7 +1036,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -1078,7 +1078,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -1111,7 +1111,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -1143,7 +1143,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -1176,7 +1176,7 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;">Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.
+                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
  <script type="text/javascript">
      <!--
      document.write('</');
@@ -1280,9 +1280,9 @@
                 &nbsp;</div>
         </div>
         <div class="Contact-form">
-            <h3>Contáctenos</h3>
+            <h3><?php _e('Contact Us','luker'); ?></h3>
 
-            <p>* Campos obligatorios.</p>
+            <p><?php _e('* Required fields.','luker'); ?></p>
 
             <?php the_content(); ?>
 

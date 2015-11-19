@@ -75,7 +75,7 @@ Theme: Luker
                        target="_blank"><span class="icon-linkedin2"> </span></a></li>
             </ul>
             <div class="Header-news">
-                Recibe más Información
+                <?php _e('GET MORE INFO','luker'); ?>
             </div>
 
             <div class="formNewsletter">
@@ -101,7 +101,7 @@ Theme: Luker
         <div class="Header-barMobile">
             <div class="Search"><?php dynamic_sidebar('widgetSearchFooter'); ?> </div>
             <div class="Header-news">
-                Recibe más Información
+                <?php _e('GET MORE INFO','luker'); ?>
             </div>
             <ul class="Header-navNetwork">
                 <li><a href="https://www.facebook.com/LUKERFOODINGREDIENTS" target="_blank"><span
@@ -142,7 +142,7 @@ Theme: Luker
 
     <div class="More" id="down">
         <a href="#">
-            <span class="More-view">VER +</span>
+            <span class="More-view"><?php _e('READ +','luker'); ?>VER +</span>
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
                  y="0px" viewBox="0 0 842 595" enable-background="new 0 0 842 595">
                 <defs>
