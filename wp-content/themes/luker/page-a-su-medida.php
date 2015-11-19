@@ -24,10 +24,7 @@
             </p>
 
             <p>
-                <?php _e('- Take the sample and smell it while you stir the content with a tea-spoon or spatula, in order to perceive its variety of aromas.
-- Take a small sample of the mass to your mouth and disperse it uniformly over your tongue.
-- Hold the sample in your mouth for 15 - 20 seconds, taking in small amounts of air at the same time.
-- The attributes become evident while doing this. Record your perceptions using the CasaLuker nariz del cacao (Cocoas nose) as an aid.','luker'); ?>
+                <?php _e('- Take the sample and smell it while you stir the content with a tea-spoon or spatula, in order to perceive its variety of aromas.- Take a small sample of the mass to your mouth and disperse it uniformly over your tongue.- Hold the sample in your mouth for 15 - 20 seconds, taking in small amounts of air at the same time.- The attributes become evident while doing this. Record your perceptions using the CasaLuker nariz del cacao (Cocoas nose) as an aid.','luker'); ?>
             </p>
 
             <p>
