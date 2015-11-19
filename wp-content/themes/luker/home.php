@@ -3,6 +3,29 @@
 Description: Home
 Theme: Luker
 */
+$url = array(
+    "en-US" => array(
+        'cacao' => 'cacao-fino-de-aroma',
+        'productos' => 'productos',
+        'medida' => 'a-su-medida',
+        'lukerWay' => 'the-luker-way-es',
+        'casaluker' => 'casaluker-es',
+        'recetas' => 'recetas',
+        'noticias' => 'noticias',
+        'contactanos' => 'contactanos'
+    ),
+    "es-CO" => array(
+        'cacao' => 'cacao-fino-de-aroma',
+        'productos' => 'productos',
+        'medida' => 'a-su-medida',
+        'luker-way' => 'the-luker-way-es',
+        'casaluker' => 'casaluker-es',
+        'recetas' => 'recetas',
+        'noticias' => 'noticias',
+        'contactanos' => 'contactanos'
+    )
+);
+
 ?>
 
 <!DOCTYPE html>
@@ -52,40 +75,41 @@ Theme: Luker
 <nav class="NavHome">
     <ul class="NavHome-ul">
         <li>
-            <a href="<?php echo bloginfo('url')?>/cacao-fino-de-aroma">
+            <a href="<?php echo bloginfo('url') . '/' . $url[get_bloginfo('language')]['cacao'] ?>/cacao-fino-de-aroma">
                 <figure class="NavHome-figureOne">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/cacao-fino-de-aroma-large.png"
                          alt="">
                 </figure>
-                <h2> <?php _e('cacao fino de aroma','luker'); ?>  </h2>
+                <h2> <?php _e('cacao fino de aroma', 'luker'); ?>  </h2>
             </a>
         </li>
         <li>
-            <a href="<?php echo bloginfo('url')?>/productos">
+            <a href="<?php echo bloginfo('url')  . '/' . $url[get_bloginfo('language')]['productos'] ?>/productos">
                 <figure class="NavHome-figureTwo">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/productos-large.png" alt="">
                 </figure>
-                <h2> <?php _e('Products','luker'); ?></h2>
+                <h2> <?php _e('Products', 'luker'); ?></h2>
             </a>
         </li>
         <li>
-            <a href="<?php echo bloginfo('url')?>/a-su-medida">
+            <a href="<?php echo bloginfo('url')   . '/' . $url[get_bloginfo('language')]['medida'];?>/a-su-medida">
                 <figure class="NavHome-figureTree">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/a-su-medida-large.png" alt="">
                 </figure>
-                <h2><?php _e('Tailor Made Innovation','luker'); ?></h2>
+                <h2><?php _e('Tailor Made Innovation', 'luker'); ?></h2>
             </a>
         </li>
         <li>
-            <a href="<?php echo bloginfo('url')?>/the-luker-way">
+            <a href="<?php echo bloginfo('url') . '/' .  $url[get_bloginfo('language')]['lukerWay'];?>/the-luker-way-es">
                 <figure class="NavHome-figureFour">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/the-luker-way-large.png" alt="">
                 </figure>
                 <h2>The Luker Way</h2>
             </a>
         </li>
+
         <li>
-            <a href="<?php echo bloginfo('url')?>/casaluker">
+            <a href="<?php echo bloginfo('url') . '/' .   $url[get_bloginfo('language')]['casaluker'];?>/casaluker-es">
                 <figure class="NavHome-figureFive">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/casa-luker-large.png" alt="">
                 </figure>
@@ -93,30 +117,32 @@ Theme: Luker
             </a>
         </li>
         <li>
-            <a href="<?php echo bloginfo('url')?>/granja-luker">
+            <a href="<?php echo bloginfo('url') ?>/granja-luker">
                 <figure class="NavHome-figureSix">
-                    <img src="<?php bloginfo('template_url') ?>/assets/images/home/granja-luker-large.png" alt="">
+                    <img src="<?php bloginfo('template_url') . '/' .  $url[get_bloginfo('language')]['granja-luker']; ?>/assets/images/home/granja-luker-large.png" alt="">
                 </figure>
-                <h2><?php _e('Granja','luker'); ?> <span>Luker  </span></h2>
+                <h2><?php _e('Granja', 'luker'); ?> <span>Luker  </span></h2>
             </a>
         </li>
+
         <li>
-            <a href="<?php echo bloginfo('url')?>/recetas">
+            <a href="<?php echo bloginfo('url') . '/' .  $url[get_bloginfo('language')]['recetas']; ?>/recetas">
                 <figure class="NavHome-figureSeven">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/recetas.png" alt="">
                 </figure>
-                <h2><?php _e('Recipes','luker'); ?></h2>
+                <h2><?php _e('Recipes', 'luker'); ?></h2>
             </a>
         </li>
         <li>
-            <a href="<?php echo bloginfo('url')?>/noticias">
+            <a href="<?php echo bloginfo('url')  . '/' . $url[get_bloginfo('language')]['noticias']; ?>/noticias">
                 <figure class="NavHome-figureEight">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/noticias.png" alt="">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/contactenos.png" alt="">
                 </figure>
-                <h2><?php _e('news','luker'); ?> </h2>
+                <h2><?php _e('news', 'luker'); ?> </h2>
 
-                <a href="<?php echo bloginfo('url')?>/contactanos"><h2 class="end"><?php _e('contact','luker'); ?></h2></a>
+                <a href="<?php echo bloginfo('url') . '/' .   $url[get_bloginfo('language')]['contactanos']; ?>/contactanos"><h2
+                        class="end"><?php _e('contact', 'luker'); ?></h2></a>
             </a>
         </li>
     </ul>
