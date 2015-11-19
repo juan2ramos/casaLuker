@@ -75,7 +75,7 @@ $url = array(
 <nav class="NavHome">
     <ul class="NavHome-ul">
         <li>
-            <a href="<?php echo bloginfo('url') . '/' . $url[get_bloginfo('language')]['cacao'] ?>/cacao-fino-de-aroma">
+            <a href="<?php echo bloginfo('url') . '/' . $url[get_bloginfo('language')]['cacao'] ?>">
                 <figure class="NavHome-figureOne">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/cacao-fino-de-aroma-large.png"
                          alt="">
@@ -84,7 +84,7 @@ $url = array(
             </a>
         </li>
         <li>
-            <a href="<?php echo bloginfo('url')  . '/' . $url[get_bloginfo('language')]['productos'] ?>/productos">
+            <a href="<?php echo bloginfo('url')  . '/' . $url[get_bloginfo('language')]['productos'] ?>">
                 <figure class="NavHome-figureTwo">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/productos-large.png" alt="">
                 </figure>
@@ -92,7 +92,7 @@ $url = array(
             </a>
         </li>
         <li>
-            <a href="<?php echo bloginfo('url')   . '/' . $url[get_bloginfo('language')]['medida'];?>/a-su-medida">
+            <a href="<?php echo bloginfo('url')   . '/' . $url[get_bloginfo('language')]['medida'];?>">
                 <figure class="NavHome-figureTree">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/a-su-medida-large.png" alt="">
                 </figure>
@@ -100,7 +100,7 @@ $url = array(
             </a>
         </li>
         <li>
-            <a href="<?php echo bloginfo('url') . '/' .  $url[get_bloginfo('language')]['lukerWay'];?>/the-luker-way-es">
+            <a href="<?php echo bloginfo('url') . '/' .  $url[get_bloginfo('language')]['lukerWay'];?>">
                 <figure class="NavHome-figureFour">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/the-luker-way-large.png" alt="">
                 </figure>
@@ -109,7 +109,7 @@ $url = array(
         </li>
 
         <li>
-            <a href="<?php echo bloginfo('url') . '/' .   $url[get_bloginfo('language')]['casaluker'];?>/casaluker-es">
+            <a href="<?php echo bloginfo('url') . '/' .   $url[get_bloginfo('language')]['casaluker'];?>">
                 <figure class="NavHome-figureFive">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/casa-luker-large.png" alt="">
                 </figure>
@@ -126,7 +126,7 @@ $url = array(
         </li>
 
         <li>
-            <a href="<?php echo bloginfo('url') . '/' .  $url[get_bloginfo('language')]['recetas']; ?>/recetas">
+            <a href="<?php echo bloginfo('url') . '/' .  $url[get_bloginfo('language')]['recetas']; ?>">
                 <figure class="NavHome-figureSeven">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/recetas.png" alt="">
                 </figure>
@@ -134,14 +134,14 @@ $url = array(
             </a>
         </li>
         <li>
-            <a href="<?php echo bloginfo('url')  . '/' . $url[get_bloginfo('language')]['noticias']; ?>/noticias">
+            <a href="<?php echo bloginfo('url')  . '/' . $url[get_bloginfo('language')]['noticias']; ?>">
                 <figure class="NavHome-figureEight">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/noticias.png" alt="">
                     <img src="<?php bloginfo('template_url') ?>/assets/images/home/contactenos.png" alt="">
                 </figure>
                 <h2><?php _e('news', 'luker'); ?> </h2>
 
-                <a href="<?php echo bloginfo('url') . '/' .   $url[get_bloginfo('language')]['contactanos']; ?>/contactanos"><h2
+                <a href="<?php echo bloginfo('url') . '/' .   $url[get_bloginfo('language')]['contactanos']; ?>"><h2
                         class="end"><?php _e('contact', 'luker'); ?></h2></a>
             </a>
         </li>
