@@ -428,8 +428,7 @@
                     <h4><?php _e('THE LUKER FOUNDATION','luker'); ?></h4>
 
                     <p>
-                        <?php _e('The Luker Foundation is a private non-profit organization, with a bussines origin (CasaLuker S.A.), created in 1994 with the aim of contributing to improving the quality of life of the people of Manizales (known as Manizaleños) and postering social development. Ever since its inception, the Luker Foundation has worked in different education and leisure projects, which have generated demostrative effects for other regions of Colombia and Latin América.
-READ MORE','luker'); ?>
+                        <?php _e('The Luker Foundation is a private non-profit organization, with a bussines origin (CasaLuker S.A.), created in 1994 with the aim of contributing to improving the quality of life of the people of Manizales (known as Manizaleños) and postering social development. Ever since its inception, the Luker Foundation has worked in different education and leisure projects, which have generated demostrative effects for other regions of Colombia and Latin América.READ MORE','luker'); ?>
                     </p>
                 </li>
                 <li>

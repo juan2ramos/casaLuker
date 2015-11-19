@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-19 16:52-0500\n"
+"PO-Revision-Date: 2015-11-19 17:04-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -94,8 +94,8 @@ msgstr "En esta investigación se han estudiado las características sensoriales
 msgid "Welcome to the CasaLuker Group"
 msgstr "Bienvenido al Grupo CasaLuker"
 
-msgid " With the opening of CasaLuker Europe in Belgium, in 2009, we became a more consolidated group with strong international projection which stands out for its experience in the production of Fino de Aroma Cocoa derived products. Our international presence is strengthened through our offices in Colombia, Russia, Panama and Ecuador."
-msgstr "Con la apertura de nuestra filial CasaLuker Europe en Bélgica en el 2009, nos hemos consolidado como un grupo de fuerte proyección internacional que se destaca por su experiencia en la oferta de productos derivados del Cacao Fino de Aroma. Nuestra presencia internacional se ve reforzada por nuestra red deoficinas en Colombia, Rusia, Panamá, Ecuador y Perú."
+msgid "With the opening of CasaLuker Europe in Belgium, in 2009, we became a more consolidated group with strong international projection which stands out for its experience in the production of Fino de Aroma Cocoa derived products. Our international presence is strengthened through our offices in Colombia, Russia, Panama and Ecuador."
+msgstr "Con la apertura de nuestra filial CasaLuker Europe en Bélgica en el 2009, nos hemos consolidado como un grupo de fuerte proyección internacional que se destaca por su experiencia en la oferta de productos derivados del Cacao Fino de Aroma. Nuestra presencia internacional se ve reforzada por nuestra red de oficinas en Colombia, Rusia, Panamá, Ecuador y Perú."
 
 msgid "The tradition of a family-owned company founded in 1906 and the prevailing hard work of cocoa growers, together with the high investments made in cutting edge technology and equipment for the manufacture of chocolate couvertures, allows us to offer a wide range a high international standard quality chocolate couvertures, cocoa mass, butter, powder and cocoa beans."
 msgstr "La tradición de una empresa familiar fundada en 1906 y el duro trabajo que prevalece de los productores de cacao, junto con las altas inversiones en tecnología y equipos de última generación para la fabricación de coberturas de chocolate, nos permite ofrecer una amplia gama de un estándar internacional de alto coberturas de chocolate de calidad, masa de cacao, manteca, polvo y granos de cacao."
