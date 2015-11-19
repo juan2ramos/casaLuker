@@ -12,7 +12,7 @@
         </a>
     </li>
     <li>
-        <a href="<?php bloginfo('url') ?>/luker-maracas">
+        <a href="<?php bloginfo('url') ?>/productos/luker-maracas">
             <img src="<?php bloginfo('template_url') ?>/assets/images/productos/luker-maracas.png" alt="">
             <span><?php _e('Chocolate Dragees','luker'); ?>Grageas de Chocolate</span>
         </a>
