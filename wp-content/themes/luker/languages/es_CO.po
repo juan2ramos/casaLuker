@@ -59,7 +59,7 @@ msgid "The special aroma and flavour of cocoa do not only stem from the type of 
 msgstr "Las características especiales del sabor y aroma del cacao no sólo provienen del tipo de cacao; forastero, trinitario o criollo; sino también de las condiciones del clima, la composición del suelo, la región donde se cultiva y principalmente del trabajo del artesano del cacao, el agricultor."
 
 msgid "The four fundamental factors that ensure the special chocolate aroma and flavour are fermentation, drying, roasting and conching. Fermentation and drying are undertaken by farmers on the farms; and - the final touch that defines the organoleptic profile of each product - roasting and conching, take place in the production plant."
-msgstr "Existen 4 factores fundamentales para que el aroma y el sabor del chocolate se desarrollen: la fermentación, el secado, la tostión y el concheo. La fermentación y el secado del grano se hacen en el campo y son elaborados por el agricultor, la tostión y el concheo, son el toque final donde se define el perfil organoléptico de cada producto y son procesos desarrollados en la planta de producción. "
+msgstr "Existen 4 factores fundamentales para que el aroma y el sabor del chocolate se desarrollen: la fermentación, el secado, la tostión y el concheo. La fermentación y el secado del grano se hacen en el campo y son elaborados por el agricultor, la tostión y el concheo, son el toque final donde se define el perfil organoléptico de cada producto y son procesos desarrollados en la planta de producción."
 
 msgid "Thanks to its close relationship with the cocoa growers and its training programs, CasaLuker is able to control these factors, offering its customers the best flavour."
 msgstr "CasaLuker por su estrecha relación con los agricultures y sus continuos programas de capacitación controla estos factores para ofrecer a sus clientes el mejor sabor. "
@@ -67,28 +67,28 @@ msgstr "CasaLuker por su estrecha relación con los agricultures y sus continuos
 msgid "The fermentation process involves removing the cocoa bean from its pod together with its pulp. This is then placed in wooden boxes and exposed to micro-organisms naturally present in the environment. These micro-organisms decompose the pulp which, in turn, sets off biochemical and physical processes which are responsible for the development of the precursors of aromas and flavours present in chocolate."
 msgstr "La fermentación ocurre cuando el grano de cacao se saca de la mazorca junto con su pulpa, es puesto en cajones de madera y expuesto a los microorganismos naturalmente presentes en el ambiente. Los microorganismos degradarán la pulpa y durante este proceso el grano sufrirá procesos bioquímicos y físicos que formarán los precursores de los aromas y sabores a chocolate. "
 
-msgid "Drying is a gradual process undertaken in the field by the grower. The beans are exposed to sunlight for several days in order to reduce their water content from 55% to 7% and to eliminate some of the acids naturally present in cocoa. "
+msgid "Drying is a gradual process undertaken in the field by the grower. The beans are exposed to sunlight for several days in order to reduce their water content from 55% to 7% and to eliminate some of the acids naturally present in cocoa."
 msgstr " El secado es un proceso gradual realizado en el campo por el agricultor. Durante este proceso se exponen los granos al sol durante varios días para bajar el contenido de agua del grano del 55% al 7% y eliminar algunos ácidos naturalmente presentes en el cacao."
 
 msgid "A good drying process is essential if mould and fungus are to be avoided and to guarantee a good flavour. "
 msgstr " Un buen secado es clave para evitar mohos y hongos en el grano y garantizar un buen sabor."
 
-msgid "The cocoa beans are roasted in the production plant, in a process where by the cocoa nibs are exposed to very high temperatures which will mould their flavour and develop the aroma and flavour of the final chocolate product. At this point, the sensorial properties can be modified, intensified and defined. "
+msgid "The cocoa beans are roasted in the production plant, in a process where by the cocoa nibs are exposed to very high temperatures which will mould their flavour and develop the aroma and flavour of the final chocolate product. At this point, the sensorial properties can be modified, intensified and defined."
 msgstr "La tostión es realizada en la planta de producción de chocolates. Es el proceso por medio del cual se exponen los nibs de cacao a altas temperaturas para moldear su sabor. Durante este proceso se desarrollan los aromas y sabores del chocolate y se pueden definir, modificar o potencializar las cualidades sensoriales del cacao."
 
 msgid "This fundamental process is undertaken in the production plant and it is responsible for the final touches in terms of the flavour of the chocolate. Acids, present in the cocoa, are eliminated and the flavour of the recipe and chocolate texture are nicely rounded. "
 msgstr "El concheo es un proceso fundamental realizado en la planta de producción donde se dan los últimos toques al sabor del chocolate. Durante este proceso se eliminan ácidos presentes en el cacao y se acaban de redondear los sabores de la receta y la textura del chocolate."
 
-msgid "CASALUKER RESEARCH "
+msgid "CASALUKER RESEARCH"
 msgstr "INVESTIGACIÓN CASALUKER"
 
 msgid "*Centro Nacional de Investigaciones de Café  "
 msgstr "*Centro Nacional de Investigaciones de Café"
 
-msgid "CasaLuker together with Cenicafé* -one of the most important coffee research institutes in the world- began a classification process for cocoa originate from the principal cocoa producing areas of Colombia, Ecuador, Venezuela, and other cocoa producing regions in the world. "
+msgid "CasaLuker together with Cenicafé* -one of the most important coffee research institutes in the world- began a classification process for cocoa originate from the principal cocoa producing areas of Colombia, Ecuador, Venezuela, and other cocoa producing regions in the world."
 msgstr "CasaLuker en alianza con cenicafé* - uno de los institutos de investigación acerca del café más importantes en el mundo – inició en el año 2005 el proceso de caracterización de los cacaos en las principales zonas productoras de Colombia, Ecuador, Venezuela y de otras regiones cacaoteras alrededor del mundo."
 
-msgid "In this study we researched the sensorial characteristics of each type of cocoas, including the identification and quantification of the volatile aroma compounds as well as other physical, chemical, nutritional and functional characteristics that allowed us to define the individuality of each. "
+msgid "In this study we researched the sensorial characteristics of each type of cocoas, including the identification and quantification of the volatile aroma compounds as well as other physical, chemical, nutritional and functional characteristics that allowed us to define the individuality of each."
 msgstr "En esta investigación se han estudiado las características sensoriales de cada tipo de cacao, se han identificado y cuantificado los principales compuestos volátiles del aroma y otras características físicas, químicas, nutricionales y funcionales que permiten definir una huella digital para tipo de cacao."
 
 msgid "Welcome to the CasaLuker Group"
