@@ -130,7 +130,8 @@ function my_page_template_redirect()
         'tailor-made-innovation' => 'page-a-su-medida',
         'luker-1906-es' => 'page-luker-1906',
         'the-luker-way-es' => 'page-the-luker-way',
-        'product' => 'page-productos'
+        'product' => 'page-productos',
+        'news' => 'noticias'
 
     );
     if(array_key_exists( get_post($post)->post_name , $arrayUrl) ){
