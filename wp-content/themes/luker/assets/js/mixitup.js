@@ -181,7 +181,7 @@ var dropdownFilter = {
             $pdf = $('.pdf'),
             urlB = $('#Filters').data('url').split(" ");
 
-
+             urlB.pop();
 
 
         $contentRecipe.html(data.content);
