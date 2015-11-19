@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-19 17:04-0500\n"
+"PO-Revision-Date: 2015-11-19 17:38-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -322,6 +322,9 @@ msgstr "NATIVO, ORIGEN PAÍS "
 msgid "DESCRIPTION"
 msgstr "DESCRIPCIÓN "
 
+msgid "BACK TO MENU"
+msgstr "VOLVER AL MENÚ"
+
 msgid "CODE"
 msgstr "CÓD."
 
@@ -403,8 +406,8 @@ msgstr "Embalaje + Formato"
 msgid "2,5 Kg Bag, Minibars Luker 20 Kg Bag, Minibars Luker"
 msgstr "Bolsa x 2,5 Kg, Minibarras Luker<br>Caja x 20 Kg, Minibarras Luker"
 
-msgid "Shelf life"
-msgstr "Vida útil"
+msgid "Shelf life (months)"
+msgstr "Vida útil (meses)"
 
 msgid "24 months/ *14 months"
 msgstr "24 meses/ *14 meses"
@@ -453,9 +456,6 @@ msgstr "Sombra"
 
 msgid "Selva"
 msgstr "Selva"
-
-msgid "Shelf life(months)"
-msgstr "Vida útil (Meses)"
 
 msgid "30-32 ºC"
 msgstr "30-32 ºC"
