@@ -5,14 +5,14 @@ Theme: Luker
 */
 $url = array(
     "en-US" => array(
-        'cacao' => 'cacao-fino-de-aroma',
-        'productos' => 'productos',
-        'medida' => 'a-su-medida',
-        'lukerWay' => 'the-luker-way-es',
-        'casaluker' => 'casaluker-es',
-        'recetas' => 'recetas',
-        'noticias' => 'noticias',
-        'contactanos' => 'contactanos'
+        'cacao' => 'cacao-fino-de-aroma-en',
+        'productos' => 'product',
+        'medida' => 'tailor-made-innovation',
+        'lukerWay' => 'the-luker-way',
+        'casaluker' => 'casaluker',
+        'recetas' => 'recipes',
+        'noticias' => 'news',
+        'contactanos' => 'contact'
     ),
     "es-CO" => array(
         'cacao' => 'cacao-fino-de-aroma',
