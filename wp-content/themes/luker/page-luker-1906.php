@@ -8,8 +8,7 @@
             <h2><?php _e('Luker 1906, Our Secret','luker'); ?></h2>
 
             <p>
-                <?php _e('Luker 1906, Single Origin Chocolates, have a unique flavour that is given by the pureness of their origins. Made from selected beans from the different Fino de Aroma Cocoa growing regions and countries, their flavour does not only reflect the cocoa variety, but also richness of the soil and the cocoa growing culture of its region.
-                 Luker 1906, A treat for the senses.','luker'); ?>
+                <?php _e('Luker 1906, Single Origin Chocolates, have a unique flavour that is given by the pureness of their origins. Made from selected beans from the different Fino de Aroma Cocoa growing regions and countries, their flavour does not only reflect the cocoa variety, but also richness of the soil and the cocoa growing culture of its region. Luker 1906, A treat for the senses.','luker'); ?>
             </p>
         </article>
         <article>
@@ -195,8 +194,7 @@
             <h2><?php _e('Unique Origin','luker'); ?> </h2>
 
             <p>
-                <?php _e('Luker 1906, SANTANDER, HUILA, TUMACO and ARAUCA. Four Colombian Origin Chocolates with flavours that reflect the country’s geographic and cultural diversity.
-Santander cocoa is cultivated in the Andes; Tumaco, in the tropical forests of the Pacific Coast and Huila cocoa is typical of the region’s deep valleys. In Arauca, cocoa grows in wild landscapes between the snow-capped mountains and valleys of the Orinoco. Mountains, forests and valleys: Luker 1906, the chocolate with an inimitable flavour of the land that it grows in.','luker'); ?>
+                <?php _e('Luker 1906, SANTANDER, HUILA, TUMACO and ARAUCA. Four Colombian Origin Chocolates with flavours that reflect the country’s geographic and cultural diversity. Santander cocoa is cultivated in the Andes; Tumaco, in the tropical forests of the Pacific Coast and Huila cocoa is typical of the region’s deep valleys. In Arauca, cocoa grows in wild landscapes between the snow-capped mountains and valleys of the Orinoco. Mountains, forests and valleys: Luker 1906, the chocolate with an inimitable flavour of the land that it grows in.','luker'); ?>
             </p>
         </article>
         <article class="city">

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-19 15:03-0500\n"
+"PO-Revision-Date: 2015-11-19 15:28-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -283,8 +283,8 @@ msgstr "Luker 1906, Nuestro Secreto"
 msgid "Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo."
 msgstr "Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo."
 
-msgid "Luker 1906, Single Origin Chocolates, have a unique flavour that is given by the pureness of their origins. Made from selected beans from the different Fino de Aroma Cocoa growing regions and countries, their flavour does not only reflect the cocoa variety, but also richness of the soil and the cocoa growing culture of its region.Luker 1906, A treat for the senses."
-msgstr "Luker 1906, Single Origin Chocolates, son chocolates de sabor único por la pureza de su origen.Fabricados a partir de granos seleccionados de cada región y país cultivador de Cacao Fino de Aroma,su sabor refleja no solo la variedad de cacao, sino la riqueza del suelo y la cultura cacaotera delos agricultores de la región.Luker 1906, Un premio para los sentidos."
+msgid "Luker 1906, Single Origin Chocolates, have a unique flavour that is given by the pureness of their origins. Made from selected beans from the different Fino de Aroma Cocoa growing regions and countries, their flavour does not only reflect the cocoa variety, but also richness of the soil and the cocoa growing culture of its region. Luker 1906, A treat for the senses."
+msgstr "Luker 1906, Single Origin Chocolates, son chocolates de sabor único por la pureza de su origen. Fabricados a partir de granos seleccionados de cada región y país cultivador de Cacao Fino de Aroma, su sabor refleja no solo la variedad de cacao, sino la riqueza del suelo y la cultura cacaotera de los agricultores de la región. Luker 1906, Un premio para los sentidos."
 
 msgid "TAILOR MADE INNOVATION"
 msgstr "INNOVACIÓN A SU MEDIDA"
@@ -364,7 +364,7 @@ msgstr "*Milk Colombia"
 msgid "Unique Origin"
 msgstr "Origen único"
 
-msgid "Luker 1906, SANTANDER, HUILA, TUMACO and ARAUCA. Four Colombian Origin Chocolates with flavours that reflect the country’s geographic and cultural diversity.Santander cocoa is cultivated in the Andes; Tumaco, in the tropical forests of the Pacific Coast and Huila cocoa is typical of the region’s deep valleys. In Arauca, cocoa grows in wild landscapes between the snow-capped mountains and valleys of the Orinoco. Mountains, forests and valleys: Luker 1906, the chocolate with an inimitable flavour of the land that it grows in."
+msgid "Luker 1906, SANTANDER, HUILA, TUMACO and ARAUCA. Four Colombian Origin Chocolates with flavours that reflect the country’s geographic and cultural diversity. Santander cocoa is cultivated in the Andes; Tumaco, in the tropical forests of the Pacific Coast and Huila cocoa is typical of the region’s deep valleys. In Arauca, cocoa grows in wild landscapes between the snow-capped mountains and valleys of the Orinoco. Mountains, forests and valleys: Luker 1906, the chocolate with an inimitable flavour of the land that it grows in."
 msgstr "Luker 1906, origen SANTANDER, HUILA, TUMACO y ARAUCA, cuatro regiones colombianas, sabores que reflejan la diversidad geográfica y cultural del país. El cacao de Santander crece en la Cordillera de los Andes; el cacao en Tumaco es cultivado dentro de la selva tropical en el litoral pacífico. En el Huila, el cacao es característico de los valles entre cordilleras. En Arauca crece en un paisaje salvaje entre nevados y sabanas de la región de la Orinoquía. Montañas, selvas y llanuras, Luker 1906, el chocolate con el inimitable sabor de la tierra que les da vida."
 
 msgid "TUMACO (Región Colombiana)"
