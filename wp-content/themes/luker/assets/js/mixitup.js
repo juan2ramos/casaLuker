@@ -179,7 +179,10 @@ var dropdownFilter = {
             $imageCocoa = $('#imageCocoa'),
             $headerTitle = $('.RecipeDetail-headerTitle'),
             $pdf = $('.pdf'),
-            urlB = $('#Filters').data('url');
+            urlB = $('#Filters').data('url').split(" ");
+
+            urlB.pop();
+
 
         $contentRecipe.html(data.content);
         $chefName.html(data.chefName);
