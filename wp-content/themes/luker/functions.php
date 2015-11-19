@@ -121,19 +121,25 @@ function wp_corenavi($prev = '«', $next = '»')
 
 function my_page_template_redirect()
 {
-    global $post;
-    if (!get_page_template() && !is_home()) {
-        $arrayUrl = array(
-            'cacao-fino-de-aroma-en' => 'page-cacao-fino-de-aroma',
-            'casaluker-es' => 'page-casaluker',
-            'news' => 'page-noticias',
-            'tailor-made-innovation' => 'page-a-su-medida',
-            'luker-1906-es' => 'page-luker-1906',
-            'the-luker-way-es' => 'page-the-luker-way',
 
-        );
-        get_template_part($arrayUrl[get_post($post)->post_name]);
-        exit;
+    global $post;
+    $arrayUrl = array(
+        'cacao-fino-de-aroma-en' => 'page-cacao-fino-de-aroma',
+        'casaluker-es' => 'page-casaluker',
+        'news' => 'page-noticias',
+        'tailor-made-innovation' => 'page-a-su-medida',
+        'luker-1906-es' => 'page-luker-1906',
+        'the-luker-way-es' => 'page-the-luker-way',
+
+    );
+    if(array_key_exists( get_post($post)->post_name , $arrayUrl) ){
+
+
+        if (!get_page_template() && !is_home() ) {
+
+            get_template_part($arrayUrl[get_post($post)->post_name]);
+            exit;
+        }
     }
 }
 
