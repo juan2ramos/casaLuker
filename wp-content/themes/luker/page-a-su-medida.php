@@ -48,43 +48,43 @@
 
                 <div id="Nose">
                     <span class="show" data-color="linear-gradient(to right,rgba(0,0,0,0) 50%,rgba( 24,120,171,.7) 51%)">
-                        <h3><?php _e('MEDICINAL CHEMICAL','luker'); ?>QUÍMICO MEDICINAL</h3>
+                        <h3><?php _e('MEDICINAL CHEMICAL','luker'); ?></h3>
                         <ul>
-                            <li><?php _e('Bitter','luker'); ?>Amargo</li>
-                            <li><?php _e('Leather','luker'); ?>Cuero</li>
-                            <li><?php _e('Metallic','luker'); ?>Metálico</li>
-                            <li><?php _e('plastic','luker'); ?>Plástico</li>
-                            <li><?php _e('Rubber','luker'); ?>Caucho</li>
-                            <li><?php _e('Gasoline','luker'); ?>Gasolina</li>
+                            <li><?php _e('Bitter','luker'); ?></li>
+                            <li><?php _e('Leather','luker'); ?></li>
+                            <li><?php _e('Metallic','luker'); ?></li>
+                            <li><?php _e('plastic','luker'); ?></li>
+                            <li><?php _e('Rubber','luker'); ?></li>
+                            <li><?php _e('Gasoline','luker'); ?></li>
                         </ul>
                     </span>
 
                     <span data-color="linear-gradient(to right,rgba(0,0,0,0) 50%,rgba(73, 40, 8, 0.7) 51%)">
-                        <h3><?php _e('EARTHY','luker'); ?>TERROSO</h3>
+                        <h3><?php _e('EARTHY','luker'); ?></h3>
                         <ul>
-                            <li><?php _e('Musty','luker'); ?>Mohoso</li>
-                            <li><?php _e('Woody','luker'); ?>Maderoso</li>
-                            <li><?php _e('Powder','luker'); ?>Polvo</li>
-                            <li><?php _e('Yeast','luker'); ?>Levadura</li>
-                            <li><?php _e('Fungus','luker'); ?>Hongo</li>
-                            <li><?php _e('Herbal','luker'); ?>Herbal</li>
-                            <li><?php _e('Moss','luker'); ?>Musgo</li>
-                            <li><?php _e('Heno','luker'); ?>Heno</li>
-                            <li><?php _e('Hay Freshly Cut Grass','luker'); ?>Pasto Fresco</li>
+                            <li><?php _e('Musty','luker'); ?></li>
+                            <li><?php _e('Woody','luker'); ?></li>
+                            <li><?php _e('Powder','luker'); ?></li>
+                            <li><?php _e('Yeast','luker'); ?></li>
+                            <li><?php _e('Fungus','luker'); ?></li>
+                            <li><?php _e('Herbal','luker'); ?></li>
+                            <li><?php _e('Moss','luker'); ?></li>
+                            <li><?php _e('Heno','luker'); ?></li>
+                            <li><?php _e('Hay Freshly Cut Grass','luker'); ?></li>
 
                         </ul>
                     </span>
 
                     <span data-color="linear-gradient(to right,rgba(0,0,0,0) 50%,rgba(102, 28, 23, 0.7) 51%)">
-                        <h3><?php _e('TOASTED','luker'); ?>TOSTADO</h3>
+                        <h3><?php _e('TOASTED','luker'); ?></h3>
                         <ul>
-                            <li><?php _e('Coffe','luker'); ?>Café</li>
-                            <li><?php _e('Tobacco','luker'); ?>Tabaco</li>
-                            <li><?php _e('Tea','luker'); ?>Té</li>
-                            <li><?php _e('Nust','luker'); ?>Nuez</li>
-                            <li><?php _e('Smoked','luker'); ?>Ahumado</li>
-                            <li><?php _e('Ham-like','luker'); ?>Jamonoso</li>
-                            <li><?php _e('Caramel','luker'); ?>Caramelo</li>
+                            <li><?php _e('Coffe','luker'); ?></li>
+                            <li><?php _e('Tobacco','luker'); ?></li>
+                            <li><?php _e('Tea','luker'); ?></li>
+                            <li><?php _e('Nust','luker'); ?></li>
+                            <li><?php _e('Smoked','luker'); ?></li>
+                            <li><?php _e('Ham-like','luker'); ?></li>
+                            <li><?php _e('Caramel','luker'); ?></li>
                         </ul>
                     </span>
 
