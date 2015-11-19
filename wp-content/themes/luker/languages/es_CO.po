@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-19 15:43-0500\n"
+"PO-Revision-Date: 2015-11-19 15:58-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -454,8 +454,8 @@ msgstr "Sombra"
 msgid "Selva"
 msgstr "Selva"
 
-msgid "Shelf life (months)"
-msgstr "Vida útil (meses)"
+msgid "Shelf life(months)"
+msgstr "Vida útil(Meses)"
 
 msgid "30-32 ºC"
 msgstr "30-32 ºC"
