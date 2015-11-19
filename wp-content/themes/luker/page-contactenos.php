@@ -1280,9 +1280,9 @@
                 &nbsp;</div>
         </div>
         <div class="Contact-form">
-            <h3>Contáctenos</h3>
+            <h3><?php _e('Contact Us','luker'); ?></h3>
 
-            <p>* Campos obligatorios.</p>
+            <p><?php _e('* Required fields.','luker'); ?></p>
 
             <?php the_content(); ?>
 
