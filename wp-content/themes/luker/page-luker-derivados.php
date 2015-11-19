@@ -6,11 +6,10 @@
             <article class="Derivados-article">
                 <figure><img src="<?php bloginfo('template_url') ?>/assets/images/productos/luker.png" alt="">
                 </figure>
-                <h2><?php _e('Luker','luker'); ?>Luker</h2>
+                <h2><?php _e('Luker','luker'); ?></h2>
 
                 <p>
-                    <?php _e('The presence of CasaLuker in the whole cocoa chain, allows us to carefully select the best Fino de Aroma beans that guarantee high standards in quality, flavor and aroma.
-                     We manufacture the best semi-elaborated products derived from the Cacao Fino de Aroma, such as: cocoa mass, cocoa butter, cocoa powder and beans.','luker'); ?>
+                    <?php _e('The presence of CasaLuker in the whole cocoa chain, allows us to carefully select the best Fino de Aroma beans that guarantee high standards in quality, flavor and aroma. We manufacture the best semi-elaborated products derived from the Cacao Fino de Aroma, such as: cocoa mass, cocoa butter, cocoa powder and beans.','luker'); ?>
                 </p>
             </article>
             <article class="Derivador-table">
