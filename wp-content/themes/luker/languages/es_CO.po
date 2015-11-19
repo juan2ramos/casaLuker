@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-19 16:12-0500\n"
+"PO-Revision-Date: 2015-11-19 16:23-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -299,7 +299,7 @@ msgid "COCOA MASS TASTING"
 msgstr "CÓMO CATAR MASA DE CACAO"
 
 msgid "Cocoa tasting is undertaken by professionals to determine the properties of aroma and flavour in a particular cocoa sample. The process consists in smelling and tasting the sample in order to measure the levels of cocoa flavour, the acidity, astringency and the level of bitter, fruit, floral and nutty notes, among other properties."
-msgstr "La Cata de masa de Cacao es una práctica profesional que se hace para determinar los atributos del aroma y el sabor en una muestra de Cacao específica. El proceso consiste en olfatear y saborear la muestra para medir el nivel de sabor a cacao, la acidez, la astringencia y el nivel amargo, frutal, floral y de nuez, entre otras características."
+msgstr "La Cata de masa de Cacao es una práctica profesional que se hace para determinar los atributos del aroma y el sabor en una muestra de Cacao específica.El proceso consiste en olfatear y saborear la muestra para medir el nivel de sabor a cacao, la acidez, la astringencia y el nivel amargo, frutal, floral y de nuez, entre otras características."
 
 msgid "How it is done:"
 msgstr "El proceso:"
