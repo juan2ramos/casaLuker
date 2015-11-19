@@ -82,7 +82,7 @@ msgstr "El concheo es un proceso fundamental realizado en la planta de producci�
 msgid "CASALUKER RESEARCH"
 msgstr "INVESTIGACIÓN CASALUKER"
 
-msgid "*Centro Nacional de Investigaciones de Café  "
+msgid "*Centro Nacional de Investigaciones de Café"
 msgstr "*Centro Nacional de Investigaciones de Café"
 
 msgid "CasaLuker together with Cenicafé* -one of the most important coffee research institutes in the world- began a classification process for cocoa originate from the principal cocoa producing areas of Colombia, Ecuador, Venezuela, and other cocoa producing regions in the world."
@@ -94,7 +94,7 @@ msgstr "En esta investigación se han estudiado las características sensoriales
 msgid "Welcome to the CasaLuker Group"
 msgstr "Bienvenido al Grupo CasaLuker"
 
-msgid " With the opening of CasaLuker Europe in Belgium, in 2009, we became a more consolidated group with strong international projection which stands out for its experience in the production of Fino de Aroma Cocoa derived products. Our international presence is strengthened through our offices in Colombia, Russia, Panama and Ecuador. "
+msgid " With the opening of CasaLuker Europe in Belgium, in 2009, we became a more consolidated group with strong international projection which stands out for its experience in the production of Fino de Aroma Cocoa derived products. Our international presence is strengthened through our offices in Colombia, Russia, Panama and Ecuador."
 msgstr "Con la apertura de nuestra filial CasaLuker Europe en Bélgica en el 2009, nos hemos consolidado como un grupo de fuerte proyección internacional que se destaca por su experiencia en la oferta de productos derivados del Cacao Fino de Aroma. Nuestra presencia internacional se ve reforzada por nuestra red deoficinas en Colombia, Rusia, Panamá, Ecuador y Perú."
 
 msgid "The tradition of a family-owned company founded in 1906 and the prevailing hard work of cocoa growers, together with the high investments made in cutting edge technology and equipment for the manufacture of chocolate couvertures, allows us to offer a wide range a high international standard quality chocolate couvertures, cocoa mass, butter, powder and cocoa beans."
@@ -905,7 +905,7 @@ msgid "WE BELIEVE IN FAIR PURCHASING CONDITIONS"
 msgstr "CREEMOS EN CONDICIONES DE COMPRA JUSTAS"
 
 msgid "COCOA REGIONS AND BUYING AGENCIES"
-msgstr "REGIONES CACOTERAS Y<br>AGENCIAS DE COMPRA"
+msgstr "REGIONES CACOTERAS Y AGENCIAS DE COMPRA"
 
 msgid "OUR COCOA BEAN SUPPLIERS"
 msgstr "NUESTROS PROVEEDORES DE CACAO EN GRANO"
