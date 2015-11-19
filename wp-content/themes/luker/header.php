@@ -36,7 +36,7 @@ Theme: Luker
 
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> data-url="">
 
 
 <?php the_post(); ?>
