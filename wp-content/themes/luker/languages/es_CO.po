@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-18 21:02-0500\n"
+"PO-Revision-Date: 2015-11-19 10:24-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -586,6 +586,159 @@ msgstr "PROYECTOS EMPRESARIALES"
 msgid "WHAT IS THE LUKER WAY"
 msgstr "QUÉ ES THE LUKER WAY"
 
+msgid "THE COCOA TASTING NOSE"
+msgstr "NARIZ DEL CACAO"
+
+msgid "MEDICINAL CHEMICAL"
+msgstr "QUÍMICO MEDICINAL"
+
+msgid "Bitter"
+msgstr "Amargo"
+
+msgid "Metallic"
+msgstr "Metálico"
+
+msgid "Plastic"
+msgstr "Plástico"
+
+msgid "Rubber"
+msgstr "Caucho"
+
+msgid "Gasoline"
+msgstr "Gasolina"
+
+msgid "EARTHY"
+msgstr "TERROSO"
+
+msgid "Musty"
+msgstr "Mohoso"
+
+msgid "Woody"
+msgstr "Maderoso"
+
+msgid "Powder"
+msgstr "Polvo"
+
+msgid "Yeast"
+msgstr "Levadura"
+
+msgid "Herbal"
+msgstr "Herbal"
+
+msgid "Moss"
+msgstr "Musgo"
+
+msgid "Heno"
+msgstr "Heno"
+
+msgid "Hay Freshly Cut Grass"
+msgstr "Pasto Fresco"
+
+msgid "Coffe"
+msgstr "cafe"
+
+msgid "TOASTED"
+msgstr "TOSTADO"
+
+msgid "Tobacco"
+msgstr "Tabaco"
+
+msgid "Tea"
+msgstr "Te"
+
+msgid "Nust"
+msgstr "Nuez"
+
+msgid "Smoked"
+msgstr "Ahumado"
+
+msgid "Ham-like"
+msgstr "Jamonoso"
+
+msgid "Caramel"
+msgstr "Caramelo"
+
+msgid "AROMATIC"
+msgstr "AROMÁTICO"
+
+msgid "Floral"
+msgstr "Floral"
+
+msgid "Spicy"
+msgstr "Picante"
+
+msgid "Vanilla"
+msgstr "Vainilla"
+
+msgid "Vainillina"
+msgstr "Vainillina"
+
+msgid "COCOA"
+msgstr "CACAO"
+
+msgid "Strong"
+msgstr "Fuerte"
+
+msgid "Acid"
+msgstr "Acido"
+
+msgid "Alcaline"
+msgstr "Oscuro"
+
+msgid "READ +"
+msgstr "VER +"
+
+msgid "GET MORE INFO"
+msgstr "RECIBE MAS INFORMACION"
+
+msgid "Astringent"
+msgstr "Astringente"
+
+msgid "SWEETNESS"
+msgstr "DULZURA"
+
+msgid "Brown Sugar"
+msgstr "Azúcar Morena"
+
+msgid "Malt"
+msgstr "Malta"
+
+msgid "Honey"
+msgstr "Miel"
+
+msgid "Molasse"
+msgstr "Melosa"
+
+msgid "Milky"
+msgstr "LACTOSA"
+
+msgid "Buttery"
+msgstr "Mantequilloso"
+
+msgid "Creamy"
+msgstr "Cremoso"
+
+msgid "Cooked"
+msgstr "Cocinado"
+
+msgid "FRUITY WINE-LIKE"
+msgstr "FRUTO VINOSO"
+
+msgid "Fruit tree"
+msgstr "Árbol Frutal"
+
+msgid "Citric"
+msgstr "Citricos"
+
+msgid "Tropical Fruit"
+msgstr "Frutos Tropicales"
+
+msgid "Dried Fruit"
+msgstr "Frutos Secos"
+
+msgid "Liquored"
+msgstr "Alicorado"
+
 msgid "It is the connection we have with our partners; is our relationship with the farmers (our suppliers), the environment, our employees, the clients and society at large. We believe in sharing opportunities, knowledge and technology. We work together to produce the finest chocolate from Fino de Aroma cocoa beans."
 msgstr "Es la conexión que tenemos con nuestros socios; es nuestra relación con los agricultores (nuestros proveedores), el medio ambiente, nuestros empleados, los clientes y la sociedad. Creemos en compartir oportunidades, conocimiento, entrenamiento y tecnología, y trabajamos juntos para producir el mejor Cacao Fino de Aroma."
 
@@ -603,6 +756,9 @@ msgstr "SOPORTE Y CAPACITACIÓN"
 
 msgid "GRANJA LUKER"
 msgstr "GRANJA LUKER"
+
+msgid "Fungus"
+msgstr "Hongo"
 
 msgid "AGROFORESTRY SYSTEM"
 msgstr "SISTEMA AGROFORESTAL"
