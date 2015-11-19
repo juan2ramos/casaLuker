@@ -15,8 +15,7 @@
             <h2 class="top"><?php _e('COCOA MASS TASTING','luker'); ?></h2>
 
             <p>
-                <?php _e('Cocoa tasting is undertaken by professionals to determine the properties of aroma and flavour in a particular cocoa sample.
-                 The process consists in smelling and tasting the sample in order to measure the levels of cocoa flavour, the acidity, astringency and the level of bitter, fruit, floral and nutty notes, among other properties.','luker'); ?>
+                <?php _e('Cocoa tasting is undertaken by professionals to determine the properties of aroma and flavour in a particular cocoa sample. The process consists in smelling and tasting the sample in order to measure the levels of cocoa flavour, the acidity, astringency and the level of bitter, fruit, floral and nutty notes, among other properties.','luker'); ?>
             </p>
 
             <p>

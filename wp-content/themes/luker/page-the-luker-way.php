@@ -17,8 +17,7 @@
                 <h2><?php _e('WHAT IS THE LUKER WAY','luker'); ?></h2>
 
                 <p>
-                    <?php _e('It is the connection we have with our partners; is our relationship with the farmers (our suppliers), the environment, our employees, the clients and society at large. We believe in sharing opportunities, knowledge and technology.
-                     We work together to produce the finest chocolate from Fino de Aroma cocoa beans.','luker'); ?>
+                    <?php _e('It is the connection we have with our partners; is our relationship with the farmers (our suppliers), the environment, our employees, the clients and society at large. We believe in sharing opportunities, knowledge and technology. We work together to produce the finest chocolate from Fino de Aroma cocoa beans.','luker'); ?>
                 </p>
             </article>
             <ul>
@@ -39,8 +38,7 @@
                 <h2><?php _e('WE BELIEVE IN EDUCATION','luker'); ?></h2>
 
                 <p>
-                    <?php _e('Through the Granja Luker, one of the few cocoa research centres, founded in 1962, we foment the adoption of profitable cultivation models that have a great impact on the quality of life and income of producers.
-                    More than 700 people are educated annually. More than 30.000 farmers have passed through the Granja Luker during these first 50 years.','luker'); ?>
+                    <?php _e('Through the Granja Luker, one of the few cocoa research centres, founded in 1962, we foment the adoption of profitable cultivation models that have a great impact on the quality of life and income of producers. More than 700 people are educated annually. More than 30.000 farmers have passed through the Granja Luker during these first 50 years.','luker'); ?>
                 </p>
                 <ul class="LukerWay-menuEducation">
                     <li><a href="#" class="active" data-target="LukerWay-support"><?php _e('SUPPORT AND TRAINING','luker'); ?></a></li>
@@ -430,8 +428,7 @@
                     <h4><?php _e('THE LUKER FOUNDATION','luker'); ?></h4>
 
                     <p>
-                        <?php _e('The Luker Foundation is a private non-profit organization, with a bussines origin (CasaLuker S.A.), created in 1994 with the aim of contributing to improving the quality of life of the people of Manizales (known as Manizaleños) and postering social development. Ever since its inception, the Luker Foundation has worked in different education and leisure projects, which have generated demostrative effects for other regions of Colombia and Latin América.
-READ MORE','luker'); ?>
+                        <?php _e('The Luker Foundation is a private non-profit organization, with a bussines origin (CasaLuker S.A.), created in 1994 with the aim of contributing to improving the quality of life of the people of Manizales (known as Manizaleños) and postering social development. Ever since its inception, the Luker Foundation has worked in different education and leisure projects, which have generated demostrative effects for other regions of Colombia and Latin América.READ MORE','luker'); ?>
                     </p>
                 </li>
                 <li>
@@ -441,17 +438,12 @@ READ MORE','luker'); ?>
                 <li>
                     <h4><?php _e('AREA OF WORK','luker'); ?></h4>
 
-                    <p><?php _e('EDUCATION FOR DEVELOPMENT
-ENTREPRENEURSHIP FOR DEVELOPMENT
-SPECIAL PROJECTS CULTURE, LEISURE AND FREE TIME','luker'); ?>Educación para el Desarrollo <br>
-                        Emprendimiento para el Desarrollo <br>
-                        Proyectos Especiales; Recreación y Cultura</p>
+                    <p><?php _e('EDUCATION FOR DEVELOPMENT ENTREPRENEURSHIP FOR DEVELOPMENT SPECIAL PROJECTS CULTURE, LEISURE AND FREE TIME','luker'); ?></p>
                 </li>
             </ul>
             <h3><a href=""><?php _e('GO TO LUKER FOUNDATION','luker'); ?></a></h3>
         </div>
-        <div class="LukerWay-bar"> <?php _e('ENTREPRENEURIAL
-PROJECTS','luker'); ?>|  |<span data-target="LukerWay-term" class="LukerWay-barFirst"></span><span
+        <div class="LukerWay-bar"> <?php _e('ENTREPRENEURIAL PROJECTS','luker'); ?>|  |<span data-target="LukerWay-term" class="LukerWay-barFirst"></span><span
                 data-target="LukerWay-business" class="LukerWay-barLast"></span></div>
     </section>
     <section class="LukerWay-business">
