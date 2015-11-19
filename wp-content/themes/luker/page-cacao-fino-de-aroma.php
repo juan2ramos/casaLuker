@@ -101,7 +101,7 @@
                         </li>
                         <li>
                             <p>
-                                <?php _e('Drying is a gradual process undertaken in the field by the grower. The beans are exposed to sunlight for several days in order to reduce their water content from 55% to 7% and to eliminate some of the acids naturally present in cocoa. ','luker'); ?>
+                                <?php _e('Drying is a gradual process undertaken in the field by the grower. The beans are exposed to sunlight for several days in order to reduce their water content from 55% to 7% and to eliminate some of the acids naturally present in cocoa.','luker'); ?>
 
                             <p>
                                 <?php _e('A good drying process is essential if mould and fungus are to be avoided and to guarantee a good flavour.','luker'); ?>

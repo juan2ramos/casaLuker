@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-19 14:45-0500\n"
+"PO-Revision-Date: 2015-11-19 15:03-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -68,7 +68,7 @@ msgid "The fermentation process involves removing the cocoa bean from its pod to
 msgstr "La fermentación ocurre cuando el grano de cacao se saca de la mazorca junto con su pulpa, es puesto en cajones de madera y expuesto a los microorganismos naturalmente presentes en el ambiente. Los microorganismos degradarán la pulpa y durante este proceso el grano sufrirá procesos bioquímicos y físicos que formarán los precursores de los aromas y sabores a chocolate. "
 
 msgid "Drying is a gradual process undertaken in the field by the grower. The beans are exposed to sunlight for several days in order to reduce their water content from 55% to 7% and to eliminate some of the acids naturally present in cocoa."
-msgstr " El secado es un proceso gradual realizado en el campo por el agricultor. Durante este proceso se exponen los granos al sol durante varios días para bajar el contenido de agua del grano del 55% al 7% y eliminar algunos ácidos naturalmente presentes en el cacao."
+msgstr "El secado es un proceso gradual realizado en el campo por el agricultor. Durante este proceso se exponen los granos al sol durante varios días para bajar el contenido de agua del grano del 55% al 7% y eliminar algunos ácidos naturalmente presentes en el cacao."
 
 msgid "A good drying process is essential if mould and fungus are to be avoided and to guarantee a good flavour. "
 msgstr " Un buen secado es clave para evitar mohos y hongos en el grano y garantizar un buen sabor."
