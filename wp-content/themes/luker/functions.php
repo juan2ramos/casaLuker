@@ -131,7 +131,8 @@ function my_page_template_redirect()
         'luker-1906-es' => 'page-luker-1906',
         'the-luker-way-es' => 'page-the-luker-way',
         'product' => 'page-productos',
-        'news' => 'page-noticias'
+        'news' => 'page-noticias',
+        'contact' => 'page-contactenos'
 
     );
     if(array_key_exists( get_post($post)->post_name , $arrayUrl) ){
