@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-19 15:28-0500\n"
+"PO-Revision-Date: 2015-11-19 15:43-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -409,17 +409,17 @@ msgstr "Vida útil"
 msgid "24 months/ *14 months"
 msgstr "24 meses/ *14 meses"
 
-msgid "Very fluid"
-msgstr "Muy fluido"
+msgid "VERY FLUID"
+msgstr "MUY FLUIDO"
 
 msgid "WE SELECT THE BEST INGREDIENTS"
 msgstr "SELECCIONAMOS LOS MEJORES INGREDIENTES"
 
-msgid "Very viscous"
-msgstr "Poco fluido"
+msgid "VERY VISCOUS"
+msgstr "POCO FLUIDO"
 
 msgid "Meticulous selection of ingredients is definitive in achieving the unique sensorial profile characteristic to the chocolate of Luker Cacao. We select the best Cacao Fino de Aroma beans from Colombia, Ecuador and Peru, and use 100% cocoa butter and natural vanilla in our couvertures. Our couvertures, with their exquisite and particular flavour, are ideal for chocolate products of all kinds."
-msgstr "La exigente selección de ingredientes es definitiva para lograr un perfil sensorial único como el de las coberturas de chocolate Luker Cacao. <br>Seleccionamos los mejores granos de Cacao Fino de Aroma de origen Colombiano, Ecuatoriano y Peruano y utilizamos 100% manteca de cacao y vainilla natural. <br> En chocolatería, nuestros chocolates son ideales por su exquisito y diferente sabor."
+msgstr "La exigente selección de ingredientes es definitiva para lograr un perfil sensorial único como el de las coberturas de chocolate Luker Cacao. Seleccionamos los mejores granos de Cacao Fino de Aroma de origen Colombiano, Ecuatoriano y Peruano y utilizamos 100% manteca de cacao y vainilla natural. En chocolatería, nuestros chocolates son ideales por su exquisito y diferente sabor."
 
 msgid "ALL OUR COUVERTURES REQUIRE TEMPERING"
 msgstr "TODAS NUESTRAS COBERTURAS REQUIEREN ATEMPERADO"
