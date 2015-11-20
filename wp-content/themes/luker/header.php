@@ -3,6 +3,7 @@
 Description: The Header
 Theme: Luker
 */
+$currentlang = get_bloginfo('language');
 ?>
 
 <!DOCTYPE html>

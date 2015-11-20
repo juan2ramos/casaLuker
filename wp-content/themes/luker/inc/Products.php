@@ -1,5 +1,4 @@
 <?php
-$currentlang = get_bloginfo('language');
 
 $url = array(
     "en-US" => 'product',
