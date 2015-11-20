@@ -81,11 +81,11 @@
             </article>
             <article>
                 <ul class="TabsMenu">
-                    <li class="active"><img src="<?php bloginfo('template_url') ?>/assets/images/fermentacion.png"
+                    <li class="active"><img src="<?php bloginfo('template_url') ?>/assets/images/<?php echo get_bloginfo('language') ?>/fermentacion.png"
                                             alt=""></li>
-                    <li><img src="<?php bloginfo('template_url') ?>/assets/images/secado.png" alt=""></li>
-                    <li><img src="<?php bloginfo('template_url') ?>/assets/images/tostion.png" alt=""></li>
-                    <li><img src="<?php bloginfo('template_url') ?>/assets/images/concheo.png" alt=""></li>
+                    <li><img src="<?php bloginfo('template_url') ?>/assets/images/<?php echo get_bloginfo('language') ?>/secado.png" alt=""></li>
+                    <li><img src="<?php bloginfo('template_url') ?>/assets/images/<?php echo get_bloginfo('language') ?>/tostion.png" alt=""></li>
+                    <li><img src="<?php bloginfo('template_url') ?>/assets/images/<?php echo get_bloginfo('language') ?>/concheo.png" alt=""></li>
                 </ul>
 
                 <div class="Tabs">
@@ -158,7 +158,7 @@
                     </span>
             </article>
             <article>
-                <figure><img src="<?php bloginfo('template_url') ?>/assets/images/grafica-investigaicon.jpg" alt="">
+                <figure><img src="<?php bloginfo('template_url') ?>/assets/images/<?php echo get_bloginfo('language') ?>/grafica-investigaicon.jpg" alt="">
                 </figure>
             </article>
         </section>
