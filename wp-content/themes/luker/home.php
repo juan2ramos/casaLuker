@@ -3,6 +3,7 @@
 Description: Home
 Theme: Luker
 */
+$lang = get_bloginfo('language');
 $url = array(
     "en-US" => array(
         'cacao' => 'cacao-fino-de-aroma-en',
