@@ -158,7 +158,7 @@
                     </span>
             </article>
             <article>
-                <figure><img src="<?php bloginfo('template_url') ?>/assets/images/<?php echo get_bloginfo('language') ?>/grafica-investigaicon.jpg" alt="">
+                <figure><img src="<?php bloginfo('template_url') ?>/assets/images/<?php echo get_bloginfo('language') ?>/grafica-investigacion.jpg" alt="">
                 </figure>
             </article>
         </section>
