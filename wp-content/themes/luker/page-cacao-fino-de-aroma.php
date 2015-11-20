@@ -28,7 +28,7 @@
                 </p>
 
                 <figure><img
-                        src="<?php bloginfo('template_url') ?>/assets/images/<?php $lang ?>/img-criollos-trinitario.png"
+                        src="<?php bloginfo('template_url') ?>/assets/images/<?php echo $lang ?>/img-criollos-trinitario.png"
                         alt="" "="">
                 </figure>
             </article>
