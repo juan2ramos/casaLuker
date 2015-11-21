@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-19 17:44-0500\n"
+"PO-Revision-Date: 2015-11-21 15:22-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -888,6 +888,12 @@ msgstr "Educación para el Desarrollo Emprendimiento para el Desarrollo Proyecto
 
 msgid "COCOA REGIONS"
 msgstr "Regiones cacaoteras"
+
+msgid "OUR CHEFS"
+msgstr "NUESTROS CHEFS"
+
+msgid "KNOW ALL RECIPES FROM OUR CHEFS."
+msgstr "CONOCE TODAS LAS RECETAS DE NUESTROS CHEFS."
 
 msgid "AND BUYING AGENCIES"
 msgstr "y agencias de compra"
