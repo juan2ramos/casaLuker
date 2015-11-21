@@ -2,7 +2,7 @@
 <main class="Main LukerWay">
     <nav class="LukerWay-nav">
         <div class="menu">
-            <a href="#"><?php _e('MENU','luker'); ?>MENU<span>◄</span></a>
+            <a href="#"><?php _e('MENU','luker'); ?><span>◄</span></a>
         </div>
         <ul>
             <li><a href="#" data-target="LukerWay-cacao"><?php _e('OUR BELIEVES','luker'); ?></a></li>
