@@ -132,7 +132,8 @@ function my_page_template_redirect()
         'the-luker-way-es' => 'page-the-luker-way',
         'product' => 'page-productos',
         'news' => 'page-noticias',
-        'contact' => 'page-contactenos'
+        'contact' => 'page-contactenos',
+        'recipes' => 'page-recetas'
 
     );
     if(array_key_exists( get_post($post)->post_name , $arrayUrl) ){
