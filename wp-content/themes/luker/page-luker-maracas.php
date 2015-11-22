@@ -9,8 +9,7 @@
                 <h2><?php _e('Chocolate Dragees made with 100% Cacao Fino de Aroma','luker'); ?></h2>
 
                 <p>
-                    <?php _e('In the same way as that magical seductive instrument that characterises the happy upbeat feel of the tropics with its sweet and varied rhythm, Luker Maracas presents a new range of chocolate-covered dragees. Filled with roasted coffee, roasted cocoa and sweet tropical fruits, these delightful dragees are covered in our finest Fino de Aroma chocolate.
-                    Luker Maracas, Tropical Dragees are ideal for decorating desserts and cakes, to include in preparations, as toppings for ice-cream or simply to give that special touch to your recipes. They are also a good accompaniment for coffee and other hot drinks; they can be mixed in with cereals and dried fruit to prepare delicious, healthy snacks.','luker'); ?>
+                    <?php _e('In the same way as that magical seductive instrument that characterises the happy upbeat feel of the tropics with its sweet and varied rhythm, Luker Maracas presents a new range of chocolate-covered dragees. Filled with roasted coffee, roasted cocoa and sweet tropical fruits, these delightful dragees are covered in our finest Fino de Aroma chocolate. Luker Maracas, Tropical Dragees are ideal for decorating desserts and cakes, to include in preparations, as toppings for ice-cream or simply to give that special touch to your recipes. They are also a good accompaniment for coffee and other hot drinks; they can be mixed in with cereals and dried fruit to prepare delicious, healthy snacks.','luker'); ?>
                 </p>
             </article>
             <article class="Maracas-middle">
@@ -26,7 +25,7 @@
                 <div class="row title">
                     <div class="cell coffee"><?php _e('Product','luker'); ?></div>
                     <div class="cell coffee"><?php _e('Description','luker'); ?></div>
-                    <div class="cell coffee"><?php _e('Packaging and Format','luker'); ?></div>
+                    <div class="cell coffee"><?php _e('Packaging','luker'); ?></div>
                 </div>
                 <div class="row">
                     <div class="cell">
@@ -142,7 +141,7 @@
 
                     </div>
                     <div class="cell vida">
-                        <div><?php _e('Shelf Life (Months)','luker'); ?> </div>
+                        <div><?php _e('Shelf Life(Months)','luker'); ?> </div>
                     </div>
                     <div class="cell center">
                        24

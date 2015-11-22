@@ -20,8 +20,7 @@
 
                 </p>
 
-                <p><?php _e('Trinitarian cocoas -highly sought after around the world- are Fino de Aroma, aromatic and mild in flavour. The trinitario variety is the result of cross between the criollo and forastero varieties and is produced mainly in Colombia, Ecuador, Peru and Venezuela.
-','luker'); ?>
+                <p><?php _e('Trinitarian cocoas -highly sought after around the world- are Fino de Aroma, aromatic and mild in flavour. The trinitario variety is the result of cross between the criollo and forastero varieties and is produced mainly in Colombia, Ecuador, Peru and Venezuela.','luker'); ?>
                 </p>
 
 
@@ -29,7 +28,7 @@
                 </p>
 
                 <figure><img
-                        src="<?php bloginfo('template_url') ?>/assets/images/img-criollos-trinitario.png"
+                        src="<?php bloginfo('template_url') ?>/assets/images/<?php echo get_bloginfo('language') ?>/img-criollos-trinitario.png"
                         alt="" "="">
                 </figure>
             </article>
@@ -82,11 +81,11 @@
             </article>
             <article>
                 <ul class="TabsMenu">
-                    <li class="active"><img src="<?php bloginfo('template_url') ?>/assets/images/fermentacion.png"
+                    <li class="active"><img src="<?php bloginfo('template_url') ?>/assets/images/<?php echo get_bloginfo('language') ?>/fermentacion.png"
                                             alt=""></li>
-                    <li><img src="<?php bloginfo('template_url') ?>/assets/images/secado.png" alt=""></li>
-                    <li><img src="<?php bloginfo('template_url') ?>/assets/images/tostion.png" alt=""></li>
-                    <li><img src="<?php bloginfo('template_url') ?>/assets/images/concheo.png" alt=""></li>
+                    <li><img src="<?php bloginfo('template_url') ?>/assets/images/<?php echo get_bloginfo('language') ?>/secado.png" alt=""></li>
+                    <li><img src="<?php bloginfo('template_url') ?>/assets/images/<?php echo get_bloginfo('language') ?>/tostion.png" alt=""></li>
+                    <li><img src="<?php bloginfo('template_url') ?>/assets/images/<?php echo get_bloginfo('language') ?>/concheo.png" alt=""></li>
                 </ul>
 
                 <div class="Tabs">
@@ -102,7 +101,7 @@
                         </li>
                         <li>
                             <p>
-                                <?php _e('Drying is a gradual process undertaken in the field by the grower. The beans are exposed to sunlight for several days in order to reduce their water content from 55% to 7% and to eliminate some of the acids naturally present in cocoa. ','luker'); ?>
+                                <?php _e('Drying is a gradual process undertaken in the field by the grower. The beans are exposed to sunlight for several days in order to reduce their water content from 55% to 7% and to eliminate some of the acids naturally present in cocoa.','luker'); ?>
 
                             <p>
                                 <?php _e('A good drying process is essential if mould and fungus are to be avoided and to guarantee a good flavour.','luker'); ?>
@@ -159,7 +158,7 @@
                     </span>
             </article>
             <article>
-                <figure><img src="<?php bloginfo('template_url') ?>/assets/images/grafica-investigaicon.jpg" alt="">
+                <figure><img src="<?php bloginfo('template_url') ?>/assets/images/<?php echo get_bloginfo('language') ?>/grafica-investigacion.jpg" alt="">
                 </figure>
             </article>
         </section>

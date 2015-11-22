@@ -100,11 +100,12 @@ var dropdownFilter = {
         var parseData = JSON.parse(e), self = dropdownFilter;
         console.log(parseData);
         $('.RecipeDetail').css('display', 'block')
-        $('.RecipeDetail-header').css('background-image', 'url(' + parseData.banner +')')
+        urlB = $('#Filters').data('url');
+        urlB = urlB.split("/");
+        $('.RecipeDetail-header').css('background-image', 'url(http://' + urlB[2] + '/' + urlB[3] + parseData.banner +')')
         $('body').css('overflow-y','hidden');
         $('.loading').hide();
         self.templateDetail(parseData);
-
 
 
 
@@ -178,15 +179,18 @@ var dropdownFilter = {
             $descriptionChef = $('.RecipeDetail-chefContent p'),
             $imageCocoa = $('#imageCocoa'),
             $headerTitle = $('.RecipeDetail-headerTitle'),
-            $pdf = $('.pdf')
-            ;
+            $pdf = $('.pdf'),
+            urlB = $('#Filters').data('url');
+        urlB = urlB.split("/");
+
+
 
         $contentRecipe.html(data.content);
         $chefName.html(data.chefName);
         $servings.html(data.servings);
         $headerTitle.html(data.tittle);
         $imageCocoa.html('<img src="' + data.imageCocoa + '" />')
-        $pdf.html('<a href="' + data.pdf + '" target="_blank">pdf <span> ► </span></a>');
+        $pdf.html('<a href="http://'  + urlB[2] + '/' + urlB[3] + '/' + data.pdf + '" target="_blank">pdf <span> ► </span></a>');
         //$level.html(data.level);
         $('meta[name=description]').attr('content',  data.content.substring(0,165));
         $('#level svg:nth-child(-n + '+ data.level +' ) .st1').css('fill', '#fff');

@@ -8,9 +8,7 @@
                 <h2><?php _e('WE SELECT THE BEST INGREDIENTS','luker'); ?></h2>
 
                 <p>
-                    <?php _e('Meticulous selection of ingredients is definitive in achieving the unique sensorial profile characteristic to the chocolate of Luker Cacao.
-                     We select the best Cacao Fino de Aroma beans from Colombia, Ecuador and Peru, and use 100% cocoa butter and natural vanilla in our couvertures.
-                    Our couvertures, with their exquisite and particular flavour, are ideal for chocolate products of all kinds.','luker'); ?>
+                    <?php _e('Meticulous selection of ingredients is definitive in achieving the unique sensorial profile characteristic to the chocolate of Luker Cacao. We select the best Cacao Fino de Aroma beans from Colombia, Ecuador and Peru, and use 100% cocoa butter and natural vanilla in our couvertures. Our couvertures, with their exquisite and particular flavour, are ideal for chocolate products of all kinds.','luker'); ?>
                 </p>
             </article>
             <article>

@@ -5,8 +5,8 @@ $cacaos = get_terms("cacao", array("hide_empty" => false));
 $levels = get_terms("level", array("hide_empty" => false));
 ?>
 
-<h2 class="Recipes-h2 Main">NUESTROS CHEFS</h2>
-<h3 class="Recipes-h3">CONOCE TODAS LAS RECETAS DE NUESTROS CHEFS.</h3>
+<h2 class="Recipes-h2 Main"><?php _e('OUR CHEFS','luker'); ?></h2>
+<h3 class="Recipes-h3"><?php _e('KNOW ALL RECIPES FROM OUR CHEFS.','luker'); ?></h3>
 <div class="Recipes-chefs">
     <div class="Recipes-chefsBack">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32"
