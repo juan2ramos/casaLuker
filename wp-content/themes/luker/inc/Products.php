@@ -1,8 +1,13 @@
 <?php
 
 $url = array(
-    "en-US" => 'product',
-    "es-CO" => 'productos'
+    "en_US" => 'product',
+    "es_CO" => 'productos',
+    "de_DE" => 'produkte',
+    "fr_FR" => 'produits',
+    "it_IT" => 'prodotto',
+    "sk_SK" => 'produckty',
+    "ru_RU" => 'product'
 );
 
 ?>
