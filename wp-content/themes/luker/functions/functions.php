@@ -47,9 +47,10 @@ function register_my_menus()
 /* Add Custom Search */
 add_filter('get_search_form', 'searchCustom');
 function searchCustom() {
+
     $form = '<form role="search" method="get"  class="h" action="' . home_url( '/' ) . '" >
     <div><label class="screen-reader-text" for="s">' . __( '' ) . '</label>
-    <input type="text" class="Search-input" value="' . get_search_query() . '" name="s" class="" id="s" placeholder="'. _e('search', 'luker') . '" />
+    <input type="text" class="Search-input" value="' . get_search_query() . '" name="s" class="" id="s" placeholder="'. __('search', 'luker') .'" />
     <button class="Search-submit"><span class="icon-search"></span></button>
     </div>
     </form>';
