@@ -138,7 +138,7 @@ function my_page_template_redirect()
         'produkte' => 'page-productos',
         'produkty' => 'page-productos',
         'prodotto' => 'page-productos',
-        'ПРОДУКТЫ' => 'page-productos',
+        'products' => 'page-productos',
 
         'news' => 'page-noticias',
         'tailor-made-innovation' => 'page-a-su-medida',
