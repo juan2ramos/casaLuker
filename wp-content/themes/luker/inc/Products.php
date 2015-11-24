@@ -1,15 +1,15 @@
 <?php
 
 $url = array(
-    "en_US" => 'product',
-    "es_CO" => 'productos',
-    "de_DE" => 'produkte',
-    "fr_FR" => 'produits',
-    "it_IT" => 'prodotto',
-    "sk_SK" => 'produckty',
-    "ru_RU" => 'product'
+    "en-US" => 'product',
+    "es-CO" => 'productos',
+    "de-DE" => 'produkte',
+    "fr-FR" => 'produits',
+    "it-IT" => 'prodotto',
+    "sk-SK" => 'produckty',
+    "ru-RU" => 'product'
 );
-
+$currentlang = get_bloginfo('language');
 ?>
 <ul class="Product">
     <li>
