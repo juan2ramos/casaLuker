@@ -145,10 +145,17 @@ function my_page_template_redirect()
         'innovazione-su-misura' => 'page-a-su-medida',
         'tailor-made-innovation-ru' => 'page-a-su-medida',
 
+        'the-luker-way-es' => 'page-the-luker-way',
+        'the-luker-way-fr' => 'page-the-luker-way',
+        'the-luker-way-de' => 'page-the-luker-way',
+        'the-luker-way-sk' => 'page-the-luker-way',
+        'the-luker-way-it' => 'page-the-luker-way',
+        'the-luker-way-ru' => 'page-the-luker-way',
+
         'news' => 'page-noticias',
 
         'luker-1906-es' => 'page-luker-1906',
-        'the-luker-way-es' => 'page-the-luker-way',
+
         'casaluker-es' => 'page-casaluker',
         'news' => 'page-noticias',
         'contact' => 'page-contactenos',
