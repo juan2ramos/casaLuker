@@ -135,10 +135,10 @@ function my_page_template_redirect()
 
         'product' => 'page-productos',
         'produits' => 'page-productos',
-        'produits' => 'page-produkte',
-        'produits' => 'page-produkty',
-        'produits' => 'page-prodotto',
-        'produits' => 'page-ПРОДУКТЫ',
+        'produkte' => 'page-productos',
+        'produkty' => 'page-productos',
+        'prodotto' => 'page-productos',
+        'ПРОДУКТЫ' => 'page-productos',
 
         'news' => 'page-noticias',
         'tailor-made-innovation' => 'page-a-su-medida',
