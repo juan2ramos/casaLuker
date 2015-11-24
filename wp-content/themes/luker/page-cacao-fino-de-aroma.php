@@ -80,6 +80,7 @@
                 </p>
             </article>
             <article>
+                <h2 style="margin-bottom: 1rem;"><?php _e('CACAO PROCESS','luker'); ?> </h2>
                 <ul class="TabsMenu">
                     <li class="active"><img src="<?php bloginfo('template_url') ?>/assets/images/<?php echo get_bloginfo('language') ?>/fermentacion.png"
                                             alt=""></li>
