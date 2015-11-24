@@ -131,8 +131,6 @@ function my_page_template_redirect()
         'cacao-fino-de-aroma-it' => 'page-cacao-fino-de-aroma',
         'cacao-fino-de-aroma-ru' => 'page-cacao-fino-de-aroma',
 
-        'casaluker-es' => 'page-casaluker',
-
         'product' => 'page-productos',
         'produits' => 'page-productos',
         'produkte' => 'page-productos',
@@ -140,11 +138,18 @@ function my_page_template_redirect()
         'prodotto' => 'page-productos',
         'products' => 'page-productos',
 
-        'news' => 'page-noticias',
         'tailor-made-innovation' => 'page-a-su-medida',
+        'linnovation-sur-mesure' => 'page-a-su-medida',
+        'kundenwunsch' => 'page-a-su-medida',
+        'vylepsenia-na-mieru' => 'page-a-su-medida',
+        'innovazione-su-misura' => 'page-a-su-medida',
+        'tailor-made-innovation-ru' => 'page-a-su-medida',
+
+        'news' => 'page-noticias',
+
         'luker-1906-es' => 'page-luker-1906',
         'the-luker-way-es' => 'page-the-luker-way',
-
+        'casaluker-es' => 'page-casaluker',
         'news' => 'page-noticias',
         'contact' => 'page-contactenos',
         'recipes' => 'page-recetas',
