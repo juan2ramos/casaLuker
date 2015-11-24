@@ -132,11 +132,19 @@ function my_page_template_redirect()
         'cacao-fino-de-aroma-ru' => 'page-cacao-fino-de-aroma',
 
         'casaluker-es' => 'page-casaluker',
+
+        'product' => 'page-productos',
+        'produits' => 'page-productos',
+        'produits' => 'page-produkte',
+        'produits' => 'page-produkty',
+        'produits' => 'page-prodotto',
+        'produits' => 'page-ПРОДУКТЫ',
+
         'news' => 'page-noticias',
         'tailor-made-innovation' => 'page-a-su-medida',
         'luker-1906-es' => 'page-luker-1906',
         'the-luker-way-es' => 'page-the-luker-way',
-        'product' => 'page-productos',
+
         'news' => 'page-noticias',
         'contact' => 'page-contactenos',
         'recipes' => 'page-recetas',
