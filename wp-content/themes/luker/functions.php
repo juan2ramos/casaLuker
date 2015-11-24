@@ -125,6 +125,12 @@ function my_page_template_redirect()
     global $post;
     $arrayUrl = array(
         'cacao-fino-de-aroma-en' => 'page-cacao-fino-de-aroma',
+        'cacao-fino-de-aroma-fr' => 'page-cacao-fino-de-aroma',
+        'cacao-fino-de-aroma-de' => 'page-cacao-fino-de-aroma',
+        'cacao-fino-de-aroma-sk' => 'page-cacao-fino-de-aroma',
+        'cacao-fino-de-aroma-it' => 'page-cacao-fino-de-aroma',
+        'cacao-fino-de-aroma-ru' => 'page-cacao-fino-de-aroma',
+
         'casaluker-es' => 'page-casaluker',
         'news' => 'page-noticias',
         'tailor-made-innovation' => 'page-a-su-medida',
@@ -133,7 +139,7 @@ function my_page_template_redirect()
         'product' => 'page-productos',
         'news' => 'page-noticias',
         'contact' => 'page-contactenos',
-        'recipes' => 'page-recetas'
+        'recipes' => 'page-recetas',
 
     );
     if(array_key_exists( get_post($post)->post_name , $arrayUrl) ){
