@@ -92,7 +92,7 @@ $currentlang = get_bloginfo('language');
                         <option>Español</option>
                     </select>
                     <hr>
-                    <h4>Lenguaje</h4>
+                    <h4>País</h4>
                     <input class="newsletter-profile newsletter-profile-4" required type="text" size="30" name="np4"
                            placeholder="País"/>
                     <input class="newsletter-submit" type="submit" value="Subscribe"/>

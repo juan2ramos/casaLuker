@@ -66,7 +66,7 @@ $url = array(
 
 
 <video autoplay loop class="WrapperHome-videoSource" muted>
-    <source src="<?php bloginfo('template_url') ?>/assets/videos/home.mp4" type="video/mp4">
+    <source src="<?php bloginfo('template_url') ?>/assets/videos/<?php echo rand(1, 3);?>.mp4" type="video/mp4">
 </video>
 <h1 class="Logo">
     <figure class="Logo-img">
