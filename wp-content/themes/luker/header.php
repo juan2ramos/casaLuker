@@ -54,7 +54,7 @@ $currentlang = get_bloginfo('language');
                 src="<?php bloginfo('template_url') ?>/assets/images/logo-casa-luker.png" alt="Logo Casa Luker"></a>
     </figure>
     <div class="Header-wrapper">
-        <span class="Close">X</span>
+
       
         <figure class="Header-logo">
             <a href="<?php bloginfo('url') ?>"><img
