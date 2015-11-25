@@ -24,6 +24,56 @@ $url = array(
         'recetas' => 'recetas',
         'noticias' => 'noticias',
         'contactanos' => 'contactanos'
+    ),
+    "de-DE" => array(
+        'cacao' => 'cacao-fino-de-aroma-de',
+        'productos' => 'produkte',
+        'medida' => 'kundenwunsch',
+        'luker-way' => 'the-luker-way-de',
+        'casaluker' => 'casaluker-de',
+        'recetas' => 'rezepte',
+        'noticias' => 'aktuell',
+        'contactanos' => 'kontakt'
+    ),
+    "fr-FR" => array(
+        'cacao' => 'cacao-fino-de-aroma-fr',
+        'productos' => 'produits',
+        'medida' => 'linnovation-sur-mesure',
+        'luker-way' => 'the-luker-way-fr',
+        'casaluker' => 'casaluker-fr',
+        'recetas' => 'recettes',
+        'noticias' => 'nouvelles',
+        'contactanos' => 'contactez-nous'
+    ),
+    "it-IT" => array(
+        'cacao' => 'cacao-fino-de-aroma-it',
+        'productos' => 'prodotto',
+        'medida' => 'innovazione-su-misura',
+        'luker-way' => 'the-luker-way-it',
+        'casaluker' => 'casaluker-it',
+        'recetas' => 'ricette',
+        'noticias' => 'notizie',
+        'contactanos' => 'contatti'
+    ),
+    "sk-SK" => array(
+        'cacao' => 'cacao-fino-de-aroma-sk',
+        'productos' => 'produkty',
+        'medida' => 'vylepsenia-na-mieru',
+        'luker-way' => 'the-luker-way-sk',
+        'casaluker' => 'casaluker-sk',
+        'recetas' => 'recepty',
+        'noticias' => 'novinky',
+        'contactanos' => 'kontakty'
+    ),
+    "ru-RU" => array(
+        'cacao' => 'cacao-fino-de-aroma-ru',
+        'productos' => 'products',
+        'medida' => 'tailor-made-innovation-ru',
+        'luker-way' => 'the-luker-way-ru',
+        'casaluker' => 'casaluker-ru',
+        'recetas' => 'recipes-ru',
+        'noticias' => 'news-ru',
+        'contactanos' => 'contact-ru'
     )
 );
 
