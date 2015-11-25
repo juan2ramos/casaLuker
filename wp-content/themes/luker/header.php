@@ -49,9 +49,13 @@ $currentlang = get_bloginfo('language');
         <span></span>
         <span></span>
     </div>
+    <figure class="Header-logo-mobile">
+        <a href="<?php bloginfo('url') ?>"><img
+                src="<?php bloginfo('template_url') ?>/assets/images/logo-casa-luker.png" alt="Logo Casa Luker"></a>
+    </figure>
     <div class="Header-wrapper">
         <span class="Close">X</span>
-        <span class="Language">ES</span>
+      
         <figure class="Header-logo">
             <a href="<?php bloginfo('url') ?>"><img
                     src="<?php bloginfo('template_url') ?>/assets/images/logo-casa-luker.png" alt="Logo Casa Luker"></a>

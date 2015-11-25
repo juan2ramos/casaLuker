@@ -131,14 +131,14 @@
     &:last-child a
       border-right: none
 .Header-title
-  font-size: 7vw
+  font-size: 10vw
   margin: auto
   position: relative
   line-height: 1em
   text-align: center
   text-shadow: -1px 3px 7px #000
   text-transform: uppercase
-  top: calc(50vh - 2rem )
+  top: calc(50vh - 3rem )
   width: 60%
   @include respond-to(large)
     font-size: 5.3rem
@@ -203,7 +203,13 @@
   display: block
   @include respond-to(middle)
     display: none
-
+.Header-logo-mobile
+  position: absolute
+  top: 0
+  left: 2rem
+  margin: 0
+  @include respond-to(middle)
+    display: none
 body.open
   overflow-y: hidden
   & .Header-logo a
@@ -298,3 +304,6 @@ body.open
     width: 50%
     margin: 0 25%
     cursor: pointer
+
+.lang-item li
+  display: inline-block
