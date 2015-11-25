@@ -152,14 +152,33 @@ function my_page_template_redirect()
         'the-luker-way-it' => 'page-the-luker-way',
         'the-luker-way-ru' => 'page-the-luker-way',
 
-        'news' => 'page-noticias',
-
-        'luker-1906-es' => 'page-luker-1906',
-
         'casaluker-es' => 'page-casaluker',
-        'news' => 'page-noticias',
+        'casaluker-fr' => 'page-casaluker',
+        'casaluker-de' => 'page-casaluker',
+        'casaluker-sk' => 'page-casaluker',
+        'casaluker-it' => 'page-casaluker',
+        'casaluker-ru' => 'page-casaluker',
+
         'contact' => 'page-contactenos',
+        'contactez-nous' => 'page-contactenos', //fr
+        'kontakt' => 'page-contactenos',  //de
+        'kontakty' => 'page-contactenos', //sk
+        'contatti' => 'page-contactenos', //sk
+        'contact-ru' => 'page-contactenos', //ru
+
+        'news' => 'page-noticias',
+        'nouvelles' => 'page-noticias',
+        'aktuell' => 'page-noticias',
+        'novinky' => 'page-noticias',
+        'notizie' => 'page-noticias',
+        'news-ru' => 'page-noticias',
+
         'recipes' => 'page-recetas',
+        'recettes' => 'page-recetas',
+        'rezepte' => 'page-recetas',
+        'recepty' => 'page-recetas',
+        'ricette' => 'page-recetas',
+        'recipes-ru' => 'page-recetas',
 
     );
     if(array_key_exists( get_post($post)->post_name , $arrayUrl) ){
