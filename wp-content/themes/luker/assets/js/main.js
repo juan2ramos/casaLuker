@@ -71,7 +71,7 @@
         });
 
         $('.ButtonNav').on('click', function (e) {
-            $('body').toggleClass('open')
+            $('body').toggleClass('open');
         });
         $('.Close').on('click', function (e) {
             $('body').removeClass('open')
