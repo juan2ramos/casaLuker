@@ -38,7 +38,7 @@
                 <option value="ucrania"><?php _e('Ukraine','luker'); ?></option>
                 <!--<option value="24">Rumania</option>--> <!--<option value="25">Trinidad y Tobago</option>-->
             </optgroup>
-            <option value="26"><?php _e('Others','luker'); ?></option>
+            <option value="26"><?php _e('Others','luker'); ?>Otros</option>
         </select>
         <select id="dropdownCol" name="dropdownCol">
             <option value="0"><?php _e('Select City','luker'); ?>Seleccionar Ciudad</option>
@@ -53,7 +53,7 @@
         </select>
 
         <div class="Contact-locationMap">
-            <div class="belgica">
+            <div class="belgica-d">
                 <p><?php _e('Kortrijksesteenweg 1132','luker'); ?></p>
 
                 <p><?php _e('9051 Sint-Denijs-Westrem, Bélgica','luker'); ?>9051 Sint-Denijs-Westrem, Bélgica</p>
@@ -1209,7 +1209,7 @@
             <div id="ecuador" class="bgmapa-ecuador mapa"
                  style="background: url('<?php bloginfo("template_url") ?>/assets/images/locationLuker/mapa-ecuador.png') no-repeat top left; width: 760px; height: 400px;">
                 &nbsp;</div>
-            <div id="estados-unidos" class="bgmapa-estados-unidos mapa"
+            <div id="usa" class="bgmapa-estadosunidos mapa"
                  style="background: url('<?php bloginfo("template_url") ?>/assets/images/locationLuker/mapa-estados-unidos.png') no-repeat top left; width: 760px; height: 400px;">
                 &nbsp;</div>
             <div id="francia" class="bgmapa-francia mapa"
