@@ -731,9 +731,14 @@ Main.newsAndEvent
   margin: 4rem auto
   text-align: center
   max-width: 80rem
+
+
   & h2
     border-bottom: 1px dotted white
     margin-bottom: 2rem
+    text-align: left
+    @include respond-to(middle)
+      text-align: center
     &.top
       @include respond-to(small)
         margin-top: 10rem
@@ -809,9 +814,9 @@ Main.newsAndEvent
     font-size: 2rem
     cursor: pointer
     &:last-child
-      transform: rotate(90deg) translateY(-10px)
+      transform: rotate(90deg)  translateY(-10px)
   & h3
-    font-size: 3rem
+    font-size: 2.4rem
     line-height: .9em
     text-align: left
     border-top: 1px dashed #fff
