@@ -20,7 +20,7 @@ if ( ! class_exists( 'Jetpack_Contact_Info_Widget' ) ) {
 		 * Constructor
 		 *
 		 * @return void
-		 *
+		 **/
 		function __construct() {
 			$widget_ops = array(
 				'classname' => 'widget_contact_info',
