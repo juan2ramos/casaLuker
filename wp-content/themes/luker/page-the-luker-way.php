@@ -27,7 +27,7 @@
                 <li><a href="#" data-target="LukerWay-scientific"><?php _e('SCIENTIFIC APPROACH','luker'); ?></a></li>
             </ul>
         </div>
-        <div class="LukerWay-bar"><?php _e('CLICK OR SCROLL DOWN','luker'); ?><span style="display: none" class="LukerWay-barFirst"></span><span
+        <div class="LukerWay-bar">| <?php _e('CLICK OR SCROLL DOWN','luker'); ?> |<span style="display: none" class="LukerWay-barFirst"></span><span
                 data-target="LukerWay-cacao" class="LukerWay-barLast"></span></div>
     </section>
 

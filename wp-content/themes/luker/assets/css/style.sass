@@ -1166,6 +1166,9 @@ article.LukerWay-scientificContent
     position: absolute
     left: -2rem
     background: #000
+    display: none
+    @include respond-to(middle)
+      display: block
     @include transform(rotate(90deg) translate(110px,47px))
     padding: .5rem 1rem 0.5rem 1.5rem
     letter-spacing: 4px
