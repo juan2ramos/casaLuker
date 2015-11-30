@@ -900,7 +900,7 @@ Main.newsAndEvent
   & section
     background-size: cover
     background-position: center
-    height: calc(100vh - 2rem)
+    height: calc(100vh + 2rem)
     position: relative
     &:before
       content: ''
@@ -930,13 +930,17 @@ section.LukerWay-social
 .LukerWay-business
   background-image: url("../images/cacao-3.jpg")
   display: block
+  padding-top: 0
   @include respond-to(middle)
+
     display: block
   &:before
     display: none !important
 
 .LukerWay-scientific
   background-image: url("../images/cacao-2.jpg")
+  padding-top: 0
+
 
 
 section.socialNetwork
@@ -964,7 +968,7 @@ section.socialNetwork
   display: inline-block
   width: 100%
   vertical-align: middle
-  padding: 1.3rem
+  padding: 4rem 1.3rem
   @include respond-to(small)
     padding: 3rem
   & p
@@ -1244,9 +1248,6 @@ article.LukerWay-scientificContent
   left: 0
   background: rgba(0, 0, 0, 0.4)
   position: absolute
-  display: none
-  @include respond-to(middle)
-    display: block
   & div
     color: white
     display: inline-block
@@ -1262,11 +1263,11 @@ article.LukerWay-scientificContent
       padding: 4rem 2rem
       width: 49%
   & h2
-    font-size: 1.2rem
+    font-size: 2.5rem
     line-height: 1em
     max-width: 40rem
-    margin: 1.5rem auto 1rem
     text-align: center
+    margin: 8.5rem auto 1rem
     @include respond-to(small)
       font-size: 3rem
       margin: 0 auto 3rem
@@ -1280,19 +1281,26 @@ article.LukerWay-scientificContent
     max-width: 40rem
     margin: 0 auto .5rem
     text-align: center
+    display: none
+
     @include respond-to(small)
       font-size: 2.8rem
       text-align: left
       margin: 0 auto 2rem
+      display: block
   & p
     max-width: 40rem
     margin: 0 auto
     line-height: 1.2em
     font-size: .8rem
+    display: none
     @include respond-to(small)
+      display: block
       margin: 0 auto 2rem
       font-size: 1rem
       line-height: 1em
+
+
 
     & a
       display: block
@@ -1301,6 +1309,9 @@ article.LukerWay-scientificContent
     max-width: 40rem
     margin: auto
     font-weight: bold
+    display: none
+    @include respond-to(small)
+      display: block
     & li
       margin: .1rem .3rem
       font-size: .8rem
@@ -1369,12 +1380,12 @@ article.LukerWay-scientificContent
   height: 100%
   width: 100%
   background: rgba(0, 0, 0, 0.71)
-  border-right: #fff solid thick
   left: 0
   top: 0
   @include respond-to(middle)
     width: calc(50% - 45px)
     left: 3rem
+    border-right: #fff solid thick
 
 .inline
   vertical-align: middle
@@ -1558,11 +1569,12 @@ article.LukerWay-scientificContent
   height: 100%
   width: 100%
   background: rgba(0, 0, 0, 0.71)
-  border-left: #fff solid thick
+
   top: 0
   @include respond-to(middle)
     right: 3rem
     width: calc(50% - 45px)
+    border-left: #fff solid thick
 
 .LukerWay-cacaoArrowRight
   position: absolute
@@ -1679,11 +1691,13 @@ article.LukerWay-scientificContent
       padding: 0 .6rem
       border-radius: 4px
   & h2
-    margin: 0 3rem
-    font-size: 2.5rem
-    display: none
+    margin: 0 3rem 1rem
+    font-size: 1.5rem
+    text-align: center
     @include respond-to(middle)
-      display: block
+      font-size: 2.5rem
+      text-align: left
+      margin: 0 3rem
   & h3
     position: absolute
     width: 100%
@@ -1763,9 +1777,9 @@ article.LukerWay-scientificContent
       font-size: .8rem
       line-height: 1em
       padding: 0 1.5rem
-      text-align: center
-      @include respond-to(middle)
-        text-align: left
+      text-align: left
+
+
     & li
       display: inline-block
       width: 100%
