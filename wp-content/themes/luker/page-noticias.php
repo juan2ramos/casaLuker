@@ -19,16 +19,16 @@
                     <div class="content-news">
                         <h2><?php echo $post->post_title; ?></h2>
 
-                        <div class="font-size: 0.7em; <?php if($first) echo 'heightDiv' ?>"><?php echo $post->post_content; ?></div>
-                        <button class="lessNews <?php if($first) echo 'show' ?>">
+                        <div class="font-size: 0.7em; "><?php echo $post->post_content; ?></div>
+                        <!--<button class="lessNews <?php /*if($first) echo 'show' */?>">
                             <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                  xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
                                 <path fill="#000" d="M16 31l15-15h-9v-16h-12v16h-9z"></path>
                             </svg>
-                        </button>
+                        </button>-->
                     </div>
                     <span class="borderBottom"></span>
-                    <button class="moreNews"><span class="<?php if($first) echo 'rotate' ?>"></span><span></span></button>
+                    <a href=""><button class="moreNews"><span "></span><span></span></button></a>
                 </article>
             <?php endwhile; ?>
             <div class="Pagination">
