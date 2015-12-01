@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-24 12:29-0500\n"
+"PO-Revision-Date: 2015-12-01 11:24-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -756,7 +756,7 @@ msgid "READ +"
 msgstr "EwE"
 
 msgid "GET MORE INFO"
-msgstr "Получить более подробную информацию"
+msgstr "GET MORE INFO"
 
 msgid "Astringent"
 msgstr "вяжущиuú"
@@ -1027,7 +1027,9 @@ msgstr "Во время сбора урожая мы проводим разли
 msgid "Previous post:"
 msgstr "Entrada anterior:"
 
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+#: inc/customizer.php:47
+#: inc/customizer.php:63
+#: inc/customizer.php:68
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Aplicado a la cabecera en pantallas pequeñas y a la barra lateral en pantallas anchas."
 
@@ -1070,7 +1072,8 @@ msgctxt "Used before category names."
 msgid "Categories"
 msgstr "Categorías"
 
-#: inc/template-tags.php:91 inc/template-tags.php:99
+#: inc/template-tags.php:91
+#: inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ", "
@@ -1142,7 +1145,9 @@ msgstr "Esquema de color básico"
 msgid "Header and Sidebar Text Color"
 msgstr "Color de texto de cabecera y barra lateral"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+#: inc/back-compat.php:37
+#: inc/back-compat.php:47
+#: inc/back-compat.php:60
 msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
 msgstr "Twenty Fifteen requiere al menos la versión 4.1 de WordPress. Estás ejecutando la versión %s. Por favor, actualiza e inténtalo de nuevo."
 
@@ -1248,17 +1253,26 @@ msgstr "¿Preparado para publicar tu primera entrada? <a href=\"%1$s\">Empieza a
 msgid "Nothing Found"
 msgstr "No se ha encontrado nada"
 
-#: content-link.php:56 content-page.php:35 content-search.php:28
-#: content-search.php:33 content.php:57 image.php:71
+#: content-link.php:56
+#: content-page.php:35
+#: content-search.php:28
+#: content-search.php:33
+#: content.php:57
+#: image.php:71
 msgid "Edit"
 msgstr "Editar"
 
-#: content-link.php:36 content-page.php:25 content.php:38 image.php:59
+#: content-link.php:36
+#: content-page.php:25
+#: content.php:38
+#: image.php:59
 msgid "Pages:"
 msgstr "Páginas:"
 
 #. translators: %s: Name of current post
-#: content-link.php:31 content.php:33 inc/template-tags.php:238
+#: content-link.php:31
+#: content.php:33
+#: inc/template-tags.php:238
 msgid "Continue reading %s"
 msgstr "Continúa leyendo %s"
 
@@ -1281,16 +1295,25 @@ msgstr "Lee todas las entradas de %s"
 msgid "Published by"
 msgstr "Publicado por"
 
-#: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
-#: image.php:63 index.php:48 search.php:40
+#: archive.php:51
+#: content-link.php:40
+#: content-page.php:29
+#: content.php:42
+#: image.php:63
+#: index.php:48
+#: search.php:40
 msgid "Page"
 msgstr "Página"
 
-#: archive.php:50 index.php:47 search.php:39
+#: archive.php:50
+#: index.php:47
+#: search.php:39
 msgid "Next page"
 msgstr "Próxima página"
 
-#: archive.php:49 index.php:46 search.php:38
+#: archive.php:49
+#: index.php:46
+#: search.php:38
 msgid "Previous page"
 msgstr "Página anterior"
 
@@ -1301,3 +1324,4 @@ msgstr "Parece que no hay nada en esa ubicación ¿quieres probar a buscar?"
 #: 404.php:17
 msgid "Oops! That page can&rsquo;t be found."
 msgstr "¡Vaya! No se pudo encontrar esa página."
+
