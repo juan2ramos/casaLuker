@@ -101,12 +101,14 @@ $levels = get_terms("level", array("hide_empty" => false));
                     <div class="gr">
                         gr <span>►</span>
                     </div>
-                    <svg version="1.1" id="closeX" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                        <g>
-                            <line class="st0" x1="57.7" y1="0.8" x2="0" y2="56.9"/>
-                            <line class="st0" x1="0" y1="0" x2="57.7" y2="57.7"/>
-                        </g>
-                    </svg>
+                     <a href="<?php echo get_site_url(); ?>/recetas">
+                         <svg version="1.1" id="closeX" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                             <g>
+                                 <line class="st0" x1="57.7" y1="0.8" x2="0" y2="56.9"/>
+                                 <line class="st0" x1="0" y1="0" x2="57.7" y2="57.7"/>
+                             </g>
+                         </svg>
+                     </a>
                 </span>
             </div>
         </div>
