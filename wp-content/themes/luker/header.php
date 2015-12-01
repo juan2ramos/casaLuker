@@ -38,8 +38,8 @@ $currentlang = get_bloginfo('language');
 </head>
 
 <body <?php body_class(); ?> data-urlBody="<?php bloginfo('url') ?>">
-
-<?php $image = (get_post()->post_type == "registernews")?get_home_url().'/wp-content/uploads/2015/09/bg-top7.jpg':wp_get_attachment_image_src(get_post_thumbnail_id(), 'large')['0']  ; ?>
+<?php $upload_dir = wp_upload_dir(); ?>
+<?php $image = (get_post()->post_type == "registernews")?$upload_dir['baseurl'].'/2015/09/bg-top7.jpg':wp_get_attachment_image_src(get_post_thumbnail_id(), 'large')['0']  ; ?>
 
 <header class="Header" style="
     background-image: url(<?php echo $image ?>)
@@ -50,6 +50,9 @@ $currentlang = get_bloginfo('language');
         <span></span>
     </div>
     <figure class="Header-logo-mobile">
+
+
+
         <a href="<?php bloginfo('url') ?>"><img
                 src="<?php bloginfo('template_url') ?>/assets/images/logo-casa-luker.png" alt="Logo Casa Luker"></a>
     </figure>
