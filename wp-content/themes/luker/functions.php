@@ -152,12 +152,12 @@ function my_page_template_redirect()
         'the-luker-way-it' => 'page-the-luker-way',
         'the-luker-way-ru' => 'page-the-luker-way',
 
-        'casaluker-es' => 'page-casaluker',
-        'casaluker-fr' => 'page-casaluker',
-        'casaluker-de' => 'page-casaluker',
-        'casaluker-sk' => 'page-casaluker',
-        'casaluker-it' => 'page-casaluker',
-        'casaluker-ru' => 'page-casaluker',
+        'granjaluker-es' => 'page-granja-luker',
+        'granjaluker-fr' => 'page-granja-luker',
+        'granjaluker-de' => 'page-granja-luker',
+        'granjaluker-sk' => 'page-granja-luker',
+        'granjaluker-it' => 'page-granja-luker',
+        'granjaluker-ru' => 'page-granja-luker',
 
         'contact' => 'page-contactenos',
         'contactez-nous' => 'page-contactenos', //fr
