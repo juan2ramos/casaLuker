@@ -3,7 +3,7 @@
         <section class="news">
             <?php
 
-            $args = array('post_type' => 'registerNews', 'order' => 'DESC', 'paged' => $paged, 'posts_per_page' => 1);
+            $args = array('post_type' => 'registerNews', 'order' => 'DESC', 'paged' => $paged, 'posts_per_page' => 10);
             $query = new WP_Query($args);
 
             while ($query->have_posts()) : $query->the_post();
