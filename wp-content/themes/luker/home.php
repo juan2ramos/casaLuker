@@ -175,7 +175,7 @@ $url = array(
             </a>
         </li>
         <li>
-            <a href="<?php echo bloginfo('url') ?>/granja-luker">
+            <a href="<?php echo bloginfo('url') . '/' .  $url[get_bloginfo('language')]['recetas']; ?>">
                 <figure class="NavHome-figureSix">
                     <img src="<?php bloginfo('template_url') . '/' .  $url[get_bloginfo('language')]['granja-luker']; ?>/assets/images/home/granja-luker-large.png" alt="">
                 </figure>
