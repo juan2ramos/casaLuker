@@ -15,19 +15,23 @@
                 <iframe style="margin: auto; max-width: 90%; display: block" width="560" height="315" src="https://www.youtube.com/embed/i9mntSLed7E" frameborder="0"
                         allowfullscreen></iframe>
                 <article class="city" style="    width: 100%;">
-                    <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/desgranado-large.jpg">
-                        <img src="<?php bloginfo('template_url') ?>/assets/images/desgranado.jpg" alt="">
+                    <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/arbol.jpg">
+                        <img style="max-width: 120px;" src="<?php bloginfo('template_url') ?>/assets/images/arbol.jpg" alt="">
                     </a>
-                    <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/flor-a-escala-large.jpg">
-                        <img src="<?php bloginfo('template_url') ?>/assets/images/flor-a-escala.jpg" alt="">
-                    </a>
-                    <a class="test-popup-link"
-                       href="<?php bloginfo('template_url') ?>/assets/images/grano-bien-fermentado-large.jpg">
-                        <img src="<?php bloginfo('template_url') ?>/assets/images/grano-bien-fermentado.jpg" alt="">
+                    <a class="test-popup-link" href="<?php bloginfo('template_url') ?>/assets/images/dr-a.jpg">
+                        <img style="max-width: 120px;" src="<?php bloginfo('template_url') ?>/assets/images/dr-a.jpg" alt="">
                     </a>
                     <a class="test-popup-link"
-                       href="<?php bloginfo('template_url') ?>/assets/images/mazorcas-large.jpg">
-                        <img src="<?php bloginfo('template_url') ?>/assets/images/mazorcas.jpg" alt="">
+                       href="<?php bloginfo('template_url') ?>/assets/images/desgranado1.jpg">
+                        <img style="max-width: 120px;" src="<?php bloginfo('template_url') ?>/assets/images/desgranado1.jpg" alt="">
+                    </a>
+                    <a class="test-popup-link"
+                       href="<?php bloginfo('template_url') ?>/assets/images/corte-de-mazorcas1.jpg">
+                        <img style="max-width: 120px;" src="<?php bloginfo('template_url') ?>/assets/images/corte-de-mazorcas.jpg" alt="">
+                    </a>
+                    <a class="test-popup-link"
+                       href="<?php bloginfo('template_url') ?>/assets/images/fermentacion.jpg">
+                        <img style="max-width: 120px;" src="<?php bloginfo('template_url') ?>/assets/images/fermentacion.jpg" alt="">
                     </a>
                 </article>
 
