@@ -12,6 +12,7 @@
                 ?>
 
                 <article>
+
                     <?php if (has_post_thumbnail()) : ?>
                         <figure>
                             <?php the_post_thumbnail(); ?>
@@ -35,7 +36,7 @@
                         </button>-->
                     </div>
                     <span class="borderBottom"></span>
-                    <a href="">
+                    <a href=" <?php  echo get_permalink($post->ID) ?>">
                         <button class="moreNews"><span "></span><span></span></button>
                     </a>
                 </article>
