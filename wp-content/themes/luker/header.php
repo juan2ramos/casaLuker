@@ -39,10 +39,10 @@ $currentlang = get_bloginfo('language');
 
 <body <?php body_class(); ?> data-urlBody="<?php bloginfo('url') ?>">
 
+<?php $image = (get_post()->post_type == "registernews")?get_home_url().'/wp-content/uploads/2015/09/bg-top7-1024x540.jpg':wp_get_attachment_image_src(get_post_thumbnail_id(), 'large')['0']  ; ?>
 
-<?php the_post(); ?>
 <header class="Header" style="
-    background-image: url(<?php echo wp_get_attachment_image_src(get_post_thumbnail_id(), 'large')['0'] ?>)
+    background-image: url(<?php echo $image ?>)
     ">
     <div class="ButtonNav">
         <span></span>
@@ -173,7 +173,6 @@ $currentlang = get_bloginfo('language');
     </div>
 
 </header>
-
 
 <script type="text/javascript">
     //<![CDATA[
