@@ -90,9 +90,9 @@ function registerNews()
     register_post_type('registerNews', $args);
 }
 
-function wp_corenavi($prev = '«', $next = '»')
+function wp_corenavi($query, $prev = '«', $next = '»')
 {
-    global $query, $wp_rewrite;
+    global  $wp_rewrite;
     $query->query_vars['paged'] > 1 ? $current = $query->query_vars['paged'] : $current = 1;
     $pagination = array(
         'base' => @add_query_arg('paged', '%#%'),
