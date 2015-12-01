@@ -521,9 +521,8 @@
                 <h2><?php _e('ENTREPRENEURIAL PROJECTS', 'luker'); ?></h2>
 
                 <p><?php _e('We have developed a cocoa promotion model for investors in order to motivate the cocoa culture in the country; our goal is to have 5000 hectares planted by 2017.', 'luker'); ?>
-                    Hemos desarrollado un modelo de promoción de cacao para los inversionistas con el fin de promover la
-                    cultura del cacao en el país; nuestro objetivo es tener 5.000 hectáreas plantadas en el año
-                    2017.</p>
+
+                    </p>
 
                 <p><?php _e('For more information contact:', 'luker'); ?>:
                     <a href="jcarroyave@casaluker.com.co">jcarroyave@casaluker.com.co</a></p>
@@ -535,7 +534,7 @@
                     <li><?php _e('Software for production cost control', 'luker'); ?></li>
                     <li><?php _e('Seeds and vegetal material supplying', 'luker'); ?>.</li>
                     <li><?php _e('Nursery team', 'luker'); ?></li>
-                    <li><?php _e('Financial mode', 'luker'); ?>Modelo financiero.</li>
+                    <li><?php _e('Financial mode', 'luker'); ?></li>
                     <li><?php _e('Financial resources, funds and investors information', 'luker'); ?></li>
                 </ul>
             </div>

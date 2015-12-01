@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-01 11:24-0500\n"
+"PO-Revision-Date: 2015-12-01 16:56-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -58,6 +58,12 @@ msgstr "KONTAKTY"
 
 msgid "CRIOLLO AND TRINITARIO COCOAS"
 msgstr "KAKAO CRIOLLO A TRINITARIO"
+
+msgid "In the Luker Farm we develop and promote profitable cocoa models through our training courses. Our cocoa models ensures and increases the income of the farmer and have an impact on their life quality. Our agroforestry model, cocoa - banana - fruit - timber, and our training program for harvesting and post harvesting, guarantees the farmer’s incomes in the short and long-term family cocoa. Granja Luker was created with the objective of creating a center to promote the cocoa harvesting in the country among small producers. Today we educate more than 700 people annually."
+msgstr "Farme Luker sa cez svoj tréningový program podieľa na zvyšovaní kvality života a príjmu farmárov. Garantujem krátko aj dlhodobý príjem pre farmárske rodiny. Predstavujeme náš model pestovania: kakao – banán – ovocie – drevo, ponúkame tréningový program zameraný na kultiváciu ako aj spracovanie po zber. Granja Luker vznikla s cieľom vytvoriť centrum na podporu malých pestovateľov kakaa v krajine. Dnes školíme viac ako 700 ľudí ročne."
+
+msgid "CASA LUKER TRAINING MODEL. BETTER COCOA AND PRODUCTIVITY: HIGHER INCOME FOR THE FARMERS"
+msgstr "CASA LUKER TRÉNINGOÝ MODEL.NAJLEPŠIE KAKAO A PRODUKCIA: VIAC PRÍJMU PRE FARMÁROV"
 
 msgid "Cacao Fino de Aroma comes from criollo and trinitarian varieties, which are different, in aroma and flavour, from common cocoas which derive from forastero varieties."
 msgstr "Kakao Fino de Aroma pochádza z odrôd criollo a trinitario, ktoré sa svojou vôňou a chuťou odlišujú od bežného kakaa z odrôd forestero."

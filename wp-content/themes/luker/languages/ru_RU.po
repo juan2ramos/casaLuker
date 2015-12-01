@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-01 11:24-0500\n"
+"PO-Revision-Date: 2015-12-01 16:55-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -58,6 +58,12 @@ msgstr "СВЯЖИТЕСЬ С НАМИ"
 
 msgid "CRIOLLO AND TRINITARIO COCOAS"
 msgstr "Сорта «Криольо» и «Тринитарио»"
+
+msgid "In the Luker Farm we develop and promote profitable cocoa models through our training courses. Our cocoa models ensures and increases the income of the farmer and have an impact on their life quality. Our agroforestry model, cocoa - banana - fruit - timber, and our training program for harvesting and post harvesting, guarantees the farmer’s incomes in the short and long-term family cocoa. Granja Luker was created with the objective of creating a center to promote the cocoa harvesting in the country among small producers. Today we educate more than 700 people annually."
+msgstr "На агроферме Лукер разрабатываются рентабельные модели выращивания какао, которым мы обучаем фермеров на наших курсах. Это благотворно влияет на качество жизни фермеров, увеличивая их доходы Наша система сочетания разных видов растений - деревьев какао, фруктовых деревьев и строевого леса - а также программы обучающие уходу за растениями и плодами до и после сбора урожая гарантируют семейным фермерски предприятиям-производителям какао краткосрочный и долгосрочный доход. Агроферма Лукер была основана, как центр по снабжению саженцами какао мелких и средних фермеров.Сегодня мы обучаем более 700 человек в год."
+
+msgid "CASA LUKER TRAINING MODEL. BETTER COCOA AND PRODUCTIVITY: HIGHER INCOME FOR THE FARMERS"
+msgstr "ПРОФЕССИОНАЛЬНАЯ ПОДГОТОВКА CASALUKER. ЛУЧШЕЕ КАКАО И БОЛЬШАЯ ПРОИЗВОДИТЕЛЬНОСТЬ: ПОВЫШЕНИЕ ДОХОДА ФЕРМЕРОВ"
 
 msgid "Cacao Fino de Aroma comes from criollo and trinitarian varieties, which are different, in aroma and flavour, from common cocoas which derive from forastero varieties."
 msgstr "Какао этого типа относится в основном к сортам Криольо и Тринитарио, которые по своим вкусовым и ароматическим характеристикам отличаются от какао сорта Форастеро."

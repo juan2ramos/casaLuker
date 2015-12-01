@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-01 11:22-0500\n"
+"PO-Revision-Date: 2015-12-01 16:49-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -58,6 +58,12 @@ msgstr "KONTAKT"
 
 msgid "CRIOLLO AND TRINITARIO COCOAS"
 msgstr "CRIOLLO UND TRINITARIO KAKAO"
+
+msgid "In the Luker Farm we develop and promote profitable cocoa models through our training courses. Our cocoa models ensures and increases the income of the farmer and have an impact on their life quality. Our agroforestry model, cocoa - banana - fruit - timber, and our training program for harvesting and post harvesting, guarantees the farmer’s incomes in the short and long-term family cocoa. Granja Luker was created with the objective of creating a center to promote the cocoa harvesting in the country among small producers. Today we educate more than 700 people annually."
+msgstr "In der Granja Luker entwickeln und fördern wir durch unsere Ausbildungskurse rentable Kakaoanbaumethoden, die sich positiv und konkret auf die Lebensqualität und die Einkommen der Kakaobauern auswirken. Unser Modell der Aussaat von Kakao – Bananen – Früchte – Holz, sowie unsere Ausbildungsprogramme über Saat, Ernte und Nachbearbeitung der Ernte garantiert den Kakaobauern und ihren Familien ein solides kurz- und langfristiges Einkommen. Granja Luker wurde mit dem Ziel gegründet, ein Zentrum der Förderung von Kakaoanbau für Kleinbauern zu werden. Heute bilden wir jedes Jahr über 700 Personen aus."
+
+msgid "CASA LUKER TRAINING MODEL. BETTER COCOA AND PRODUCTIVITY: HIGHER INCOME FOR THE FARMERS"
+msgstr "AUSBILDUNGSMODELL VON CASALUKERBESSERER KAKAO UND HÖHERE PRODUKTIVITÄT: MEHR EINNAHMEN FÜR DEN KAKAOBAUERN"
 
 msgid "Cacao Fino de Aroma comes from criollo and trinitarian varieties, which are different, in aroma and flavour, from common cocoas which derive from forastero varieties."
 msgstr "Fino de Aroma Kakao wird aus hochwertigen Criollo- und Trinitario-Kakaobohnen gewonnen, die sich aromatisch und geschmacklich von den am weitesten verbreiteten forastero-Bohnen abheben."

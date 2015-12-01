@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-01 11:23-0500\n"
+"PO-Revision-Date: 2015-12-01 16:41-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -58,6 +58,12 @@ msgstr "Contáctenos"
 
 msgid "CRIOLLO AND TRINITARIO COCOAS"
 msgstr "CRIOLLOS Y TRINITARIOS"
+
+msgid "In the Luker Farm we develop and promote profitable cocoa models through our training courses. Our cocoa models ensures and increases the income of the farmer and have an impact on their life quality. Our agroforestry model, cocoa - banana - fruit - timber, and our training program for harvesting and post harvesting, guarantees the farmer’s incomes in the short and long-term family cocoa. Granja Luker was created with the objective of creating a center to promote the cocoa harvesting in the country among small producers. Today we educate more than 700 people annually."
+msgstr "En la Granja Luker desarrollamos modelos de cultivo de cacao rentables y fomentamos la siembra de estos a través de nuestros cursos de capacitación. Lo anterior genera impacto en la calidad de vida del agricultor y aumento en sus ingresos. Nuestro modelo de siembra –cacao, plátano, árboles frutales y maderables- y nuestro programa de capacitación en cultivo y post cosecha, garantizan ingresos a corto y largo plazo a las familias cacaoteras. La Granja Luker fue fundada con el objetivo de generar un centro de fomento de cultivo de cacao para los pequeños y medianos productores del país. Hoy educamos a más de 700 personas anualmente."
+
+msgid "CASA LUKER TRAINING MODEL. BETTER COCOA AND PRODUCTIVITY: HIGHER INCOME FOR THE FARMERS"
+msgstr "MODELO DE CAPACITACIÓN CASALUKER.MEJOR CACAO Y MAYOR PRODUCTIVIDAD: MÁS INGREOS PARA EL AGRICULTOR"
 
 msgid "Cacao Fino de Aroma comes from criollo and trinitarian varieties, which are different, in aroma and flavour, from common cocoas which derive from forastero varieties."
 msgstr "Los cacaos de este tipo provienen en su mayoría de cacaos criollos y trinitarios, que son diferentes en términos de aroma y sabor a los cacaos de tipo forastero."

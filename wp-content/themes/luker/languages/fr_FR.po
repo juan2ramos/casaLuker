@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-01 11:23-0500\n"
+"PO-Revision-Date: 2015-12-01 16:51-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -58,6 +58,12 @@ msgstr "Contáctez-Nous"
 
 msgid "CRIOLLO AND TRINITARIO COCOAS"
 msgstr "CRIOLLOS ET TRINITARIOS"
+
+msgid "In the Luker Farm we develop and promote profitable cocoa models through our training courses. Our cocoa models ensures and increases the income of the farmer and have an impact on their life quality. Our agroforestry model, cocoa - banana - fruit - timber, and our training program for harvesting and post harvesting, guarantees the farmer’s incomes in the short and long-term family cocoa. Granja Luker was created with the objective of creating a center to promote the cocoa harvesting in the country among small producers. Today we educate more than 700 people annually."
+msgstr "Dans la Granja Luker on développe des modèles de culture de cacao rentable et on encourage les agriculteurs à travers de nos cours de formation. Ceci génère de l’impacte dans leur qualité de vie et une augmentation de leurs revenus. Notre modèle d'ensemencement - avec du cacao, des bananes, des arbres fruitiers et du bois - et notre programme de formation depuis la culture jusqu'à la post récolte, garantissent aux familles cacaotières des revenus à court et à long terme. La Granja Luker a été fondée avec le but de créer un centre d’encouragement de la culture du cacao pour les petits et moyens producteurs du pays. Aujourd’hui on forme plus de 700 personnes par année."
+
+msgid "CASA LUKER TRAINING MODEL. BETTER COCOA AND PRODUCTIVITY: HIGHER INCOME FOR THE FARMERS"
+msgstr "MODÈLE DE FORMATION CASALUKER.UN MEILLEUR CACAO ET PLUS DE PRODUCTIVITÉ: PLUS DE REVENUS POUR L’AGRICULTEUR."
 
 msgid "Cacao Fino de Aroma comes from criollo and trinitarian varieties, which are different, in aroma and flavour, from common cocoas which derive from forastero varieties."
 msgstr ""

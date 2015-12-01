@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-01 11:23-0500\n"
+"PO-Revision-Date: 2015-12-01 16:53-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -58,6 +58,12 @@ msgstr "CONTATTI"
 
 msgid "CRIOLLO AND TRINITARIO COCOAS"
 msgstr "CACAO CRIOLLO E TRINITARIO"
+
+msgid "In the Luker Farm we develop and promote profitable cocoa models through our training courses. Our cocoa models ensures and increases the income of the farmer and have an impact on their life quality. Our agroforestry model, cocoa - banana - fruit - timber, and our training program for harvesting and post harvesting, guarantees the farmer’s incomes in the short and long-term family cocoa. Granja Luker was created with the objective of creating a center to promote the cocoa harvesting in the country among small producers. Today we educate more than 700 people annually."
+msgstr "All’interno di Granja Luker, sviluppiamo e promoviamo attraverso i nostri corsi di formazione modelli di coltivazione del cacao con un impatto profittevole sulla qualità della vita e un aumento dei redditi dell’agricoltore. Il nostro modello di piantagioni di cacao –banane - frutta - legname e il nostro programma di formazione sulla coltivazione e sulle attività successive al raccolto hanno garantito un reddito a breve e lungo termine alle famiglie che si dedicano al cacao. Granja Luker è stato creato con l’obiettivo di avere nel paese un centro di promozione della coltivazione del cacao per i piccoli produttori. Oggi formiamo più di 700 persone all’anno."
+
+msgid "CASA LUKER TRAINING MODEL. BETTER COCOA AND PRODUCTIVITY: HIGHER INCOME FOR THE FARMERS"
+msgstr "MODELLO FORMATIVO DI CASA LUKER.MIGLIOR CACAO E PRODUTTIVITÀ: MAGGIORI GUADAGNI PER I COLTIVATORI"
 
 msgid "Cacao Fino de Aroma comes from criollo and trinitarian varieties, which are different, in aroma and flavour, from common cocoas which derive from forastero varieties."
 msgstr "Il cacao Fino de Aroma proviene dalle varietà Criollo e Trinitario, che sono diverse in quanto ad aroma e gusto dai tipi di cacao comune che derivano dalle varietà Forastero."
