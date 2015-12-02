@@ -16,7 +16,8 @@ if(get_post()->post_type == "registernews"){
         'sk-SK' => 'NOVINKY',
     );
 }
-$titleNews = ($arrayTitleNews)?$arrayTitleNews[$currentlang]:the_title();;
+$titleNews = ($arrayTitleNews)?$arrayTitleNews[$currentlang]:get_the_title();
+
 ?>
 
 <!DOCTYPE html>
@@ -71,7 +72,7 @@ $titleNews = ($arrayTitleNews)?$arrayTitleNews[$currentlang]:the_title();;
     </figure>
     <div class="Header-wrapper">
 
-      
+
         <figure class="Header-logo">
             <a href="<?php bloginfo('url') ?>"><img
                     src="<?php bloginfo('template_url') ?>/assets/images/logo-casa-luker.png" alt="Logo Casa Luker"></a>
@@ -151,7 +152,7 @@ $titleNews = ($arrayTitleNews)?$arrayTitleNews[$currentlang]:the_title();;
                 );
                 echo $arrayTitle[get_bloginfo('language')];
             } else {
-                $titleNews;
+                echo $titleNews;
             }
             ?>
 
