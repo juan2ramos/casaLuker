@@ -119,7 +119,7 @@ Theme: Luker
 
     <div class="More" id="down">
         <a href="#">
-            <span class="More-view">VER +</span>
+
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
                  y="0px" viewBox="0 0 842 595" enable-background="new 0 0 842 595">
                 <defs>
