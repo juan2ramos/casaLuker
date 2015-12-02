@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-01 16:41-0500\n"
+"PO-Revision-Date: 2015-12-02 09:56-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -931,6 +931,9 @@ msgstr "CONOCE TODAS LAS RECETAS DE NUESTROS CHEFS."
 
 msgid "AND BUYING AGENCIES"
 msgstr "y agencias de compra"
+
+msgid "TRAINING PANEL"
+msgstr "PANEL DE CAPACITACIÓN"
 
 msgid "Our main cocoa bean suppliers are the farmers associations with which we maintain purchasing contracts in order to guarantee the sale of their harvest."
 msgstr "Nuestros principales proveedores de cacao en grano son las asociaciones de agricultores con los que mantenemos contratos de compra con el fin de garantizar la venta de su cosecha."
