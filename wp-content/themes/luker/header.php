@@ -4,6 +4,19 @@ Description: The Header
 Theme: Luker
 */
 $currentlang = get_bloginfo('language');
+$arrayTitleNews = false;
+if(get_post()->post_type == "registernews"){
+    $arrayTitleNews = array(
+        'es_CO' => 'NOTICIAS',
+        'de_DE' => 'AKTUELL',
+        'en_US' => 'NEWS',
+        'fr_FR' => 'NOUVELLES',
+        'it_IT' => 'NOTIZIE',
+        'ru_RU' => 'NEWS',
+        'sk_SK' => 'NOVINKY',
+    );
+}
+$titleNews = ($arrayTitleNews)?$arrayTitleNews[$currentlang]:the_title();;
 ?>
 
 <!DOCTYPE html>
@@ -138,7 +151,7 @@ $currentlang = get_bloginfo('language');
                 );
                 echo $arrayTitle[get_bloginfo('language')];
             } else {
-                the_title();
+                $titleNews;
             }
             ?>
 
