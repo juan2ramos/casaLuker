@@ -38,7 +38,7 @@
                 <div>
                     <i class="Nose" id="NosePrev">►</i>
                     <h3><?php _e('THE COCOA TASTING NOSE','luker'); ?></h3>
-                    <span><?php _e('PANEL DE CAPACITACIÓN','luker'); ?></span>
+                    <span><?php _e('TRAINING PANEL','luker'); ?></span>
                     <i class="Nose" id="NoseNext">►</i>
                 </div>
 
