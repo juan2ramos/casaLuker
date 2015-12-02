@@ -80,19 +80,19 @@ function registerNews()
         'publicly_queryable' => true,
         'show_ui' => true,
         'query_var' => true,
-        'rewrite' => true,
         'capability_type' => 'post',
         'hierarchical' => false,
         'menu_position' => null,
+        'rewrite' => array('slug'=>'news'),
         'supports' => array('title', 'editor', 'author', 'revisions', 'thumbnail', 'excerpt', 'comments', 'custom-fields')
     );
 
     register_post_type('registerNews', $args);
 }
 
-function wp_corenavi($prev = '«', $next = '»')
+function wp_corenavi($query, $prev = '«', $next = '»')
 {
-    global $query, $wp_rewrite;
+    global  $wp_rewrite;
     $query->query_vars['paged'] > 1 ? $current = $query->query_vars['paged'] : $current = 1;
     $pagination = array(
         'base' => @add_query_arg('paged', '%#%'),
@@ -125,15 +125,60 @@ function my_page_template_redirect()
     global $post;
     $arrayUrl = array(
         'cacao-fino-de-aroma-en' => 'page-cacao-fino-de-aroma',
-        'casaluker-es' => 'page-casaluker',
-        'news' => 'page-noticias',
-        'tailor-made-innovation' => 'page-a-su-medida',
-        'luker-1906-es' => 'page-luker-1906',
-        'the-luker-way-es' => 'page-the-luker-way',
+        'cacao-fino-de-aroma-fr' => 'page-cacao-fino-de-aroma',
+        'cacao-fino-de-aroma-de' => 'page-cacao-fino-de-aroma',
+        'cacao-fino-de-aroma-sk' => 'page-cacao-fino-de-aroma',
+        'cacao-fino-de-aroma-it' => 'page-cacao-fino-de-aroma',
+        'cacao-fino-de-aroma-ru' => 'page-cacao-fino-de-aroma',
+
         'product' => 'page-productos',
-        'news' => 'page-noticias',
+        'produits' => 'page-productos',
+        'produkte' => 'page-productos',
+        'produkty' => 'page-productos',
+        'prodotto' => 'page-productos',
+        'products' => 'page-productos',
+
+        'tailor-made-innovation' => 'page-a-su-medida',
+        'linnovation-sur-mesure' => 'page-a-su-medida',
+        'kundenwunsch' => 'page-a-su-medida',
+        'vylepsenia-na-mieru' => 'page-a-su-medida',
+        'innovazione-su-misura' => 'page-a-su-medida',
+        'tailor-made-innovation-ru' => 'page-a-su-medida',
+
+        'the-luker-way-es' => 'page-the-luker-way',
+        'the-luker-way-fr' => 'page-the-luker-way',
+        'the-luker-way-de' => 'page-the-luker-way',
+        'the-luker-way-sk' => 'page-the-luker-way',
+        'the-luker-way-it' => 'page-the-luker-way',
+        'the-luker-way-ru' => 'page-the-luker-way',
+
+        'granja-luker-es' => 'page-granja-luker',
+        'granja-luker-fr' => 'page-granja-luker',
+        'granja-luker-de' => 'page-granja-luker',
+        'granja-luker-sk' => 'page-granja-luker',
+        'granja-luker-it' => 'page-granja-luker',
+        'granja-luker-ru' => 'page-granja-luker',
+
         'contact' => 'page-contactenos',
-        'recipes' => 'page-recetas'
+        'contactez-nous' => 'page-contactenos', //fr
+        'kontakt' => 'page-contactenos',  //de
+        'kontakty' => 'page-contactenos', //sk
+        'contatti' => 'page-contactenos', //sk
+        'contact-ru' => 'page-contactenos', //ru
+
+        'news' => 'page-noticias',
+        'nouvelles' => 'page-noticias',
+        'aktuell' => 'page-noticias',
+        'novinky' => 'page-noticias',
+        'notizie' => 'page-noticias',
+        'news-ru' => 'page-noticias',
+
+        'recipes' => 'page-recetas',
+        'recettes' => 'page-recetas',
+        'rezepte' => 'page-recetas',
+        'recepty' => 'page-recetas',
+        'ricette' => 'page-recetas',
+        'recipes-ru' => 'page-recetas',
 
     );
     if(array_key_exists( get_post($post)->post_name , $arrayUrl) ){
@@ -148,3 +193,33 @@ function my_page_template_redirect()
 }
 
 add_action('template_redirect', 'my_page_template_redirect');
+
+add_action( 'pre_get_posts', 'cyb_include_custom_post_type_in_query' );
+function cyb_include_custom_post_type_in_query( $query ) {
+
+
+    // Si no es el query principal salir
+    if ( ! $query->is_main_query() ) {
+        return;
+    }
+
+    if ( 2 != count( $query->query ) || ! isset( $query->query['page'] ) ) {
+        return;
+    }
+
+    // Incluir custom post type en el query
+    if ( ! empty( $query->query['name'] ) ) {
+        $post_types = array( 'post', 'page', 'receta' );
+        $query->set( 'post_type', $post_types );
+    }
+}
+add_action( 'parse_query', 'cyb_parse_query' );
+function cyb_parse_query( $wp_query )
+{
+
+    if (get_page_by_path($wp_query->query_vars['name'])) {
+        $wp_query->is_single = false;
+        $wp_query->is_page = true;
+    }
+
+}

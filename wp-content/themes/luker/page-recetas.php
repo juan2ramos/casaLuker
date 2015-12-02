@@ -5,8 +5,8 @@ $cacaos = get_terms("cacao", array("hide_empty" => false));
 $levels = get_terms("level", array("hide_empty" => false));
 ?>
 
-<h2 class="Recipes-h2 Main"><?php _e('OUR CHEFS','luker'); ?></h2>
-<h3 class="Recipes-h3"><?php _e('KNOW ALL RECIPES FROM OUR CHEFS.','luker'); ?></h3>
+<h2 class="Recipes-h2 Main"><?php _e('OUR CHEFS', 'luker'); ?></h2>
+<h3 class="Recipes-h3"><?php _e('KNOW ALL RECIPES FROM OUR CHEFS.', 'luker'); ?></h3>
 <div class="Recipes-chefs">
     <div class="Recipes-chefsBack">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32"
@@ -26,7 +26,7 @@ $levels = get_terms("level", array("hide_empty" => false));
         </figure> <?php endforeach ?>
 </div>
 
-<form class="controls" id="Filters" action="<?php echo bloginfo('url')  ?>" data-url="<?php echo bloginfo('url')  ?>">
+<form class="controls" id="Filters" action="<?php echo bloginfo('url') ?>" data-url="<?php echo bloginfo('url') ?>">
 
     <fieldset>
         <select id="chef">
@@ -93,18 +93,22 @@ $levels = get_terms("level", array("hide_empty" => false));
         <div class="RecipeDetail-headerContent">
             <div class="RecipeDetail-headerTitle"></div>
             <div class="RecipeDetail-bar">
-                <h2>TYPE OF CHOCOLATE <span id="imageCocoa"></span> </h2>
+                <h2>TYPE OF CHOCOLATE <span id="imageCocoa"> <img src="<?php echo $content['imageCocoa'] ?>"
+                                                                  alt=""> </span></h2>
                 <span class="RecipeDetail-barClose">
+
                     <div class="pdf"></div>
                     <div class="gr">
-                         gr <span>►</span>
+                        gr <span>►</span>
                     </div>
-                    <svg version="1.1" id="closeX" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                        <g>
-                            <line class="st0" x1="57.7" y1="0.8" x2="0" y2="56.9"/>
-                            <line class="st0" x1="0" y1="0" x2="57.7" y2="57.7"/>
-                        </g>
-                    </svg>
+                     <a href="<?php echo get_site_url(); ?>/recetas">
+                         <svg version="1.1" id="closeX" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                             <g>
+                                 <line class="st0" x1="57.7" y1="0.8" x2="0" y2="56.9"/>
+                                 <line class="st0" x1="0" y1="0" x2="57.7" y2="57.7"/>
+                             </g>
+                         </svg>
+                     </a>
                 </span>
             </div>
         </div>
@@ -120,7 +124,8 @@ $levels = get_terms("level", array("hide_empty" => false));
                                  viewBox="-749 388.4 486.1 641.9" style="enable-background:new -749 388.4 486.1 641.9;"
                                  xml:space="preserve">
                                 <g>
-                                    <path class="st1" d="M-287.7,403.7c0,0-516,3-442.5,611.3C-730.3,1015-183.6,1007.7-287.7,403.7z"/>
+                                    <path class="st1"
+                                          d="M-287.7,403.7c0,0-516,3-442.5,611.3C-730.3,1015-183.6,1007.7-287.7,403.7z"/>
                                 </g>
                             </svg>
                             <svg version="1.1" class="cacaoSvg " xmlns="http://www.w3.org/2000/svg"
@@ -128,7 +133,8 @@ $levels = get_terms("level", array("hide_empty" => false));
                                  viewBox="-749 388.4 486.1 641.9" style="enable-background:new -749 388.4 486.1 641.9;"
                                  xml:space="preserve">
                                 <g>
-                                    <path class="st1" d="M-287.7,403.7c0,0-516,3-442.5,611.3C-730.3,1015-183.6,1007.7-287.7,403.7z"/>
+                                    <path class="st1"
+                                          d="M-287.7,403.7c0,0-516,3-442.5,611.3C-730.3,1015-183.6,1007.7-287.7,403.7z"/>
                                 </g>
                             </svg>
                             <svg version="1.1" class="cacaoSvg " xmlns="http://www.w3.org/2000/svg"
@@ -136,7 +142,8 @@ $levels = get_terms("level", array("hide_empty" => false));
                                  viewBox="-749 388.4 486.1 641.9" style="enable-background:new -749 388.4 486.1 641.9;"
                                  xml:space="preserve">
                                 <g>
-                                    <path class="st1" d="M-287.7,403.7c0,0-516,3-442.5,611.3C-730.3,1015-183.6,1007.7-287.7,403.7z"/>
+                                    <path class="st1"
+                                          d="M-287.7,403.7c0,0-516,3-442.5,611.3C-730.3,1015-183.6,1007.7-287.7,403.7z"/>
                                 </g>
                             </svg>
                         </span>
@@ -147,18 +154,20 @@ $levels = get_terms("level", array("hide_empty" => false));
     </header>
     <article id="RecipeDetail-content"></article>
     <footer class="RecipeDetail-footer">
-        <figure id="RecipeDetail-figure"></figure>
-        <div class="RecipeDetail-chef">
-            <div class="RecipeDetail-chefContent">
-                <h3></h3>
+        <div class="RecipeDetailContainer-footer">
+            <figure id="RecipeDetail-figure"></figure>
+            <div class="RecipeDetail-chef">
+                <div class="RecipeDetail-chefContent">
+                    <h3></h3>
 
-                <p></p>
+                    <p></p>
+                </div>
             </div>
-        </div>
-        <div class="suscribe">
-            <div class="suscribe-content">
-                <h5>GET MORE INFO ABOUT CACAO</h5>
-                <button>suscribe</button>
+            <div class="suscribe">
+                <div class="suscribe-content">
+                    <h5>GET MORE INFO ABOUT CACAO</h5>
+                    <button>suscribe</button>
+                </div>
             </div>
         </div>
     </footer>

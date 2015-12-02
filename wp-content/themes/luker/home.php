@@ -11,6 +11,7 @@ $url = array(
         'medida' => 'tailor-made-innovation',
         'lukerWay' => 'the-luker-way',
         'casaluker' => 'casaluker',
+        'granja-luker' => 'granja-luker',
         'recetas' => 'recipes',
         'noticias' => 'news',
         'contactanos' => 'contact'
@@ -19,11 +20,67 @@ $url = array(
         'cacao' => 'cacao-fino-de-aroma',
         'productos' => 'productos',
         'medida' => 'a-su-medida',
-        'luker-way' => 'the-luker-way-es',
+        'lukerWay' => 'the-luker-way-es',
         'casaluker' => 'casaluker-es',
+        'granja-luker' => 'granja-luker-es',
         'recetas' => 'recetas',
         'noticias' => 'noticias',
         'contactanos' => 'contactanos'
+    ),
+    "de-DE" => array(
+        'cacao' => 'cacao-fino-de-aroma-de',
+        'productos' => 'produkte',
+        'medida' => 'kundenwunsch',
+        'lukerWay' => 'the-luker-way-de',
+        'granja-luker' => 'granja-luker-de',
+        'casaluker' => 'casaluker-de',
+        'recetas' => 'rezepte',
+        'noticias' => 'aktuell',
+        'contactanos' => 'kontakt'
+    ),
+    "fr-FR" => array(
+        'cacao' => 'cacao-fino-de-aroma-fr',
+        'productos' => 'produits',
+        'medida' => 'linnovation-sur-mesure',
+        'granja-luker' => 'granja-luker-fr',
+        'lukerWay' => 'the-luker-way-fr',
+        'casaluker' => 'casaluker-fr',
+        'recetas' => 'recettes',
+        'noticias' => 'nouvelles',
+        'contactanos' => 'contactez-nous'
+    ),
+    "it-IT" => array(
+        'cacao' => 'cacao-fino-de-aroma-it',
+        'productos' => 'prodotto',
+        'medida' => 'innovazione-su-misura',
+        'lukerWay' => 'the-luker-way-it',
+        'granja-luker' => 'granja-luker-it',
+        'casaluker' => 'casaluker-it',
+        'recetas' => 'ricette',
+        'noticias' => 'notizie',
+        'contactanos' => 'contatti'
+    ),
+    "sk-SK" => array(
+        'cacao' => 'cacao-fino-de-aroma-sk',
+        'productos' => 'produkty',
+        'medida' => 'vylepsenia-na-mieru',
+        'lukerWay' => 'the-luker-way-sk',
+        'casaluker' => 'casaluker-sk',
+        'granja-luker' => 'granja-luker-sk',
+        'recetas' => 'recepty',
+        'noticias' => 'novinky',
+        'contactanos' => 'kontakty'
+    ),
+    "ru-RU" => array(
+        'cacao' => 'cacao-fino-de-aroma-ru',
+        'productos' => 'products',
+        'medida' => 'tailor-made-innovation-ru',
+        'lukerWay' => 'the-luker-way-ru',
+        'granja-luker' => 'granja-luker-ru',
+        'casaluker' => 'casaluker-ru',
+        'recetas' => 'recipes-ru',
+        'noticias' => 'news-ru',
+        'contactanos' => 'contact-ru'
     )
 );
 
@@ -118,7 +175,7 @@ $url = array(
             </a>
         </li>
         <li>
-            <a href="<?php echo bloginfo('url') ?>/granja-luker">
+            <a href="<?php echo bloginfo('url') . '/' .  $url[get_bloginfo('language')]['granja-luker']; ?>">
                 <figure class="NavHome-figureSix">
                     <img src="<?php bloginfo('template_url') . '/' .  $url[get_bloginfo('language')]['granja-luker']; ?>/assets/images/home/granja-luker-large.png" alt="">
                 </figure>

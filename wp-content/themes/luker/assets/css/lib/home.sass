@@ -235,7 +235,12 @@
   top: 0
 
 .Search > div
-  display: inline-block
+  display: block
   padding-right: 1rem
+  text-align: center
+  @include respond-to(middle)
+    display: inline-block
   & li
     display: inline-block
+
+

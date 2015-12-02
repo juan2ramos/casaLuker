@@ -3,6 +3,7 @@
 Description: The Header
 Theme: Luker
 */
+$currentlang = get_bloginfo('language');
 ?>
 
 <!DOCTYPE html>
@@ -13,13 +14,12 @@ Theme: Luker
 
     <title><?php the_title(); ?> - Casa Luker</title>
 
-    <meta name="description" content="" />
+    <meta name="description" content=""/>
 
     <link rel="profile" href="http://gmpg.org/xfn/11">
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="<?php bloginfo('template_url') ?>/assets/images/favicon.ico">
-
 
 
     <!---- TYPEKIT -- -->
@@ -37,21 +37,27 @@ Theme: Luker
 
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> data-urlBody="<?php bloginfo('url') ?>">
 
 
 <?php the_post(); ?>
 <header class="Header" style="
-    background-image: url('<?php echo  bloginfo('template_url') ?>/assets/images/bg-top4-1024x540.jpg')
+    background-image: url(<?php echo wp_get_attachment_image_src(get_post_thumbnail_id(), 'large')['0'] ?>)
     ">
     <div class="ButtonNav">
         <span></span>
         <span></span>
         <span></span>
     </div>
+
+    <figure class="Header-logo-mobile">
+        <a href="<?php bloginfo('url') ?>"><img
+                src="<?php bloginfo('template_url') ?>/assets/images/logo-casa-luker.png" alt="Logo Casa Luker"></a>
+    </figure>
+
+
     <div class="Header-wrapper">
         <span class="Close">X</span>
-        <span class="Language">ES</span>
         <figure class="Header-logo">
             <a href="<?php bloginfo('url') ?>"><img
                     src="<?php bloginfo('template_url') ?>/assets/images/logo-casa-luker.png" alt="Logo Casa Luker"></a>
@@ -66,7 +72,8 @@ Theme: Luker
             <ul class="Header-navNetwork">
                 <li><a href="https://www.facebook.com/LUKERFOODINGREDIENTS" target="_blank"><span
                             class="icon-facebook"> </span></a></li>
-                <li><a href="https://twitter.com/LUKEROFFICIAL" target="_blank"><span class="icon-twitter"> </span></a></li>
+                <li><a href="https://twitter.com/LUKEROFFICIAL" target="_blank"><span class="icon-twitter"> </span></a>
+                </li>
                 <li><a href="https://www.youtube.com/channel/UCY_NfrnYxNHFP0KD0EKA8Gg" target="_blank"><span
                             class="icon-play3"> </span></a></li>
                 <li><a href="https://instagram.com/lukerofficial/" target="_blank"><span class="icon-instagram"> </span></a>
@@ -75,14 +82,15 @@ Theme: Luker
                        target="_blank"><span class="icon-linkedin2"> </span></a></li>
             </ul>
             <div class="Header-news">
-                Recibe más Información
+                <?php _e('GET MORE INFO','luker'); ?>
             </div>
 
             <div class="formNewsletter">
-                <form method="post" action="http://luker.app:8888/?na=s" onsubmit="return newsletter_check(this)">
-                    <input class="newsletter-firstname" type="text" name="nn" size="30" placeholder="Nombre">
-                    <input class="newsletter-lastname" type="text" name="ns" size="30"  required placeholder="Apellido">
-                    <input class="newsletter-email" type="email" name="ne" size="30" required placeholder="Correo electrónico">
+                <form method="post" action="<?php bloginfo('url') ?>/?na=s" onsubmit="return newsletter_check(this)">
+                    <input class="newsletter-firstname" required type="text" name="nn" size="30" placeholder="Nombre">
+                    <input class="newsletter-lastname" type="text" name="ns" size="30" required placeholder="Apellido">
+                    <input class="newsletter-email" type="email" name="ne" size="30" required
+                           placeholder="Correo electrónico">
                     <hr>
                     <h4>Lenguaje</h4>
                     <select class="newsletter-profile newsletter-profile-3" name="np3" required>
@@ -90,8 +98,9 @@ Theme: Luker
                         <option>Español</option>
                     </select>
                     <hr>
-                    <h4>Lenguaje</h4>
-                    <input class="newsletter-profile newsletter-profile-4" type="text" size="30" name="np4" placeholder="País"/>
+                    <h4>País</h4>
+                    <input class="newsletter-profile newsletter-profile-4" required type="text" size="30" name="np4"
+                           placeholder="País"/>
                     <input class="newsletter-submit" type="submit" value="Subscribe"/>
                 </form>
             </div>
@@ -99,12 +108,13 @@ Theme: Luker
         <div class="Header-barMobile">
             <div class="Search"><?php dynamic_sidebar('widgetSearchFooter'); ?> </div>
             <div class="Header-news">
-                Recibe más Información
+                <?php _e('GET MORE INFO','luker'); ?>
             </div>
             <ul class="Header-navNetwork">
                 <li><a href="https://www.facebook.com/LUKERFOODINGREDIENTS" target="_blank"><span
                             class="icon-facebook"> </span></a></li>
-                <li><a href="https://twitter.com/LUKEROFFICIAL" target="_blank"><span class="icon-twitter"> </span></a></li>
+                <li><a href="https://twitter.com/LUKEROFFICIAL" target="_blank"><span class="icon-twitter"> </span></a>
+                </li>
                 <li><a href="https://www.youtube.com/channel/UCY_NfrnYxNHFP0KD0EKA8Gg" target="_blank"><span
                             class="icon-play3"> </span></a></li>
                 <li><a href="https://instagram.com/lukerofficial/" target="_blank"><span class="icon-instagram"> </span></a>
@@ -115,10 +125,32 @@ Theme: Luker
         </div>
     </div>
 
-    <h1 class="Header-title"></h1>
+    <h1 class="Header-title">
+
+        <h1 class="Header-title">
+
+            <?php
+            $title = strtolower(get_the_title());
+            if ($title == 'productos' && get_bloginfo('language') != "es-CO") {
+                $arrayTitle = array(
+                    'en-US' => 'Product',
+                );
+                echo $arrayTitle[get_bloginfo('language')];
+            } else {
+                the_title();
+            }
+            ?>
+
+
+        </h1>
+
+
+    </h1>
 
     <div class="More" id="down">
         <a href="#">
+
+            <span class="More-view"><?php _e('READ +','luker'); ?></span>
 
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
                  y="0px" viewBox="0 0 842 595" enable-background="new 0 0 842 595">
@@ -156,7 +188,7 @@ Theme: Luker
                 alert("The email is not correct");
                 return false;
             }
-            for (var i=1; i<20; i++) {
+            for (var i = 1; i < 20; i++) {
                 if (f.elements["np" + i] && f.elements["np" + i].required && f.elements["np" + i].value == "") {
                     alert("");
                     return false;

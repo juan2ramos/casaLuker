@@ -2,9 +2,14 @@
 
 $url = array(
     "en-US" => 'product',
-    "es-CO" => 'productos'
+    "es-CO" => 'productos',
+    "de-DE" => 'produkte',
+    "fr-FR" => 'produits',
+    "it-IT" => 'prodotto',
+    "sk-SK" => 'produckty',
+    "ru-RU" => 'product'
 );
-
+$currentlang = get_bloginfo('language');
 ?>
 <ul class="Product">
     <li>
@@ -22,7 +27,7 @@ $url = array(
     <li>
         <a href="<?php bloginfo('url'); echo '/'.$url[$currentlang] ?>/luker-maracas">
             <img src="<?php bloginfo('template_url') ?>/assets/images/productos/luker-maracas.png" alt="">
-            <span><?php _e('Chocolate Dragees', 'luker'); ?>Grageas de Chocolate</span>
+            <span><?php _e('Chocolate Dragees', 'luker'); ?></span>
         </a>
     </li>
     <li>
