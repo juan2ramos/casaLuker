@@ -80,19 +80,19 @@ function registerNews()
         'publicly_queryable' => true,
         'show_ui' => true,
         'query_var' => true,
-        'rewrite' => true,
         'capability_type' => 'post',
         'hierarchical' => false,
         'menu_position' => null,
+        'rewrite' => array('slug'=>'news'),
         'supports' => array('title', 'editor', 'author', 'revisions', 'thumbnail', 'excerpt', 'comments', 'custom-fields')
     );
 
     register_post_type('registerNews', $args);
 }
 
-function wp_corenavi($prev = '«', $next = '»')
+function wp_corenavi($query, $prev = '«', $next = '»')
 {
-    global $query, $wp_rewrite;
+    global  $wp_rewrite;
     $query->query_vars['paged'] > 1 ? $current = $query->query_vars['paged'] : $current = 1;
     $pagination = array(
         'base' => @add_query_arg('paged', '%#%'),
@@ -152,12 +152,12 @@ function my_page_template_redirect()
         'the-luker-way-it' => 'page-the-luker-way',
         'the-luker-way-ru' => 'page-the-luker-way',
 
-        'casaluker-es' => 'page-casaluker',
-        'casaluker-fr' => 'page-casaluker',
-        'casaluker-de' => 'page-casaluker',
-        'casaluker-sk' => 'page-casaluker',
-        'casaluker-it' => 'page-casaluker',
-        'casaluker-ru' => 'page-casaluker',
+        'granja-luker-es' => 'page-granja-luker',
+        'granja-luker-fr' => 'page-granja-luker',
+        'granja-luker-de' => 'page-granja-luker',
+        'granja-luker-sk' => 'page-granja-luker',
+        'granja-luker-it' => 'page-granja-luker',
+        'granja-luker-ru' => 'page-granja-luker',
 
         'contact' => 'page-contactenos',
         'contactez-nous' => 'page-contactenos', //fr
@@ -193,3 +193,33 @@ function my_page_template_redirect()
 }
 
 add_action('template_redirect', 'my_page_template_redirect');
+
+add_action( 'pre_get_posts', 'cyb_include_custom_post_type_in_query' );
+function cyb_include_custom_post_type_in_query( $query ) {
+
+
+    // Si no es el query principal salir
+    if ( ! $query->is_main_query() ) {
+        return;
+    }
+
+    if ( 2 != count( $query->query ) || ! isset( $query->query['page'] ) ) {
+        return;
+    }
+
+    // Incluir custom post type en el query
+    if ( ! empty( $query->query['name'] ) ) {
+        $post_types = array( 'post', 'page', 'receta' );
+        $query->set( 'post_type', $post_types );
+    }
+}
+add_action( 'parse_query', 'cyb_parse_query' );
+function cyb_parse_query( $wp_query )
+{
+
+    if (get_page_by_path($wp_query->query_vars['name'])) {
+        $wp_query->is_single = false;
+        $wp_query->is_page = true;
+    }
+
+}

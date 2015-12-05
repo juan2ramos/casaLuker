@@ -34,6 +34,10 @@
                 <h2>TYPE OF CHOCOLATE <span id="imageCocoa"><img src="<?php echo $content['imageCocoa'] ?>"
                                                                  alt=""></span></h2>
                 <span class="RecipeDetail-barClose">
+                    <div class="pdf"></div>
+                    <div class="gr">
+                        gr <span>►</span>
+                    </div>
                     <a href="<?php echo get_site_url(); ?>/recetas">
                         <svg version="1.1" id="closeX" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                             <g>
@@ -87,21 +91,23 @@
     </header>
     <article id="RecipeDetail-content"><?php echo $content['content'] ?></article>
     <footer class="RecipeDetail-footer">
-        <figure id="RecipeDetail-figure">
+        <div class="RecipeDetailContainer-footer">
+            <figure id="RecipeDetail-figure">
 
-            <img src="<?php echo $content['chefImage'] ?>" alt="">
-        </figure>
-        <div class="RecipeDetail-chef">
-            <div class="RecipeDetail-chefContent">
-                <h3><?php echo $content['chefName'] ?></h3>
+                <img src="<?php echo $content['chefImage'] ?>" alt="">
+            </figure>
+            <div class="RecipeDetail-chef">
+                <div class="RecipeDetail-chefContent">
+                    <h3><?php echo $content['chefName'] ?></h3>
 
-                <p><?php echo $content['chefDescription'] ?></p>
+                    <p><?php echo $content['chefDescription'] ?></p>
+                </div>
             </div>
-        </div>
-        <div class="suscribe">
-            <div class="suscribe-content">
-                <h5>GET MORE INFO ABOUT CACAO</h5>
-                <button>suscribe</button>
+            <div class="suscribe">
+                <div class="suscribe-content">
+                    <h5>GET MORE INFO ABOUT CACAO</h5>
+                    <button>suscribe</button>
+                </div>
             </div>
         </div>
     </footer>

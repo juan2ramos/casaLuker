@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-21 22:46-0500\n"
+"PO-Revision-Date: 2015-12-01 16:53-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,103 +15,142 @@ msgstr ""
 "Language: it_IT\n"
 
 msgid "news"
-msgstr "Noticias"
+msgstr "news"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Last Name"
+msgstr "Cognome"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Language"
+msgstr "Lingua"
+
+msgid "English"
+msgstr "Inglese"
+
+msgid "Spanish"
+msgstr "spagnolo"
+
+msgid "Country"
+msgstr "Paese"
+
+msgid "Subscribe"
+msgstr "Sottoscrivere"
+
+msgid "search"
+msgstr "search"
 
 msgid "Products"
-msgstr "Productos"
+msgstr "PRODOTTO"
 
 msgid "Tailor Made Innovation"
-msgstr "A Su Medida"
+msgstr "INNOVAZIONE SU MISURA"
 
 msgid "Recipes"
-msgstr "Recetas"
+msgstr "RICETE"
 
 msgid "contact"
-msgstr "Contáctenos"
+msgstr "CONTATTI"
 
 msgid "CRIOLLO AND TRINITARIO COCOAS"
-msgstr "CRIOLLOS Y TRINITARIOS"
+msgstr "CACAO CRIOLLO E TRINITARIO"
+
+msgid "In the Luker Farm we develop and promote profitable cocoa models through our training courses. Our cocoa models ensures and increases the income of the farmer and have an impact on their life quality. Our agroforestry model, cocoa - banana - fruit - timber, and our training program for harvesting and post harvesting, guarantees the farmer’s incomes in the short and long-term family cocoa. Granja Luker was created with the objective of creating a center to promote the cocoa harvesting in the country among small producers. Today we educate more than 700 people annually."
+msgstr "All’interno di Granja Luker, sviluppiamo e promoviamo attraverso i nostri corsi di formazione modelli di coltivazione del cacao con un impatto profittevole sulla qualità della vita e un aumento dei redditi dell’agricoltore. Il nostro modello di piantagioni di cacao –banane - frutta - legname e il nostro programma di formazione sulla coltivazione e sulle attività successive al raccolto hanno garantito un reddito a breve e lungo termine alle famiglie che si dedicano al cacao. Granja Luker è stato creato con l’obiettivo di avere nel paese un centro di promozione della coltivazione del cacao per i piccoli produttori. Oggi formiamo più di 700 persone all’anno."
+
+msgid "CASA LUKER TRAINING MODEL. BETTER COCOA AND PRODUCTIVITY: HIGHER INCOME FOR THE FARMERS"
+msgstr "MODELLO FORMATIVO DI CASA LUKER.MIGLIOR CACAO E PRODUTTIVITÀ: MAGGIORI GUADAGNI PER I COLTIVATORI"
 
 msgid "Cacao Fino de Aroma comes from criollo and trinitarian varieties, which are different, in aroma and flavour, from common cocoas which derive from forastero varieties."
-msgstr "Los cacaos de este tipo provienen en su mayoría de cacaos criollos y trinitarios, que son diferentes en términos de aroma y sabor a los cacaos de tipo forastero."
+msgstr "Il cacao Fino de Aroma proviene dalle varietà Criollo e Trinitario, che sono diverse in quanto ad aroma e gusto dai tipi di cacao comune che derivano dalle varietà Forastero."
 
 msgid "Trinitarian cocoas -highly sought after around the world- are Fino de Aroma, aromatic and mild in flavour. The trinitario variety is the result of cross between the criollo and forastero varieties and is produced mainly in Colombia, Ecuador, Peru and Venezuela."
-msgstr "Los cacaos trinitarios, muy apetecidos en el mundo, son Cacaos Finos de Aroma, de sabor suave y aromático. La variedad trinitario es el resultado del cruzamiento de las variedades de tipo criollo y forastero y son producidos principalmente en Colombia, Ecuador, Perú y Venezuela."
+msgstr "I tipi di cacao Trinitario, molto ricercati in tutto il mondo, sono Fino de Aroma, aromatici e di gusto delicato. La varietà Trinitario è il risultato di un incrocio tra le varietà Criollo e Forastero e viene prodotta principalmente in Colombia, Ecuador, Perù e Venezuela."
 
 msgid "Forastero cocoa is the most common in the world; it is resitant to climate changes and has an acidic astringent flavour. It is the main variety grown in Africa."
-msgstr "El cacao forastero es el más común en el mundo, es resistente al clima y su sabor es ácido y astringente. Este es el típico cacao de África"
+msgstr ""
+"Il cacao Forastero è la qualità più comune nel mondo; è resistente alle variazioni climatiche e ha un sapore astringente e acidulato. È la principale varietà che cresce in Africa.\n"
+"Anche le varietà di cacao Criollo sono Fino de Aroma e molto rare in tutto il mondo."
 
 msgid "CACAO FINO DE AROMA"
 msgstr "CACAO FINO DE AROMA"
 
 msgid "Fruity and flowery aromas and flavour with nutty malt notes. This is the characteristic flavour of Cacao Fino de Aroma that distinguishes it from other cocoas in the world."
-msgstr "Aromas y sabores frutales, florales, de nueces y de malta. Este es el sabor característico del Cacao Fino de Aroma que lo diferencia de los demás cacaos en el mundo."
+msgstr "Aromi e gusti fruttati e floreali con note maltate. È questo il flavour caratteristico del cacao Fino de Aroma che lo distingue da tutti gli altri cacao del mondo."
 
 msgid "The Fino de Aroma denomination is an International Cocoa Organization (ICCO)* classification, which describes an exquisite aroma and flavour. Around 8% of the cocoa produced in the world is Cacao Fino de Aroma. 76% of Cacao Fino de Aroma produced in the world is grown in Colombia, Ecuador, Venezuela and Peru."
-msgstr "Fino de Aroma es una clasificación de la Organización Internacional del Cacao (ICCO) que describe un cacao de exquisito aroma y sabor. Este tipo de cacao representa alrededor del 8% de la producción de cacao en el mundo. En Colombia, Ecuador, Venezuela y Perú se produce el 76% del Cacao Fino de Aroma del mundo."
+msgstr "La denominazione di Fino de Aroma viene dalla classificazione della International Cocoa Organization (ICCO)* e indica un aroma e un gusto deliziosi. L’8% del cacao prodotto nel mondo è Cacao Fino de Aroma. Il 76% del Cacao Fino de Aroma prodotto nel mondo cresce in Colombia, Ecuador, Venezuela e Perù."
 
 msgid "We buy approximately 38% of the Colombian total cocoa production – 1600 tons per month on average –."
-msgstr "En CasaLuker compramos el 38% de la producción total de cacao en Colombia – 1600 toneladas al mes en promedio –."
+msgstr "Noi acquistiamo circa il 38% della produzione colombiana di cacao totale – 1600 tonnellate al mese in media –."
 
 msgid "THE AROMA AND FLAVOUR OF CHOCOLATE"
-msgstr "EL AROMA Y EL SABOR DEL CHOCOLATE"
+msgstr "L’AROMA E IL GUSTO DI CIOCCOLATO"
 
 msgid "The special aroma and flavour of cocoa do not only stem from the type of cocoa -forastero, trinitarian or criollo- but also from soil composition, climatic conditions, and primarily, the work of the cocoa artisan – the cocoa grower."
-msgstr "Las características especiales del sabor y aroma del cacao no sólo provienen del tipo de cacao; forastero, trinitario o criollo; sino también de las condiciones del clima, la composición del suelo, la región donde se cultiva y principalmente del trabajo del artesano del cacao, el agricultor."
+msgstr "L’aroma e il gusto speciali del cacao non derivano solo dal tipo di cacao, Forastero, Trinitario o Criollo, ma anche dalla composizione del suolo, dalle condizioni climatiche e, soprattutto, dal lavoro dell’artigiano del cacao, il coltivatore di cacao."
 
 msgid "The four fundamental factors that ensure the special chocolate aroma and flavour are fermentation, drying, roasting and conching. Fermentation and drying are undertaken by farmers on the farms; and - the final touch that defines the organoleptic profile of each product - roasting and conching, take place in the production plant."
-msgstr "Existen 4 factores fundamentales para que el aroma y el sabor del chocolate se desarrollen: la fermentación, el secado, la tostión y el concheo. La fermentación y el secado del grano se hacen en el campo y son elaborados por el agricultor, la tostión y el concheo, son el toque final donde se define el perfil organoléptico de cada producto y son procesos desarrollados en la planta de producción."
+msgstr "I quattro fattori fondamentali che garantiscono l’aroma e il gusto speciali del cioccolato sono la fermentazione, l’essiccazione, la torrefazione e il concaggio. La fermentazione e l’essiccazione sono eseguite dai coltivatori nelle fattorie; e il tocco finale che definisce il profilo organolettico di ogni prodotto, ossia la torrefazione e il concaggio, viene dato nel sito produttivo."
 
 msgid "Thanks to its close relationship with the cocoa growers and its training programs, CasaLuker is able to control these factors, offering its customers the best flavour."
-msgstr "CasaLuker por su estrecha relación con los agricultures y sus continuos programas de capacitación controla estos factores para ofrecer a sus clientes el mejor sabor. "
+msgstr "Grazie alla sua stretta relazione con i coltivatori di cacao e ai suoi programmi di formazione, CasaLuker è in grado di controllare questi fattori, offrendo ai suoi clienti il gusto migliore."
 
 msgid "The fermentation process involves removing the cocoa bean from its pod together with its pulp. This is then placed in wooden boxes and exposed to micro-organisms naturally present in the environment. These micro-organisms decompose the pulp which, in turn, sets off biochemical and physical processes which are responsible for the development of the precursors of aromas and flavours present in chocolate."
-msgstr "La fermentación ocurre cuando el grano de cacao se saca de la mazorca junto con su pulpa, es puesto en cajones de madera y expuesto a los microorganismos naturalmente presentes en el ambiente. Los microorganismos degradarán la pulpa y durante este proceso el grano sufrirá procesos bioquímicos y físicos que formarán los precursores de los aromas y sabores a chocolate. "
+msgstr ""
+"Il processo di fermentazione prevede la rimozione delle fave di cacao dal proprio baccello insieme alla sua polpa. Questo viene poi collocato in cassette di legno ed esposto ai microorganismi naturalmente presenti nell’ambiente. Questi microorganismi decompongono la polpa che, a sua volta, attiva dei processi fisici e biochimici responsabili dello sviluppo dei precursori degli aroma e dei sapori presenti nel cioccolato.\n"
+"Durante il processo di fermentazione, è possibile modificare o incrementare le proprietà sensoriali del cacao, mentre è difficile correggere poi un processo di fermentazione non perfetto nell’impianto di produzione. Di conseguenza, il lavoro dei coltivatori di cacao è un fattore chiave per il risultato del cioccolato finale."
 
 msgid "Drying is a gradual process undertaken in the field by the grower. The beans are exposed to sunlight for several days in order to reduce their water content from 55% to 7% and to eliminate some of the acids naturally present in cocoa."
-msgstr "El secado es un proceso gradual realizado en el campo por el agricultor. Durante este proceso se exponen los granos al sol durante varios días para bajar el contenido de agua del grano del 55% al 7% y eliminar algunos ácidos naturalmente presentes en el cacao."
+msgstr "L’essiccazione è un processo graduale che viene eseguito nel campo dal coltivatore. Le fave vengono esposte al sole per diversi giorni per ridurre il loro contenuto d’acqua dal 55% al 7% e per eliminare alcuni degli acidi naturalmente presenti nel cacao."
 
 msgid "A good drying process is essential if mould and fungus are to be avoided and to guarantee a good flavour. "
-msgstr " Un buen secado es clave para evitar mohos y hongos en el grano y garantizar un buen sabor."
+msgstr ""
+"Un buon processo di essiccazione è essenziale per evitare muffe e funghi e per garantire un buon flavour.\n"
+" "
 
 msgid "The cocoa beans are roasted in the production plant, in a process where by the cocoa nibs are exposed to very high temperatures which will mould their flavour and develop the aroma and flavour of the final chocolate product. At this point, the sensorial properties can be modified, intensified and defined."
-msgstr "La tostión es realizada en la planta de producción de chocolates. Es el proceso por medio del cual se exponen los nibs de cacao a altas temperaturas para moldear su sabor. Durante este proceso se desarrollan los aromas y sabores del chocolate y se pueden definir, modificar o potencializar las cualidades sensoriales del cacao."
+msgstr "Le fave di cacao vengono torrefatte nell’impianto di produzione, con un processo in cui la graniglia di cacao viene esposta ad una temperatura molto elevata che ne plasma il gusto e sviluppa l’aroma e il sapore del prodotto finale, il cioccolato. A questo punto, le proprietà sensoriali possono essere modificate, intensificate e definite."
 
 msgid "This fundamental process is undertaken in the production plant and it is responsible for the final touches in terms of the flavour of the chocolate. Acids, present in the cocoa, are eliminated and the flavour of the recipe and chocolate texture are nicely rounded."
-msgstr "El concheo es un proceso fundamental realizado en la planta de producción donde se dan los últimos toques al sabor del chocolate. Durante este proceso se eliminan ácidos presentes en el cacao y se acaban de redondear los sabores de la receta y la textura del chocolate."
+msgstr "Questo processo fondamentale viene eseguito nell’impianto di produzione ed è responsabile di quel tocco finale che dà il gusto al cioccolato. Gli acidi, presenti nel cacao, vengono eliminati e il flavour della ricetta e la texture del cioccolato vengono piacevolmente smussati."
 
 msgid "CASALUKER RESEARCH"
-msgstr "INVESTIGACIÓN CASALUKER"
+msgstr "LA RICERCA DI CASALUKER"
 
 msgid "*Centro Nacional de Investigaciones de Café"
 msgstr "*Centro Nacional de Investigaciones de Café"
 
 msgid "CasaLuker together with Cenicafé* -one of the most important coffee research institutes in the world- began a classification process for cocoa originate from the principal cocoa producing areas of Colombia, Ecuador, Venezuela, and other cocoa producing regions in the world."
-msgstr "CasaLuker en alianza con cenicafé* - uno de los institutos de investigación acerca del café más importantes en el mundo – inició en el año 2005 el proceso de caracterización de los cacaos en las principales zonas productoras de Colombia, Ecuador, Venezuela y de otras regiones cacaoteras alrededor del mundo."
+msgstr "Nel 2005, CasaLuker insieme a Cenicafé, uno dei più importanti istituti di ricerca sul caffè del mondo, hanno avviato un processo di classificazione del cacao originario delle principali aree di produzione di cacao di Colombia, Ecuador, Venezuela e di altre regioni produttrici di cacao di tutto il mondo."
 
 msgid "In this study we researched the sensorial characteristics of each type of cocoas, including the identification and quantification of the volatile aroma compounds as well as other physical, chemical, nutritional and functional characteristics that allowed us to define the individuality of each."
-msgstr "En esta investigación se han estudiado las características sensoriales de cada tipo de cacao, se han identificado y cuantificado los principales compuestos volátiles del aroma y otras características físicas, químicas, nutricionales y funcionales que permiten definir una huella digital para cada tipo de cacao."
+msgstr "In questo studio abbiamo effettuato delle ricerche sulle caratteristiche sensoriali di ogni tipo di cacao, procedendo anche all’individuazione e alla quantificazione dei composti volatili dell’aroma e di altre caratteristiche fisiche, chimiche, nutritive e funzionali che ci hanno permesso di definire la specificità di ciascuno di essi."
 
 msgid "Welcome to the CasaLuker Group"
-msgstr "Bienvenido al Grupo CasaLuker"
+msgstr "BENVENUTI NEL GRUPPO CASALUKER"
 
 msgid "With the opening of CasaLuker Europe in Belgium, in 2009, we became a more consolidated group with strong international projection which stands out for its experience in the production of Fino de Aroma Cocoa derived products. Our international presence is strengthened through our offices in Colombia, Russia, Panama and Ecuador."
-msgstr "Con la apertura de nuestra filial CasaLuker Europe en Bélgica en el 2009, nos hemos consolidado como un grupo de fuerte proyección internacional que se destaca por su experiencia en la oferta de productos derivados del Cacao Fino de Aroma. Nuestra presencia internacional se ve reforzada por nuestra red de oficinas en Colombia, Rusia, Panamá, Ecuador y Perú."
+msgstr "Con l’apertura di CasaLuker Europe in Belgio, nel 2009, siamo diventati un gruppo più consolidato con una forte proiezione internazionale che spicca per la sua esperienza nella produzione di prodotti derivati dal Cacao Fino de Aroma. La nostra presenza internazionale è rafforzata dai nostri uffici in Colombia, Russia, Panama e Ecuador."
 
 msgid "The tradition of a family-owned company founded in 1906 and the prevailing hard work of cocoa growers, together with the high investments made in cutting edge technology and equipment for the manufacture of chocolate couvertures, allows us to offer a wide range a high international standard quality chocolate couvertures, cocoa mass, butter, powder and cocoa beans."
-msgstr "La tradición de una empresa familiar fundada en 1906 y el duro trabajo que prevalece de los productores de cacao, junto con las altas inversiones en tecnología y equipos de última generación para la fabricación de coberturas de chocolate, nos permite ofrecer una amplia gama de un estándar internacional de alto coberturas de chocolate de calidad, masa de cacao, manteca, polvo y granos de cacao."
+msgstr "La tradizione di un’ azienda a gestione familiare fondata nel 1906 e l’eccezionale lavoro svolto dai coltivatori di cacao, insieme agli investimenti fatti in tecnologie e macchinari all’avanguardia nella produzione di coperture di cioccolato, ci permettono di offrire una vasta gamma di coperture di cioccolato, massa e burro di cacao, cacao in polvere e fave di cacao di una qualità che rispetta i più elevati standard internazionali."
 
 msgid "CasaLuker, as part of its mission for environmental sustainability and the social, economic and environmental development of the cocoa growing communities, is a member entity of the World Cocoa Foundation WCF. We are holders of international certifications such as HACCP, ISO 9001, Kosher and BASC."
-msgstr "CasaLuker, dentro de su compromiso de sostenibilidad del desarrollo social, económico y ambiental de las comunidades cultivadoras de cacao, es miembro de la World Cocoa Foundation WCF. Contamos con las certificaciones internacionales de calidad como son HACCP, ISO 9001,Kosher y BASC."
+msgstr "CasaLuker, impegnandosi anche nella sua mission per la sostenibilità ambientale e lo sviluppo sociale, economico e ambientale delle comunità di coltivatori di cacao, è membro della World Cocoa Foundation WCF. Deteniamo inoltre certificazioni internazionali come HACCP, ISO 9001, Kosher e BASC."
 
 msgid "Our main aim is to satisfy our clients by offering them a unique and special flavour. We believe in being close to our customers by increasing the success of their products through our permanent assessments and personalized services."
-msgstr " Tenemos por objetivo satisfacer las necesidades de nuestros consumidores ofreciéndoles un sabor único y especial. Nuestro compromiso es estar cada vez más cerca de nuestros clientes y aumentar el éxito de sus productos con el continuo asesoramiento y servicio personalizado."
+msgstr "Il nostro principale obiettivo è soddisfare i clienti offrendo loro un gusto speciale e unico. Crediamo che sia importante stare vicini ai nostri clienti per aumentare il successo dei loro prodotti grazie alle nostre valutazioni costanti e ai servizi personalizzati che offriamo loro."
 
 msgid "COBERTURA SABOR A CHOCOLATE"
 msgstr "COBERTURA SABOR A CHOCOLATE"
 
 msgid "About us"
-msgstr "Acerca de nosotros"
+msgstr "About us"
 
 msgid "Las Coberturas Sabor a Chocolate CasaLuker son producidas con ingredientes de la mejor calidad. Este compound es ideal para cubrir o decorar hojaldres, tortas, galletas o panes; preparar rellenos, brillos y ganache, fabricar decoraciones, bombones y huevos de chocolate. Son fáciles de usar porque no requieren atemperado. Elabore sus recetas de forma rápida y fácil."
 msgstr "Las Coberturas Sabor a Chocolate CasaLuker son producidas con ingredientes de la mejor calidad. Este compound es ideal para cubrir o decorar hojaldres, tortas, galletas o panes; preparar rellenos, brillos y ganache, fabricar decoraciones, bombones y huevos de chocolate. Son fáciles de usar porque no requieren atemperado. Elabore sus recetas de forma rápida y fácil."
@@ -120,13 +159,13 @@ msgid "DARK, MILK AND WHITE COMPOUND.<br> *Este producto es vendido únicamente 
 msgstr "DARK, MILK AND WHITE COMPOUND.<br> *Este producto es vendido únicamente en Colombia. Si está interesado por favor contactarse con nuestro grupo de ventas."
 
 msgid "Select"
-msgstr "Seleccionar"
+msgstr "Seleziona"
 
 msgid "Others"
 msgstr "Otros"
 
 msgid "Belgium"
-msgstr "Bélgica"
+msgstr "Bélgio"
 
 msgid "Colombia"
 msgstr "Colombia"
@@ -141,13 +180,13 @@ msgid "Germany"
 msgstr "Alemania"
 
 msgid "Brazil"
-msgstr "Brasil"
+msgstr "Brasile"
 
 msgid "Canada"
 msgstr "Canada"
 
 msgid "United States"
-msgstr "Estados Unidos"
+msgstr "Stati Uniti "
 
 msgid "Finland"
 msgstr "Finlandia"
@@ -159,16 +198,16 @@ msgid "Guatemala"
 msgstr "Guatemala"
 
 msgid "Hungary"
-msgstr "Hungría"
+msgstr "Ungheria"
 
 msgid "Italy"
 msgstr "Italia"
 
 msgid "Japan"
-msgstr "Japón"
+msgstr "Giappone"
 
 msgid "Luxembourg"
-msgstr "Luxemburgo"
+msgstr "Lussemburgo"
 
 msgid "Middle East"
 msgstr "Medio Oriente"
@@ -180,22 +219,22 @@ msgid "United Kingdom"
 msgstr "Reino Unido"
 
 msgid "Czech Republic"
-msgstr "República Checa"
+msgstr "Repubblica Ceca"
 
 msgid "Slovak Republic"
-msgstr "República de Eslovaquia"
+msgstr "Repúbblica Slovacca"
 
 msgid "Russia"
-msgstr "Rusia"
+msgstr "Russia"
 
 msgid "Sweden"
-msgstr "Suecia"
+msgstr "Svezia"
 
 msgid "Ukraine"
 msgstr "Ucrania"
 
 msgid "Select City"
-msgstr "Seleccionar Ciudad"
+msgstr "seleziona il paese"
 
 msgid "Barranquilla"
 msgstr "Barranquilla"
@@ -216,10 +255,10 @@ msgid "Pasto"
 msgstr "Pasto"
 
 msgid "Contact Us"
-msgstr "Contáctenos"
+msgstr "Contattaci"
 
 msgid " *Required fields."
-msgstr "* Campos obligatorios."
+msgstr " *Required fields."
 
 msgid "Ibagué, Colombia"
 msgstr "Ibagué, Colombia"
@@ -279,100 +318,110 @@ msgid "Venta bajo pedido"
 msgstr "Venta bajo pedido"
 
 msgid "Luker 1906, Our Secret"
-msgstr "Luker 1906, Nuestro Secreto"
+msgstr "Luker 1906, Il Nostro Segreto"
 
 msgid "Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo."
 msgstr "Esta dirección de correo electrónico está siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo."
 
 msgid "Luker 1906, Single Origin Chocolates, have a unique flavour that is given by the pureness of their origins. Made from selected beans from the different Fino de Aroma Cocoa growing regions and countries, their flavour does not only reflect the cocoa variety, but also richness of the soil and the cocoa growing culture of its region. Luker 1906, A treat for the senses."
-msgstr "Luker 1906, Single Origin Chocolates, son chocolates de sabor único por la pureza de su origen. Fabricados a partir de granos seleccionados de cada región y país cultivador de Cacao Fino de Aroma, su sabor refleja no solo la variedad de cacao, sino la riqueza del suelo y la cultura cacaotera de los agricultores de la región. Luker 1906, Un premio para los sentidos."
+msgstr ""
+"Luker 1906, Single Origin Chocolates, hanno un flavour unico derivante dalla purezza delle loro origini. Prodotti da fave selezionate provenienti dalle diverse regioni e paesi dove si coltiva il cacao Fino de Aroma, il loro flavour non solo rispecchia le varietà di cacao, ma anche la ricchezza del suolo e la cultura di coltivazione del cacao della regione.\n"
+"Luker 1906, una delizia per i sensi."
 
 msgid "TAILOR MADE INNOVATION"
-msgstr "INNOVACIÓN A SU MEDIDA"
+msgstr "INNOVAZIONE SU MISURA"
 
 msgid "In the CasaLuker Research and Development Centre we develop tailor made products under international standards."
-msgstr "En el centro de Investigación y Desarrollo CasaLuker desarrollamos productos a la medida en cooperación con nuestros clientes bajo estándares internacionales."
+msgstr "Nel Centro di Ricerca e Sviluppo di CasaLuker sviluppiamo prodotti su misura secondo gli standard internazionali."
 
 msgid "Tailor made products and private brands: "
-msgstr "Productos a la medida y marcas privadas:"
+msgstr "Prodotti e brand privati su misura:"
 
 msgid "COCOA MASS TASTING"
-msgstr "CÓMO CATAR MASA DE CACAO"
+msgstr "DEGUSTAZIONE DELLA MASSA DI CACAO"
 
 msgid "Cocoa tasting is undertaken by professionals to determine the properties of aroma and flavour in a particular cocoa sample. The process consists in smelling and tasting the sample in order to measure the levels of cocoa flavour, the acidity, astringency and the level of bitter, fruit, floral and nutty notes, among other properties."
-msgstr "La Cata de masa de Cacao es una práctica profesional que se hace para determinar los atributos del aroma y el sabor en una muestra de Cacao específica.El proceso consiste en olfatear y saborear la muestra para medir el nivel de sabor a cacao, la acidez, la astringencia y el nivel amargo, frutal, floral y de nuez, entre otras características."
+msgstr ""
+"La degustazione del cacao viene eseguita da professionisti in modo da determinare le proprietà di aroma e gusto in un particolare campione di cacao.\n"
+"Il processo consiste nell’annusare e assaggiare il campione e misurare così i livelli di flavour, l’acidità, l’astringenza e il livello di amaro e i toni fruttati e floreali, le note maltate, e altre proprietà."
 
 msgid "How it is done:"
-msgstr "El proceso:"
+msgstr "Come si fa:"
 
 msgid "- Take the sample and smell it while you stir the content with a tea-spoon or spatula, in order to perceive its variety of aromas.- Take a small sample of the mass to your mouth and disperse it uniformly over your tongue.- Hold the sample in your mouth for 15 - 20 seconds, taking in small amounts of air at the same time.- The attributes become evident while doing this. Record your perceptions using the CasaLuker nariz del cacao (Cocoas nose) as an aid."
-msgstr "- Tome la muestra y olfatéela para percibir sus aromas mientras remueve el contenido con una cuchara ó espátula.- Tome una pequeña muestra de masa y llévelo a la boca buscando una dispersión uniforme sobre la lengua.- Mantenga la muestra en su boca durante 15 o 20 segundos, aireando un poco con bocanadas de aire.- Los atributos son evidentes durante este tiempo, escriba sus percepciones con la ayuda de la nariz del cacao CasaLuker."
+msgstr ""
+"- Si prende il campione e lo si annusa mentre si gira con una spatola o un cucchiaino da tè il contenuto, in modo da percepire la sua varietà di aromi.\n"
+"- Si mette in bocca una piccola quantità della massa e la si disperde in modo uniforme sulla lingua.\n"
+"- Si trattiene il campione in bocca per 15 - 20 secondi, inspirando contemporaneamente piccole quantità di aria.\n"
+"- Così facendo le qualità diventano evidenti. Si registrano le proprie percezioni usando in aiuto la nariz del cacao (naso del cacao) di CasaLuker."
 
 msgid "Note: You must clean your palate with water between samples."
-msgstr "Nota: Es recomendado realizar un enjuague con agua entre muestras."
+msgstr "Nota: Tra un campione e l’altro bisogna pulire il palato con acqua."
 
 msgid "Nativo, Country Origin"
-msgstr "Nativo, Origen, País "
+msgstr "Nativo, Paese d’Origine"
 
 msgid "Luker 1906 country origin chocolates embody the cocoa-growing culture of each of the Fino de Aroma producing countries."
-msgstr "Los chocolates Luker 1906 origen país resumen la cultura cacaotera de cada país productor de Cacao Fino de Aroma. "
+msgstr "I cioccolati Luker 1906, Paese d’Origine, incarnano la cultura della coltivazione del cacao di ogni paese produttore di fino de aroma.. "
 
 msgid "NATIVO, COUNTRY  ORIGIN"
-msgstr "NATIVO, ORIGEN PAÍS "
+msgstr "NATIVO, PAESE D’ORIGINE"
 
 msgid "DESCRIPTION"
-msgstr "DESCRIPCIÓN "
+msgstr "DESCRIPTION "
 
 msgid "BACK TO MENU"
 msgstr "VOLVER AL MENÚ"
 
 msgid "CODE"
-msgstr "CÓD."
+msgstr "CODE"
 
 msgid "COCOA CONTENT"
-msgstr "CONTENIDO DE CACAO"
+msgstr "COCOA CONTENT"
 
 msgid "VISCOSITY"
-msgstr "FLUIDEZ"
+msgstr "VISCOSITY"
 
 msgid "APPLICATIONS"
-msgstr "APLICACIONES"
+msgstr "APPLICATIONS"
 
 msgid "ENROBING"
-msgstr "CUBRIR"
+msgstr "ENROBING"
 
 msgid "DECORATIVE FIGURES"
-msgstr "FIGURAS DE CORATIVAS"
+msgstr "DECORATIVE FIGURES"
 
 msgid "MOULDING"
-msgstr "MOLDEO"
+msgstr "MOULDING"
 
 msgid "FILLINGS AND GANACHES"
-msgstr "RELLENOS Y GANACHES"
+msgstr "FILLINGS AND GANACHES"
 
 msgid "DECORATING"
-msgstr "DECORACIÓN"
+msgstr "DECORATING"
 
 msgid "DESSERTS"
-msgstr "POSTRES"
+msgstr "DESSERTS"
 
 msgid "Ecuador"
 msgstr "Ecuador"
 
 msgid "COUNTRY ORIGIN"
-msgstr "ORIGEN PAÍS"
+msgstr "COUNTRY ORIGIN"
 
 msgid "*Milk Colombia"
 msgstr "*Milk Colombia"
 
 msgid "Unique Origin"
-msgstr "Origen único"
+msgstr "Unique Origin"
 
 msgid "Luker 1906, SANTANDER, HUILA, TUMACO and ARAUCA. Four Colombian Origin Chocolates with flavours that reflect the country’s geographic and cultural diversity. Santander cocoa is cultivated in the Andes; Tumaco, in the tropical forests of the Pacific Coast and Huila cocoa is typical of the region’s deep valleys. In Arauca, cocoa grows in wild landscapes between the snow-capped mountains and valleys of the Orinoco. Mountains, forests and valleys: Luker 1906, the chocolate with an inimitable flavour of the land that it grows in."
-msgstr "Luker 1906, origen SANTANDER, HUILA, TUMACO y ARAUCA, cuatro regiones colombianas, sabores que reflejan la diversidad geográfica y cultural del país. El cacao de Santander crece en la Cordillera de los Andes; el cacao en Tumaco es cultivado dentro de la selva tropical en el litoral pacífico. En el Huila, el cacao es característico de los valles entre cordilleras. En Arauca crece en un paisaje salvaje entre nevados y sabanas de la región de la Orinoquía. Montañas, selvas y llanuras, Luker 1906, el chocolate con el inimitable sabor de la tierra que les da vida."
+msgstr ""
+"Luker 1906, SANTANDER, HUILA, TUMACO e ARAUCA. Quattro Cioccolati di origine colombiana, i cui flavour rispecchiano la diversità culturale e geografica del paese.\n"
+"Il cacao Santander viene coltivato sulle Ande; il Tumaco, nelle foreste tropicali sulla Costa del Pacifico; il cacao Huila è tipico delle profonde vallate della regione. Ad Arauca, il cacao cresce in paesaggi selvaggi tra le montagne dalle punte imbiancate di neve e le valli dell’Orinoco. Montagne, foreste e valli: Luker 1906, il cioccolato con l’inimitabile gusto della terra in cui cresce."
 
 msgid "TUMACO (Región Colombiana)"
-msgstr "TUMACO (Región Colombiana)"
+msgstr "TUMACO (Colombian Region)"
 
 msgid "Extra Dark Tumaco"
 msgstr "Extra Dark Tumaco"
@@ -381,64 +430,67 @@ msgid "Dark Tumaco"
 msgstr "Dark Tumaco"
 
 msgid "HUILA (Región Colombiana)"
-msgstr "HUILA (Región Colombiana)"
+msgstr "HUILA (Colombian Region)"
 
 msgid "Dark Huila"
 msgstr "Dark Huila"
 
 msgid "SANTANDER (Región Colombiana)"
-msgstr "SANTANDER (Región Colombiana)"
+msgstr "SANTANDER (Colombian Region)"
 
 msgid "Extra Dark Santander"
 msgstr "Extra Dark Santander"
 
 msgid "ARAUCA (Región Colombiana)"
-msgstr "ARAUCA (Región Colombiana)"
+msgstr "ARAUCA (Colombian Region)"
 
 msgid "Dark Arauca"
 msgstr "Dark Arauca"
 
 msgid "Working temperature"
-msgstr "Temperatura de trabajo"
+msgstr "Working temperature"
 
 msgid "Packaging"
-msgstr "Embalaje + Formato"
+msgstr "Packaging"
 
 msgid "2,5 Kg Bag, Minibars Luker 20 Kg Bag, Minibars Luker"
-msgstr "Bolsa x 2,5 Kg, Minibarras Luker<br>Caja x 20 Kg, Minibarras Luker"
+msgstr "2,5 Kg Bag, Minibars Luker 20 Kg Bag, Minibars Luker"
 
 msgid "Shelf life (months)"
-msgstr "Vida útil (meses)"
+msgstr "Shelf life (months)"
 
 msgid "24 months/ *14 months"
-msgstr "24 meses/ *14 meses"
+msgstr "24 months/ *12 months"
 
 msgid "VERY FLUID"
-msgstr "MUY FLUIDO"
+msgstr "VERY FLUID"
 
 msgid "WE SELECT THE BEST INGREDIENTS"
-msgstr "SELECCIONAMOS LOS MEJORES INGREDIENTES"
+msgstr "SELEZIONIAMO I MIGLIORI INGREDIENTI"
 
 msgid "VERY VISCOUS"
-msgstr "POCO FLUIDO"
+msgstr "VERY VISCOUS"
 
 msgid "Meticulous selection of ingredients is definitive in achieving the unique sensorial profile characteristic to the chocolate of Luker Cacao. We select the best Cacao Fino de Aroma beans from Colombia, Ecuador and Peru, and use 100% cocoa butter and natural vanilla in our couvertures. Our couvertures, with their exquisite and particular flavour, are ideal for chocolate products of all kinds."
-msgstr "La exigente selección de ingredientes es definitiva para lograr un perfil sensorial único como el de las coberturas de chocolate Luker Cacao. Seleccionamos los mejores granos de Cacao Fino de Aroma de origen Colombiano, Ecuatoriano y Peruano y utilizamos 100% manteca de cacao y vainilla natural. En chocolatería, nuestros chocolates son ideales por su exquisito y diferente sabor."
+msgstr ""
+"Una selezione meticolosa degli ingredienti è fondamentale per ottenere quelle caratteristiche uniche del profilo sensoriale proprie del cioccolato Luker Cacao.\n"
+"Selezioniamo le migliori fave di Cacao Fino de Aroma provenienti da Colombia, Ecuador e Perù, e nelle nostre coperture usiamo burro di cacao al 100% e vaniglia naturale.\n"
+"Le nostre coperture, con il loro gusto particolare e delizioso, sono ideali per i prodotti al cioccolato di tutti i tipi."
 
 msgid "ALL OUR COUVERTURES REQUIRE TEMPERING"
-msgstr "TODAS NUESTRAS COBERTURAS REQUIEREN ATEMPERADO"
+msgstr "ALL OUR COUVERTURES REQUIRE TEMPERING"
 
 msgid "PACKAGING"
-msgstr "EMPAQUE"
+msgstr "PACKAGING"
 
 msgid "1 Kg/2,5 Kg Bag /20 Kg Box"
-msgstr "Bolsa 1 Kg /2,5 Kg/<br>Caja 20 Kg, Discos"
+msgstr "1 Kg/2,5 Kg Bag /20 Kg Box"
 
 msgid "DARK CHOCOLATE"
-msgstr "CHOCOLATE OSCURO"
+msgstr "DARK CHOCOLATE"
 
 msgid "Enigma (Sugar free)"
-msgstr "Enigma (Sin Azúcar)"
+msgstr "Enigma (Sugar free)"
 
 msgid "Palenque"
 msgstr "Palenque"
@@ -462,10 +514,10 @@ msgid "30-32 ºC"
 msgstr "30-32 ºC"
 
 msgid "MILK CHOCOLATE WHITE CHOCOLATE"
-msgstr "CHOCOLATE CON LECHE CHOCOLATE BLANCO"
+msgstr "MILK CHOCOLATE WHITE CHOCOLATE"
 
 msgid "MILK CONTENT"
-msgstr "CONTENIDO DE LECHE"
+msgstr "MILK CONTENT"
 
 msgid "Heliconia"
 msgstr "Heliconia"
@@ -489,295 +541,299 @@ msgid "snowy"
 msgstr "Nevado"
 
 msgid "The presence of CasaLuker in the whole cocoa chain, allows us to carefully select the best Fino de Aroma beans that guarantee high standards in quality, flavor and aroma. We manufacture the best semi-elaborated products derived from the Cacao Fino de Aroma, such as: cocoa mass, cocoa butter, cocoa powder and beans."
-msgstr "La presencia de CasaLuker en toda la cadena del cacao, nos permite seleccionar cuidadosamente los mejores granos provenientes del Cacao Fino de Aroma, garantizando altos estándares de calidad, aroma y sabor.Manufacturamos los mejores productos semi-elaborados con calidad Fino de Aroma tales como: masa de cacao, manteca de cacao, cacao en polvo y cacao en grano."
+msgstr ""
+"La presenza di CasaLuker nell’intera catena del cacao ci permette di selezionare attentamente le migliori fave di Fino de Aroma che garantiscono elevati standard di qualità, gusto e aroma.\n"
+"Produciamo i migliori prodotti semi-lavorati derivati dal Cacao Fino de Aroma come: massa di cacao, burro di cacao, cacao in polvere e fave di cacao."
 
 msgid "Luker"
-msgstr "Luker"
+msgstr "DERIVATI DEL CACAO"
 
 msgid "PACKAGING + FORMAT"
-msgstr "EMBALAJE + FORMATO"
+msgstr "PACKAGING + FORMAT"
 
 msgid "SHELF LIFE(MONTHS)"
-msgstr "VIDA ÚTIL(MESES)"
+msgstr "SHELF LIFE(MONTHS)"
 
 msgid "Cocoa Mass"
-msgstr "Masa de Cacao"
+msgstr "Cocoa Mass"
 
 msgid "Box x 22 Kg.Discs"
-msgstr "Caja x 22 Kg.Discos"
+msgstr "Box x 22 Kg.Discs"
 
 msgid "100% natural Cocoa Powder 12%"
-msgstr "100% Cacao Natural en Polvo, 12%"
+msgstr "100% natural Cocoa Powder 12%"
 
 msgid "Sack x 25 Kg"
-msgstr "Saco x 25 Kg"
+msgstr "Sack x 25 Kg"
 
 msgid "100% natural Cocoa Powder 16%"
-msgstr "100% Cacao Natural en Polvo, 16%"
+msgstr "100% natural Cocoa Powder 16%"
 
 msgid "Cocoa butter"
-msgstr "Manteca de Cacao"
+msgstr "Cocoa butter"
 
 msgid "Cocoa beans Colombian Origin"
-msgstr "Cacao en grano Origen Colombia"
+msgstr "Cocoa beans Colombian Origin"
 
 msgid "Sack x 69 Kg"
 msgstr "Saco x 69 Kg"
 
 msgid "Cocoa beans Ecuadorian Origin"
-msgstr "Cacao en grano Origen Ecuador"
+msgstr "Cocoa beans Ecuadorian Origin"
 
 msgid "Cocoa beans Peruvian Origin"
-msgstr "Cacao en grano Origen Perú"
+msgstr "Cocoa beans Peruvian Origin"
 
 msgid "Chocolate Dragees made with 100% Cacao Fino de Aroma"
-msgstr "Grageas con Centros Tropicales"
+msgstr "DRAGÉES AL CIOCCOLATO CON 100% CACAO FINO DE AROMA"
 
 msgid "In the same way as that magical seductive instrument that characterises the happy upbeat feel of the tropics with its sweet and varied rhythm, Luker Maracas presents a new range of chocolate-covered dragees. Filled with roasted coffee, roasted cocoa and sweet tropical fruits, these delightful dragees are covered in our finest Fino de Aroma chocolate. Luker Maracas, Tropical Dragees are ideal for decorating desserts and cakes, to include in preparations, as toppings for ice-cream or simply to give that special touch to your recipes. They are also a good accompaniment for coffee and other hot drinks; they can be mixed in with cereals and dried fruit to prepare delicious, healthy snacks."
-msgstr "Como aquel instrumento mágico y seductivo que caracteriza el ambiente alegre y festivo del trópico con su ritmo dulce y diverso, Luker Maracas trae una nueva gama de grageas de chocolate. Estos centros de café tostado, cacao tostado y dulces frutas tropicales están cubiertos con nuestro chocolate Fino de Aroma. Luker Maracas, Tropical Dragees son grageas ideales para decorar postres y tortas, como inclusión en preparaciones, topping para helados o simplemente para darle un toque especial a sus recetas. También pueden acompañar cafés y bebidas calientes, mezclarse con cereales y frutos secos para elaborar snacks saludables."
+msgstr ""
+"Proprio come quello strumento magico e seducente che caratterizza la felice sensazione di ottimismo tipica dei tropici con il suo ritmo dolce e vario, Luker Maracas presenta una nuova gamma di dragées ricoperte di cioccolato. Con un ripieno di caffè tostato, cacao tostato e dolci frutti tropicali, questi deliziosi dragées sono ricoperti con il nostro cioccolato Fino de Aroma finissimo.\n"
+"Luker Maracas, Tropical Dragées sono ideali per decorare dessert e torte, da inserire in preparati alimentari, come topping per gelati o semplicemente per dare un tocco speciale alle vostre ricette. Sono anche ottime per accompagnare il caffè e altre bevande calde; si possono mescolare ai cereali e alla frutta essiccata per preparare degli snack deliziosi e salutari."
 
 msgid "Product"
-msgstr "PRODUCTO"
+msgstr "Product"
 
 msgid "Dark Chocolate Covered Nibs Cluster"
 msgstr "Dark Chocolate  Covered Nibs Cluster"
 
 msgid "Small chunks of roasted Fino de Aroma cocoa covered in dark chocolate making for a delicious crunchy chocoaltey snack. Ideal as a snack and for including in recipes."
-msgstr " Pequeños trozos del mejor Cacao Fino de Aroma tostados y agrupados son cubiertos con chocolate oscuro formando un delicioso snack crocante con mucho sabor a cacao. Ideal como snack, topping e inclusión en sus recetas."
+msgstr "Small chunks of roasted Fino de Aroma cocoa covered in dark chocolate making for a delicious crunchy chocoaltey snack. Ideal as a snack and for including in recipes."
 
 msgid "1 Kg Bag 15 Kg Box"
-msgstr "Bolsa 1 Kg Caja 15 Kg"
+msgstr "1 Kg Bag 15 Kg Box"
 
 msgid "Small chunks of the best Fino de Aroma cocoa, roasted and covered in dark chocolate. Ideal for decorating cakes and desserts or on its own as a snack."
-msgstr "Pequeños trozos del mejor Cacao Fino de Aroma, son tostados y luego son cubiertos con chocolate oscuro. Ideales para consumir como snack, para inclusiones en sus postres y decoraciones."
+msgstr "Small chunks of the best Fino de Aroma cocoa, roasted and covered in dark chocolate. Ideal for decorating cakes and desserts or on its own as a snack."
 
 msgid "1Kg Bag 10 Kg Box"
-msgstr "Bolsa 1 Kg  Caja 10 Kg"
+msgstr "1Kg Bag 10 Kg Box"
 
 msgid "Dark Chocolate Covered Espresso Beans"
 msgstr "Dark Chocolate Covered Espresso Beans"
 
 msgid "The perfect combination. The best Colombian coffee beans, covered in generous layers of Fino de Aroma chocolate. Their shine and oval shape makes them different to other brands of chocolate-covered coffee beans. Ideal to go with coffee, as a snack, to include in your recipes or for decoration."
-msgstr "El sabor explosivo del café logra el balance perfecto de esta gragea. Este toque único de sabor hará que sus productos se diferencien y sorprendan a quienes los prueban. Ideal en sus decoraciones y postres o como topping en heladería."
+msgstr "The perfect combination. The best Colombian coffee beans, covered in generous layers of Fino de Aroma chocolate. Their shine and oval shape makes them different to other brands of chocolate-covered coffee beans. Ideal to go with coffee, as a snack, to include in your recipes or for decoration.."
 
 msgid "The explosive flavour of coffee produces the perfect balance in this dragee. This unique flavor will differentiate your products and surprise whoever tries them. Ideal for decorating cakes, desserts and ice-cream."
-msgstr "El sabor explosivo del café logra el balance perfecto de esta gragea. Este toque único de sabor hará que sus productos se diferencien y sorprendan a quienes los prueban. Ideal en sus decoraciones y postres o como topping en heladería."
+msgstr "The explosive flavour of coffee produces the perfect balance in this dragee. This unique flavor will differentiate your products and surprise whoever tries them. Ideal for decorating cakes, desserts and ice-cream"
 
 msgid "Dark Chocolate Covered Physalis"
 msgstr "Dark Chocolate Covered Physalis"
 
 msgid "This tropical fruit is covered in dark chocolate creating the ideal balance between the fruit´s acidic flavour and the chocolate´s fruit and floral notes. Ideal for decorating cakes and desserts or on its own as a snack."
-msgstr "Esta fruta tropical, conocida como uchuva, es recubierta con chocolate oscuro buscando el equilibrio ideal entre el sabor ácido de la fruta y las notas frutales y florales del chocolate. Ideal como decoración y snack."
+msgstr "This tropical fruit is covered in dark chocolate creating the ideal balance between the fruit´s acidic flavour and the chocolate´s fruit and floral notes. Ideal for decorating cakes and desserts or on its own as a snack."
 
 msgid "1 Kg Bag 20 Kg Box"
-msgstr "Bolsa 1 Kg Caja 20 Kg"
+msgstr "1 Kg Bag 20 Kg Box"
 
 msgid "MENU"
 msgstr "MENU"
 
 msgid "OUR BELIEVES"
-msgstr "NUESTRAS CREENCIAS"
+msgstr "OUR BELIEVES"
 
 msgid "SOCIAL COMMITMENT"
-msgstr "COMPROMISO SOCIAL"
+msgstr "SOCIAL COMMITMENT"
 
 msgid "ENTREPRENEURIAL PROJECTS"
-msgstr "PROYECTOS EMPRESARIALES"
+msgstr "ENTREPRENEURIAL PROJECTS"
 
 msgid "WHAT IS THE LUKER WAY"
-msgstr "QUÉ ES THE LUKER WAY"
+msgstr "WHAT IS THE LUKER WAY"
 
 msgid "THE COCOA TASTING NOSE"
-msgstr "NARIZ DEL CACAO"
+msgstr "WHAT IS THE LUKER WAY"
 
 msgid "MEDICINAL CHEMICAL"
-msgstr "QUÍMICO MEDICINAL"
+msgstr "MEDICINAL CHEMICAL"
 
 msgid "Bitter"
-msgstr "Amargo"
+msgstr "Bitter"
 
 msgid "Metallic"
-msgstr "Metálico"
+msgstr "Metallic"
 
 msgid "Plastic"
-msgstr "Plástico"
+msgstr "Plastic"
 
 msgid "Rubber"
-msgstr "Caucho"
+msgstr "Rubber"
 
 msgid "Gasoline"
-msgstr "Gasolina"
+msgstr "Gasoline"
 
 msgid "EARTHY"
-msgstr "TERROSO"
+msgstr "EARTHY"
 
 msgid "Musty"
-msgstr "Mohoso"
+msgstr "Musty"
 
 msgid "Woody"
-msgstr "Maderoso"
+msgstr "Woody"
 
 msgid "Powder"
-msgstr "Polvo"
+msgstr "Powder"
 
 msgid "Yeast"
-msgstr "Levadura"
+msgstr "Yeast"
 
 msgid "Herbal"
 msgstr "Herbal"
 
 msgid "Moss"
-msgstr "Musgo"
+msgstr "Moss"
 
 msgid "Heno"
 msgstr "Heno"
 
 msgid "Hay Freshly Cut Grass"
-msgstr "Pasto Fresco"
+msgstr "Hay Freshly Cut Grass"
 
 msgid "Coffe"
-msgstr "cafe"
+msgstr "Coffe"
 
 msgid "TOASTED"
-msgstr "TOSTADO"
+msgstr "TOASTED"
 
 msgid "Tobacco"
-msgstr "Tabaco"
+msgstr "Tobacco"
 
 msgid "Tea"
-msgstr "Te"
+msgstr "Tea"
 
 msgid "Nust"
-msgstr "Nuez"
+msgstr "Nust"
 
 msgid "Smoked"
-msgstr "Ahumado"
+msgstr "Smoked"
 
 msgid "Ham-like"
-msgstr "Jamonoso"
+msgstr "Ham-like"
 
 msgid "Caramel"
-msgstr "Caramelo"
+msgstr "Caramel"
 
 msgid "AROMATIC"
-msgstr "AROMÁTICO"
+msgstr "AROMATIC"
 
 msgid "Floral"
 msgstr "Floral"
 
 msgid "Spicy"
-msgstr "Picante"
+msgstr "Spicy"
 
 msgid "Vanilla"
-msgstr "Vainilla"
+msgstr "Vanilla"
 
 msgid "Vainillina"
 msgstr "Vainillina"
 
 msgid "COCOA"
-msgstr "CACAO"
+msgstr "COCOA"
 
 msgid "Strong"
-msgstr "Fuerte"
+msgstr "Strong"
 
 msgid "Acid"
-msgstr "Acido"
+msgstr "Acid"
 
 msgid "Alcaline"
-msgstr "Oscuro"
+msgstr "Alcaline"
 
 msgid "READ +"
-msgstr "VER +"
+msgstr "VENI +"
 
 msgid "GET MORE INFO"
-msgstr "RECIBE MAS INFORMACION"
+msgstr "GET MORE INFO"
 
 msgid "Astringent"
-msgstr "Astringente"
+msgstr "Astringent"
 
 msgid "SWEETNESS"
-msgstr "DULZURA"
+msgstr "SWEETNESS"
 
 msgid "Brown Sugar"
-msgstr "Azúcar Morena"
+msgstr "Brown Sugar"
 
 msgid "Malt"
-msgstr "Malta"
+msgstr "Malt"
 
 msgid "Honey"
-msgstr "Miel"
+msgstr "Honey"
 
 msgid "Molasse"
-msgstr "Melosa"
+msgstr "Molasse"
 
 msgid "Milky"
-msgstr "LACTOSA"
+msgstr "Milky"
 
 msgid "Buttery"
-msgstr "Mantequilloso"
+msgstr "Buttery"
 
 msgid "Creamy"
-msgstr "Cremoso"
+msgstr "Creamy"
 
 msgid "Cooked"
-msgstr "Cocinado"
+msgstr "Cooked"
 
 msgid "FRUITY WINE-LIKE"
-msgstr "FRUTO VINOSO"
+msgstr "FRUITY WINE-LIKE"
 
 msgid "Fruit tree"
-msgstr "Árbol Frutal"
+msgstr "Fruit tree"
 
 msgid "Citric"
-msgstr "Citricos"
+msgstr "Citric"
 
 msgid "Tropical Fruit"
-msgstr "Frutos Tropicales"
+msgstr "Tropical Fruit"
 
 msgid "Dried Fruit"
-msgstr "Frutos Secos"
+msgstr "Dried Fruit"
 
 msgid "Liquored"
-msgstr "Alicorado"
+msgstr "Liquored"
 
 msgid "It is the connection we have with our partners; is our relationship with the farmers (our suppliers), the environment, our employees, the clients and society at large. We believe in sharing opportunities, knowledge and technology. We work together to produce the finest chocolate from Fino de Aroma cocoa beans."
 msgstr "Es la conexión que tenemos con nuestros socios; es nuestra relación con los agricultores (nuestros proveedores), el medio ambiente, nuestros empleados, los clientes y la sociedad. Creemos en compartir oportunidades, conocimiento, entrenamiento y tecnología, y trabajamos juntos para producir el mejor Cacao Fino de Aroma."
 
 msgid "CLICK OR SCROLL DOWN"
-msgstr "CLIC O DESPLACE"
+msgstr "CLICK OR SCROLL DOWN"
 
 msgid "WE BELIEVE IN EDUCATION"
-msgstr "CREEMOS EN LA EDUCACIÓN"
+msgstr "WE BELIEVE IN EDUCATION"
 
 msgid "Through the Granja Luker, one of the few cocoa research centres, founded in 1962, we foment the adoption of profitable cultivation models that have a great impact on the quality of life and income of producers. More than 700 people are educated annually. More than 30.000 farmers have passed through the Granja Luker during these first 50 years."
-msgstr "A través de la Granja Luker, uno de los pocos centros de investigación de Cacao en el mundo, fundada en 1962, fomentamos la adopción de modelos de cultivos rentables con un gran impacto en la calidad de vida y los ingresos de los productores. Capacitamos a más de 700 personas anualmente. Más de 30.000 agricultores han pasado por la Granja Luker durante estos primeros 50 años."
+msgstr "Through the Granja Luker, one of the few cocoa research centres, founded in 1962, we foment the adoption of profitable cultivation models that have a great impact on the quality of life and income of producers. More than 700 people are educated annually. More than 30.000 farmers have passed through the Granja Luker during these first 50 years"
 
 msgid "SUPPORT AND TRAINING"
-msgstr "SOPORTE Y CAPACITACIÓN"
+msgstr "SUPPORT AND TRAINING"
 
 msgid "GRANJA LUKER"
 msgstr "GRANJA LUKER"
 
 msgid "Fungus"
-msgstr "Hongo"
+msgstr "Fungus"
 
 msgid "AGROFORESTRY SYSTEM"
-msgstr "SISTEMA AGROFORESTAL"
+msgstr "AGROFORESTRY SYSTEM"
 
 msgid "TO LEARN MORE ABOUT GRANJA LUKER"
-msgstr "PARA CONOCER MÁS ACERCA GRANJA LUKER"
+msgstr "TO LEARN MORE ABOUT GRANJA LUKER"
 
 msgid "The cocoa producers associations are agricultural trade groups that work to raise funds provided by the Colombian government, international aid agencies and private businesses in order to increase cocoa cultivation, improve quality and agricultural training. These associations also represent a way of limiting the cultivation of illicit crops and the drug trade in the regions."
-msgstr "Las asociaciones de productores de cacao son grupos de agricultores que trabajan en conjunto con el fin de generar beneficios mutuos, tales como: recaudo de fondos proporcionados por el gobierno de Colombia, las agencias de ayuda internacionales y empresas privadas. Entrenamiento agrícola y apoyo técnico en el campo, con el objetivo de aumentar el cultivo  de cacao en Colombia, mejorar la calidad del cacao e incentivar las buenas prácticas en los cultivos. Estas asociaciones también representan una forma de limitar los cultivos ilícitos y el tráfico de drogas en las regiones."
+msgstr "The cocoa producers associations are agricultural trade groups that work to raise funds provided by the Colombian government, international aid agencies and private businesses in order to increase cocoa cultivation, improve quality and agricultural training. These associations also represent a way of limiting the cultivation of illicit crops and the drug trade in the regions."
 
 msgid "CLICK HERE"
-msgstr "CLIC AQUI"
+msgstr "CLICK HERE"
 
 msgid "A COCOA WITH HISTORY"
-msgstr "UN CACAO CON HISTORIA"
+msgstr "A COCOA WITH HISTORY"
 
 msgid "A cocoa with history was born when CasaLuker went to visit the Torres family cocoa farm in Huila, Colombia. The story is set in Gigante, a village in the Colombian department of Huila, 379 km south of Colombias capital city, Bogotá. The region is essentially agricultural and 70% of its economy depends on coffee and cocoa. Spending time with the family, understanding their way of life and listening to their story out in the fields, gave us a different perspective of the hard work that goes into the cocoa business. Read thefull article."
-msgstr "Un cacao con historia nació con la visita de CasaLuker a la parcela demostrativa de la familia Torres en el Huila, Colombia. La historia está ambientada en Gigante, un pueblo en el departamento colombiano del Huila, a 379 kilómetros al sur de la capital de Colombia, Bogotá. La región es esencialmente agrícola y el 70% de su economía depende del café y el cacao. Pasar tiempo con la familia, la comprensión de su modo de vida y escuchar sus historias en los campos, nos dio una perspectiva diferente de la ardua labor que se da en el negocio del cacao. Para leer el artículo completo haga clic aquí."
+msgstr "A cocoa with history was born when CasaLuker went to visit the Torres family cocoa farm in Huila, Colombia. The story is set in Gigante, a village in the Colombian department of Huila, 379 km south of Colombias capital city, Bogotá. The region is essentially agricultural and 70% of its economy depends on coffee and cocoa. Spending time with the family, understanding their way of life and listening to their story out in the fields, gave us a different perspective of the hard work that goes into the cocoa business. Read thefull article."
 
 msgid "HUILA"
 msgstr "HUILA"
@@ -792,159 +848,161 @@ msgid "SUR DE BOLIVAR"
 msgstr "SUR DE BOLIVAR"
 
 msgid "THE LUKER FOUNDATION"
-msgstr "FUNDACIÓN LUKER"
+msgstr "THE LUKER FOUNDATION"
 
 msgid "AREA OF WORK"
-msgstr "ÁREA DE TRABAJO"
+msgstr "AREA OF WORK"
 
 msgid "The Luker Foundation is a private non-profit organization, with a bussines origin (CasaLuker S.A.), created in 1994 with the aim of contributing to improving the quality of life of the people of Manizales (known as Manizaleños) and postering social development. Ever since its inception, the Luker Foundation has worked in different education and leisure projects, which have generated demostrative effects for other regions of Colombia and Latin América.READ MORE"
-msgstr "La Fundación Luker es una organización privada, sin ánimo de lucro y de origen empresarial (CasaLuker S.A.). Fue creada en 1994 con el fin de contribuir al mejoramiento de la calidad de vida de la gente de Manizales y así mismo fomentar el desarrollo social. En 2010, la Fundación Luker redefinió su estrategia y tiene como misión, proveer liderazgo para contribuir al desarrollo social y económico de Manizales como ciudad del conocimiento, a través de proyectos de educación, emprendimiento en alianza con líderes locales y mundiales.Leer más."
+msgstr "The Luker Foundation is a private non-profit organization, with a bussines origin (CasaLuker S.A.), created in 1994 with the aim of contributing to improving the quality of life of the people of Manizales (known as Manizaleños) and postering social development. Ever since its inception, the Luker Foundation has worked in different education and leisure projects, which have generated demostrative effects for other regions of Colombia and Latin América.READ MORE"
 
 msgid "A BET TO A BETTER FUTURE"
-msgstr "UNA APUESTA POR UN FUTURO MEJOR"
+msgstr "A BET TO A BETTER FUTURE"
 
 msgid "GO TO LUKER FOUNDATION"
-msgstr "IR A LA FUNDACIÓN LUKER"
+msgstr "GO TO LUKER FOUNDATION"
 
 msgid "For more information contact:"
-msgstr "Para más información contactar:"
+msgstr "For more information contact:"
 
 msgid "What do we offer"
-msgstr "Qué ofrecemos"
+msgstr "What do we offer"
 
 msgid "Technical audit / staff training"
-msgstr "Auditoría técnica/ Capacitación del personal"
+msgstr "Technical audit / staff training"
 
 msgid "Software for production cost control"
-msgstr "Software para el control de los costos de producción."
+msgstr "Software for production cost control"
 
 msgid "Seeds and vegetal material supplying"
-msgstr "Suministro de semillas y material vegetal"
+msgstr "Seeds and vegetal material supplying"
 
 msgid "Nursery team"
-msgstr "Montaje de viveros."
+msgstr "Nursery team"
 
 msgid "Luker 1906, Single Origin Chocolates"
-msgstr "Luker 1906, Single Origin Chocolate"
+msgstr "Luker 1906, Il Nostro Segreto"
 
 msgid "Luker Cacao, Fino de Aroma Blends"
-msgstr "Luker Cacao, mezclas de Cacao Fino de Aroma"
+msgstr "Luker Cacao, miscele Fino de Aroma"
 
 msgid "Chocolate Dragees"
-msgstr "Grageas de Chocolate"
+msgstr "Dragées al Cioccolato"
 
 msgid "Cocoa derivatives"
-msgstr "Derivados de cacao"
+msgstr "Derivati del Cacao"
 
 msgid "MORE THAN"
-msgstr "Más de"
+msgstr "MORE THAN"
 
 msgid "SAMPLES"
-msgstr "muestras"
+msgstr "SAMPLES"
 
 msgid "PROCESSED"
-msgstr "procesadas"
+msgstr "PROCESSED"
 
 msgid "REPRESENTING"
-msgstr "representando"
+msgstr "REPRESENTING"
 
 msgid "WORKING HOURS"
-msgstr "horas de trabajo"
+msgstr "WORKING HOURS"
 
 msgid "NEWS"
-msgstr "NOTICIAS"
+msgstr "NEWS"
 
 msgid "Compound"
 msgstr "Compound"
 
 msgid "Financial mode"
-msgstr "Modelo financiero."
+msgstr "Financial mode"
 
 msgid "Financial resources, funds and investors information"
-msgstr "Información de recursos financieros, fondos o líneas de crédito para los inversionistas."
+msgstr "Financial resources, funds and investors information"
 
 msgid "PROJECTS PHOTO GALLERY"
-msgstr "GALERÍA DE FOTOS"
+msgstr "PROJECTS PHOTO GALLERY"
 
 msgid "SCIENTIFIC APPROACH"
-msgstr "ENFOQUE CIENTÍFICO"
+msgstr "SCIENTIFIC APPROACH"
 
 msgid "During the last 10 years, CasaLuker has been working with Cenicafe in the characterization and deeper knowledge about cocoa, comparing the different species of cocoa beans from around the world."
-msgstr " Durante los últimos 10 años, CasaLuker ha estado trabajando con Cenicafé en la caracterización y profundización en el conocimiento del cacao, analizando y comparando diferentes especies de granos de cacao de todo el mundo."
+msgstr "During the last 10 years, CasaLuker has been working with Cenicafe in the characterization and deeper knowledge about cocoa, comparing the different species of cocoa beans from around the world."
 
 msgid "We have developed a cocoa promotion model for investors in order to motivate the cocoa culture in the country; our goal is to have 5000 hectares planted by 2017."
-msgstr "Hemos desarrollado un modelo de promoción de cacao para los inversionistas con el fin de promover la cultura del cacao en el país; nuestro objetivo es tener 5.000 hectáreas plantadas en el año 2017."
+msgstr "We have developed a cocoa promotion model for investors in order to motivate the cocoa culture in the country; our goal is to have 5000 hectares planted by 2017."
 
 msgid "In the south of the Bolívar department, surrounded by mountains and located near the Magdalena River, is the small town of Santa Rosa. Nowadays, its inhabitants live mainly off their crops, farming and mining. However, it was there that, not so long ago, illegal armed groups brought with them the cursed coca plant and with it violence and social decomposition. Discover how farmers saw cocoa as a hopeful change bringing peace and progress to the town. Read the full article"
 msgstr "In the south of the Bolívar department, surrounded by mountains and located near the Magdalena River, is the small town of Santa Rosa. Nowadays, its inhabitants live mainly off their crops, farming and mining. However, it was there that, not so long ago, illegal armed groups brought with them the cursed coca plant and with it violence and social decomposition. Discover how farmers saw cocoa as a hopeful change bringing peace and progress to the town. Read the full article"
 
 msgid "This third story explores the cocoa in Arauca, a department located in the northern part of the Colombian Orinoquía region, on the border with Venezuela. The cultural wealth of this department is manifested in its music, dance, customs, myths and legends. Don Elio, the protagonist, cultivates and mills cocoa on his farm called Laguna Vieja. The farm is on a piece of land formed by the two arms of the Arauca river and it is there where he mills the cocoa, together with all the other people that work on the farm including his wife Irma. Read thefull article."
-msgstr "Para nuestra tercera historia exploramos el cacao en Arauca, un departamento ubicado en el norte de la región de la Orinoquía colombiana, en la frontera con Venezuela. En este departamento la riqueza cultural se manifiesta en el canto, la música, las danzas, las costumbres, los mitos y las leyendas. Don Elio, el protagonista de esta historia cultiva y beneficia el cacao en su finca llamada “Laguna Vieja”. Ésta se encuentra ubicada en una porción de tierra formada por los dos brazos del río Arauca y allí es donde se lleva a cabo el proceso de beneficio del cacao en el cual participan todos los colaboradores y empleados de la finca, incluyendo a su esposa Irma. Para leer el artículo completo haga clic aquí"
+msgstr "This third story explores the cocoa in Arauca, a department located in the northern part of the Colombian Orinoquía region, on the border with Venezuela. The cultural wealth of this department is manifested in its music, dance, customs, myths and legends. Don Elio, the protagonist, cultivates and mills cocoa on his farm called Laguna Vieja. The farm is on a piece of land formed by the two arms of the Arauca river and it is there where he mills the cocoa, together with all the other people that work on the farm including his wife Irma. Read thefull article."
 
 msgid "A couple years ago, CasaLuker created an enterprising project called - Inversiones Necoclí, A Cacao Fino de Aroma Project- where a sustainable scheme was implemented through the cultivation of cacao generating greater interest in Necoclí and, as a result, better life conditions for the community. The El Rosario farm used to be used for livestock activities, but now the 500-hectares project has plantations of Melina tree, plantain and cacao. With this initiative, the Necoclí community is experiencing positive change. Read the full article."
-msgstr "Hace un par de años, CasaLuker creó un proyecto emprendedor - Inversiones Necoclí, un proyecto Cacao Fino de Aroma – en donde se implementó un esquema sostenible a través del cultivo de cacao, generando mayor interés en Necoclí y como resultado, mejores condiciones de vida para la comunidad. La finca El Rosario solía ser utilizada para actividades ganaderas, pero ahora el proyecto de 550 hectáreas tiene plantaciones de árbol de Melina, plátano y cacao. Con esta iniciativa, la comunidad de Necoclí está experimentando un cambio positivo. Para leer el artículo completo haga clic aquí."
+msgstr "A couple years ago, CasaLuker created an enterprising project called - Inversiones Necoclí, A Cacao Fino de Aroma Project- where a sustainable scheme was implemented through the cultivation of cacao generating greater interest in Necoclí and, as a result, better life conditions for the community. The El Rosario farm used to be used for livestock activities, but now the 500-hectares project has plantations of Melina tree, plantain and cacao. With this initiative, the Necoclí community is experiencing positive change. Read the full article."
 
 msgid "EDUCATION FOR DEVELOPMENT ENTREPRENEURSHIP FOR DEVELOPMENT SPECIAL PROJECTS CULTURE, LEISURE AND FREE TIME"
-msgstr "Educación para el Desarrollo Emprendimiento para el Desarrollo Proyectos Especiales; Recreación y Cultura"
+msgstr "EDUCATION FOR DEVELOPMENT ENTREPRENEURSHIP FOR DEVELOPMENT SPECIAL PROJECTS CULTURE, LEISURE AND FREE TIME"
 
 msgid "COCOA REGIONS"
-msgstr "Regiones cacaoteras"
+msgstr "COCOA REGIONS"
 
 msgid "OUR CHEFS"
-msgstr "NUESTROS CHEFS"
+msgstr "I nostri chef"
 
 msgid "KNOW ALL RECIPES FROM OUR CHEFS."
-msgstr "CONOCE TODAS LAS RECETAS DE NUESTROS CHEFS."
+msgstr "So tutto RICETTE nostri chef."
 
 msgid "AND BUYING AGENCIES"
-msgstr "y agencias de compra"
+msgstr "AND BUYING AGENCIES"
 
 msgid "Our main cocoa bean suppliers are the farmers associations with which we maintain purchasing contracts in order to guarantee the sale of their harvest."
-msgstr "Nuestros principales proveedores de cacao en grano son las asociaciones de agricultores con los que mantenemos contratos de compra con el fin de garantizar la venta de su cosecha."
+msgstr "Our main cocoa bean suppliers are the farmers associations with which we maintain purchasing contracts in order to guarantee the sale of their harvest."
 
 msgid "Our purchasing strategy is based on the direct relationship with small growers, cooperatives, coffee grinders, making the supply chain shorter. We want to guarantee quality, traceability and volumes."
-msgstr "Nuestra estrategia de compra se basa en la relación directa con los pequeños productores y asociaciones, haciendo la cadena de suministro más corta. Queremos garantizar la calidad, la trazabilidad y los volúmenes de compra."
+msgstr "Our purchasing strategy is based on the direct relationship with small growers, cooperatives, coffee grinders, making the supply chain shorter. We want to guarantee quality, traceability and volumes."
 
 msgid "COCOA-PLANTAIN-GMELINA"
-msgstr "CACAO-PLÁTANO-MELINA"
+msgstr "COCOA-PLANTAIN-GMELINA"
 
 msgid "WE BELIEVE IN FAIR PURCHASING CONDITIONS"
-msgstr "CREEMOS EN CONDICIONES DE COMPRA JUSTAS"
+msgstr "WE BELIEVE IN FAIR PURCHASING CONDITIONS"
 
 msgid "COCOA REGIONS AND BUYING AGENCIES"
-msgstr "REGIONES CACOTERAS Y AGENCIAS DE COMPRA"
+msgstr "COCOA REGIONS AND BUYING AGENCIES"
 
 msgid "OUR COCOA BEAN SUPPLIERS"
-msgstr "NUESTROS PROVEEDORES DE CACAO EN GRANO"
+msgstr "OUR COCOA BEAN SUPPLIERS"
 
 msgid "THE COCOA PRODUCERS ASSOCIATIONS"
-msgstr "LAS ASOCIACIONES DE PRODUCTORES DE CACAO"
+msgstr "THE COCOA PRODUCERS ASSOCIATIONS"
 
 msgid "OUR COMMITMENT TO PRODUCERS IN FIGURES"
-msgstr "NUESTRO COMPROMISO CON LOS PRODUCTORES EN CIFRAS"
+msgstr "OUR COMMITMENT TO PRODUCERS IN FIGURES"
 
 msgid "WE TRAIN MORE THAN 700 PEOPLE A YEAR, MORE THAN 30,000 DURING THE LAST 50 YEARS."
-msgstr "Capacitamos más de 700 personas al año, MÁS DE 30.000 DURANTE LOS ÚLTIMOS 50 AÑOS."
+msgstr "WE TRAIN MORE THAN 700 PEOPLE A YEAR, MORE THAN 30,000 DURING THE LAST 50 YEARS."
 
 msgid "In 1962, CasaLuker created Granja Luker, one of the few research centres for cocoa in the world. The staff at the centre work to modernise production technology and conservation techniques for Cacao Fino de Aroma, to ensure benefits for the farmers who rely on the crop as their livelihood, and to guarantee the best quality for our clients."
-msgstr "En 1962, CasaLuker creó la Granja Luker, uno de los pocos centros de investigación de cacao en el mundo, donde se trabaja para modernizar la tecnología de producción y de conservación de la calidad del Cacao Fino de Aroma, beneficiando a los agricultores que viven de estos cultivos y garantizando la mejor calidad para nuestros clientes."
+msgstr "In 1962, CasaLuker created Granja Luker, one of the few research centres for cocoa in the world. The staff at the centre work to modernise production technology and conservation techniques for Cacao Fino de Aroma, to ensure benefits for the farmers who rely on the crop as their livelihood, and to guarantee the best quality for our clients."
 
 msgid "As an extension of our educational programs at Granja Luker, we also mantain nine model plots in Colombia and one in Peru. A model plot is established through an arrangement made between CasaLuker and a farmer, in which the farmer receives a subsidy from CasaLuker (plant material and different farm supplies) to improve his or her crop, as well as free training. In return, the farmer agrees to convert his or her farm into a model to be used to train other producers."
-msgstr "Como una extensión de nuestros programas educativos en la Granja Luker, también tenemos nueve parcelas demostrativas en Colombia y una en Perú. Una parcela demostrativa se establece a través de un acuerdo hecho entre CasaLuker y un agricultor, en el que el agricultor recibe un subsidio por CasaLuker (material vegetal y diferentes suministros agrícolas) para mejorar su cultivo, así como una capacitación gratuita. A cambio, el agricultor se compromete a convertir su granja en un modelo utilizado para entrenar y dar ejemplo a otros productores."
+msgstr "As an extension of our educational programs at Granja Luker, we also mantain nine model plots in Colombia and one in Peru. A model plot is established through an arrangement made between CasaLuker and a farmer, in which the farmer receives a subsidy from CasaLuker (plant material and different farm supplies) to improve his or her crop, as well as free training. In return, the farmer agrees to convert his or her farm into a model to be used to train other producers."
 
 msgid "NATIONALLY, THERE ARE 12 AGRICULTURAL ENGINEERS AND 3 TECHNICIANS, IN DIFFERENT COCOA-PRODUCING REGIONS, WHO TRAIN AND PROVIDE TECHNICAL SUPPORT TO OUR PRODUCERS."
-msgstr "A nivel nacional, contamos con 12 ingenieros agrónomos y 3 técnicos en diferentes regiones productoras de cacao, quienes son los encargados de capacitar y dar el apoyo técnico a nuestros productores."
+msgstr "NATIONALLY, THERE ARE 12 AGRICULTURAL ENGINEERS AND 3 TECHNICIANS, IN DIFFERENT COCOA-PRODUCING REGIONS, WHO TRAIN AND PROVIDE TECHNICAL SUPPORT TO OUR PRODUCERS."
 
 msgid "CasaLuker provides farmers -free of charge- with the tools they need to produce excellent quality cocoa: technical training at the Luker Research and Educational Farm, Granja Luker, and technical support in the field. Therefore, CasaLuker will only purchase from the farmers, cocoa beans that comply 100% Fino de Aroma standards."
-msgstr "CasaLuker proporciona a los agricultores, de forma gratuita, las herramientas que necesitan para producir un cacao de excelente calidad: formación técnica en nuestro centro de investigación de cacao, Granja Luker, y apoyo técnico en el campo. Por lo tanto, CasaLuker sólo comprará a los agricultores los granos de cacao que cumplen en un 100% con los estándares Fino de Aroma."
+msgstr "CasaLuker provides farmers -free of charge- with the tools they need to produce excellent quality cocoa: technical training at the Luker Research and Educational Farm, Granja Luker, and technical support in the field. Therefore, CasaLuker will only purchase from the farmers, cocoa beans that comply 100% Fino de Aroma standards."
 
 msgid "During crop time, we develop different activities with the farmers called Planes Cosecha in which we promote the farmers to sell their cocoa to our company; in exchange they can participate in the raffle of different prizes, such as tools for their farm or gifts for their families."
-msgstr "Durante el tiempo de la cosecha, desarrollamos diferentes actividades con los agricultores como por ejemplo los Planes Cosecha en los que motivamos a los agricultores a vender su cacao a nuestra empresa a cambio de que puedan participar en el sorteo de diferentes premios, tales como herramientas para sus cultivos o regalos para sus familias."
+msgstr "During crop time, we develop different activities with the farmers called Planes Cosecha in which we promote the farmers to sell their cocoa to our company; in exchange they can participate in the raffle of different prizes, such as tools for their farm or gifts for their families."
 
 msgid "Previous post:"
 msgstr "Entrada anterior:"
 
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+#: inc/customizer.php:47
+#: inc/customizer.php:63
+#: inc/customizer.php:68
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Aplicado a la cabecera en pantallas pequeñas y a la barra lateral en pantallas anchas."
 
@@ -987,7 +1045,8 @@ msgctxt "Used before category names."
 msgid "Categories"
 msgstr "Categorías"
 
-#: inc/template-tags.php:91 inc/template-tags.php:99
+#: inc/template-tags.php:91
+#: inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ", "
@@ -1059,7 +1118,9 @@ msgstr "Esquema de color básico"
 msgid "Header and Sidebar Text Color"
 msgstr "Color de texto de cabecera y barra lateral"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+#: inc/back-compat.php:37
+#: inc/back-compat.php:47
+#: inc/back-compat.php:60
 msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
 msgstr "Twenty Fifteen requiere al menos la versión 4.1 de WordPress. Estás ejecutando la versión %s. Por favor, actualiza e inténtalo de nuevo."
 
@@ -1165,17 +1226,26 @@ msgstr "¿Preparado para publicar tu primera entrada? <a href=\"%1$s\">Empieza a
 msgid "Nothing Found"
 msgstr "No se ha encontrado nada"
 
-#: content-link.php:56 content-page.php:35 content-search.php:28
-#: content-search.php:33 content.php:57 image.php:71
+#: content-link.php:56
+#: content-page.php:35
+#: content-search.php:28
+#: content-search.php:33
+#: content.php:57
+#: image.php:71
 msgid "Edit"
 msgstr "Editar"
 
-#: content-link.php:36 content-page.php:25 content.php:38 image.php:59
+#: content-link.php:36
+#: content-page.php:25
+#: content.php:38
+#: image.php:59
 msgid "Pages:"
 msgstr "Páginas:"
 
 #. translators: %s: Name of current post
-#: content-link.php:31 content.php:33 inc/template-tags.php:238
+#: content-link.php:31
+#: content.php:33
+#: inc/template-tags.php:238
 msgid "Continue reading %s"
 msgstr "Continúa leyendo %s"
 
@@ -1198,16 +1268,25 @@ msgstr "Lee todas las entradas de %s"
 msgid "Published by"
 msgstr "Publicado por"
 
-#: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
-#: image.php:63 index.php:48 search.php:40
+#: archive.php:51
+#: content-link.php:40
+#: content-page.php:29
+#: content.php:42
+#: image.php:63
+#: index.php:48
+#: search.php:40
 msgid "Page"
 msgstr "Página"
 
-#: archive.php:50 index.php:47 search.php:39
+#: archive.php:50
+#: index.php:47
+#: search.php:39
 msgid "Next page"
 msgstr "Próxima página"
 
-#: archive.php:49 index.php:46 search.php:38
+#: archive.php:49
+#: index.php:46
+#: search.php:38
 msgid "Previous page"
 msgstr "Página anterior"
 
@@ -1218,3 +1297,4 @@ msgstr "Parece que no hay nada en esa ubicación ¿quieres probar a buscar?"
 #: 404.php:17
 msgid "Oops! That page can&rsquo;t be found."
 msgstr "¡Vaya! No se pudo encontrar esa página."
+

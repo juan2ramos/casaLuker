@@ -406,7 +406,7 @@
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;" width="74">
                     <p style="color: #fff; font-size: 14px;">70%</p>
                 </td>
-                <td style="background-image: url('<?php bloginfo('template_url') ?>/assets/images/productos/cinco-gotas.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;"
+                <td style="background-image: url('<?php bloginfo('template_url') ?>/assets/images/cinco-gotas.png'); background-repeat: no-repeat; background-position: center; border-bottom: 1px solid #fff; border-right: 1px solid #fff;"
                     width="66">&nbsp;</td>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
                 <td style="border-bottom: 1px solid #fff; border-right: 1px solid #fff;">&nbsp;</td>
@@ -457,7 +457,7 @@
         <table id="origen-table3" border="0" class="Table-inline" cellspacing="0" cellpadding="0">
             <tbody>
             <tr>
-                <td style="background-image: url('<?php bloginfo('template_url') ?>/assets/images/productos/images/cinco-gotas.png'); background-repeat: no-repeat; background-position: center; border-top: 1px solid #fff; border-left: 1px solid #fff; border-right: 1px solid #fff; border-bottom: 1px dashed #fff;"
+                <td style="background-image: url('<?php bloginfo('template_url') ?>/assets/images/cinco-gotas.png'); background-repeat: no-repeat; background-position: center; border-top: 1px solid #fff; border-left: 1px solid #fff; border-right: 1px solid #fff; border-bottom: 1px dashed #fff;"
                     bgcolor="#8d6650" width="65" height="24">&nbsp;</td>
                 <td style="border-top: 1px solid #fff; border-right: 1px solid #fff; border-bottom: 1px dashed #fff;"
                     bgcolor="#8d6650" width="84">
@@ -468,7 +468,7 @@
                 </td>
             </tr>
             <tr>
-                <td style="background-image: url('<?php bloginfo('template_url') ?>/assets/images/productos/images/una-gotas.png'); background-repeat: no-repeat; background-position: center; border-left: 1px solid #fff; border-right: 1px solid #fff; border-bottom: 1px solid #fff;"
+                <td style="background-image: url('<?php bloginfo('template_url') ?>/assets/images/una-gotas.png'); background-repeat: no-repeat; background-position: center; border-left: 1px solid #fff; border-right: 1px solid #fff; border-bottom: 1px solid #fff;"
                     bgcolor="#8d6650" height="23">&nbsp;</td>
                 <td style="border-right: 1px solid #fff; border-bottom: 1px solid #fff;" bgcolor="#8d6650">
                     <p style="font-size: 12px; color: #fff; text-align: center;"><?php _e('Very viscous','luker'); ?></p>

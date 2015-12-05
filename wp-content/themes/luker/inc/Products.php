@@ -27,7 +27,7 @@ $currentlang = get_bloginfo('language');
     <li>
         <a href="<?php bloginfo('url'); echo '/'.$url[$currentlang] ?>/luker-maracas">
             <img src="<?php bloginfo('template_url') ?>/assets/images/productos/luker-maracas.png" alt="">
-            <span><?php _e('Chocolate Dragees', 'luker'); ?>Grageas de Chocolate</span>
+            <span><?php _e('Chocolate Dragees', 'luker'); ?></span>
         </a>
     </li>
     <li>

@@ -213,7 +213,7 @@
         $(this).velocity({opacity:'0'},{duration:700,delay:600,display:'none' });
 
         $('.cities h4').velocity({opacity:'1'},{duration:700,delay:600});
-        $('.citiesUl').velocity({opacity: [0, 1]}, {duration: 800});
+        $('.citiesUl').velocity({opacity: [0, 1]}, {duration: 800,display: 'none'});
         $('.citiesUl').css('z-index','-1');
 
         if ($(window).width() > 960) {

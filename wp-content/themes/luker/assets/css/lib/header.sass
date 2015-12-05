@@ -164,7 +164,7 @@
   top: 20px
   right: 20px
   cursor: pointer
-  z-index: 10000
+  z-index: 1022
   @include respond-to(middle)
     display: none
   & span
@@ -173,6 +173,16 @@
     background: #fff
     display: block
     margin: 6px
+  & span
+    @include transition(all .4s)
+
+.open .ButtonNav
+
+  & span:nth-child(1)
+    @include transform(rotate(45deg))
+
+  & span:nth-child(2)
+    @include transform(rotate(-45deg)  translate(7px, -7px))
 
 .Close
   position: absolute

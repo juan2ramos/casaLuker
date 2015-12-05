@@ -38,11 +38,11 @@ $currentlang = get_bloginfo('language');
 </head>
 
 <body <?php body_class(); ?> data-urlBody="<?php bloginfo('url') ?>">
+<?php $upload_dir = wp_upload_dir(); ?>
+<?php $image = (get_post()->post_type == "registernews")?$upload_dir['baseurl'].'/2015/09/bg-top7.jpg':wp_get_attachment_image_src(get_post_thumbnail_id(), 'large')['0']  ; ?>
 
-
-<?php the_post(); ?>
 <header class="Header" style="
-    background-image: url(<?php echo wp_get_attachment_image_src(get_post_thumbnail_id(), 'large')['0'] ?>)
+    background-image: url(<?php echo $image ?>)
     ">
     <div class="ButtonNav">
         <span></span>
@@ -50,6 +50,9 @@ $currentlang = get_bloginfo('language');
         <span></span>
     </div>
     <figure class="Header-logo-mobile">
+
+
+
         <a href="<?php bloginfo('url') ?>"><img
                 src="<?php bloginfo('template_url') ?>/assets/images/logo-casa-luker.png" alt="Logo Casa Luker"></a>
     </figure>
@@ -85,18 +88,18 @@ $currentlang = get_bloginfo('language');
 
             <div class="formNewsletter">
                 <form method="post" action="<?php bloginfo('url') ?>/?na=s" onsubmit="return newsletter_check(this)">
-                    <input class="newsletter-firstname" required type="text" name="nn" size="30" placeholder="Nombre">
-                    <input class="newsletter-lastname" type="text" name="ns" size="30" required placeholder="Apellido">
+                    <input class="newsletter-firstname" required type="text" name="nn" size="30" placeholder="<?php _e('Name', 'luker'); ?>">
+                    <input class="newsletter-lastname" type="text" name="ns" size="30" required placeholder="<?php _e('Last Name', 'luker'); ?>">
                     <input class="newsletter-email" type="email" name="ne" size="30" required
-                           placeholder="Correo electrónico">
+                           placeholder="<?php _e('E-mail', 'luker'); ?>">
                     <hr>
-                    <h4>Lenguaje</h4>
+                    <h4><?php _e('Language', 'luker'); ?></h4>
                     <select class="newsletter-profile newsletter-profile-3" name="np3" required>
-                        <option>Inglés</option>
-                        <option>Español</option>
+                        <option><?php _e('English', 'luker'); ?></option>
+                        <option><?php _e('Spanish', 'luker'); ?></option>
                     </select>
                     <hr>
-                    <h4>País</h4>
+                    <h4><?php _e('Country', 'luker'); ?></h4>
                     <input class="newsletter-profile newsletter-profile-4" required type="text" size="30" name="np4"
                            placeholder="País"/>
                     <input class="newsletter-submit" type="submit" value="Subscribe"/>
@@ -173,7 +176,6 @@ $currentlang = get_bloginfo('language');
     </div>
 
 </header>
-
 
 <script type="text/javascript">
     //<![CDATA[
