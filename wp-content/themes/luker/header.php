@@ -4,6 +4,20 @@ Description: The Header
 Theme: Luker
 */
 $currentlang = get_bloginfo('language');
+$arrayTitleNews = false;
+if(get_post()->post_type == "registernews"){
+    $arrayTitleNews = array(
+        'es-CO' => 'NOTICIAS',
+        'de-DE' => 'AKTUELL',
+        'en-US' => 'NEWS',
+        'fr-FR' => 'NOUVELLES',
+        'it-IT' => 'NOTIZIE',
+        'ru-RU' => 'NEWS',
+        'sk-SK' => 'NOVINKY',
+    );
+}
+$titleNews = ($arrayTitleNews)?$arrayTitleNews[$currentlang]:get_the_title();
+
 ?>
 
 <!DOCTYPE html>
@@ -58,7 +72,7 @@ $currentlang = get_bloginfo('language');
     </figure>
     <div class="Header-wrapper">
 
-      
+
         <figure class="Header-logo">
             <a href="<?php bloginfo('url') ?>"><img
                     src="<?php bloginfo('template_url') ?>/assets/images/logo-casa-luker.png" alt="Logo Casa Luker"></a>
@@ -138,7 +152,7 @@ $currentlang = get_bloginfo('language');
                 );
                 echo $arrayTitle[get_bloginfo('language')];
             } else {
-                the_title();
+                echo $titleNews;
             }
             ?>
 
