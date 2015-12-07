@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-07 15:00-0500\n"
+"PO-Revision-Date: 2015-12-07 15:17-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -656,7 +656,7 @@ msgid "MENU"
 msgstr "MENU"
 
 msgid "OUR BELIEVES"
-msgstr "OUR BELIEVES"
+msgstr " NOS CONVICTIONS"
 
 msgid "SOCIAL COMMITMENT"
 msgstr "SOCIAL COMMITMENT"
@@ -821,7 +821,7 @@ msgid "Liquored"
 msgstr "Alcoolisé"
 
 msgid "It is the connection we have with our partners; is our relationship with the farmers (our suppliers), the environment, our employees, the clients and society at large. We believe in sharing opportunities, knowledge and technology. We work together to produce the finest chocolate from Fino de Aroma cocoa beans."
-msgstr "It is the connection we have with our partners; is our relationship with the farmers (our suppliers), the environment, our employees, the clients and society at large. We believe in sharing opportunities, knowledge and technology. We work together to produce the finest chocolate from Fino de Aroma cocoa beans."
+msgstr "C’est la connexion que nous avons avec nos associés; c’est notre relation avec les agriculteurs (nos fournisseurs), avec l’environnement, avec nos employés, avec nos clients et avec la société. Nous croyons au partage des opportunités, des connaissances,  de la formation et de la technologie, et nous travaillons ensemble à produire le meilleur Cacao Fino de Aroma."
 
 msgid "CLICK OR SCROLL DOWN"
 msgstr "CLICK OR SCROLL DOWN"
