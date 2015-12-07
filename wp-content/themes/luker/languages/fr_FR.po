@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-07 15:17-0500\n"
+"PO-Revision-Date: 2015-12-07 18:49-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,6 +19,9 @@ msgstr "Nouvelles"
 
 msgid "TRAINING PANEL"
 msgstr "TRAINING PANEL"
+
+msgid "CACAO PROCESS"
+msgstr "CACAO PROCESSUS"
 
 msgid "Name"
 msgstr "Nom"
@@ -827,13 +830,13 @@ msgid "CLICK OR SCROLL DOWN"
 msgstr "CLICK OR SCROLL DOWN"
 
 msgid "WE BELIEVE IN EDUCATION"
-msgstr "WE BELIEVE IN EDUCATION"
+msgstr "NOUS CROYONS EN L’ÉDUCATION"
 
 msgid "Through the Granja Luker, one of the few cocoa research centres, founded in 1962, we foment the adoption of profitable cultivation models that have a great impact on the quality of life and income of producers. More than 700 people are educated annually. More than 30.000 farmers have passed through the Granja Luker during these first 50 years."
-msgstr "1962, we foment the adoption of profitable cultivation models that have a great impact on the quality of life and income of producers. More than 700 people are educated annually. More than 30.000 farmers have passed through the Granja Luker during these first 50 years."
+msgstr "Par l’intermédiaire de Granja Luker, l’un des rares centres de recherche sur le cacao dans le monde, fondé en 1962, nous encourageons l’adoption de modèles de culture rentables qui ont un profond effet sur la qualité de vie et sur le revenu des producteurs.Nous formons au-delà de 700 personnes par an. Plus de 30 000 agriculteurs sont passés par Granja Luker au cours de ses cinquante premières années."
 
 msgid "SUPPORT AND TRAINING"
-msgstr "SOPORTE Y CAPACITACIÓN"
+msgstr "SOUTIEN ET FORMATION"
 
 msgid "GRANJA LUKER"
 msgstr "GRANJA LUKER"
@@ -1013,13 +1016,13 @@ msgid "As an extension of our educational programs at Granja Luker, we also mant
 msgstr "As an extension of our educational programs at Granja Luker, we also mantain nine model plots in Colombia and one in Peru. A model plot is established through an arrangement made between CasaLuker and a farmer, in which the farmer receives a subsidy from CasaLuker (plant material and different farm supplies) to improve his or her crop, as well as free training. In return, the farmer agrees to convert his or her farm into a model to be used to train other producers."
 
 msgid "NATIONALLY, THERE ARE 12 AGRICULTURAL ENGINEERS AND 3 TECHNICIANS, IN DIFFERENT COCOA-PRODUCING REGIONS, WHO TRAIN AND PROVIDE TECHNICAL SUPPORT TO OUR PRODUCERS."
-msgstr "NATIONALLY, THERE ARE 12 AGRICULTURAL ENGINEERS AND 3 TECHNICIANS, IN DIFFERENT COCOA-PRODUCING REGIONS, WHO TRAIN AND PROVIDE TECHNICAL SUPPORT TO OUR PRODUCERS."
+msgstr "AU NIVEAU NATIONAL, NOUS COMPTONS 12 INGÉNIEURS AGRONOMES  ET TROIS TECHNICIENS DIFFÉRENTES RÉGIONS PRODUCTRICES DE CACAO, QUI SONT CHARGÉS DE FORMER NOS PRODUCTEURS ET DE LEUR DONNER DU SOUTIEN TECHNIQUE."
 
 msgid "CasaLuker provides farmers -free of charge- with the tools they need to produce excellent quality cocoa: technical training at the Luker Research and Educational Farm, Granja Luker, and technical support in the field. Therefore, CasaLuker will only purchase from the farmers, cocoa beans that comply 100% Fino de Aroma standards."
-msgstr "CasaLuker provides farmers -free of charge- with the tools they need to produce excellent quality cocoa: technical training at the Luker Research and Educational Farm, Granja Luker, and technical support in the field. Therefore, CasaLuker will only purchase from the farmers, cocoa beans that comply 100% Fino de Aroma standards."
+msgstr "CasaLuker fournit gratuitement aux agriculteurs les outils qu’il leur faut pour produire un cacao d’excellente qualité : formation technique à notre de centre de recherche sur le cacao, Granja Luker, et soutien technique sur le terrain. De ce fait, CasaLuker n’achète aux agriculteurs que les grains de cacao qui répondent à 100 % aux normes Fino de Aroma. "
 
 msgid "During crop time, we develop different activities with the farmers called Planes Cosecha in which we promote the farmers to sell their cocoa to our company; in exchange they can participate in the raffle of different prizes, such as tools for their farm or gifts for their families."
-msgstr "During crop time, we develop different activities with the farmers called Planes Cosecha in which we promote the farmers to sell their cocoa to our company; in exchange they can participate in the raffle of different prizes, such as tools for their farm or gifts for their families"
+msgstr "Durant la récolte, nous élaborons différentes activités avec les agriculteurs, comme par exemple les « Plans récolte », où nous motivons les agriculteurs à vendre leur cacao à notre entreprise en échange d’une participation au tirage de divers prix, dont des outils pour leurs cultures et des cadeaux pour leur famille."
 
 msgid "Previous post:"
 msgstr "Entrada anterior:"
