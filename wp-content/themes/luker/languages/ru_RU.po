@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-07 18:46-0500\n"
+"PO-Revision-Date: 2015-12-07 20:38-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -64,6 +64,9 @@ msgstr "СВЯЖИТЕСЬ С НАМИ"
 
 msgid "CRIOLLO AND TRINITARIO COCOAS"
 msgstr "Сорта «Криольо» и «Тринитарио»"
+
+msgid "Is a three cultivation based-system, where there always a main one supported by the other two. The system we promote includes wood, plantain o other fruit tree, the main product, cocoa. The idea is that, employees keep working on the main crop, the other two harvests contribute to the development of this main crop. The plantain  example is a short-term income since it is already producing after only 9 months. The cocoa tree is a mid-term income since its high production phase will happen in three to four years. The wood tree is a long-term period income since normally its first logging period is programmed at the third year  then again during seven more years. The basic concept involves a support system, where every plantation receives benefits from shade, fertilizers, soil conservation,  even birds."
+msgstr "Is a three cultivation based-system, where there always a main one supported by the other two. The system we promote includes wood, plantain o other fruit tree, the main product, cocoa. The idea is that, employees keep working on the main crop, the other two harvests contribute to the development of this main crop. The plantain  example is a short-term income since it is already producing after only 9 months. The cocoa tree is a mid-term income since its high production phase will happen in three to four years. The wood tree is a long-term period income since normally its first logging period is programmed at the third year  then again during seven more years. The basic concept involves a support system, where every plantation receives benefits from shade, fertilizers, soil conservation,  even birds."
 
 msgid "In the Luker Farm we develop and promote profitable cocoa models through our training courses. Our cocoa models ensures and increases the income of the farmer and have an impact on their life quality. Our agroforestry model, cocoa - banana - fruit - timber, and our training program for harvesting and post harvesting, guarantees the farmer’s incomes in the short and long-term family cocoa. Granja Luker was created with the objective of creating a center to promote the cocoa harvesting in the country among small producers. Today we educate more than 700 people annually."
 msgstr "На агроферме Лукер разрабатываются рентабельные модели выращивания какао, которым мы обучаем фермеров на наших курсах. Это благотворно влияет на качество жизни фермеров, увеличивая их доходы Наша система сочетания разных видов растений - деревьев какао, фруктовых деревьев и строевого леса - а также программы обучающие уходу за растениями и плодами до и после сбора урожая гарантируют семейным фермерски предприятиям-производителям какао краткосрочный и долгосрочный доход. Агроферма Лукер была основана, как центр по снабжению саженцами какао мелких и средних фермеров.Сегодня мы обучаем более 700 человек в год."

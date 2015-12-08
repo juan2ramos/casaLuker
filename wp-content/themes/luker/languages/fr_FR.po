@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-07 18:49-0500\n"
+"PO-Revision-Date: 2015-12-07 22:01-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -64,6 +64,9 @@ msgstr "Contáctez-Nous"
 
 msgid "CRIOLLO AND TRINITARIO COCOAS"
 msgstr "CRIOLLOS ET TRINITARIOS"
+
+msgid "Is a three cultivation based-system, where there always a main one supported by the other two. The system we promote includes wood, plantain o other fruit tree, the main product, cocoa. The idea is that, employees keep working on the main crop, the other two harvests contribute to the development of this main crop. The plantain  example is a short-term income since it is already producing after only 9 months. The cocoa tree is a mid-term income since its high production phase will happen in three to four years. The wood tree is a long-term period income since normally its first logging period is programmed at the third year  then again during seven more years. The basic concept involves a support system, where every plantation receives benefits from shade, fertilizers, soil conservation,  even birds."
+msgstr "Il s’agit d’un système fondé sur trois cultures, où la culture principale s’appuie sur les deux autres. Le système que nous encourageons comprend le bois, le bananier ou autre arbre fruitier et le produit principal, le cacao. L’objectif est que, pendant que les employés travaillent à la culture principale, les deux autres récoltes contribuent au développement de la culture principale. Le bananier, par exemple, constitue une source de revenu à court terme, puisqu’il commence à produire au bout de seulement neuf mois. Le cacaotier constitue un revenu à moyen terme, puisque sa phase de production de pointe commence au bout de trois ou quatre ans. L’arbre pour la production de bois est un revenu à long terme, qui commence normalement à produire au bout de trois and et produit ensuite durant les sept années suivantes. Le concept fondamental est un système de soutien, où chaque produit planté bénéficie de l’ombre, des fertilisants, de la conservation du sol et même d’un environnement propice aux oiseaux."
 
 msgid "In the Luker Farm we develop and promote profitable cocoa models through our training courses. Our cocoa models ensures and increases the income of the farmer and have an impact on their life quality. Our agroforestry model, cocoa - banana - fruit - timber, and our training program for harvesting and post harvesting, guarantees the farmer’s incomes in the short and long-term family cocoa. Granja Luker was created with the objective of creating a center to promote the cocoa harvesting in the country among small producers. Today we educate more than 700 people annually."
 msgstr "Dans la Granja Luker on développe des modèles de culture de cacao rentable et on encourage les agriculteurs à travers de nos cours de formation. Ceci génère de l’impacte dans leur qualité de vie et une augmentation de leurs revenus. Notre modèle d'ensemencement - avec du cacao, des bananes, des arbres fruitiers et du bois - et notre programme de formation depuis la culture jusqu'à la post récolte, garantissent aux familles cacaotières des revenus à court et à long terme. La Granja Luker a été fondée avec le but de créer un centre d’encouragement de la culture du cacao pour les petits et moyens producteurs du pays. Aujourd’hui on forme plus de 700 personnes par année."
@@ -845,7 +848,7 @@ msgid "Fungus"
 msgstr "champignon"
 
 msgid "AGROFORESTRY SYSTEM"
-msgstr "AGROFORESTRY SYSTEM"
+msgstr "SYSTÉME AGROFORESTIER"
 
 msgid "TO LEARN MORE ABOUT GRANJA LUKER"
 msgstr "TO LEARN MORE ABOUT GRANJA LUKER"
@@ -854,7 +857,7 @@ msgid "The cocoa producers associations are agricultural trade groups that work 
 msgstr "Las asociaciones de productores de cacao son grupos de agricultores que trabajan en conjunto con el fin de generar beneficios mutuos, tales como: recaudo de fondos proporcionados por el gobierno de Colombia, las agencias de ayuda internacionales y empresas privadas. Entrenamiento agrícola y apoyo técnico en el campo, con el objetivo de aumentar el cultivo  de cacao en Colombia, mejorar la calidad del cacao e incentivar las buenas prácticas en los cultivos. Estas asociaciones también representan una forma de limitar los cultivos ilícitos y el tráfico de drogas en las regiones."
 
 msgid "CLICK HERE"
-msgstr "CLICK HERE"
+msgstr "CLIQUEZ ICI."
 
 msgid "A COCOA WITH HISTORY"
 msgstr "A COCOA WITH HISTORY"
@@ -986,13 +989,13 @@ msgid "Our main cocoa bean suppliers are the farmers associations with which we 
 msgstr "Our main cocoa bean suppliers are the farmers associations with which we maintain purchasing contracts in order to guarantee the sale of their harvest."
 
 msgid "Our purchasing strategy is based on the direct relationship with small growers, cooperatives, coffee grinders, making the supply chain shorter. We want to guarantee quality, traceability and volumes."
-msgstr "Our purchasing strategy is based on the direct relationship with small growers, cooperatives, coffee grinders, making the supply chain shorter. We want to guarantee quality, traceability and volumes."
+msgstr "Notre stratégie d’achat se fonde sur une relation directe avec les petits producteurs et les associations, gardant ainsi la chaîne d’approvisionnement courte. Nous désirons garantir la qualité, la traçabilité et les volumes d’achat."
 
 msgid "COCOA-PLANTAIN-GMELINA"
 msgstr "COCOA-PLANTAIN-GMELINA"
 
 msgid "WE BELIEVE IN FAIR PURCHASING CONDITIONS"
-msgstr "WE BELIEVE IN FAIR PURCHASING CONDITIONS"
+msgstr "NOUS CROYONS EN DES CONDITIONS DE VENTE ET D’ACHAT JUSTES"
 
 msgid "COCOA REGIONS AND BUYING AGENCIES"
 msgstr "COCOA REGIONS AND BUYING AGENCIES"
@@ -1007,13 +1010,13 @@ msgid "OUR COMMITMENT TO PRODUCERS IN FIGURES"
 msgstr "NUESTRO COMPROMISO CON LOS PRODUCTORES EN CIFRAS"
 
 msgid "WE TRAIN MORE THAN 700 PEOPLE A YEAR, MORE THAN 30,000 DURING THE LAST 50 YEARS."
-msgstr "WE TRAIN MORE THAN 700 PEOPLE A YEAR, MORE THAN 30,000 DURING THE LAST 50 YEARS."
+msgstr " NOUS FORMONS AU-DELÁ DE 700 PERSONNES PAR AN, PLUS DE 30 000 AU COURS DES 50 DERNIÈRES ANNÉES. "
 
 msgid "In 1962, CasaLuker created Granja Luker, one of the few research centres for cocoa in the world. The staff at the centre work to modernise production technology and conservation techniques for Cacao Fino de Aroma, to ensure benefits for the farmers who rely on the crop as their livelihood, and to guarantee the best quality for our clients."
-msgstr "In 1962, CasaLuker created Granja Luker, one of the few research centres for cocoa in the world. The staff at the centre work to modernise production technology and conservation techniques for Cacao Fino de Aroma, to ensure benefits for the farmers who rely on the crop"
+msgstr "CasaLuker a créé en 1962 Granja Luker, l’un des rares centres de recherche sur le cacao du monde, qui œuvre à moderniser la technologie de production et de conservation de la qualité du Cacao Fino de Aroma, bénéficiant aux agriculteurs qui vivent de ces cultures et garantissant la meilleure qualité à nos clients"
 
 msgid "As an extension of our educational programs at Granja Luker, we also mantain nine model plots in Colombia and one in Peru. A model plot is established through an arrangement made between CasaLuker and a farmer, in which the farmer receives a subsidy from CasaLuker (plant material and different farm supplies) to improve his or her crop, as well as free training. In return, the farmer agrees to convert his or her farm into a model to be used to train other producers."
-msgstr "As an extension of our educational programs at Granja Luker, we also mantain nine model plots in Colombia and one in Peru. A model plot is established through an arrangement made between CasaLuker and a farmer, in which the farmer receives a subsidy from CasaLuker (plant material and different farm supplies) to improve his or her crop, as well as free training. In return, the farmer agrees to convert his or her farm into a model to be used to train other producers."
+msgstr "Comme extension de nos programmes éducatifs à Granja Luker, nous avons également neuf parcelles de démonstration en Colombie et une au Pérou. Une parcelle de démonstration est établie par un accord entre CasaLuker et un agriculteur, selon lequel ce dernier reçoit de CasaLuker une subvention, sous forme de matériau végétal et de diverses fournitures agricoles pour améliorer sa culture, ainsi qu’une formation  gratuite. En échange, l’agriculteur s’engage à convertir son exploitation agricole en modèle qui servira à former d’autres producteurs et à donner l’exemple."
 
 msgid "NATIONALLY, THERE ARE 12 AGRICULTURAL ENGINEERS AND 3 TECHNICIANS, IN DIFFERENT COCOA-PRODUCING REGIONS, WHO TRAIN AND PROVIDE TECHNICAL SUPPORT TO OUR PRODUCERS."
 msgstr "AU NIVEAU NATIONAL, NOUS COMPTONS 12 INGÉNIEURS AGRONOMES  ET TROIS TECHNICIENS DIFFÉRENTES RÉGIONS PRODUCTRICES DE CACAO, QUI SONT CHARGÉS DE FORMER NOS PRODUCTEURS ET DE LEUR DONNER DU SOUTIEN TECHNIQUE."

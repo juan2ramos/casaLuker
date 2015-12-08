@@ -112,16 +112,7 @@
                     </div>
                     <div class="moveSystem">
                         <p>
-                            s a three cultivation based-system, where there's always a main one supported by the other
-                            two. The system we promote includes wood, plantain or other fruit tree, and the main
-                            product, cocoa. The idea is that, while employees keep working on the main crop, the other
-                            two harvests contribute to the development of this main crop. The plantain for example is a
-                            short-term income since it is already producing after only 9 months. The cocoa tree is a
-                            mid-term income since its high production phase will happen in three to four years. The wood
-                            tree is a long-term period income since normally its first logging period is programmed at
-                            the third year and then again during seven more years. The basic concept involves a support
-                            system, where every plantation receives benefits from shade, fertilizers, soil conservation,
-                            and even birds.
+                            <?php _e('Is a three cultivation based-system, where there always a main one supported by the other two. The system we promote includes wood, plantain o other fruit tree, the main product, cocoa. The idea is that, employees keep working on the main crop, the other two harvests contribute to the development of this main crop. The plantain  example is a short-term income since it is already producing after only 9 months. The cocoa tree is a mid-term income since its high production phase will happen in three to four years. The wood tree is a long-term period income since normally its first logging period is programmed at the third year  then again during seven more years. The basic concept involves a support system, where every plantation receives benefits from shade, fertilizers, soil conservation,  even birds.', 'luker'); ?>
                         </p>
 
                         <ul class="slideFade">
