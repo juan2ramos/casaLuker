@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-07 22:01-0500\n"
+"PO-Revision-Date: 2015-12-07 23:28-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -665,7 +665,7 @@ msgid "OUR BELIEVES"
 msgstr " NOS CONVICTIONS"
 
 msgid "SOCIAL COMMITMENT"
-msgstr "SOCIAL COMMITMENT"
+msgstr "ENGAGEMENT SOCIAL"
 
 msgid "ENTREPRENEURIAL PROJECTS"
 msgstr "ENTREPRENEURIAL PROJECTS"
@@ -854,16 +854,16 @@ msgid "TO LEARN MORE ABOUT GRANJA LUKER"
 msgstr "TO LEARN MORE ABOUT GRANJA LUKER"
 
 msgid "The cocoa producers associations are agricultural trade groups that work to raise funds provided by the Colombian government, international aid agencies and private businesses in order to increase cocoa cultivation, improve quality and agricultural training. These associations also represent a way of limiting the cultivation of illicit crops and the drug trade in the regions."
-msgstr "Las asociaciones de productores de cacao son grupos de agricultores que trabajan en conjunto con el fin de generar beneficios mutuos, tales como: recaudo de fondos proporcionados por el gobierno de Colombia, las agencias de ayuda internacionales y empresas privadas. Entrenamiento agrícola y apoyo técnico en el campo, con el objetivo de aumentar el cultivo  de cacao en Colombia, mejorar la calidad del cacao e incentivar las buenas prácticas en los cultivos. Estas asociaciones también representan una forma de limitar los cultivos ilícitos y el tráfico de drogas en las regiones."
+msgstr "Les associations de producteurs de cacao sont des groupes d’agriculteurs qui travaillent ensemble en vue de créer des avantages mutuels tels que : la collecte des fonds fournis par le gouvernement colombien, les agences d’aide internationales et les entreprises privées; la formation agricole et le soutien sur le terrain, afin d’étendre la culture du cacao en Colombie, d’améliorer la qualité du cacao et d’inciter aux bonnes pratiques de culture.  Ces associations représentent également une façon de limiter les cultures illicites et le trafic de drogue dans les régions."
 
 msgid "CLICK HERE"
 msgstr "CLIQUEZ ICI."
 
 msgid "A COCOA WITH HISTORY"
-msgstr "A COCOA WITH HISTORY"
+msgstr "UN CACAO QUI A UNE HISTOIRE"
 
 msgid "A cocoa with history was born when CasaLuker went to visit the Torres family cocoa farm in Huila, Colombia. The story is set in Gigante, a village in the Colombian department of Huila, 379 km south of Colombias capital city, Bogotá. The region is essentially agricultural and 70% of its economy depends on coffee and cocoa. Spending time with the family, understanding their way of life and listening to their story out in the fields, gave us a different perspective of the hard work that goes into the cocoa business. Read thefull article."
-msgstr "A cocoa with history was born when CasaLuker went to visit the Torres family cocoa farm in Huila, Colombia. The story is set in Gigante, a village in the Colombian department of Huila, 379 km south of Colombias capital city, Bogotá. The region is essentially agricultural and 70% of its economy depends on coffee and cocoa. Spending time with the family, understanding their way of life and listening to their story out in the fields, gave us a different perspective of the hard work that goes into the cocoa business. Read thefull article."
+msgstr "Un cacao qui a une histoire est né de la visite de CasaLuker à la parcelle de démonstration de la famille Torres dans le Huila, en Colombie. L’histoire se situe à Gigante, un village du département colombien du Huila, à 379 kilomètres au sud de la capitale de la Colombie, Bogotá. La région est essentiellement agricole, et 70 % de son économie dépend du  café et du cacao. Passer du temps avec la famille, comprendre sa façon de vivre et écouter ses histoires dans les champs nous a donné une perspective différente du dur labeur qui alimente le commerce du cacao. Pour lire le reste de l’article, cliquez ici."
 
 msgid "HUILA"
 msgstr "HUILA"
@@ -887,7 +887,7 @@ msgid "The Luker Foundation is a private non-profit organization, with a bussine
 msgstr "The Luker Foundation is a private non-profit organization, with a bussines origin (CasaLuker S.A.), created in 1994 with the aim of contributing to improving the quality of life of the people of Manizales (known as Manizaleños) and postering social development. Ever since its inception, the Luker Foundation has worked in different education and leisure projects, which have generated demostrative effects for other regions of Colombia and Latin América.READ MORE"
 
 msgid "A BET TO A BETTER FUTURE"
-msgstr "A BET TO A BETTER FUTURE"
+msgstr "UN PARI POUR UN FUTUR MEILLEUR"
 
 msgid "GO TO LUKER FOUNDATION"
 msgstr "GO TO LUKER FOUNDATION"
@@ -965,10 +965,10 @@ msgid "In the south of the Bolívar department, surrounded by mountains and loca
 msgstr "In the south of the Bolívar department, surrounded by mountains and located near the Magdalena River, is the small town of Santa Rosa. Nowadays, its inhabitants live mainly off their crops, farming and mining. However, it was there that, not so long ago, illegal armed groups brought with them the cursed coca plant and with it violence and social decomposition. Discover how farmers saw cocoa as a hopeful change bringing peace and progress to the town. Read the full article"
 
 msgid "This third story explores the cocoa in Arauca, a department located in the northern part of the Colombian Orinoquía region, on the border with Venezuela. The cultural wealth of this department is manifested in its music, dance, customs, myths and legends. Don Elio, the protagonist, cultivates and mills cocoa on his farm called Laguna Vieja. The farm is on a piece of land formed by the two arms of the Arauca river and it is there where he mills the cocoa, together with all the other people that work on the farm including his wife Irma. Read thefull article."
-msgstr "This third story explores the cocoa in Arauca, a department located in the northern part of the Colombian Orinoquía region, on the border with Venezuela. The cultural wealth of this department is manifested in its music, dance, customs, myths and legends. Don Elio, the protagonist, cultivates and mills cocoa on his farm called Laguna Vieja. The farm is on a piece of land formed by the two arms of the Arauca river and it is there where he mills the cocoa, together with all the other people that work on the farm including his wife Irma. Read thefull article."
+msgstr "Pour notre troisième histoire, nous explorons le cacao dans l’Arauca, un département situé au nord de la région de l’Orénoque colombien, à la frontière du Venezuela. Dans ce département, la richesse culturelle se manifeste dans le chant, la musique, la danse, les coutumes, les mythes et les légendes. Don Elio, le protagoniste de cette histoire, cultive le cacao et en tire parti dans sa ferme appelée « Laguna Vieja ». Celle-ci se situe sur un terrain formé par les deux bras du fleuve Arauca, et c’est là où a lieu le processus de transformation  du cacao, auquel participent tous les collaborateurs et employés de la ferme, y compris son épouse Irma. Pour lire le reste de l’article, cliquez ici."
 
 msgid "A couple years ago, CasaLuker created an enterprising project called - Inversiones Necoclí, A Cacao Fino de Aroma Project- where a sustainable scheme was implemented through the cultivation of cacao generating greater interest in Necoclí and, as a result, better life conditions for the community. The El Rosario farm used to be used for livestock activities, but now the 500-hectares project has plantations of Melina tree, plantain and cacao. With this initiative, the Necoclí community is experiencing positive change. Read the full article."
-msgstr "The El Rosario farm used to be used for livestock activities, but now the 500-hectares project has plantations of Melina tree, plantain and cacao. With this initiative, the Necoclí community is experiencing positive change. Read the full article."
+msgstr "Il y a quelques années, CasaLuker a créé un projet entrepreneurial, Inversiones Necoclí, un projet de Cacao Fino de Aroma au sein duquel a été mis en œuvre un modèle durable à travers la culture du cacao, créant un intérêt accru dans le Necoclí, ce qui a résulté dans de meilleures conditions de vie  pour la communauté. La ferme « El Rosario » était autrefois consacrée à l’élevage du bétail, mais le projet de 550 hectares compte maintenant des plantations de gmelina arborea, de bananiers et de cacaotiers. Cette initiative a constitué un changement positif pour la communauté. Pour lire le reste de l’article, cliquez ici."
 
 msgid "EDUCATION FOR DEVELOPMENT ENTREPRENEURSHIP FOR DEVELOPMENT SPECIAL PROJECTS CULTURE, LEISURE AND FREE TIME"
 msgstr "EDUCATION FOR DEVELOPMENT ENTREPRENEURSHIP FOR DEVELOPMENT SPECIAL PROJECTS CULTURE, LEISURE AND FREE TIME"
@@ -986,7 +986,7 @@ msgid "AND BUYING AGENCIES"
 msgstr "AND BUYING AGENCIES"
 
 msgid "Our main cocoa bean suppliers are the farmers associations with which we maintain purchasing contracts in order to guarantee the sale of their harvest."
-msgstr "Our main cocoa bean suppliers are the farmers associations with which we maintain purchasing contracts in order to guarantee the sale of their harvest."
+msgstr "Nos principaux fournisseurs de cacao en grains sont les associations d’agriculteurs avec lesquelles nous maintenons des contrats d’achat afin de leur garantir la vente de leur récolte."
 
 msgid "Our purchasing strategy is based on the direct relationship with small growers, cooperatives, coffee grinders, making the supply chain shorter. We want to guarantee quality, traceability and volumes."
 msgstr "Notre stratégie d’achat se fonde sur une relation directe avec les petits producteurs et les associations, gardant ainsi la chaîne d’approvisionnement courte. Nous désirons garantir la qualité, la traçabilité et les volumes d’achat."
@@ -998,16 +998,16 @@ msgid "WE BELIEVE IN FAIR PURCHASING CONDITIONS"
 msgstr "NOUS CROYONS EN DES CONDITIONS DE VENTE ET D’ACHAT JUSTES"
 
 msgid "COCOA REGIONS AND BUYING AGENCIES"
-msgstr "COCOA REGIONS AND BUYING AGENCIES"
+msgstr " RÉGIONS PRODUCTRICES DE CACAO ET AGENCES D'ACHAT"
 
 msgid "OUR COCOA BEAN SUPPLIERS"
-msgstr "OUR COCOA BEAN SUPPLIERS"
+msgstr " NOS FOURNISSEURS DE CACAO EN GRAINS"
 
 msgid "THE COCOA PRODUCERS ASSOCIATIONS"
-msgstr "THE COCOA PRODUCERS ASSOCIATIONS"
+msgstr "LES ASSOCIATIONS DE PRODUCTEURS DE CACAO"
 
 msgid "OUR COMMITMENT TO PRODUCERS IN FIGURES"
-msgstr "NUESTRO COMPROMISO CON LOS PRODUCTORES EN CIFRAS"
+msgstr "NOSTRE ENGAGEMENT ENVERS LES PRODUCTEURS EN CHIFFRES"
 
 msgid "WE TRAIN MORE THAN 700 PEOPLE A YEAR, MORE THAN 30,000 DURING THE LAST 50 YEARS."
 msgstr " NOUS FORMONS AU-DELÁ DE 700 PERSONNES PAR AN, PLUS DE 30 000 AU COURS DES 50 DERNIÈRES ANNÉES. "
