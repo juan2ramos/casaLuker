@@ -1,4 +1,17 @@
-<?php get_header(); ?>
+<?php get_header();
+$currentlang = get_bloginfo('language');
+
+$arrayTitleNews = array(
+    'es-CO' => '-es',
+    'de-DE' => '-de',
+    'en-US' => '',
+    'fr-FR' => '-fr',
+    'it-IT' => '-it',
+    'ru-RU' => '-ru',
+    'sk-SK' => '-sk',
+);
+
+?>
 <main class="Main LukerWay">
     <nav class="LukerWay-nav">
         <div class="menu">
@@ -101,7 +114,7 @@
                     <h4><?php _e('WE TRAIN MORE THAN 700 PEOPLE A YEAR, MORE THAN 30,000 DURING THE LAST 50 YEARS.', 'luker'); ?></h4>
                     <img src="<?php bloginfo('template_url') ?>/assets/images/people.png" alt="">
                     <h4><?php _e('TO LEARN MORE ABOUT GRANJA LUKER', 'luker'); ?></h4>
-                    <a href="<?php echo bloginfo('url') . '/' . 'granja-luker'; ?>"><?php _e('CLICK HERE', 'luker'); ?></a>
+                    <a href="<?php echo bloginfo('url') . '/' . 'granja-luker' . $arrayTitleNews[$currentlang]; ?>"><?php _e('CLICK HERE', 'luker'); ?></a>
                 </li>
 
                 <li class="LukerWay-system">
@@ -263,7 +276,8 @@
                     </svg>
             </span>
         <!-- ----- -->
-        <div class="LukerWay-bar"> | Compromiso Social  |<span data-target="LukerWay-cacao" class="LukerWay-barFirst"></span><span
+        <div class="LukerWay-bar"> | Compromiso Social |<span data-target="LukerWay-cacao"
+                                                              class="LukerWay-barFirst"></span><span
                 data-target="LukerWay-social" class="LukerWay-barLast"></span></div>
     </section>
 
@@ -513,7 +527,7 @@
 
                 <p><?php _e('We have developed a cocoa promotion model for investors in order to motivate the cocoa culture in the country; our goal is to have 5000 hectares planted by 2017.', 'luker'); ?>
 
-                    </p>
+                </p>
 
                 <p><?php _e('For more information contact:', 'luker'); ?>:
                     <a href="jcarroyave@casaluker.com.co">jcarroyave@casaluker.com.co</a></p>

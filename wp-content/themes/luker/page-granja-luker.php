@@ -8,7 +8,7 @@
                 <figure><img src="<?php bloginfo('template_url') ?>/assets/images/granja-luker.png" alt="">
                 </figure>
                 <p>
-                    <?php _e('Meticulous selection of ingredients is definitive in achieving the unique sensorial profile characteristic to the chocolate of Luker Cacao. We select the best Cacao Fino de Aroma beans from Colombia, Ecuador and Peru, and use 100% cocoa butter and natural vanilla in our couvertures. Our couvertures, with their exquisite and particular flavour, are ideal for chocolate products of all kinds.', 'luker'); ?>
+                    <?php _e('In 1962, CasaLuker created Granja Luker, one of the few research centres for cocoa in the world. The staff at the centre work to modernise production technology and conservation techniques for Cacao Fino de Aroma, to ensure benefits for the farmers who rely on the crop as their livelihood, and to guarantee the best quality for our clients.', 'luker'); ?>
                 </p>
             </article>
             <article>

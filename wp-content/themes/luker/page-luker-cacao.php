@@ -46,7 +46,7 @@
                 </table>
             </article>
         </section>
-        <h3><?php _e('DARK CHOCOLATE','luker'); ?>º</h3>
+        <h3><?php _e('DARK CHOCOLATE','luker'); ?></h3>
 
         <div class="Table">
             <table id="table-chocolate-oscuro" border="0" cellspacing="0" cellpadding="0">

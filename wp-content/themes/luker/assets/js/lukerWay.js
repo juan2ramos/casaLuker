@@ -253,7 +253,7 @@
             $(this).css('cursor','default');
             indexLi = $( '.citiesFirst' ).index( this );
             $('.citiesUl').css('z-index','1');
-
+            $(this).find('.citiesUl').css('display','block')
             $(this).find('.citiesUl').velocity({opacity: [1, 0]}, {duration: 800, delay: 1400});
             $('.cities h4').velocity({opacity:'0'},{duration:700,delay:600});
             if( indexLi  == 0){
