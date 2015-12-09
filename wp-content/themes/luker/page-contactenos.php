@@ -1,62 +1,62 @@
 <?php get_header(); ?>
     <main class="Main Contact">
         <select id="dropdown" class="dropdown" name="dropdown">
-            <option value="0"><?php _e('Select','luker'); ?></option>
+            <option value="0"><?php _e('Select', 'luker'); ?></option>
             <optgroup label="Filiales">
-                <option value="belgica"><?php _e('Belgium','luker'); ?></option>
-                <option value="colombia"><?php _e('Colombia','luker'); ?></option>
+                <option value="belgica"><?php _e('Belgium', 'luker'); ?></option>
+                <option value="colombia"><?php _e('Colombia', 'luker'); ?></option>
                 <!--<option value="3">Ecuador</option>--><!--<option value="4">Estados Unidos</option>-->
-                <option value="panama"><?php _e('Panamá','luker'); ?></option>
-                <option value="peru"><?php _e('Perú','luker'); ?></option>
+                <option value="panama"><?php _e('Panamá', 'luker'); ?></option>
+                <option value="peru"><?php _e('Perú', 'luker'); ?></option>
             </optgroup>
             <optgroup label="Distribuidores">
-                <option value="alemania"><?php _e('Germany','luker'); ?></option>
-                <option value="argentina"><?php _e('Argentina','luker'); ?></option>
-                <option value="belgica"><?php _e('Belgium','luker'); ?></option>
-                <option value="brasil"><?php _e('Brazil','luker'); ?></option>
+                <option value="alemania"><?php _e('Germany', 'luker'); ?></option>
+                <option value="argentina"><?php _e('Argentina', 'luker'); ?></option>
+                <option value="belgica"><?php _e('Belgium', 'luker'); ?></option>
+                <option value="brasil"><?php _e('Brazil', 'luker'); ?></option>
                 <!--<option value="10">Chile</option>--> <!--<option value="11">Corea del Sur</option>-->
                 <!--<option value="12">Emiratos Arabes</option>--> <!--<option value="13">España</option>-->
-                <option value="canada"><?php _e('Canada','luker'); ?></option>
-                <option value="estados-unidos"><?php _e('United States','luker'); ?></option>
+                <option value="canada"><?php _e('Canada', 'luker'); ?></option>
+                <option value="estados-unidos"><?php _e('United States', 'luker'); ?></option>
                 <!--<option value="15">Francia</option>-->
-                <option value="finlandia"><?php _e('Finland','luker'); ?></option>
-                <option value="grecia"><?php _e('Greece','luker'); ?></option>
-                <option value="guatemala"><?php _e('Guatemala','luker'); ?></option>
-                <option value="hungria"><?php _e('Hungary','luker'); ?></option>
+                <option value="finlandia"><?php _e('Finland', 'luker'); ?></option>
+                <option value="grecia"><?php _e('Greece', 'luker'); ?></option>
+                <option value="guatemala"><?php _e('Guatemala', 'luker'); ?></option>
+                <option value="hungria"><?php _e('Hungary', 'luker'); ?></option>
                 <!--<option value="17">Irak</option><option value="18">Irán</option>-->
-                <option value="italia"><?php _e('Italy','luker'); ?></option>
-                <option value="japon"><?php _e('Japan','luker'); ?></option>
-                <option value="luxemburgo"><?php _e('Luxembourg','luker'); ?></option>
-                <option value="medio-oriente"><?php _e('Middle East','luker'); ?></option>
-                <option value="mexico"><?php _e('México','luker'); ?></option>
-                <option value="netherland"><?php _e('Netherland','luker'); ?></option>
-                <option value="reino-unido"><?php _e('United Kingdom','luker'); ?></option>
-                <option value="republica-checa"><?php _e('Czech Republic','luker'); ?></option>
-                <option value="eslovaquia"><?php _e('Slovak Republic','luker'); ?></option>
-                <option value="rusia"><?php _e('Russia','luker'); ?></option>
-                <option value="suecia"><?php _e('Sweden','luker'); ?></option>
-                <option value="ucrania"><?php _e('Ukraine','luker'); ?></option>
+                <option value="italia"><?php _e('Italy', 'luker'); ?></option>
+                <option value="japon"><?php _e('Japan', 'luker'); ?></option>
+                <option value="luxemburgo"><?php _e('Luxembourg', 'luker'); ?></option>
+                <option value="medio-oriente"><?php _e('Middle East', 'luker'); ?></option>
+                <option value="mexico"><?php _e('México', 'luker'); ?></option>
+                <option value="netherland"><?php _e('Netherland', 'luker'); ?></option>
+                <option value="reino-unido"><?php _e('United Kingdom', 'luker'); ?></option>
+                <option value="republica-checa"><?php _e('Czech Republic', 'luker'); ?></option>
+                <option value="eslovaquia"><?php _e('Slovak Republic', 'luker'); ?></option>
+                <option value="rusia"><?php _e('Russia', 'luker'); ?></option>
+                <option value="suecia"><?php _e('Sweden', 'luker'); ?></option>
+                <option value="ucrania"><?php _e('Ukraine', 'luker'); ?></option>
                 <!--<option value="24">Rumania</option>--> <!--<option value="25">Trinidad y Tobago</option>-->
             </optgroup>
-            <option value="26"><?php _e('Others','luker'); ?></option>
+            <option value="26"><?php _e('Others', 'luker'); ?></option>
         </select>
         <select id="dropdownCol" name="dropdownCol">
-            <option value="0"><?php _e('Select City','luker'); ?>Seleccionar Ciudad</option>
+            <option value="0"><?php _e('Select City', 'luker'); ?>Seleccionar Ciudad</option>
             <optgroup label="Distribuidores">
-                <option value="barranquilla"><?php _e('Barranquilla','luker'); ?></option>
-                <option value="bogota"><?php _e('Bogotá','luker'); ?></option>
-                <option value="ibague"><?php _e('Ibagué','luker'); ?></option>
-                <option value="medellin"><?php _e('Medellín','luker'); ?></option>
-                <option value="manizales"><?php _e('Manizales','luker'); ?></option>
-                <option value="pasto"><?php _e('Pasto','luker'); ?></option>
+                <option value="barranquilla"><?php _e('Barranquilla', 'luker'); ?></option>
+                <option value="bogota"><?php _e('Bogotá', 'luker'); ?></option>
+                <option value="ibague"><?php _e('Ibagué', 'luker'); ?></option>
+                <option value="medellin"><?php _e('Medellín', 'luker'); ?></option>
+                <option value="manizales"><?php _e('Manizales', 'luker'); ?></option>
+                <option value="pasto"><?php _e('Pasto', 'luker'); ?></option>
             </optgroup>
         </select>
 
         <div class="Contact-locationMap">
             <div class="belgica">
-                <p><?php _e('Kortrijksesteenweg 1132','luker'); ?></p>
+                <p><?php _e('Kortrijksesteenweg 1132', 'luker'); ?></p>
 
-                <p><?php _e('9051 Sint-Denijs-Westrem, Bélgica','luker'); ?>9051 Sint-Denijs-Westrem, Bélgica</p>
+                <p><?php _e('9051 Sint-Denijs-Westrem, Bélgica', 'luker'); ?>9051 Sint-Denijs-Westrem, Bélgica</p>
 
                 <p>Tel: +32 (0) 9 245 04 60</p>
 
@@ -114,22 +114,23 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
                 <p><a href="http://www.delgiro.be" target="_blank">www.delgiro.be</a>
                 </p>
             </div>
             <div class="colombia">
-                <p><?php _e('CasaLuker Colombia','luker'); ?></p>
+                <p><?php _e('CasaLuker Colombia', 'luker'); ?></p>
 
                 <p>Calle 13 No 68-98</p>
 
-                <p class="contact-tit"><?php _e('Bogotá, Colombia','luker'); ?></p>
+                <p class="contact-tit"><?php _e('Bogotá, Colombia', 'luker'); ?></p>
 
                 <p class="contact-tit">Tel: +57 (1) 4473700</p>
 
@@ -142,80 +143,80 @@
             </div>
             <!--CIUDADES COLOMBIA-->
             <div class="barranquilla">
-                <p><?php _e('Pastrylandia','luker'); ?></p>
+                <p><?php _e('Pastrylandia', 'luker'); ?></p>
 
                 <p>Cra. 47 No. 84-27 Local 16</p>
 
-                <p class="contact-tit"><?php _e('Barranquilla, Colombia','luker'); ?></p>
+                <p class="contact-tit"><?php _e('Barranquilla, Colombia', 'luker'); ?></p>
 
                 <p>Tel: +57 (5) 3567014 / 57 (5) 3567015</p>
             </div>
             <div class="medellin">
-                <p><?php _e('La Pupette','luker'); ?></p>
+                <p><?php _e('La Pupette', 'luker'); ?></p>
 
-                <p class="contact-tit"><?php _e('Medellín, Colombia','luker'); ?></p>
+                <p class="contact-tit"><?php _e('Medellín, Colombia', 'luker'); ?></p>
 
                 <p>Tel: +57 (4) 315 4127486</p>
             </div>
             <div class="manizales">
-                <p><?php _e('Punto de Venta El Cable','luker'); ?></p>
+                <p><?php _e('Punto de Venta El Cable', 'luker'); ?></p>
 
                 <p>Cra. 23 No. 64b-33 Torre Luker</p>
 
-                <p class="contact-tit"><?php _e('Manizales, Colombia','luker'); ?></p>
+                <p class="contact-tit"><?php _e('Manizales, Colombia', 'luker'); ?></p>
 
                 <p>Tel: +57 (6) 8879510 Ext: 30162</p>
             </div>
             <div class="bogota">
-                <p><?php _e('Punto de Venta La Joya','luker'); ?></p>
+                <p><?php _e('Punto de Venta La Joya', 'luker'); ?></p>
 
                 <p>Calle 19 No. 66-62</p>
 
-                <p class="contact-tit"><?php _e('Bogotá, Colombia','luker'); ?></p>
+                <p class="contact-tit"><?php _e('Bogotá, Colombia', 'luker'); ?></p>
 
                 <p>Tel: +57 (1) 4473700 Ext: 50412</p><br>
 
-                <p><?php _e('Aromas y Sabores','luker'); ?></p>
+                <p><?php _e('Aromas y Sabores', 'luker'); ?></p>
 
                 <p>Cra. 17 No. 52-71 Local 3</p>
 
-                <p class="contact-tit"><?php _e('Bogotá, Colombia','luker'); ?></p>
+                <p class="contact-tit"><?php _e('Bogotá, Colombia', 'luker'); ?></p>
 
                 <p>Tel: +57 (1) 7021330</p><br>
 
-                <p><?php _e('Distribuidora Viena','luker'); ?></p>
+                <p><?php _e('Distribuidora Viena', 'luker'); ?></p>
 
                 <p>Cra. 18 No. 10-68</p>
 
-                <p><?php _e('Bogotá, Colombia','luker'); ?></p>
+                <p><?php _e('Bogotá, Colombia', 'luker'); ?></p>
 
                 <p>Tel: +57 (1) 2819211</p><br>
 
-                <p><?php _e('Tu Dulce Compañía','luker'); ?></p>
+                <p><?php _e('Tu Dulce Compañía', 'luker'); ?></p>
 
                 <p>Cra. 60 N 66B-54</p>
 
-                <p class="contact-tit"><?php _e('Bogotá, Colombia','luker'); ?></p>
+                <p class="contact-tit"><?php _e('Bogotá, Colombia', 'luker'); ?></p>
 
                 <p>Tel: +57 (1) 2403613</p><br>
 
-                <p><?php _e('Comercializadora Duarte','luker'); ?>Comercializadora Duarte</p>
+                <p><?php _e('Comercializadora Duarte', 'luker'); ?>Comercializadora Duarte</p>
 
                 <p>Cra. 15 No. 90-20 local S-114</p>
 
-                <p class="contact-tit"><?php _e('Bogotá, Colombia','luker'); ?></p>
+                <p class="contact-tit"><?php _e('Bogotá, Colombia', 'luker'); ?></p>
 
                 <p>Tel: +57 (1) 2365123 / +57 (1) 2565873</p><br>
 
-                <p><?php _e('Chocolamu','luker'); ?></p>
+                <p><?php _e('Chocolamu', 'luker'); ?></p>
 
                 <p>Cra. 7ª No. 180-75 Local 13 Módulo 7</p>
 
-                <p class="contact-tit"><?php _e('Bogotá, Colombia','luker'); ?></p>
+                <p class="contact-tit"><?php _e('Bogotá, Colombia', 'luker'); ?></p>
 
                 <p>Tel: +57 (1) 6749998 / +57 (1) 6747853</p><br>
 
-                <p><?php _e('Orquídea Inc.','luker'); ?></p>
+                <p><?php _e('Orquídea Inc.', 'luker'); ?></p>
 
                 <p>Calle 45 No. 17-70</p>
 
@@ -225,11 +226,11 @@
 
                 <p>Tel: +57 (1) 2142895</p>
 
-                <p class="contact-tit"><?php _e('Bogotá, Colombia','luker'); ?></p><br>
+                <p class="contact-tit"><?php _e('Bogotá, Colombia', 'luker'); ?></p><br>
 
                 <p>CasaLuker S.A.</p>
 
-                <p>-<?php _e('Venta bajo pedido','luker'); ?> </p>
+                <p>-<?php _e('Venta bajo pedido', 'luker'); ?> </p>
 
                 <p>
                     <script type="text/javascript">
@@ -249,25 +250,26 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
                 <p>Tel: +57 (1) 4473700
                     <!--Ext: 40413-->
                 </p>
 
-                <p class="contact-tit"><?php _e('Bogotá, Colombia','luker'); ?></p>
+                <p class="contact-tit"><?php _e('Bogotá, Colombia', 'luker'); ?></p>
             </div>
             <div class="ibague">
-                <p><?php _e('Ciocco Chocolatería','luker'); ?></p>
+                <p><?php _e('Ciocco Chocolatería', 'luker'); ?></p>
 
                 <p>Cra. 5 No. 38-56 Local 3 Edificio 5ta Avenida</p>
 
-                <p class="contact-tit"><?php _e('Ibagué, Colombia','luker'); ?></p>
+                <p class="contact-tit"><?php _e('Ibagué, Colombia', 'luker'); ?></p>
 
                 <p class="contact-tit">Tel: +57 (8) 2700111</p>
             </div>
@@ -276,21 +278,21 @@
 
                 <p>Cra. 34 No. 17-60</p>
 
-                <p class="contact-tit"><?php _e('Ibagué, Colombia','luker'); ?></p>
+                <p class="contact-tit"><?php _e('Ibagué, Colombia', 'luker'); ?></p>
 
                 <p class="contact-tit">Tel: +57 (2) 301 6075695</p>
             </div>
             <!--CIUDADES COLOMBIA-->
             <div class="ecuador">
-                <p><?php _e('CasaLuker del Ecuador','luker'); ?></p>
+                <p><?php _e('CasaLuker del Ecuador', 'luker'); ?></p>
 
-                <p><?php _e('Kilómetro 10,5 vía Daule','luker'); ?></p>
+                <p><?php _e('Kilómetro 10,5 vía Daule', 'luker'); ?></p>
 
-                <p><?php _e('Lotización Expogranos, Solar 1 Mz 33','luker'); ?></p>
+                <p><?php _e('Lotización Expogranos, Solar 1 Mz 33', 'luker'); ?></p>
 
-                <p class="ecuador"><?php _e('Instalaciones de Armajaro','luker'); ?></p>
+                <p class="ecuador"><?php _e('Instalaciones de Armajaro', 'luker'); ?></p>
 
-                <p class="ecuador"><?php _e('Guayaquil, Ecuador','luker'); ?></p>
+                <p class="ecuador"><?php _e('Guayaquil, Ecuador', 'luker'); ?></p>
 
                 <p class="ecuador">Tel: +593 (4) 2113526</p>
 
@@ -310,13 +312,14 @@
                             <!--
                             document.write('<span style=\'display: none;\'>');
                             //-->
-                        </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></span>
+                        </script><span
+                            style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                            <script type="text/javascript">
+                                <!--
+                                document.write('</');
+                                document.write('span>');
+                                //-->
+                            </script></span></span>
                 </p>
             </div>
             <div class="estados-unidos">
@@ -352,13 +355,14 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
             </div>
             <div class="peru">
                 <p>CasaLuker del Perú SAC</p>
@@ -385,13 +389,14 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
             </div>
             <div class="alemania">
                 <p>DILLICIOUS</p>
@@ -420,13 +425,14 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
                 <p><a href="http://www.dillicious.eu" target="_blank">www.dillicious.eu</a>
                 </p>
             </div>
@@ -489,13 +495,14 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
             </div>
             <div class="hungria">
                 <p>Interfood &amp; Pharma Kft</p>
@@ -522,13 +529,14 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
                 <p><a href="http://www.herbalfoods.hu/">www.herbalfoods.hu</a>
                 </p>
             </div>
@@ -562,13 +570,14 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
             </div>
             <div class="middle-east">
                 <p>Pascal Clair</p>
@@ -601,13 +610,14 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
             </div>
             <div class="italia">
                 <p><strong>Official distributor for Italy</strong>
@@ -644,13 +654,14 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
                 <p><strong>Official distributor for Food Service</strong>
                 </p>
 
@@ -685,13 +696,14 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
             </div>
             <div class="japon">
                 <p>Fino de Aroma, Co., Ltd.</p>
@@ -739,13 +751,14 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
                 <p><a href="http://www.chocosolutions.com" target="_blank">www.chocosolutions.com</a>
                 </p>
             </div>
@@ -800,13 +813,14 @@
                             <!--
                             document.write('<span style=\'display: none;\'>');
                             //-->
-                        </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></span>
+                        </script><span
+                            style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                            <script type="text/javascript">
+                                <!--
+                                document.write('</');
+                                document.write('span>');
+                                //-->
+                            </script></span></span>
                 </p>
                 <p><a href="http://www.lyrachocolate.com/" target="_blank">www.lyrachocolate.com</a>
                 </p>
@@ -838,13 +852,14 @@
                             <!--
                             document.write('<span style=\'display: none;\'>');
                             //-->
-                        </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></span>
+                        </script><span
+                            style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                            <script type="text/javascript">
+                                <!--
+                                document.write('</');
+                                document.write('span>');
+                                //-->
+                            </script></span></span>
                 </p>
                 <p><a href="http://www.lyrachocolate.com/" target="_blank">www.lyrachocolate.com</a>
                 </p>
@@ -887,13 +902,14 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span>
                 </p>
             </div>
             <div class="ucrania">
@@ -987,13 +1003,14 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
                 <p><a href="http://www.atlanticafoods.com" target="_blank">www.atlanticafoods.com</a>
                 </p>
             </div>
@@ -1036,13 +1053,14 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
             </div>
             <div class="grecia">
                 <p>OPTIMA S.A.</p>
@@ -1078,13 +1096,14 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
             </div>
             <div class="suecia">
                 <p>Boden &amp; Lindeberg</p>
@@ -1111,13 +1130,14 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
                 <p>www.bodenlindeberg.se/</p>
             </div>
             <div class="luxemburgo">
@@ -1143,13 +1163,14 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
                 <p><a href="http://www.delgiro.be/">www.delgiro.be</a>
                 </p>
             </div>
@@ -1176,13 +1197,14 @@
                         <!--
                         document.write('<span style=\'display: none;\'>');
                         //-->
-                    </script><span style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.','luker'); ?>
- <script type="text/javascript">
-     <!--
-     document.write('</');
-     document.write('span>');
-     //-->
- </script></span></p>
+                    </script><span
+                        style="display: none;"><?php _e('Esta dirección de correo electrónico this siendo protegida contra los robots de spam. Necesita tener JavaScript habilitado para poder verlo.', 'luker'); ?>
+                        <script type="text/javascript">
+                            <!--
+                            document.write('</');
+                            document.write('span>');
+                            //-->
+                        </script></span></p>
                 <p><a href="http://www.delgiro.be/">www.delgiro.be</a>
                 </p>
             </div>
@@ -1280,15 +1302,16 @@
                 &nbsp;</div>
         </div>
         <div class="Contact-form">
-            <h3><?php _e('Contact Us','luker'); ?></h3>
+            <h3><?php _e('Contact Us', 'luker'); ?></h3>
 
-            <p><?php _e('* Required fields.','luker'); ?></p>
+            <p><?php _e('* Required fields.', 'luker'); ?></p>
 
-            <?php the_content(); ?>
+            <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-        </div>
+                <?php the_content(); ?>
+
+            <?php endwhile;endif; ?>
     </main>
-
 
 
 <?php //wp_enqueue_script( 'avia-compat', get_template_directory_uri().'/assets/js/name.js', array('jquery'), 1, false ); ?>

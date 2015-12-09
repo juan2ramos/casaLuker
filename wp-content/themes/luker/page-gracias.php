@@ -17,7 +17,6 @@ if(get_post()->post_type == "registernews"){
     );
 }
 $titleNews = ($arrayTitleNews)?$arrayTitleNews[$currentlang]:get_the_title();
-
 ?>
 
 <!DOCTYPE html>
@@ -145,37 +144,7 @@ $titleNews = ($arrayTitleNews)?$arrayTitleNews[$currentlang]:get_the_title();
         <h1 class="Header-title">
             <?php _e('Thanks for subscribing, you will receive news from us soon.', 'luker'); ?>
         </h1>
-
-
     </h1>
-
-    <div class="More" id="down">
-        <a href="#">
-            <span class="More-view"><?php _e('READ +','luker'); ?></span>
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
-                 y="0px" viewBox="0 0 842 595" enable-background="new 0 0 842 595">
-                <defs>
-                    <filter id="_1442358581349_0_" x="-20%" y="-20%" width="200%" height="200%" type="Shadow"
-                            shadowOffsetX="0" shadowOffsetY="10" shadowBlur="10" shadowColor="rgba(0,0,0,1)">
-                        <feOffset result="offOut" in="SourceGraphic" dx="0" dy="5"/>
-                        <feColorMatrix result="matrixOut" in="offOut" type="matrix"
-                                       values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
-                        <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="2"/>
-                        <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
-                    </filter>
-                </defs>
-                <g type="LAYER" name="workspace" id="workspace" locked="true"/>
-                <g type="LAYER" name="Layer 01" id="Layer 01">
-                    <path transform="matrix(1 0 0 1 -4.1176470588249 24.969972282106497)" width="834.8529411764702"
-                          height="219.26470588235298" stroke-width="0.6096947996260913" stroke-miterlimit="3"
-                          stroke="#000000" stroke-opacity="0" fill="#FFFFFF"
-                          d="M3.5735294117648095,0.7653218355405045 L420.485294117647,220.03002771789346 L838.4264705882349,1.5306436710809805 L3.5735294117647527,0.7653218355404618 "
-                          filter="url(#_1442358581349_0_)"/>
-                </g>
-            </svg>
-        </a>
-    </div>
-
 </header>
 
 <script type="text/javascript">
