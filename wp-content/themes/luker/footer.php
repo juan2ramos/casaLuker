@@ -38,7 +38,7 @@
 <div class="popUpNewsLetter">
     <div class="popUpNewsLetterContainer">
         <p>
-            Tome un momento para suscribirse a nuestros Newsletter y obtenga más información sobre cacao, productos,
+            <?php _e('','luker'); ?> Tome un momento para suscribirse a nuestros Newsletter y obtenga más información sobre cacao, productos,
             recetas, producción y compromiso social
         </p>
         <button>CERRAR</button>
