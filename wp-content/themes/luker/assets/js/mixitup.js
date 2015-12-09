@@ -56,10 +56,10 @@ var dropdownFilter = {
         $('.Recipes-chefsBack').on('click', function () {
             self.close()
         })
-        $('.mix').on('click', function(){
+        $('.mix').on('click', function () {
             self.openDetail($(this));
         });
-        $('#closeX').on('click', function(){
+        $('#closeX').on('click', function () {
             self.closeDetail();
         });
 
@@ -86,37 +86,39 @@ var dropdownFilter = {
             self.parseFilters();
         });
     },
-    openDetail: function($mix){
+    openDetail: function ($mix) {
 
         var url = $("#Filters").attr("action") + "/recipe/" + $mix.data('name'),
-            self = this;
+        self = this;
+
         $('.loading').show();
-        var postData={post:'true'};
-        $.post( url,postData,self.recipesDetail );
+        var postData = {post: 'true'};
+        $.post(url, postData, self.recipesDetail);
     },
 
 
-    recipesDetail: function(e){
+    recipesDetail: function (e) {
         var parseData = JSON.parse(e), self = dropdownFilter;
-        console.log(parseData);
         $('.RecipeDetail').css('display', 'block')
         urlB = $('#Filters').data('url');
         urlB = urlB.split("/");
-        $('.RecipeDetail-header').css('background-image', 'url(http://' + urlB[2] + '/' + urlB[3] + parseData.banner +')')
-        $('body').css('overflow-y','hidden');
+
+        console.log(urlB);
+        $('.RecipeDetail-header').css('background-image', 'url(http://' + urlB[2] + '/'  + parseData.banner + ')')
+        $('body').css('overflow-y', 'hidden');
         $('.loading').hide();
         self.templateDetail(parseData);
 
 
-
     },
-    closeDetail: function(){
+    closeDetail: function () {
 
         $('.RecipeDetail').css('display', 'none')
-        $('body').css('overflow-y','scroll');
+        $('body').css('overflow-y', 'scroll');
 
-        window.history.pushState("recipes", "Title", "/recetas/");
-
+        var close = $('.CloseLink').data('close');
+        window.history.pushState("recipe", "Title", $('#Filters').data('url') + "/" + close);
+        return false
     },
 
     close: function () {
@@ -168,7 +170,7 @@ var dropdownFilter = {
         }
     },
 
-    templateDetail: function(data){
+    templateDetail: function (data) {
 
         var $contentRecipe = $('#RecipeDetail-content'),
             $chefName = $('#chefName'),
@@ -184,20 +186,19 @@ var dropdownFilter = {
         urlB = urlB.split("/");
 
 
-
         $contentRecipe.html(data.content);
         $chefName.html(data.chefName);
         $servings.html(data.servings);
         $headerTitle.html(data.tittle);
         $imageCocoa.html('<img src="' + data.imageCocoa + '" />')
-        $pdf.html('<a href="http://'  + urlB[2] + '/' + urlB[3] + '/' + data.pdf + '" target="_blank">pdf <span> ► </span></a>');
-        //$level.html(data.level);
-        $('meta[name=description]').attr('content',  data.content.substring(0,165));
-        $('#level svg:nth-child(-n + '+ data.level +' ) .st1').css('fill', '#fff');
+        $pdf.html('<a href="http://' + urlB[2] + '/' + urlB[3] + '/' + data.pdf + '" target="_blank">pdf <span> ► </span></a>');
+        $level.html(data.level);
+        $('meta[name=description]').attr('content', data.content.substring(0, 165));
+        $('#level svg:nth-child(-n + ' + data.level + ' ) .st1').css('fill', '#fff');
         $titleChef.html(data.chefName);
         $descriptionChef.html(data.chefDescription);
         $figureChef.html(' <img src="' + data.chefImage + '" alt="">');
-        window.history.pushState("recipes", "Title", $('#Filters').data('url') + "/recetas/" + data.slug);
+        window.history.pushState("recipes", "Title", $('#Filters').data('url') + "/recipe/" + data.slug);
     }
 
 };

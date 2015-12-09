@@ -111,6 +111,7 @@
             </div>
         </div>
     </footer>
+    <?php print_r( ) ?>
 </section>
 </body>
 </html>

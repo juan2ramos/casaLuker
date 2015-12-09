@@ -3,6 +3,16 @@ get_header();
 $chefs = get_terms("chef", array("hide_empty" => false));
 $cacaos = get_terms("cacao", array("hide_empty" => false));
 $levels = get_terms("level", array("hide_empty" => false));
+$currentLang = get_bloginfo('language');
+$arrayTitleRecipes = array(
+    'es-CO' => 'recetas',
+    'de-DE' => 'rezepte',
+    'en-US' => 'recipes',
+    'fr-FR' => 'recettes',
+    'it-IT' => 'ricette',
+    'ru-RU' => 'recipes-ru',
+    'sk-SK' => 'recepty',
+);
 ?>
 
 <h2 class="Recipes-h2 Main"><?php _e('OUR CHEFS', 'luker'); ?></h2>
@@ -27,7 +37,6 @@ $levels = get_terms("level", array("hide_empty" => false));
 </div>
 
 <form class="controls" id="Filters" action="<?php echo bloginfo('url') ?>" data-url="<?php echo bloginfo('url') ?>">
-
     <fieldset>
         <select id="chef">
             <option value="">Hecho por</option>
@@ -101,14 +110,14 @@ $levels = get_terms("level", array("hide_empty" => false));
                     <div class="gr">
                         gr <span>►</span>
                     </div>
-                     <a href="<?php echo get_site_url(); ?>/recetas">
+                     <span class="CloseLink"  data-close="<?php echo $arrayTitleRecipes[$currentLang]; ?>">
                          <svg version="1.1" id="closeX" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                              <g>
                                  <line class="st0" x1="57.7" y1="0.8" x2="0" y2="56.9"/>
                                  <line class="st0" x1="0" y1="0" x2="57.7" y2="57.7"/>
                              </g>
                          </svg>
-                     </a>
+                     </span>
                 </span>
             </div>
         </div>
