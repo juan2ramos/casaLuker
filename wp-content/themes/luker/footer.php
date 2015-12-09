@@ -40,10 +40,10 @@
 <div class="popUpNewsLetter">
     <div class="popUpNewsLetterContainer">
         <p>
-            Tome un momento para suscribirse a nuestros Newsletter y obtenga más información sobre cacao, productos,
+            <?php _e('Take a moment to subscribe to our Newsletter for more information on cocoa products, recipes, production and social commitment','luker'); ?> Tome un momento para suscribirse a nuestros Newsletter y obtenga más información sobre cacao, productos,
             recetas, producción y compromiso social
         </p>
-        <button>CERRAR</button>
+        <button><?php _e('CLOSE','luker'); ?>CERRAR</button>
     </div>
 </div>
 
