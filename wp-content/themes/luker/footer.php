@@ -1,10 +1,12 @@
 <footer class="Footer">
     <button class="Footer-back"><span></span>
 
-        <p><?php _e('BACK TO MENU','luker'); ?></p></button>
+        <p><?php _e('BACK TO MENU', 'luker'); ?></p></button>
     <div class="Footer-wrapper">
         <figure class="Footer-logo">
-            <img src="<?php bloginfo('template_url') ?>/assets/images/<?php echo get_bloginfo('language') ?>/logo-casaluker-footer.png" alt="Logo casa luker ">
+            <img
+                src="<?php bloginfo('template_url') ?>/assets/images/<?php echo get_bloginfo('language') ?>/logo-casaluker-footer.png"
+                alt="Logo casa luker ">
         </figure>
         <div class="Footer-nav">
             <?php wp_nav_menu(array('theme_location' => 'menuHeader', 'container' => 'nav')) ?>
@@ -44,7 +46,14 @@
         <button>CERRAR</button>
     </div>
 </div>
+
 <?php include TEMPLATEPATH . '/inc/BarFooter.php' ?>
+<?php wp_enqueue_style('styleLoad', get_template_directory_uri() . '/assets/css/pace-theme-center-atom.tmpl.css'); ?>
+<?php wp_enqueue_script('load', get_template_directory_uri() . '/assets/js/pace.min.js', array('jquery'), 1, false); ?>
+<?php wp_enqueue_script('loadInit', get_template_directory_uri() . '/assets/js/load.js', array('jquery'), 1, false); ?>
+<div id="preloader">
+    <div class="text"></div>
+</div>
 <?php wp_footer(); ?>
 
 </body>
