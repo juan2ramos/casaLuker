@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-07 20:30-0500\n"
+"PO-Revision-Date: 2015-12-09 11:02-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -52,6 +52,21 @@ msgstr "search"
 
 msgid "Products"
 msgstr "PRODUKTE"
+
+msgid "Calle 13 No 68-98"
+msgstr "Calle 13 No 68-98"
+
+msgid "Bogotá, COLOMBIA"
+msgstr "Bogotá, COLOMBIA"
+
+msgid "Teléfono: +57 (1) 4473700"
+msgstr "Teléfono: +57 (1) 4473700"
+
+msgid "Teléfono: + 32 (0) 9 2450460"
+msgstr "Teléfono: + 32 (0) 9 2450460"
+
+msgid "CasaLuker Europe"
+msgstr "CasaLuker Europe"
 
 msgid "Tailor Made Innovation"
 msgstr "KUNDENWUNSCHE"
