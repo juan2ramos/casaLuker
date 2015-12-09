@@ -206,6 +206,13 @@ $url = array(
     </ul>
 </nav>
 <?php include TEMPLATEPATH . '/inc/BarFooter.php' ?>
+<div id="preloader">
+    <div class="text"></div>
+</div>
+<?php wp_enqueue_style('styleLoad', get_template_directory_uri().'/assets/css/pace-theme-center-atom.tmpl.css'); ?>
+<?php wp_enqueue_script( 'load', get_template_directory_uri().'/assets/js/pace.min.js', array('jquery'), 1, false ); ?>
+<?php wp_enqueue_script( 'loadInit', get_template_directory_uri().'/assets/js/load.js', array('jquery'), 1, false ); ?>
+
 <?php wp_footer(); ?>
 </body>
 </html>
