@@ -1,10 +1,10 @@
-<?php get_header(); ?>
+<?php get_header();
+$date = explode(' ', get_the_date('d F'));
+$first = ($query->current_post == 0) ? true : false;
+?>
 <main class="Main newsAndEvent">
     <section class="news">
-        <?php
 
-
-            ?>
 
             <article>
                 <figure>
