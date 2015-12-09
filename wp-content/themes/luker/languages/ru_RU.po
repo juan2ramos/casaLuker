@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-09 11:27-0500\n"
+"PO-Revision-Date: 2015-12-09 11:54-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +16,12 @@ msgstr ""
 
 msgid "news"
 msgstr "НОВОСТИ"
+
+msgid "CLOSE"
+msgstr "CLOSE"
+
+msgid "Take a moment to subscribe to our Newsletter for more information on cocoa products, recipes, production and social commitment"
+msgstr "Take a moment to subscribe to our Newsletter for more information on cocoa products, recipes, production and social commitment"
 
 msgid "TRAINING PANEL"
 msgstr "TRAINING PANEL"
