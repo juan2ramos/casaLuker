@@ -24,7 +24,7 @@
                     <li><?php _e('CasaLuker Europe','luker'); ?></li>
                     <li>Kortrijksesteenweg 1132</li>
                     <li>9051 Sint-Denijs-Westrem,</li>
-                    <li>BELGIUM</li>
+                    <li><?php _e('BELGIUM','luker'); ?></li>
                     <li><a href="mailto:casalukereu@casaluker.com.co">casalukereu@casaluker.com.co</a></li>
                     <li><a href="tel:32092450460"><?php _e('Teléfono: + 32 (0) 9 2450460','luker'); ?></a></li>
 
