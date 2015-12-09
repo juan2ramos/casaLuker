@@ -180,6 +180,14 @@ function my_page_template_redirect()
         'ricette' => 'page-recetas',
         'recipes-ru' => 'page-recetas',
 
+        'thanks' => 'page-gracias',
+        'gracias' => 'page-gracias',
+        'ace' => 'page-gracias',
+        'dank' => 'page-gracias',
+        'hvala' => 'page-gracias',
+        'grazie' => 'page-gracias',
+        'thanks-ru' => 'page-gracias',
+
     );
     if(array_key_exists( get_post($post)->post_name , $arrayUrl) ){
 
