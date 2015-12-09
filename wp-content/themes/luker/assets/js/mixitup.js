@@ -15,7 +15,7 @@ $(function () {
     });
 });
 
-
+var measure = true;
 var dropdownFilter = {
 
     $filters: null,
@@ -46,7 +46,9 @@ var dropdownFilter = {
         var self = this;
 
         $(document).on('keydown',function(e){
-            self.closeDetail()
+            if ( e.which == 27 ) {
+                self.closeDetail()
+            }
         });
 
         $('.Recipes-chefs figure').on('click', function () {
@@ -55,6 +57,36 @@ var dropdownFilter = {
             $('#chef').val(filter);
             self.parseFilters();
             self.oneChef($figure);
+        });
+
+        $('.gr').on('click', function () {
+
+            $(this).html((measure)?'oz<span>►</span>':'gr<span>►</span>');
+            var $liData = $('.ingredients li');
+            $liData.each(function(i){
+                var nm = $( this).find('.nm'),
+                    ms = $( this).find('.ms'),
+                    number =  nm.text();
+
+                if(!isNaN(parseInt(number))){
+                    if(measure){
+                        ms.text('oz')
+                        number = number / 28.3495;
+
+                        number = number.toFixed(3);
+                    }else{
+                        number = number * 28.3495;
+                        ms.text('g')
+                        number = number.toFixed();
+                    }
+
+                    nm.text(number)
+
+                    console.log(number)
+                }
+            });
+
+            measure = (measure)?false:true;
         })
 
         $('.Recipes-chefsBack').on('click', function () {

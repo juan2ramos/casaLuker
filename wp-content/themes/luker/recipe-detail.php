@@ -12,10 +12,7 @@ $arrayTitleRecipes = array(
 $url = explode('/', get_bloginfo('url'));
 array_pop($url);
 $url = implode('/', $url);
-
 ?>
-
-
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -137,12 +134,41 @@ $url = implode('/', $url);
 </section>
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js?ver=2.1.3'></script>
 <script>
-
+    var measure = true;
     $(document).on('keydown',function(e){
         if ( e.which == 27 ) {
             window.location.href = '<?php echo $url . '/' . $arrayTitleRecipes[$currentLang]; ?>';
         };
     });
+    $('.gr').on('click', function () {
+
+        $(this).html((measure)?'oz<span>►</span>':'gr<span>►</span>');
+        var $liData = $('.ingredients li');
+        $liData.each(function(i){
+            var nm = $( this).find('.nm'),
+                ms = $( this).find('.ms'),
+                number =  nm.text();
+
+            if(!isNaN(parseInt(number))){
+                if(measure){
+                    ms.text('oz')
+                    number = number / 28.3495;
+
+                    number = number.toFixed(3);
+                }else{
+                    number = number * 28.3495;
+                    ms.text('g')
+                    number = number.toFixed();
+                }
+
+                nm.text(number)
+
+                console.log(number)
+            }
+        });
+
+        measure = (measure)?false:true;
+    })
 </script>
 </body>
 </html>
