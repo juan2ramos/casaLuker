@@ -63,7 +63,7 @@
   top:0;
 }
 
-.text{
+.loadText{
   z-index: 8000;
   position: fixed;
   margin: auto;

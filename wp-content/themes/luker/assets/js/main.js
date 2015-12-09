@@ -84,7 +84,7 @@
 
         });
 
-       /* $('.moreNews').on('click', function (e) {
+       /* $('.mohoNews').on('click', function (e) {
             $(this).find('span').first().toggleClass('rotate');
             $('.content-news div').remove('heightDiv');
             $(this).siblings('.content-news').find('div').toggleClass('heightDiv');

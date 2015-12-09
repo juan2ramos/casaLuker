@@ -58,6 +58,138 @@
       margin: 0 10px
       max-width: 120px
 
+.beantobar
+  & > div:first-child
+    background: #000;
+  & .clear
+    clear: both;
+  & .content:first-child
+    border-right: 2px dotted rgba(255, 255, 255, 0.2);
+  & .content
+    @include respond-to("medium")
+      float: left;
+      width: 50%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+  & h2
+    border: none;
+    padding-top: 1em;
+  & .line
+    border-bottom: 2px dotted rgba(255, 255, 255, 0.2);
+  & .center
+    text-align: center;
+  & .gray
+    color: #333;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: bold;
+  & .white
+    font-size: 0.9em;
+    line-height: 1em;
+  & .product
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+  & p.gray
+    margin: auto;
+  & svg
+    display: block;
+  & .mapsection .content
+    @include respond-to("medium")
+      float: left;
+      width: 50%;
+      border: none;
+    padding: 0;
+  & .all-info
+    position: relative;
+  & .info.hide
+    display: none;
+  & .info
+    @include respond-to("medium")
+      position: absolute;
+      top: 0;
+      left: 0;
+    & .intro
+      position: relative;
+      img
+        width: 100%;
+        display: block;
+      h2
+        position: absolute;
+        padding: 0;
+        width: 100%;
+        height: 1.2em;
+        line-height: 1.2em;
+        text-align: center;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        font-size: 3em;
+        text-shadow: 1px 1px 5px #000;
+    & .icons li
+      width: 25%;
+      float: left;
+      text-align: center;
+      font-size: 0.8em;
+      img
+        width: 50%;
+      .label
+        text-transform: uppercase;
+        font-weight: bold;
+      .value
+        padding-bottom: 1em;
+    & .icons:after
+      content: "";
+      display: block;
+      clear: both;
+    & table td
+      width: 50%;
+      padding: 1em;
+      vertical-align: top;
+      font-size: 0.9em;
+      line-height: 1em;
+      h3
+        color: #fff;
+        text-align: left;
+        padding: 0 5%;
+  & svg #santander-circle,
+  & svg #arauca-circle,
+  & svg #sanmartin-circle,
+  & svg #tumaco-circle,
+  & svg #santander-shape,
+  & svg #arauca-shape,
+  & svg #sanmartin-shape,
+  & svg #tumaco-shape,
+  & svg #santander-line,
+  & svg #arauca-line,
+  & svg #sanmartin-line,
+  & svg #tumaco-line
+    cursor: pointer;
+  & .orange
+    & .icons
+      background: rgb(228, 109, 51);
+    & table td
+      background: darken(rgb(229, 109, 51), 15%);
+  & .purple
+    & .icons
+      background: rgb(127, 50, 138);
+    & table td
+      background: darken(rgb(127, 50, 138), 15%);
+  & .green
+    & .icons
+      background: rgb(120, 186, 67);
+    & table td
+      background: darken(rgb(120, 186, 67), 15%);
+  & .yellow
+    & .icons
+      background: rgb(255, 210, 1);
+    & table td
+      background: darken(rgb(255, 210, 1), 15%);
+
+
 .Table
   margin: 0 0 2rem
   overflow-x: scroll

@@ -14,5 +14,5 @@ gulp.task('styles', function() {
 gulp.task('default', ['sass']);
 
 gulp.task('sass', function () {
-    gulp.watch('wp-content/themes/luker/assets/css/style.sass',['styles']);
+    gulp.watch(['wp-content/themes/luker/assets/css/style.sass', 'wp-content/themes/luker/assets/css/lib/*.sass'],['styles']);
 })
