@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-12-07 23:28-0500\n"
+"PO-Revision-Date: 2015-12-08 16:39-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -668,7 +668,7 @@ msgid "SOCIAL COMMITMENT"
 msgstr "ENGAGEMENT SOCIAL"
 
 msgid "ENTREPRENEURIAL PROJECTS"
-msgstr "ENTREPRENEURIAL PROJECTS"
+msgstr "PROJETS ENTREPRENEURIAUX"
 
 msgid "WHAT IS THE LUKER WAY"
 msgstr "QUE SIGNIFIE L’APPROCHE LUKER?"
@@ -878,13 +878,13 @@ msgid "SUR DE BOLIVAR"
 msgstr "SUR DE BOLIVAR"
 
 msgid "THE LUKER FOUNDATION"
-msgstr "THE LUKER FOUNDATION"
+msgstr "FONDATION LUKER"
 
 msgid "AREA OF WORK"
 msgstr "AREA OF WORK"
 
 msgid "The Luker Foundation is a private non-profit organization, with a bussines origin (CasaLuker S.A.), created in 1994 with the aim of contributing to improving the quality of life of the people of Manizales (known as Manizaleños) and postering social development. Ever since its inception, the Luker Foundation has worked in different education and leisure projects, which have generated demostrative effects for other regions of Colombia and Latin América.READ MORE"
-msgstr "The Luker Foundation is a private non-profit organization, with a bussines origin (CasaLuker S.A.), created in 1994 with the aim of contributing to improving the quality of life of the people of Manizales (known as Manizaleños) and postering social development. Ever since its inception, the Luker Foundation has worked in different education and leisure projects, which have generated demostrative effects for other regions of Colombia and Latin América.READ MORE"
+msgstr "La Fondation Luker est un organisme privé sans but lucratif d’origine entrepreneuriale (CasaLuker S.A.). Elle a été créée en 1994 en vue de contribuer à l’amélioration de la qualité de vie des gens de Manizales et d’encourager ainsi le développement social. La Fondation Luker a redéfini sa stratégie en 2010 et a aujourd’hui pour mission de fournir du leadership pour contribuer au développement social et économique de Manizales comme ville de la connaissance, par des projets d’éducation entrepris en collaboration avec des chefs de file locaux et mondiaux. Pour en lire plus."
 
 msgid "A BET TO A BETTER FUTURE"
 msgstr "UN PARI POUR UN FUTUR MEILLEUR"
@@ -893,22 +893,22 @@ msgid "GO TO LUKER FOUNDATION"
 msgstr "GO TO LUKER FOUNDATION"
 
 msgid "For more information contact:"
-msgstr "For more information contact:"
+msgstr "Pour de plus amples renseignements, veuillez communiquer avec :Pour de plus amples renseignements, veuillez communiquer avec :"
 
 msgid "What do we offer"
-msgstr "What do we offer"
+msgstr "Ce que nous offrons : "
 
 msgid "Technical audit / staff training"
-msgstr "Technical audit / staff training"
+msgstr "Vérification technique/ Formation du personnel."
 
 msgid "Software for production cost control"
-msgstr "Software for production cost control"
+msgstr "Logiciel pour le contrôle des coûts de production."
 
 msgid "Seeds and vegetal material supplying"
-msgstr "Seeds and vegetal material supplying"
+msgstr "Fourniture de semences et matériau végétal. "
 
 msgid "Nursery team"
-msgstr "Nursery team"
+msgstr "Montage de serres."
 
 msgid "Luker 1906, Single Origin Chocolates"
 msgstr "Luker 1906, Chocolats d'Origen Unique"
@@ -923,19 +923,19 @@ msgid "Cocoa derivatives"
 msgstr "Cocoa derivatives"
 
 msgid "MORE THAN"
-msgstr "MORE THAN"
+msgstr "Plus de"
 
 msgid "SAMPLES"
 msgstr "SAMPLES"
 
 msgid "PROCESSED"
-msgstr "PROCESSED"
+msgstr "échantillons ont été traités"
 
 msgid "REPRESENTING"
-msgstr "REPRESENTING"
+msgstr "ce qui représente"
 
 msgid "WORKING HOURS"
-msgstr "WORKING HOURS"
+msgstr "heures de travail."
 
 msgid "NEWS"
 msgstr "NEWS"
@@ -944,22 +944,22 @@ msgid "Compound"
 msgstr "Compound"
 
 msgid "Financial mode"
-msgstr "Financial mode"
+msgstr "Modèle financier."
 
 msgid "Financial resources, funds and investors information"
-msgstr "Financial resources, funds and investors information"
+msgstr "Renseignements sur les ressources financières, fonds ou marges de crédit pour les investisseurs."
 
 msgid "PROJECTS PHOTO GALLERY"
-msgstr "PROJECTS PHOTO GALLERY"
+msgstr "GALERIE DE PHOTOS"
 
 msgid "SCIENTIFIC APPROACH"
-msgstr "SCIENTIFIC APPROACH"
+msgstr " APPROCHE SCIENTIFIQUE"
 
 msgid "During the last 10 years, CasaLuker has been working with Cenicafe in the characterization and deeper knowledge about cocoa, comparing the different species of cocoa beans from around the world."
-msgstr "During the last 10 years, CasaLuker has been working with Cenicafe in the characterization and deeper knowledge about cocoa, comparing the different species of cocoa beans from around the world."
+msgstr "Au cours des dix dernières années, CasaLuker a travaillé de concert avec Cenicafé à la description et à l’approfondissement des connaissances sur le cacao, analysant et comparant diverses espèces de grains de cacao du monde entier."
 
 msgid "We have developed a cocoa promotion model for investors in order to motivate the cocoa culture in the country; our goal is to have 5000 hectares planted by 2017."
-msgstr "We have developed a cocoa promotion model for investors in order to motivate the cocoa culture in the country; our goal is to have 5000 hectares planted by 2017."
+msgstr "Nous avons élaboré un modèle de promotion du cacao pour les investisseurs afin de promouvoir la culture du cacao dans le pays; notre objectif est d’avoir 5 000 hectares plantés en 2017."
 
 msgid "In the south of the Bolívar department, surrounded by mountains and located near the Magdalena River, is the small town of Santa Rosa. Nowadays, its inhabitants live mainly off their crops, farming and mining. However, it was there that, not so long ago, illegal armed groups brought with them the cursed coca plant and with it violence and social decomposition. Discover how farmers saw cocoa as a hopeful change bringing peace and progress to the town. Read the full article"
 msgstr "In the south of the Bolívar department, surrounded by mountains and located near the Magdalena River, is the small town of Santa Rosa. Nowadays, its inhabitants live mainly off their crops, farming and mining. However, it was there that, not so long ago, illegal armed groups brought with them the cursed coca plant and with it violence and social decomposition. Discover how farmers saw cocoa as a hopeful change bringing peace and progress to the town. Read the full article"
