@@ -1,3 +1,21 @@
+<?php
+$currentLang = get_bloginfo('language');
+$arrayTitleRecipes = array(
+    'es-CO' => 'recetas',
+    'de-DE' => 'rezepte',
+    'en-US' => 'recipes',
+    'fr-FR' => 'recettes',
+    'it-IT' => 'ricette',
+    'ru-RU' => 'recipes-ru',
+    'sk-SK' => 'recepty',
+);
+$url = explode('/', get_bloginfo('url'));
+array_pop($url);
+$url = implode('/', $url);
+
+?>
+
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -34,18 +52,22 @@
                 <h2>TYPE OF CHOCOLATE <span id="imageCocoa"><img src="<?php echo $content['imageCocoa'] ?>"
                                                                  alt=""></span></h2>
                 <span class="RecipeDetail-barClose">
-                    <div class="pdf"></div>
+
+                        <div class="pdf"><a href="<?php echo $url . '/' . get_post_meta(get_the_ID(), 'pdf')[0] ?>"
+                                            target="_blank">pdf <span> ► </span></a></div>
+
                     <div class="gr">
                         gr <span>►</span>
                     </div>
-                    <a href="<?php echo get_site_url(); ?>/recetas">
-                        <svg version="1.1" id="closeX" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                            <g>
-                                <line class="st0" x1="57.7" y1="0.8" x2="0" y2="56.9"/>
-                                <line class="st0" x1="0" y1="0" x2="57.7" y2="57.7"/>
-                            </g>
-                        </svg>
-                    </a>
+                    <a href="<?php echo $arrayTitleRecipes[$currentLang]; ?>" class="CloseLink" ">
+                         <svg version="1.1" id="closeX" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                             <g>
+                                 <line class="st0" x1="57.7" y1="0.8" x2="0" y2="56.9"/>
+                                 <line class="st0" x1="0" y1="0" x2="57.7" y2="57.7"/>
+                             </g>
+                         </svg>
+                     </a>
+
                 </span>
             </div>
         </div>
@@ -105,13 +127,22 @@
             </div>
             <div class="suscribe">
                 <div class="suscribe-content">
-                    <h5>GET MORE INFO ABOUT CACAO</h5>
-                    <button>suscribe</button>
+                   <span class="icon-facebook"></span>
+                   <span class="icon-twitter"></span>
                 </div>
             </div>
         </div>
     </footer>
-    <?php print_r( ) ?>
+
 </section>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js?ver=2.1.3'></script>
+<script>
+
+    $(document).on('keydown',function(e){
+        if ( e.which == 27 ) {
+            window.location.href = '<?php echo $url . '/' . $arrayTitleRecipes[$currentLang]; ?>';
+        };
+    });
+</script>
 </body>
 </html>

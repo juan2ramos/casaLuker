@@ -45,6 +45,10 @@ var dropdownFilter = {
     bindHandlers: function () {
         var self = this;
 
+        $(document).on('keydown',function(e){
+            self.closeDetail()
+        });
+
         $('.Recipes-chefs figure').on('click', function () {
             var $figure = $(this),
                 filter = $figure.data('filter');
@@ -104,7 +108,7 @@ var dropdownFilter = {
         urlB = urlB.split("/");
 
         console.log(urlB);
-        $('.RecipeDetail-header').css('background-image', 'url(http://' + urlB[2] + '/'  + parseData.banner + ')')
+        $('.RecipeDetail-header').css('background-image', 'url(http://' + urlB[2] + '/' + urlB[3] + '/' + parseData.banner + ')')
         $('body').css('overflow-y', 'hidden');
         $('.loading').hide();
         self.templateDetail(parseData);
@@ -192,7 +196,7 @@ var dropdownFilter = {
         $headerTitle.html(data.tittle);
         $imageCocoa.html('<img src="' + data.imageCocoa + '" />')
         $pdf.html('<a href="http://' + urlB[2] + '/' + urlB[3] + '/' + data.pdf + '" target="_blank">pdf <span> ► </span></a>');
-        $level.html(data.level);
+        //$level.html(data.level);
         $('meta[name=description]').attr('content', data.content.substring(0, 165));
         $('#level svg:nth-child(-n + ' + data.level + ' ) .st1').css('fill', '#fff');
         $titleChef.html(data.chefName);

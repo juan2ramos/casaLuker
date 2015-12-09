@@ -127,7 +127,7 @@ $arrayTitleRecipes = array(
                 <li><p>SERVINGS <span id="servings"></span></p></li>
                 <li>
                     <p>DIFFICULTY LEVEL
-                        <span id="level">
+                         <span id="level">
                             <svg version="1.1" class="cacaoSvg " xmlns="http://www.w3.org/2000/svg"
                                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                  viewBox="-749 388.4 486.1 641.9" style="enable-background:new -749 388.4 486.1 641.9;"
