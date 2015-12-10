@@ -43,7 +43,7 @@ $url = implode('/', $url);
 <body class="RecipeDetail-body">
 
 <section class="RecipeDetail show">
-    <header class="RecipeDetail-header" style="background-image: url(<?php bloginfo('url');echo $content['banner'] ?>);">
+    <header class="RecipeDetail-header" style="background-image: url(<?php  echo $url . $content['banner'] ?>);">
         <div class="RecipeDetail-headerContent">
             <div class="RecipeDetail-bar">
                 <h2>TYPE OF CHOCOLATE <span id="imageCocoa"><img src="<?php echo $content['imageCocoa'] ?>"
