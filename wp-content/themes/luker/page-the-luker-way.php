@@ -575,12 +575,61 @@ $arrayTitleNews = array(
     </section>
     <section class="socialNetwork">
         <ul>
-            <li><h3>TWEETS</h3>
+            <li class="Social-teewt"><h3>TWEETS</h3>
 
-                <div class="Search"><?php dynamic_sidebar('widgetTwitter'); ?> </div>
+                <div>
+                    <div class="tweet">
+                        <img src="http://pbs.twimg.com/profile_images/479728991717171200/wnPo_ENR_normal.jpeg"/>
+
+                        <div class="date">Dec 04</div>
+                        <div class="content">RT @LUKEROFFICIAL: Because we care about environment.
+                            <span>#TheLukerWay</span>
+                            <span>#FinodeAroma</span> https://t.co/8y8781YjZ9
+                        </div>
+                        <div style="clear: both"></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="tweet">
+                        <img src="http://pbs.twimg.com/profile_images/479728991717171200/wnPo_ENR_normal.jpeg"/>
+
+                        <div class="date">Dec 04</div>
+                        <div class="content">RT @LUKEROFFICIAL: Because we care about environment.
+                            <span>#TheLukerWay</span>
+                            <span>#FinodeAroma</span> https://t.co/8y8781YjZ9
+                        </div>
+                        <div style="clear: both"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="tweet">
+                        <img src="http://pbs.twimg.com/profile_images/479728991717171200/wnPo_ENR_normal.jpeg"/>
+
+                        <div class="date">Dec 04</div>
+                        <div class="content">RT @LUKEROFFICIAL: Because we care about environment.
+                            <span>#TheLukerWay</span>
+                            <span>#FinodeAroma</span> https://t.co/8y8781YjZ9
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
             </li>
-            <li><h3>FACEBOOK</h3></li>
-            <li><h3>YOUTUBE</h3></li>
+            <li class="Social-facebook"><h3>FACEBOOK</h3>
+
+                <div class="post">
+                    <div class="title"><a href="https://www.facebook.com/443992762281536/posts/1071430636204409"
+                                          target="_blank">Cocoa through the Arauca river</a></div>
+                    <div class="message"><a href="https://www.facebook.com/443992762281536/posts/1071430636204409"
+                                            target="_blank">Between the wild landscapes of the Arauca region, grows a
+                            sweet cocoa that reflects in its flavour the geographic and cultural diversity of its
+                            region. #TheLukerWay</a></div>
+                    <div class="date">Posted: 2015-03-28</div>
+                </div>
+            </li>
+            <li class="Social-youtube"><h3>YOUTUBE</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_6PdqIvTMOQ" frameborder="0" allowfullscreen></iframe>
+            </li>
         </ul>
     </section>
 </main>
