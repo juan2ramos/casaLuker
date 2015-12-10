@@ -11,11 +11,11 @@ $first = ($query->current_post == 0) ? true : false;
                     <?php the_post_thumbnail(); ?>
                     <date><?php echo $date[0] . '<span>' . substr($date[1], 0, 3) . '</span>'; ?></date>
                 </figure>
-                <div class="content-news">
+                <div class="content-news single">
                     <h2><?php echo $post->post_title; ?></h2>
 
                     <div style=" max-height: none;     padding-bottom: 2rem;"><?php echo $post->post_content; ?></div>
-                    <button class="lessNews <?php if($first) echo 'show' ?>">
+                    <button class="lessNews ">
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
                             <path fill="#000" d="M16 31l15-15h-9v-16h-12v16h-9z"></path>
