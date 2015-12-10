@@ -66,7 +66,26 @@ var dropdownFilter = {
             $liData.each(function(i){
                 var nm = $( this).find('.nm'),
                     ms = $( this).find('.ms'),
-                    number =  nm.text();
+
+                    ct = $( this).find('.ct'),
+                    mt = $( this).find('.mt'),
+
+                    number =  nm.text(),
+                    numberT =  nm.text();
+
+                if(!isNaN(parseInt(numberT))){
+                    if(measure){
+                        ms.text('ºF')
+                        numberT = 1.8 * numberT + 32 ;
+                        numberT = numberT.toFixed(3);
+                    }else{
+                        numberT = (numberT - 32)/1.8;
+                        ms.text('ºC')
+                        numberT = numberT.toFixed();
+                    }
+                    nm.text(number)
+                    mt.text(numberT)
+                }
 
                 if(!isNaN(parseInt(number))){
                     if(measure){
@@ -81,8 +100,6 @@ var dropdownFilter = {
                     }
 
                     nm.text(number)
-
-                    console.log(number)
                 }
             });
 
