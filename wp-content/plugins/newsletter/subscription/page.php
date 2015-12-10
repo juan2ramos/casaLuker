@@ -28,16 +28,4 @@ if (is_file(WP_CONTENT_DIR . '/extensions/newsletter/subscription/page.php')) {
     include WP_CONTENT_DIR . '/extensions/newsletter/subscription/page.php';
     die();
 }
-include('../../../themes/luker/headerNewsletter.php')
-?>
-    <main class="Main ">
-        <?php if (!empty($alert)) { ?>
-            <script>
-                alert("<?php echo addslashes(strip_tags($alert)); ?>");
-            </script>
-        <?php } ?>
-        <div id="container" style="text-align: center; font-size: 2rem">
-            <?php echo $message; ?>
-        </div>
-    </main>
-<?php include('../../../themes/luker/footer.php') ?>
+include('../../../themes/luker/page-gracias.php');

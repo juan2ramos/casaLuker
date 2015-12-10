@@ -141,7 +141,7 @@ $titleNews = ($arrayTitleNews)?$arrayTitleNews[$currentlang]:get_the_title();
 
     <h1 class="Header-title">
 
-        <h1 class="Header-title">
+        <h1 style="font-size: 2rem;" class="Header-title">
             <?php _e('Thanks for subscribing, you will receive news from us soon.', 'luker'); ?>
         </h1>
     </h1>
