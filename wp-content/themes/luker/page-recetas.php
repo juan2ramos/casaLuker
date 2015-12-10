@@ -174,8 +174,8 @@ $arrayTitleRecipes = array(
             </div>
             <div class="suscribe">
                 <div class="suscribe-content">
-                    <h5>GET MORE INFO ABOUT CACAO</h5>
-                    <button>suscribe</button>
+                    <span class="icon-facebook"></span>
+                    <span class="icon-twitter"></span>
                 </div>
             </div>
         </div>
