@@ -570,11 +570,14 @@
 
 .news figure
   margin: auto
+  width: 245px
   max-width: 50%
   background-color: white
   border-radius: 50%
   padding: 1.5rem
   text-transform: uppercase
+  position: relative
+  height: 245px
   position: relative
   @include respond-to(small)
     max-width: 30%
@@ -614,8 +617,12 @@
   & figure
     & img
       border-radius: 50%
-      position: relative
-      top: 5px
+      position: absolute
+      top: 13px
+      max-width: 220px
+      width: 220px
+      height: 220px
+      left: 12px
   & img
     height: inherit
   & article
@@ -638,6 +645,8 @@
   width: 100%
   padding: 1rem
   position: relative
+  overflow: hidden
+  height: 260px
   @include respond-to(small)
     padding: 0 3rem
     width: 69%
@@ -645,7 +654,6 @@
     max-width: 460px
   & div
     font-size: .85rem
-    overflow-y: hidden
     max-height: 8rem
     @include transition(all .5s)
 
