@@ -5,7 +5,7 @@ Theme: Luker
 */
 $currentlang = get_bloginfo('language');
 $arrayTitleNews = false;
-if(get_post()->post_type == "registernews"){
+if (get_post()->post_type == "registernews") {
     $arrayTitleNews = array(
         'es-CO' => 'NOTICIAS',
         'de-DE' => 'AKTUELL',
@@ -16,7 +16,7 @@ if(get_post()->post_type == "registernews"){
         'sk-SK' => 'NOVINKY',
     );
 }
-$titleNews = ($arrayTitleNews)?$arrayTitleNews[$currentlang]:get_the_title();
+$titleNews = ($arrayTitleNews) ? $arrayTitleNews[$currentlang] : get_the_title();
 
 ?>
 
@@ -53,7 +53,7 @@ $titleNews = ($arrayTitleNews)?$arrayTitleNews[$currentlang]:get_the_title();
 
 <body <?php body_class(); ?> data-urlBody="<?php bloginfo('url') ?>">
 <?php $upload_dir = wp_upload_dir(); ?>
-<?php $image = (get_post()->post_type == "registernews")?$upload_dir['baseurl'].'/2015/09/bg-top7.jpg':wp_get_attachment_image_src(get_post_thumbnail_id(), 'large')['0']  ; ?>
+<?php $image = (get_post()->post_type == "registernews") ? $upload_dir['baseurl'] . '/2015/09/bg-top7.jpg' : wp_get_attachment_image_src(get_post_thumbnail_id(), 'large')['0']; ?>
 
 <header class="Header" style="
     background-image: url(<?php echo $image ?>)
@@ -64,7 +64,6 @@ $titleNews = ($arrayTitleNews)?$arrayTitleNews[$currentlang]:get_the_title();
         <span></span>
     </div>
     <figure class="Header-logo-mobile">
-
 
 
         <a href="<?php bloginfo('url') ?>"><img
@@ -97,13 +96,15 @@ $titleNews = ($arrayTitleNews)?$arrayTitleNews[$currentlang]:get_the_title();
                        target="_blank"><span class="icon-linkedin2"> </span></a></li>
             </ul>
             <div class="Header-news">
-                <?php _e('GET MORE INFO','luker'); ?>
+                <?php _e('GET MORE INFO', 'luker'); ?>
             </div>
 
             <div class="formNewsletter">
                 <form method="post" action="<?php bloginfo('url') ?>/?na=s" onsubmit="return newsletter_check(this)">
-                    <input class="newsletter-firstname" required type="text" name="nn" size="30" placeholder="<?php _e('Name', 'luker'); ?>">
-                    <input class="newsletter-lastname" type="text" name="ns" size="30" required placeholder="<?php _e('Last Name', 'luker'); ?>">
+                    <input class="newsletter-firstname" required type="text" name="nn" size="30"
+                           placeholder="<?php _e('Name', 'luker'); ?>">
+                    <input class="newsletter-lastname" type="text" name="ns" size="30" required
+                           placeholder="<?php _e('Last Name', 'luker'); ?>">
                     <input class="newsletter-email" type="email" name="ne" size="30" required
                            placeholder="<?php _e('E-mail', 'luker'); ?>">
                     <hr>
@@ -123,7 +124,7 @@ $titleNews = ($arrayTitleNews)?$arrayTitleNews[$currentlang]:get_the_title();
         <div class="Header-barMobile">
             <div class="Search"><?php dynamic_sidebar('widgetSearchFooter'); ?> </div>
             <div class="Header-news">
-                <?php _e('GET MORE INFO','luker'); ?>
+                <?php _e('GET MORE INFO', 'luker'); ?>
             </div>
             <ul class="Header-navNetwork">
                 <li><a href="https://www.facebook.com/LUKERFOODINGREDIENTS" target="_blank"><span
@@ -145,14 +146,18 @@ $titleNews = ($arrayTitleNews)?$arrayTitleNews[$currentlang]:get_the_title();
         <h1 class="Header-title">
 
             <?php
-            $title = strtolower(get_the_title());
-            if ($title == 'productos' && get_bloginfo('language') != "es-CO") {
-                $arrayTitle = array(
-                    'en-US' => 'Product',
-                );
-                echo $arrayTitle[get_bloginfo('language')];
+            if (is_search()) {
+                echo _e('search', 'luker');
             } else {
-                echo $titleNews;
+                $title = strtolower(get_the_title());
+                if ($title == 'productos' && get_bloginfo('language') != "es-CO") {
+                    $arrayTitle = array(
+                        'en-US' => 'Product',
+                    );
+                    echo $arrayTitle[get_bloginfo('language')];
+                } else {
+                    echo $titleNews;
+                }
             }
             ?>
 
@@ -164,7 +169,7 @@ $titleNews = ($arrayTitleNews)?$arrayTitleNews[$currentlang]:get_the_title();
 
     <div class="More" id="down">
         <a href="#">
-            <span class="More-view"><?php _e('READ +','luker'); ?></span>
+            <span class="More-view"><?php _e('READ +', 'luker'); ?></span>
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
                  y="0px" viewBox="0 0 842 595" enable-background="new 0 0 842 595">
                 <defs>

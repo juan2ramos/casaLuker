@@ -177,22 +177,41 @@ var dropdownFilter = {
     close: function () {
         var self = this;
         $('#chef').val('');
-        self.$RecipesChefs.find('figure').removeClass('open')
-        self.$RecipesChefs.find('figure').removeClass('close')
-        $('.Recipes-chefsBack').removeClass('open');
+        //self.$RecipesChefs.find('figure').removeClass('open')
+        var $allLess = self.$RecipesChefs.find('figure')
+        if($(window).width() > 900){
+            $allLess.velocity({width: '33%'}, {duration: 500});
+        }
+        else{
+            $allLess.velocity({width: '100%'}, {duration: 500});
+        }
 
+        self.$RecipesChefs.find('figure').removeClass('open')
+        $('.Recipes-chefsBack').removeClass('open');
+        $allLess.find('.Recipes-chefsContent').css('display','block')
         self.parseFilters();
+        self.$RecipesChefs.find('figure').removeClass('close');
     },
 
     oneChef: function ($figure) {
 
         var self = this;
-
         $('.Recipes-chefsBack').addClass('open');
-        self.$RecipesChefs.find('figure').removeClass('open')
-        self.$RecipesChefs.find('figure').removeClass('close')
+        var $allLess = self.$RecipesChefs.find('figure').not($figure);
+        $allLess.velocity({width: 0}, {duration: 500});
+        $figure.velocity({width: '100%'}, {duration: 500,complete:function(){
+           console.log($allLess)
+            $allLess.find('.Recipes-chefsContent').css('display','none')
+        }});
         $figure.addClass('open');
         self.$RecipesChefs.find('figure').not(".open").addClass('close');
+        console.log($allLess);
+       /* $('.Recipes-chefsBack').addClass('open');
+        self.$RecipesChefs.find('figure').removeClass('open')
+        //self.$RecipesChefs.find('figure').removeClass
+        $figure.velocity({opacity: 0,}, {duration: 100, display: "none"});
+        $figure.addClass('open');
+        self.$RecipesChefs.find('figure').not(".open").addClass('close');*/
 
     },
 

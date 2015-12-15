@@ -43,7 +43,7 @@ $url = implode('/', $url);
 <body class="RecipeDetail-body">
 
 <section class="RecipeDetail show">
-    <header class="RecipeDetail-header" style="background-image: url(<?php  echo $url . $content['banner'] ?>);">
+    <header class="RecipeDetail-header" style="background-image: url(<?php echo $url . $content['banner'] ?>);">
         <div class="RecipeDetail-headerContent">
             <div class="RecipeDetail-bar">
                 <h2>TYPE OF CHOCOLATE <span id="imageCocoa"><img src="<?php echo $content['imageCocoa'] ?>"
@@ -63,7 +63,7 @@ $url = implode('/', $url);
                                  <line class="st0" x1="0" y1="0" x2="57.7" y2="57.7"/>
                              </g>
                          </svg>
-                     </a>
+                    </a>
 
                 </span>
             </div>
@@ -124,8 +124,13 @@ $url = implode('/', $url);
             </div>
             <div class="suscribe">
                 <div class="suscribe-content">
-                   <span class="icon-facebook"></span>
-                   <span class="icon-twitter"></span>
+                    <a style="color: white" href="javascript:fbShare(window.location, 'Facebook share popup', 'http://goo.gl/dS52U', 520, 350)">
+                        <span class="icon-facebook"></span>
+                    </a>
+                    <a style="color: white"  href="javascript: void(0);"
+                       onclick="window.open ('http://www.twitter.com/share?url='+window.location, 'Twitter', 'toolbar=0, status=0, width=550, height=350');">
+                        <span class="icon-twitter"></span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -134,33 +139,39 @@ $url = implode('/', $url);
 </section>
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js?ver=2.1.3'></script>
 <script>
+    function fbShare(url, title, descr, image, winWidth, winHeight) {
+        var winTop = (screen.height / 2) - (winHeight / 2);
+        var winLeft = (screen.width / 2) - (winWidth / 2);
+        window.open('http://www.facebook.com/sharer.php?s=100&p[title]=' + title + '&p[summary]=' + descr + '&p[url]=' + url + '&p[images][0]=' + image, 'sharer', 'top=' + winTop + ',left=' + winLeft + ',toolbar=0,status=0,width=' + winWidth + ',height=' + winHeight);
+    }
     var measure = true;
-    $(document).on('keydown',function(e){
-        if ( e.which == 27 ) {
+    $(document).on('keydown', function (e) {
+        if (e.which == 27) {
             window.location.href = '<?php echo $url . '/' . $arrayTitleRecipes[$currentLang]; ?>';
-        };
+        }
+        ;
     });
     $('.gr').on('click', function () {
 
-        $(this).html((measure)?'oz<span>►</span>':'gr<span>►</span>');
+        $(this).html((measure) ? 'oz<span>►</span>' : 'gr<span>►</span>');
         var $liData = $('.ingredients li');
-        $liData.each(function(i){
-            var nm = $( this).find('.nm'),
-                ms = $( this).find('.ms'),
+        $liData.each(function (i) {
+            var nm = $(this).find('.nm'),
+                ms = $(this).find('.ms'),
 
-                ct = $( this).find('.ct'),
-                mt = $( this).find('.mt'),
+                ct = $(this).find('.ct'),
+                mt = $(this).find('.mt'),
 
-                number =  nm.text(),
-                numberT =  nm.text();
+                number = nm.text(),
+                numberT = nm.text();
 
-            if(!isNaN(parseInt(numberT))){
-                if(measure){
+            if (!isNaN(parseInt(numberT))) {
+                if (measure) {
                     ms.text('ºF')
-                    numberT = 1.8 * numberT + 32 ;
+                    numberT = 1.8 * numberT + 32;
                     numberT = numberT.toFixed(3);
-                }else{
-                    numberT = (numberT - 32)/1.8;
+                } else {
+                    numberT = (numberT - 32) / 1.8;
                     ms.text('ºC')
                     numberT = numberT.toFixed();
                 }
@@ -168,13 +179,13 @@ $url = implode('/', $url);
                 mt.text(numberT)
             }
 
-            if(!isNaN(parseInt(number))){
-                if(measure){
+            if (!isNaN(parseInt(number))) {
+                if (measure) {
                     ms.text('oz')
                     number = number / 28.3495;
 
                     number = number.toFixed(3);
-                }else{
+                } else {
                     number = number * 28.3495;
                     ms.text('g')
                     number = number.toFixed();
@@ -184,7 +195,7 @@ $url = implode('/', $url);
             }
         });
 
-        measure = (measure)?false:true;
+        measure = (measure) ? false : true;
     })
 
 </script>

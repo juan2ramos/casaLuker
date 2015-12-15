@@ -130,6 +130,7 @@
       border-right: none
   & img
     width: 50%
+    max-width: 400px
     height: auto
     margin-bottom: -6px
     display: inline-block
@@ -210,7 +211,7 @@
   cursor: initial
   & img
     max-width: 400px
-    transform: translateX(-43vw)
+    transform: translateX(-8vw)
     transition: all .5s
     @include transition(all .5s)
     @include respond-to(small)
@@ -245,12 +246,15 @@
 
 .Recipes-chefsBack.open
   @include animate(show 1s 1 forwards alternate)
+  opacity: 1
 
 .Recipes-chefs figure.close
   @include animate(close .5s 1 forwards alternate)
+  height: 0
   & img
     max-width: 0
     @include transition(all .5s)
+
 
 @include keyframes(close)
 
@@ -262,6 +266,7 @@
     width: 0
     height: 0
     position: fixed
+    display: none
 
 @include keyframes(open)
 

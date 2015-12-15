@@ -110,7 +110,7 @@ $arrayTitleRecipes = array(
                     <div class="gr">
                         gr <span>►</span>
                     </div>
-                     <span class="CloseLink"  data-close="<?php echo $arrayTitleRecipes[$currentLang]; ?>">
+                     <span class="CloseLink" data-close="<?php echo $arrayTitleRecipes[$currentLang]; ?>">
                          <svg version="1.1" id="closeX" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                              <g>
                                  <line class="st0" x1="57.7" y1="0.8" x2="0" y2="56.9"/>
@@ -174,16 +174,29 @@ $arrayTitleRecipes = array(
             </div>
             <div class="suscribe">
                 <div class="suscribe-content">
-                    <span class="icon-facebook"></span>
-                    <span class="icon-twitter"></span>
+                    <a style="color: white"  href="javascript:fbShare(window.location, 'Facebook share popup', 'http://goo.gl/dS52U', 520, 350)">
+                        <span class="icon-facebook"></span>
+                    </a>
+                    <a style="color: white"  href="javascript: void(0);"
+                       onclick="window.open ('http://www.twitter.com/share?url='+window.location, 'Twitter', 'toolbar=0, status=0, width=550, height=350');">
+                        <span class="icon-twitter"></span>
+                    </a>
                 </div>
             </div>
         </div>
     </footer>
 </section>
 <div class="loading"></div>
-
+<script>
+    function fbShare(url, title, descr, image, winWidth, winHeight) {
+        var winTop = (screen.height / 2) - (winHeight / 2);
+        var winLeft = (screen.width / 2) - (winWidth / 2);
+        window.open('http://www.facebook.com/sharer.php?s=100&p[title]=' + title + '&p[summary]=' + descr + '&p[url]=' + url + '&p[images][0]=' + image, 'sharer', 'top=' + winTop + ',left=' + winLeft + ',toolbar=0,status=0,width=' + winWidth + ',height=' + winHeight);
+    }
+</script>
 <?php wp_enqueue_script('mixitup', 'http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js?v=2.1.2', array('jquery'), 1, false); ?>
+
+<?php wp_enqueue_script('luker-velocity', get_template_directory_uri() . '/assets/js/jquery.velocity.min.js', array('jquery'), 1, false); ?>
 <?php wp_enqueue_script('mixScript', get_template_directory_uri() . '/assets/js/mixitup.js', array('jquery'), 1, false); ?>
 
 <?php get_footer(); ?>
